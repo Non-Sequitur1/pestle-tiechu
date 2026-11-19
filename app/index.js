@@ -47,6 +47,7 @@ const QB_REGISTRY = [
   { code: "MATH50013", file: "MATH50013" },
   { code: "MATH50003/50016", file: "MATH50003" },
   { code: "ANALYSIS2", file: "ANALYSIS2" },
+  { code: "ADA", file: "ADA" },
 ];
 let currentBank = null;      // parsed bank {schema, module, questions}
 let currentView = "bank";
