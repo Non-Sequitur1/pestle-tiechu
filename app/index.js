@@ -6,6 +6,11 @@
  * A kind selector drives formats / keypoints / intel / papers / notes; formats may be
  * shared across kinds (kinds absent/empty) or exclusive to specific kinds.
  * zh-Hant displays format ids & option letters as heavenly stems 甲乙丙丁戊….
+ *
+ * v3.3: unified print window — mock papers (模拟卷) and past papers (历届试卷)
+ * print through the SAME standalone window as the custom question-set PDF
+ * (自选题组): local fonts + MathJax, live markscheme / examiner-report
+ * checkboxes, then print or save as PDF. The old window.print() path is gone.
  */
 
 /* ---------------- i18n ---------------- */
@@ -500,12 +505,15 @@ function examinerReportBlock(q) {
   return { btn, block };
 }
 
-/* ---------------- custom question-set PDF (自选题组, after Mortar & Pestle) ---------------- */
-/* Original: per-question "Add to PDF" buttons + sessionStorage list + a
- * prompt()-driven print window. Tiechu keeps the workflow but upgrades it:
- * picks persist in localStorage, the print window takes live checkboxes for
- * markschemes / examiner reports / hints instead of a blocking prompt(), and
- * MathJax renders inside the print window before printing. */
+/* ---------------- unified print window (统一打印窗口) + custom question-set picks ---------------- */
+/* Original Pestle: per-question "Add to PDF" buttons + sessionStorage list +
+ * a prompt()-driven print window. Tiechu keeps the workflow but upgrades it:
+ * picks persist in localStorage, and ONE print-window pipeline serves every
+ * printable artefact — the custom question-set PDF, mock papers and past
+ * papers all open the same standalone window (local CJK fonts + MathJax, a
+ * sticky control bar with live markscheme / examiner-report checkboxes, then
+ * print or save as PDF). Mock & past papers used to call window.print() on
+ * the app page itself. */
 window.togglePdfPick = function (qid) {
   pdfPick[qid] = !pdfPick[qid];
   lsSet("pdfPick", pdfPick);
@@ -551,58 +559,88 @@ function updatePdfTray() {
   }
 }
 
-/** build + open the printable window; checkboxes re-render sections live */
-window.generatePdf = function () {
-  const qids = Object.keys(pdfPick).filter(k => pdfPick[k]);
-  if (!qids.length) return;
-  const mod = currentBank.module;
-  const qs = qids.map(id => currentBank.questions.find(q => q.question_id === id)).filter(Boolean);
-  if (!qs.length) return;
+/* ---- shared print-window machinery (used by all three producers) ---- */
 
-  const totalMarks = qs.reduce((s, q) => s + q.source.marks, 0);
-  const head = `
-    <div class="pdf-cover">
-      <h1>${esc(mod.code)} · ${esc(t("pdf-doc-title"))}</h1>
-      <div class="pdf-cover-meta">
-        ${esc(pick(mod.name))} · ${esc(mod.university ? pick(mod.university) : "")}<br>
-        ${qs.length} ${esc(t("questions"))} · ${totalMarks} ${esc(t("marks"))} · ${new Date().toLocaleDateString()}
-      </div>
+/** cover block shared by every print window */
+function pdfCover(titleHtml, metaLines) {
+  return `<div class="pdf-cover">
+      <h1>${titleHtml}</h1>
+      <div class="pdf-cover-meta">${metaLines.join("<br>")}</div>
     </div>`;
+}
 
+/** heading shapes: pdfHeading renumbers 1..N and cites the source paper
+ *  (custom PDF + mock papers); paperHeading keeps the original numbering
+ *  (past papers — the cover already names the paper). Marks appear on the
+ *  question heading only, matching the original custom-PDF layout. */
+function pdfHeading(q, i, part) {
+  const base = `${i + 1}. ${esc(paperLabel(q))} · ${esc(q.source.question_number)}`;
+  return `<h3>${base}${part === "q" ? ` (${q.source.marks} ${esc(t("marks"))})` : ""}</h3>`;
+}
+function paperHeading(q, i, part) {
+  return `<h3>${esc(q.source.question_number)}${part === "q" ? ` (${q.source.marks} ${esc(t("marks"))})` : ""}</h3>`;
+}
+
+/** the three printable parts every print window offers: questions (always
+ *  on), markschemes and examiner reports (live checkboxes). A section with
+ *  no content stays in the control bar but unchecked + disabled. */
+function questionSections(qs, heading) {
   const qHtml = qs.map((q, i) => `
     <section class="pdf-q">
-      <h3>${i + 1}. ${esc(pick(q.Question)).replace(/\s+/g, " ").slice(0, 0)}${esc(paperLabel(q))} · ${esc(q.source.question_number)} (${q.source.marks} ${esc(t("marks"))})</h3>
+      ${heading(q, i, "q")}
       <div class="pdf-q-body">${mdToHtml(pick(q.Question))}</div>
       ${q.qtype !== "subjective" ? objectivePrintBlock(q) : ""}
     </section>`).join("");
 
   const msHtml = qs.map((q, i) => `
     <section class="pdf-q">
-      <h3>${i + 1}. ${esc(paperLabel(q))} · ${esc(q.source.question_number)}</h3>
+      ${heading(q, i, "ms")}
       <div class="pdf-q-body">${mdToHtml(pick(q.Markscheme))}</div>
       ${q.examiner_note ? `<div class="pdf-note"><b>${esc(t("examiner-note"))}:</b> ${mdToHtml(pick(q.examiner_note))}</div>` : ""}
     </section>`).join("");
 
   const exrHtml = qs.map((q, i) => q.examiner_report ? `
     <section class="pdf-q">
-      <h3>${i + 1}. ${esc(paperLabel(q))} · ${esc(q.source.question_number)}</h3>
+      ${heading(q, i, "exr")}
       <div class="pdf-q-body">${mdToHtml(pick(q.examiner_report))}</div>
     </section>` : "").join("");
 
+  return [
+    { id: "sec-q", title: t("pdf-sec-questions"), html: qHtml, fixed: true },
+    { id: "sec-ms", label: t("pdf-include-ms"), title: t("pdf-sec-ms"), html: msHtml, checked: true },
+    { id: "sec-exr", label: t("pdf-include-exr"), title: t("pdf-sec-exr"), html: exrHtml, checked: true },
+  ];
+}
+
+/** build + open the shared print window; checkboxes re-render sections live.
+ *  opts = { docTitle, ctrlTitle, cover, sections } — sections come from
+ *  questionSections(). Each non-fixed section renders as ONE wrapper
+ *  (page break + heading + body) so its checkbox hides the whole part,
+ *  heading included. */
+function openPrintWindow(opts) {
   const w = window.open("", "_blank");
-  if (!w) { alert(t("pdf-popup-blocked")); return; }
+  if (!w) { alert(t("pdf-popup-blocked")); return null; }
+  const ctrl = [], body = [];
+  for (const s of opts.sections) {
+    const has = !!s.html;
+    const on = s.fixed || (has && s.checked !== false);
+    if (!s.fixed) {
+      ctrl.push(`<label><input type="checkbox" ${on ? "checked" : ""} ${has ? "" : "disabled"}
+        onchange="toggleSec('${s.id}', this)"> ${esc(s.label)}</label>`);
+    }
+    body.push(`<div id="${s.id}"${on ? "" : ' style="display:none"'}>${s.fixed ? "" : '<div class="pagebreak"></div>'}
+      <h2 class="sec">${esc(s.title)}</h2>${s.html || ""}</div>`);
+  }
   w.document.write(`<!DOCTYPE html><html lang="${LANG}"><head><meta charset="UTF-8">
-    <title>${esc(mod.code)} · ${esc(t("pdf-doc-title"))}</title>
+    <title>${esc(opts.docTitle)}</title>
     <script>
       window.MathJax = {
         tex: { inlineMath: [["$","$"],["\\\\(","\\\\)"]], displayMath: [["$$","$$"],["\\\\[","\\\\]"]] },
         options: { skipHtmlTags: ["script","noscript","style","textarea","pre","code"] },
         startup: { typeset: false }
       };
-      function fmt(){return ${JSON.stringify({ qs: qs.length, marks: totalMarks })};}
       function toggleSec(id, chk){
-        var el=document.getElementById(id); el.style.display = chk.checked ? "" : "none";
-        var pg=document.getElementById(id+"-pagebreak"); if(pg) pg.style.display = chk.checked ? "" : "none";
+        var el=document.getElementById(id); if (el) el.style.display = chk.checked ? "" : "none";
       }
       function doPrint(){ setTimeout(function(){ window.print(); }, 600); }
     <\/script>
@@ -630,40 +668,78 @@ window.generatePdf = function () {
       @media print { .pdf-ctrl { display: none; } body { margin: 0 auto; } }
     </style></head><body>
     <div class="pdf-ctrl">
-      <b>${esc(t("pdf-doc-title"))}</b>
-      <label><input type="checkbox" checked onchange="toggleSec('sec-ms', this)"> ${esc(t("pdf-include-ms"))}</label>
-      <label><input type="checkbox" ${qs.some(q => q.examiner_report) ? "checked" : ""} onchange="toggleSec('sec-exr', this)"> ${esc(t("pdf-include-exr"))}</label>
+      <b>${esc(opts.ctrlTitle)}</b>
+      ${ctrl.join("")}
       <button onclick="doPrint()" style="padding:4px 14px;">🖨 ${esc(t("pdf-print"))}</button>
     </div>
-    ${head}
-    <h2 class="sec">${esc(t("pdf-sec-questions"))}</h2>
-    ${qHtml}
-    <div class="pagebreak" id="sec-ms-pagebreak"></div>
-    <h2 class="sec" id="sec-ms-h">${esc(t("pdf-sec-ms"))}</h2>
-    <div id="sec-ms">${msHtml}</div>
-    <div class="pagebreak" id="sec-exr-pagebreak"></div>
-    <h2 class="sec" id="sec-exr-h">${esc(t("pdf-sec-exr"))}</h2>
-    <div id="sec-exr">${exrHtml}</div>
+    ${opts.cover}
+    ${body.join("")}
   </body></html>`);
   w.document.close();
-  // hide the examiner-report section entirely when no question carries one
-  if (!qs.some(q => q.examiner_report)) {
-    setTimeout(() => {
-      ["sec-exr", "sec-exr-h", "sec-exr-pagebreak"].forEach(id => {
-        const el = w.document.getElementById(id); if (el) el.style.display = "none";
-      });
-      const chk = w.document.querySelector('.pdf-ctrl input[type=checkbox]:nth-of-type(1)');
-      // keep the checkbox list honest: disable the exr toggle
-      const boxes = w.document.querySelectorAll('.pdf-ctrl input[type=checkbox]');
-      if (boxes[1]) { boxes[1].disabled = true; }
-    }, 0);
-  }
   // typeset math in the print window once MathJax is ready
   const tryTypeset = (n) => {
     if (w.MathJax && w.MathJax.typesetPromise) w.MathJax.typesetPromise([w.document.body]).catch(() => { });
     else if (n > 0) setTimeout(() => tryTypeset(n - 1), 300);
   };
   tryTypeset(20);
+  return w;
+}
+
+/* ---- the three producers, all through the SAME print window ---- */
+
+/** 自选题组: the picked questions, in pick order */
+window.generatePdf = function () {
+  const qids = Object.keys(pdfPick).filter(k => pdfPick[k]);
+  if (!qids.length) return;
+  const qs = qids.map(id => currentBank.questions.find(q => q.question_id === id)).filter(Boolean);
+  if (!qs.length) return;
+  const mod = currentBank.module;
+  const totalMarks = qs.reduce((s, q) => s + q.source.marks, 0);
+  openPrintWindow({
+    docTitle: `${mod.code} · ${t("pdf-doc-title")}`,
+    ctrlTitle: t("pdf-doc-title"),
+    cover: pdfCover(`${esc(mod.code)} · ${esc(t("pdf-doc-title"))}`, [
+      `${esc(pick(mod.name))}${mod.university ? " · " + esc(pick(mod.university)) : ""}`,
+      `${qs.length} ${esc(t("questions"))} · ${totalMarks} ${esc(t("marks"))} · ${new Date().toLocaleDateString()}`,
+    ]),
+    sections: questionSections(qs, pdfHeading),
+  });
+};
+
+/** 模拟卷: the drawn mock paper, renumbered 1..N with sources cited */
+window.printMockPaper = function () {
+  if (!mockState || !mockState.questions.length) return;
+  const mod = currentBank.module;
+  const tpl = activeMockTemplate();
+  const total = mockState.questions.reduce((s, q) => s + q.source.marks, 0);
+  openPrintWindow({
+    docTitle: `${mod.code} · ${t("mock-title")}`,
+    ctrlTitle: t("mock-title"),
+    cover: pdfCover(`${esc(mod.code)} · ${esc(t("mock-title"))}`, [
+      `${esc(pick(mod.name))}${kindFilter === "all" ? "" : " · " + esc(kindName(mod, kindFilter))}`,
+      `${mockState.questions.length} ${esc(t("questions"))} · ${esc(t("mock-total"))}: ${total} ${esc(t("marks"))} · ${esc(t("mock-duration"))}: ${tpl ? tpl.duration_min : 60} min · ${new Date().toLocaleDateString()}`,
+    ]),
+    sections: questionSections(mockState.questions, pdfHeading),
+  });
+};
+
+/** 历届试卷: one past paper in its original numbering */
+window.printPastPaper = function (paperId) {
+  const p = currentBank.module.papers.find(x => x.id === paperId);
+  if (!p) return;
+  const qs = currentBank.questions.filter(q => q.source.paper_id === paperId)
+    .sort((a, b) => a.source.question_number.localeCompare(b.source.question_number, undefined, { numeric: true }));
+  if (!qs.length) return;
+  const mod = currentBank.module;
+  openPrintWindow({
+    docTitle: `${mod.code} · ${pick(p.name)}`,
+    ctrlTitle: pick(p.name),
+    cover: pdfCover(`${esc(mod.code)} · ${esc(pick(p.name))}`, [
+      esc(pick(mod.name)),
+      `${p.date ?? "—"} · ${qs.length} ${esc(t("questions"))} · ${p.total_marks} ${esc(t("marks"))}`,
+    ]),
+    sections: questionSections(qs, paperHeading),
+  });
 };
 
 /** objective options in the print window (letters only, no interactivity) */
@@ -999,7 +1075,9 @@ window.regenerateMock = function () { generateMock(); renderPapersView(); };
 window.toggleMockScheme = function () {
   if (mockState) { mockState.showScheme = !mockState.showScheme; renderPapersView(); }
 };
-window.printPaper = function () { window.print(); };
+/* v3.3: mock & past papers print through openPrintWindow() — the same
+ * standalone window as the custom question-set PDF — no more window.print()
+ * on the app page. Entry points live with the unified print-window code. */
 let openPastPaper = null;   // paper id while a past-paper view is open
 window.viewPastPaper = function (paperId) {
   openPastPaper = paperId;
@@ -1009,7 +1087,7 @@ window.viewPastPaper = function (paperId) {
   const header = `<div class="paper-head no-print">
     <button class="btn-primary" onclick="renderCurrentView()">←</button>
     <h3>${esc(pick(p.name))} · ${p.total_marks} ${esc(t("marks"))}</h3>
-    <button class="btn-secondary" onclick="printPaper()">${esc(t("mock-print"))}</button>
+    <button class="btn-secondary" onclick="printPastPaper('${esc(paperId)}')">${esc(t("mock-print"))}</button>
   </div>`;
   const body = qs.map(q => {
     const hw = hintWalkthroughBlocks(q, "PAPER:" + paperId);
@@ -1078,7 +1156,7 @@ function renderPapersView() {
           <div class="mock-meta">${esc(t("mock-total"))}: ${total} · ${esc(t("mock-duration"))}: ${dur} min</div>
           <div class="mock-actions no-print">
             <button class="btn-secondary" onclick="toggleMockScheme()">${mockState.showScheme ? "🙈" : "👁"} ${esc(t("mock-show-scheme"))}</button>
-            <button class="btn-secondary" onclick="printPaper()">🖨 ${esc(t("mock-print"))}</button>
+            <button class="btn-secondary" onclick="printMockPaper()">🖨 ${esc(t("mock-print"))}</button>
             <button class="btn-primary" onclick="regenerateMock()">🎲 ${esc(t("mock-regenerate"))}</button>
           </div>
         </div>

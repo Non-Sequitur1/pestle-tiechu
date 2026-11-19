@@ -86,7 +86,7 @@ window.TIECHU_I18N = {
     ],
     "offline-note": "字体与渲染库已内置，完全离线可用。",
     "about-brand": "铁杵 · {credit}",
-    "print-note": "打印时将自动隐藏界面控件，仅保留试卷。",
+    "print-note": "模拟卷与历届试卷的打印和自选题组 PDF 一致：在独立打印窗口打开，可实时勾选「含评分标准 / 含考官报告」，再打印或另存 PDF。",
     "load-error": "题库加载失败：", "load-empty": "该模块题库为空。", "bank-planned": "题型/考点/情报已就绪，题目导入中……",
     "bank-stats": "{total} 道题 · {mid} 道真题 · {drill} 道训练题",
     "lang-name": "简体中文", "switch-lang": "切换语言"
@@ -172,7 +172,7 @@ window.TIECHU_I18N = {
     ],
     "offline-note": "字型與渲染庫已內建，完全離線可用。",
     "about-brand": "鐵杵 · {credit}",
-    "print-note": "列印時將自動隱藏介面控制項，僅保留試卷。",
+    "print-note": "模擬卷與歷屆試卷的列印和自選題組 PDF 一致：在獨立列印視窗開啟，可即時勾選「含評分標準 / 考官報告」，再列印或另存 PDF。",
     "load-error": "題庫載入失敗：", "load-empty": "該模組題庫為空。", "bank-planned": "題型/考點/情報已就緒，題目導入中……",
     "bank-stats": "{total} 道題 · {mid} 道真題 · {drill} 道訓練題",
     "lang-name": "繁體中文", "switch-lang": "切換語言"
@@ -258,7 +258,7 @@ window.TIECHU_I18N = {
     ],
     "offline-note": "Fonts and rendering libraries are bundled — fully offline.",
     "about-brand": "Pestle · {credit}",
-    "print-note": "Printing hides the UI chrome and keeps the paper only.",
+    "print-note": "Mock papers and past papers print exactly like the custom question-set PDF: a standalone print window opens, with live markscheme / examiner-report checkboxes before printing or saving as PDF.",
     "load-error": "Failed to load question bank:", "load-empty": "This module has no questions yet.", "bank-planned": "Formats/points/intel ready — questions importing soon…",
     "bank-stats": "{total} questions · {mid} past-paper · {drill} drills",
     "lang-name": "English", "switch-lang": "Switch language"
