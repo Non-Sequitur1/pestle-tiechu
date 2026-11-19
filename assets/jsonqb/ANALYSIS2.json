@@ -1,0 +1,1019 @@
+{
+ "schema": "tiechu-qb-v3",
+ "module": {
+  "code": "ANALYSIS2",
+  "file": "ANALYSIS2.json",
+  "meta_only": true,
+  "name": {
+   "en": "Analysis II (multivariable) — midterm",
+   "zh-Hans": "数学分析 II（多变量）期中",
+   "zh-Hant": "數學分析 II（多變量）期中"
+  },
+  "short_name": {
+   "en": "Analysis II",
+   "zh-Hans": "数学分析 II",
+   "zh-Hant": "數學分析 II"
+  },
+  "university": {
+   "en": "Imperial College London",
+   "zh-Hans": "帝国理工学院",
+   "zh-Hant": "帝國理工學院"
+  },
+  "term": {
+   "en": "Autumn 2026",
+   "zh-Hans": "2026 秋季学期",
+   "zh-Hant": "2026 秋季學期"
+  },
+  "scope": {
+   "en": "Per the professor's notice: all of Chapter 1 of the notes, including the implicit function theorem. Problem Sheets 1–5, where Sheet 5 contributes only Exercises 1–2 (implicit-function drills); 5.3–5.7 belong to Chapter 2 (metric spaces) and are NOT examinable. Taylor's theorem, Hessians, mixed-partials symmetry and the implicit function theorem are IN scope even though past papers have not examined them.",
+   "zh-Hans": "按教授通知：讲义第 1 章全部，含隐函数定理。习题集 Sheet 1–5，其中 Sheet 5 只考 Exercise 1、2（隐函数题）；5.3–5.7 属第 2 章（度量空间），不考。Taylor 定理、Hessian、混合偏导对称性、隐函数定理虽历年未考，均在范围内。",
+   "zh-Hant": "按教授通知：講義第 1 章全部，含隱函數定理。習題集 Sheet 1–5，其中 Sheet 5 只考 Exercise 1、2（隱函數題）；5.3–5.7 屬第 2 章（度量空間），不考。Taylor 定理、Hessian、混合偏導對稱性、隱函數定理雖歷年未考，均在範圍內。"
+  },
+  "assessment": {
+   "en": "Midterm in Week 7 window; total marks moved from 10/40 (2020/2022) to 100 (2024/2025) with finer breakdowns (answer 5 + construction 5 + details 10).",
+   "zh-Hans": "第 7 周期中；总分从 10/40 分（2020/2022）升为 100 分（2024/2025），且评分更细（答案 5 + 构造 5 + 细节 10）。",
+   "zh-Hant": "第 7 週期中；總分從 10/40 分（2020/2022）升爲 100 分（2024/2025），且評分更細（答案 5 + 構造 5 + 細節 10）。"
+  },
+  "papers": [
+   {
+    "id": "MT2020",
+    "name": {
+     "en": "2020 Midterm (10 marks)",
+     "zh-Hans": "2020 期中试卷（10 分）",
+     "zh-Hant": "2020 期中試卷（10 分）"
+    },
+    "date": null,
+    "kind": "autumn-midterm",
+    "total_marks": 10
+   },
+   {
+    "id": "MT2022",
+    "name": {
+     "en": "2022 Midterm (40 marks)",
+     "zh-Hans": "2022 期中试卷（40 分）",
+     "zh-Hant": "2022 期中試卷（40 分）"
+    },
+    "date": null,
+    "kind": "autumn-midterm",
+    "total_marks": 40
+   },
+   {
+    "id": "MT2024",
+    "name": {
+     "en": "2024 Midterm (100 marks, with solutions)",
+     "zh-Hans": "2024 期中试卷（100 分，含解答）",
+     "zh-Hant": "2024 期中試卷（100 分，含解答）"
+    },
+    "date": null,
+    "kind": "autumn-midterm",
+    "total_marks": 100
+   },
+   {
+    "id": "MT2025",
+    "name": {
+     "en": "2025 Midterm (100 marks, solutions + marking points)",
+     "zh-Hans": "2025 期中试卷（100 分，含解答与评分点）",
+     "zh-Hant": "2025 期中試卷（100 分，含解答與評分點）"
+    },
+    "date": null,
+    "kind": "autumn-midterm",
+    "total_marks": 100
+   }
+  ],
+  "paper_kinds": [
+   {
+    "id": "autumn-midterm",
+    "name": {
+     "en": "Autumn Midterm",
+     "zh-Hans": "秋季期中试卷",
+     "zh-Hant": "秋季期中試卷"
+    }
+   },
+   {
+    "id": "spring-midterm",
+    "name": {
+     "en": "Spring Midterm",
+     "zh-Hans": "春季期中试卷",
+     "zh-Hant": "春季期中試卷"
+    }
+   },
+   {
+    "id": "summer",
+    "name": {
+     "en": "Summer Exam",
+     "zh-Hans": "夏季大考",
+     "zh-Hant": "夏季大考"
+    }
+   },
+   {
+    "id": "resit",
+    "name": {
+     "en": "Resit Paper",
+     "zh-Hans": "重考卷",
+     "zh-Hant": "重考卷"
+    }
+   },
+   {
+    "id": "problem-sheet",
+    "name": {
+     "en": "Problem Sheets",
+     "zh-Hans": "习题集",
+     "zh-Hant": "習題集"
+    }
+   },
+   {
+    "id": "unseen-sheet",
+    "name": {
+     "en": "Unseen Sheets",
+     "zh-Hans": "Unseen 习题集",
+     "zh-Hant": "Unseen 習題集"
+    }
+   }
+  ],
+  "lecturers": [
+   {
+    "name": "Module Lecturer (unnamed in sources)",
+    "name_display": {
+     "en": "任课讲师（材料未具名）",
+     "zh-Hans": "任课讲师（材料未具名）",
+     "zh-Hant": "任課講師（材料未具名）"
+    },
+    "role": {
+     "en": "Module lecturer, 2026",
+     "zh-Hans": "本模块讲师，2026 年",
+     "zh-Hant": "本模塊講師，2026 年"
+    },
+    "research": {
+     "en": "Research direction not stated in the uploaded materials.",
+     "zh-Hans": "上传材料中未提及研究方向。",
+     "zh-Hant": "上傳材料中未提及研究方向。"
+    },
+    "habits": [
+     {
+      "en": "【事实】 Scope notice: Chapter 1 in full including the implicit function theorem — newly added topics are in scope despite never being examined.",
+      "zh-Hans": "【事实】范围通知：第 1 章全部含隐函数定理——新增考点虽未考过也在范围内。",
+      "zh-Hant": "【事實】範圍通知：第 1 章全部含隱函數定理——新增考點雖未考過也在範圍內。"
+     },
+     {
+      "en": "【事实】 Four years of near-identical question order: open-set proof first (warm-up), then continuity/squeeze, then differentiability, then C¹/IFT as the finale.",
+      "zh-Hans": "【事实】四年题序几乎一致：开集证明开局（送分），其次连续性/夹逼，再可微性，最后 C¹/反函数定理压轴。",
+      "zh-Hant": "【事實】四年題序幾乎一致：開集證明開局（送分），其次連續性/夾逼，再可微性，最後 C¹/反函數定理壓軸。"
+     },
+     {
+      "en": "【事实】 Repeated function shapes across years: e^x cos y / e^y sin x family (2022, 2024, 2025); piecewise-at-origin differentiability (2022, 2025 — both answers 'differentiable'); sin(1/·) oscillation (2020, 2025).",
+      "zh-Hans": "【事实】重复出现的函数形态：e^x cos y / e^y sin x 家族（2022、2024、2025）；原点分段可微性（2022、2025——两次答案都是“可微”）；sin(1/·) 振荡（2020、2025）。",
+      "zh-Hant": "【事實】重複出現的函數形態：e^x cos y / e^y sin x 家族（2022、2024、2025）；原點分段可微性（2022、2025——兩次答案都是“可微”）；sin(1/·) 振盪（2020、2025）。"
+     }
+    ],
+    "source": {
+     "en": "Uploaded Analysis II revision guide (scope notice, paper analysis).",
+     "zh-Hans": "上传的 Analysis II 应试指南（范围通知、试卷分析）。",
+     "zh-Hant": "上傳的 Analysis II 應試指南（範圍通知、試卷分析）。"
+    }
+   }
+  ],
+  "topics": [
+   {
+    "id": "open-sets",
+    "name": {
+     "en": "Open/closed sets in Rⁿ, δ-constructions",
+     "zh-Hans": "Rⁿ 中的开集/闭集、δ 构造",
+     "zh-Hant": "Rⁿ 中的開集/閉集、δ 構造"
+    }
+   },
+   {
+    "id": "continuity",
+    "name": {
+     "en": "Continuity, limits, norm inequalities, squeeze",
+     "zh-Hans": "连续性、极限、范数不等式、夹逼",
+     "zh-Hant": "連續性、極限、範數不等式、夾逼"
+    }
+   },
+   {
+    "id": "differentiability",
+    "name": {
+     "en": "Partial/directional derivatives, differentiability, Jacobians",
+     "zh-Hans": "偏导/方向导数、可微性、Jacobian",
+     "zh-Hant": "偏導/方向導數、可微性、Jacobian"
+    }
+   },
+   {
+    "id": "c1-ift",
+    "name": {
+     "en": "C¹ maps, inverse & implicit function theorems",
+     "zh-Hans": "C¹ 映射、反函数与隐函数定理",
+     "zh-Hant": "C¹ 映射、反函數與隱函數定理"
+    }
+   },
+   {
+    "id": "taylor-hessian",
+    "name": {
+     "en": "Taylor, Hessian, Schwarz symmetry (new in scope)",
+     "zh-Hans": "Taylor、Hessian、Schwarz 对称（新增范围）",
+     "zh-Hant": "Taylor、Hessian、Schwarz 對稱（新增範圍）"
+    }
+   }
+  ],
+  "keypoints": [
+   {
+    "id": "KP-open",
+    "topic": "open-sets",
+    "heat": 5,
+    "name": {
+     "en": "Open-set proofs: definition + δ construction",
+     "zh-Hans": "开集证明：定义 + δ 构造",
+     "zh-Hant": "開集證明：定義 + δ 構造"
+    },
+    "detail": {
+     "en": "Def 1.7: for every point find δ > 0 with the ball inside the set. Standard moves: triangle inequality to bound $\\|x-y\\|$; for unions/intersections handle the two cases separately. Examined every year as Q1 (2024/2025: 20% of the paper; 2022: 25%). Reusable shapes: punctured disk, half-plane, intersection of two conditions, or 'show NOT open' (one witness point).",
+     "zh-Hans": "Def 1.7：对每个点找 δ>0 使球含于集合。标准动作：三角不等式控制 $\\|x-y\\|$；并与交分情况处理。每年都是 Q1（2024/2025 占 20%；2022 占 25%）。可复用形态：去心圆盘、半平面、两条件之交，或“证明不是开集”（找一个反例点）。",
+     "zh-Hant": "Def 1.7：對每個點找 δ>0 使球含於集合。標準動作：三角不等式控制 $\\|x-y\\|$；並與交分情況處理。每年都是 Q1（2024/2025 佔 20%；2022 佔 25%）。可複用形態：去心圓盤、半平面、兩條件之交，或“證明不是開集”（找一個反例點）。"
+    },
+    "years": [
+     "2020 Q1",
+     "2022 Q1",
+     "2024 Q1",
+     "2025 Q1"
+    ],
+    "kinds": [
+     "autumn-midterm"
+    ]
+   },
+   {
+    "id": "KP-norm",
+    "topic": "continuity",
+    "heat": 4.5,
+    "name": {
+     "en": "Norm inequalities: |xi| ≤ ‖x‖, triangle & reverse triangle",
+     "zh-Hans": "范数不等式：|xi| ≤ ‖x‖、三角与反向三角",
+     "zh-Hant": "範數不等式：|xi| ≤ ‖x‖、三角與反向三角"
+    },
+    "detail": {
+     "en": "The workhorse for squeeze proofs: $|x_i| \\le \\|x\\| \\le \\sum|x_i|$ and $\\big|\\|x\\|-\\|y\\|\\big| \\le \\|x-y\\|$. Continuity via sequences (Def 1.14) or ε–δ (Def 1.20); componentwise continuity ⇔ vector continuity (Sheet 2 Q5). Examined 2022, 2024, 2025 (~75% probability).",
+     "zh-Hans": "夹逼证明的主力：$|x_i|\\le\\|x\\|\\le\\sum|x_i|$ 与 $\\big|\\|x\\|-\\|y\\|\\big|\\le\\|x-y\\|$。连续性走序列（Def 1.14）或 ε–δ（Def 1.20）；分量连续 ⇔ 向量连续（Sheet 2 Q5）。2022、2024、2025 考过（约 75% 概率）。",
+     "zh-Hant": "夾逼證明的主力：$|x_i|\\le\\|x\\|\\le\\sum|x_i|$ 與 $\\big|\\|x\\|-\\|y\\|\\big|\\le\\|x-y\\|$。連續性走序列（Def 1.14）或 ε–δ（Def 1.20）；分量連續 ⇔ 向量連續（Sheet 2 Q5）。2022、2024、2025 考過（約 75% 概率）。"
+    },
+    "years": [
+     "2022 Q2",
+     "2024 Q2",
+     "2025 Q2"
+    ],
+    "kinds": [
+     "autumn-midterm"
+    ]
+   },
+   {
+    "id": "KP-diff",
+    "topic": "differentiability",
+    "heat": 5,
+    "name": {
+     "en": "Differentiability from the definition; piecewise at origin",
+     "zh-Hans": "用定义证可微；原点分段函数",
+     "zh-Hant": "用定義證可微；原點分段函數"
+    },
+    "detail": {
+     "en": "$\\lim_{\\|h\\|\\to0}\\|f(p+h)-f(p)-\\Lambda h\\|/\\|h\\| = 0$. Piecewise-at-origin questions (2020, 2022, 2025): guess the linear part from partials, then bound the remainder with $|x|,|y| \\le \\|x\\|$ and squeeze. Both 2022 and 2025 answers were 'differentiable'. Counterexample bank: partials exist but not differentiable (Example 1.47).",
+     "zh-Hans": "$\\lim_{\\|h\\|\\to0}\\|f(p+h)-f(p)-\\Lambda h\\|/\\|h\\|=0$。原点分段题（2020、2022、2025）：由偏导猜线性部分，再用 $|x|,|y|\\le\\|x\\|$ 夹逼控制余项。2022 与 2025 的答案都是“可微”。反例库：偏导存在但不可微（Example 1.47）。",
+     "zh-Hant": "$\\lim_{\\|h\\|\\to0}\\|f(p+h)-f(p)-\\Lambda h\\|/\\|h\\|=0$。原點分段題（2020、2022、2025）：由偏導猜線性部分，再用 $|x|,|y|\\le\\|x\\|$ 夾逼控制餘項。2022 與 2025 的答案都是“可微”。反例庫：偏導存在但不可微（Example 1.47）。"
+    },
+    "years": [
+     "2020 Q2",
+     "2022 Q3",
+     "2025 Q3"
+    ],
+    "kinds": [
+     "autumn-midterm"
+    ]
+   },
+   {
+    "id": "KP-ift",
+    "topic": "c1-ift",
+    "heat": 5,
+    "name": {
+     "en": "C¹ + inverse function theorem (finale), implicit function theorem (new)",
+     "zh-Hans": "C¹ + 反函数定理（压轴）、隐函数定理（新增）",
+     "zh-Hant": "C¹ + 反函數定理（壓軸）、隱函數定理（新增）"
+    },
+    "detail": {
+     "en": "Thm 1.59: C¹ near p with det Df(p) ≠ 0 ⇒ local C¹ inverse. Exam constructions: local injectivity ≠ global injectivity (2025 Q4: f = (x sin y, x cos y), det = −x but f(1,0) = f(1,2π)); perturbed systems with continuously-dependent solutions (2024 Q3 ↔ Sheet 4 Ex 4.7). Newly in scope: implicit function theorem (Thm 1.65, Sheet 5 Ex 1–2) — expect a first appearance.",
+     "zh-Hans": "Thm 1.59：p 附近 C¹ 且 det Df(p)≠0 ⇒ 局部 C¹ 反函数。考试构造：局部单射 ≠ 整体单射（2025 Q4：f=(x sin y, x cos y)，det=−x 但 f(1,0)=f(1,2π)）；扰动方程组的连续依赖解（2024 Q3 ↔ Sheet 4 Ex 4.7）。新增范围：隐函数定理（Thm 1.65，Sheet 5 Ex 1–2）——预计首考。",
+     "zh-Hant": "Thm 1.59：p 附近 C¹ 且 det Df(p)≠0 ⇒ 局部 C¹ 反函數。考試構造：局部單射 ≠ 整體單射（2025 Q4：f=(x sin y, x cos y)，det=−x 但 f(1,0)=f(1,2π)）；擾動方程組的連續依賴解（2024 Q3 ↔ Sheet 4 Ex 4.7）。新增範圍：隱函數定理（Thm 1.65，Sheet 5 Ex 1–2）——預計首考。"
+    },
+    "years": [
+     "2022 Q4",
+     "2024 Q3",
+     "2025 Q4"
+    ],
+    "kinds": [
+     "autumn-midterm"
+    ]
+   },
+   {
+    "id": "KP-taylor",
+    "topic": "taylor-hessian",
+    "heat": 3.5,
+    "name": {
+     "en": "Taylor / Hessian / Schwarz (in scope, never examined)",
+     "zh-Hans": "Taylor / Hessian / Schwarz（在范围内、从未考过）",
+     "zh-Hant": "Taylor / Hessian / Schwarz（在範圍內、從未考過）"
+    },
+    "detail": {
+     "en": "Thm 1.53 (Taylor with Hessian), Thm 1.56 (mixed partials symmetry), Ex 1.55/1.58. In scope per the notice; 35–45% probability. Chain-rule computations (Cor 1.44) at ~30%.",
+     "zh-Hans": "Thm 1.53（带 Hessian 的 Taylor）、Thm 1.56（混合偏导对称）、Ex 1.55/1.58。按通知在范围内；概率 35–45%。链式法则计算（Cor 1.44）约 30%。",
+     "zh-Hant": "Thm 1.53（帶 Hessian 的 Taylor）、Thm 1.56（混合偏導對稱）、Ex 1.55/1.58。按通知在範圍內；概率 35–45%。鏈式法則計算（Cor 1.44）約 30%。"
+    },
+    "years": [
+     "Sheet 4 Q1–Q4"
+    ],
+    "kinds": [
+     "autumn-midterm"
+    ]
+   }
+  ],
+  "formats": [
+   {
+    "id": "1",
+    "name": {
+     "en": "Prove a set is open (guaranteed Q1)",
+     "zh-Hans": "证明集合是开集（必考 Q1）",
+     "zh-Hant": "證明集合是開集（必考 Q1）"
+    },
+    "stars": 5,
+    "years": [
+     "2020 Q1",
+     "2022 Q1",
+     "2024 Q1",
+     "2025 Q1"
+    ],
+    "drills": [
+     "Sheet 2 Ex 2.1",
+     "Sheet 2 Ex 2.3"
+    ],
+    "likelihood": {
+     "en": "≈95% — every year, always first.",
+     "zh-Hans": "≈95%——年年必考，永远第一题。",
+     "zh-Hant": "≈95%——年年必考，永遠第一題。"
+    },
+    "slot": {
+     "en": "Q1, ~20% of the paper",
+     "zh-Hans": "Q1，约占全卷 20%",
+     "zh-Hant": "Q1，約佔全卷 20%"
+    },
+    "skeleton": {
+     "en": "1. Fix an arbitrary point of the set. 2. Exhibit δ (often min of two distances / half the gap to the boundary). 3. Verify the ball via triangle inequality. 4. Conclude by Def 1.7. For 'not open': one witness point where every ball escapes.",
+     "zh-Hans": "1. 任取集合中一点。2. 给出 δ（常取两距离之 min / 到边界间隙之半）。3. 用三角不等式验证球含于集合。4. 按 Def 1.7 收尾。证“非开集”：找一个每球都越界的反例点。",
+     "zh-Hant": "1. 任取集合中一點。2. 給出 δ（常取兩距離之 min / 到邊界間隙之半）。3. 用三角不等式驗證球含於集合。4. 按 Def 1.7 收尾。證“非開集”：找一個每球都越界的反例點。"
+    },
+    "kinds": [
+     "autumn-midterm"
+    ]
+   },
+   {
+    "id": "2",
+    "name": {
+     "en": "Continuity/limits by squeeze + norm inequalities",
+     "zh-Hans": "夹逼 + 范数不等式证连续/极限",
+     "zh-Hant": "夾逼 + 範數不等式證連續/極限"
+    },
+    "stars": 4.5,
+    "years": [
+     "2022 Q2",
+     "2024 Q2",
+     "2025 Q2"
+    ],
+    "drills": [
+     "Sheet 2 Ex 2.4",
+     "Sheet 2 Ex 2.5"
+    ],
+    "likelihood": {
+     "en": "≈75%.",
+     "zh-Hans": "≈75%。",
+     "zh-Hant": "≈75%。"
+    },
+    "slot": {
+     "en": "Q2, ~20%",
+     "zh-Hans": "Q2，约 20%",
+     "zh-Hant": "Q2，約 20%"
+    },
+    "skeleton": {
+     "en": "Bound $|f(x)-L|$ by a product of $\\|x\\|$-powers via $|x_i|\\le\\|x\\|$; split cases $\\|x\\|<\\delta$ vs the rest; for path-dependence failure, exhibit two paths with different limits.",
+     "zh-Hans": "用 $|x_i|\\le\\|x\\|$ 把 $|f(x)-L|$ 控制成 $\\|x\\|$ 幂的乘积；分 $\\|x\\|<\\delta$ 与其余两段；证极限不存在时给两条极限不同的路径。",
+     "zh-Hant": "用 $|x_i|\\le\\|x\\|$ 把 $|f(x)-L|$ 控制成 $\\|x\\|$ 冪的乘積；分 $\\|x\\|<\\delta$ 與其餘兩段；證極限不存在時給兩條極限不同的路徑。"
+    },
+    "kinds": [
+     "autumn-midterm"
+    ]
+   },
+   {
+    "id": "3",
+    "name": {
+     "en": "Partial derivatives, directional derivatives, differentiability",
+     "zh-Hans": "偏导数、方向导数与可微性",
+     "zh-Hant": "偏導數、方向導數與可微性"
+    },
+    "stars": 4.5,
+    "years": [
+     "2020 Q2",
+     "2022 Q3",
+     "2025 Q3"
+    ],
+    "drills": [
+     "Sheet 2 Ex 2.7/2.8/2.10",
+     "Sheet 3 Ex 3.4"
+    ],
+    "likelihood": {
+     "en": "≈85%.",
+     "zh-Hans": "≈85%。",
+     "zh-Hant": "≈85%。"
+    },
+    "slot": {
+     "en": "Q3, ~30%",
+     "zh-Hans": "Q3，约 30%",
+     "zh-Hant": "Q3，約 30%"
+    },
+    "skeleton": {
+     "en": "1. Compute partials at the point (for piecewise: from both definitions at origin). 2. Guess Λ from the Jacobian. 3. Verify the differentiability limit with the norm bounds. 4. If it fails, show along which direction the quotient survives.",
+     "zh-Hans": "1. 求该点偏导（分段函数在原点用两种定义）。2. 由 Jacobian 猜 Λ。3. 用范数控制验证可微极限。4. 若不可微，指出沿哪个方向商不消失。",
+     "zh-Hant": "1. 求該點偏導（分段函數在原點用兩種定義）。2. 由 Jacobian 猜 Λ。3. 用範數控制驗證可微極限。4. 若不可微，指出沿哪個方向商不消失。"
+    },
+    "kinds": [
+     "autumn-midterm"
+    ]
+   },
+   {
+    "id": "4",
+    "name": {
+     "en": "C¹ + inverse function theorem finale",
+     "zh-Hans": "C¹ + 反函数定理压轴",
+     "zh-Hant": "C¹ + 反函數定理壓軸"
+    },
+    "stars": 5,
+    "years": [
+     "2022 Q4",
+     "2024 Q3",
+     "2025 Q4"
+    ],
+    "drills": [
+     "Sheet 4 Ex 4.5",
+     "Sheet 4 Ex 4.7"
+    ],
+    "likelihood": {
+     "en": "≈95% — always the finale.",
+     "zh-Hans": "≈95%——固定压轴。",
+     "zh-Hant": "≈95%——固定壓軸。"
+    },
+    "slot": {
+     "en": "Final question, ~25–30%",
+     "zh-Hans": "最后一题，约 25–30%",
+     "zh-Hant": "最後一題，約 25–30%"
+    },
+    "skeleton": {
+     "en": "1. Compute Df and check C¹ (partial derivatives continuous). 2. Evaluate det Df at the point. 3. Apply IFT: local inverse exists, is C¹, with the derivative formula. 4. For local-vs-global: det vanishing set + a pair of points with equal images. 5. Perturbed system: apply IFT to the parameter-augmented map.",
+     "zh-Hans": "1. 算 Df 并验证 C¹（偏导连续）。2. 求该点 det Df。3. 套 IFT：局部逆存在、C¹、给出导数公式。4. 局部 vs 整体：det 零点集 + 一对同像点。5. 扰动系统：对参数增广映射套 IFT。",
+     "zh-Hant": "1. 算 Df 並驗證 C¹（偏導連續）。2. 求該點 det Df。3. 套 IFT：局部逆存在、C¹、給出導數公式。4. 局部 vs 整體：det 零點集 + 一對同像點。5. 擾動系統：對參數增廣映射套 IFT。"
+    },
+    "kinds": [
+     "autumn-midterm"
+    ]
+   },
+   {
+    "id": "5",
+    "name": {
+     "en": "Implicit function theorem (newly in scope)",
+     "zh-Hans": "隐函数定理（新增范围）",
+     "zh-Hant": "隱函數定理（新增範圍）"
+    },
+    "stars": 4,
+    "years": [
+     "Sheet 5 Ex 1–2"
+    ],
+    "drills": [
+     "Sheet 5 Ex 1",
+     "Sheet 5 Ex 2"
+    ],
+    "likelihood": {
+     "en": "≈40–50% — never examined but explicitly in scope.",
+     "zh-Hans": "≈40–50%——从未考过但明列范围。",
+     "zh-Hant": "≈40–50%——從未考過但明列範圍。"
+    },
+    "slot": {
+     "en": "Potential final-question part",
+     "zh-Hans": "可能的压轴小问",
+     "zh-Hant": "可能的壓軸小問"
+    },
+    "skeleton": {
+     "en": "Check F(p, q) = 0 and ∂F/∂y non-singular at the point; conclude a local C¹ solution y = g(x) with Dg = −(∂F/∂y)⁻¹∂F/∂x.",
+     "zh-Hans": "验证 F(p,q)=0 与该点 ∂F/∂y 非退化；得局部 C¹ 解 y=g(x) 且 Dg=−(∂F/∂y)⁻¹∂F/∂x。",
+     "zh-Hant": "驗證 F(p,q)=0 與該點 ∂F/∂y 非退化；得局部 C¹ 解 y=g(x) 且 Dg=−(∂F/∂y)⁻¹∂F/∂x。"
+    },
+    "kinds": [
+     "autumn-midterm"
+    ]
+   },
+   {
+    "id": "6",
+    "name": {
+     "en": "Taylor / Hessian / chain rule (new, mid frequency)",
+     "zh-Hans": "Taylor / Hessian / 链式法则（新增，中频）",
+     "zh-Hant": "Taylor / Hessian / 鏈式法則（新增，中頻）"
+    },
+    "stars": 3.5,
+    "years": [],
+    "drills": [
+     "Sheet 4 Ex 4.1–4.4",
+     "Sheet 3 Ex 3.3"
+    ],
+    "likelihood": {
+     "en": "Taylor/Hessian ≈35–45%; chain rule ≈30%.",
+     "zh-Hans": "Taylor/Hessian ≈35–45%；链式法则 ≈30%。",
+     "zh-Hant": "Taylor/Hessian ≈35–45%；鏈式法則 ≈30%。"
+    },
+    "slot": {
+     "en": "Mid-paper computation",
+     "zh-Hans": "卷中计算题",
+     "zh-Hant": "卷中計算題"
+    },
+    "skeleton": {
+     "en": "Compute the Hessian; symmetry check (Schwarz); read off the second-order Taylor polynomial; for chain rule, lay out the Jacobian product before substituting.",
+     "zh-Hans": "算 Hessian；对称性检查（Schwarz）；读出二阶 Taylor 多项式；链式法则先摆好 Jacobian 乘积再代入。",
+     "zh-Hant": "算 Hessian；對稱性檢查（Schwarz）；讀出二階 Taylor 多項式；鏈式法則先擺好 Jacobian 乘積再代入。"
+    },
+    "kinds": [
+     "autumn-midterm"
+    ]
+   }
+  ],
+  "mock_template": {
+   "slots": [
+    {
+     "qno": "Q1",
+     "format": "1",
+     "note": {
+      "en": "Open-set warm-up",
+      "zh-Hans": "开集热身",
+      "zh-Hant": "開集熱身"
+     }
+    },
+    {
+     "qno": "Q2",
+     "format": "2",
+     "note": {
+      "en": "Squeeze continuity",
+      "zh-Hans": "夹逼连续性",
+      "zh-Hant": "夾逼連續性"
+     }
+    },
+    {
+     "qno": "Q3",
+     "format": "3",
+     "note": {
+      "en": "Differentiability at origin",
+      "zh-Hans": "原点可微性",
+      "zh-Hant": "原點可微性"
+     }
+    },
+    {
+     "qno": "Q4",
+     "format": "4",
+     "note": {
+      "en": "IFT finale",
+      "zh-Hans": "反函数定理压轴",
+      "zh-Hant": "反函數定理壓軸"
+     }
+    }
+   ],
+   "duration_min": 60,
+   "source": {
+    "en": "Fixed order across 2020–2025 (easy → hard).",
+    "zh-Hans": "2020–2025 固定顺序（由易到难）。",
+    "zh-Hant": "2020–2025 固定順序（由易到難）。"
+   }
+  },
+  "trends": {
+   "summary": {
+    "en": "Highly templated: four years of nearly identical question order (open set → squeeze → differentiability → C¹/IFT finale), and most questions are re-skins of problem-sheet items. Mark totals rose from 10/40 to 100 with finer mark splits — write details, not just answers. New in scope for 2026: implicit function theorem, Taylor/Hessian, chain-rule computations, sequence limits, Schwarz counterexample.",
+    "zh-Hans": "高度模板化：四年题序几乎一致（开集 → 夹逼 → 可微性 → C¹/IFT 压轴），多数真题是习题集“换皮”。总分从 10/40 升至 100 且拆分更细——要写细节而非只写答案。2026 新增范围：隐函数定理、Taylor/Hessian、链式法则计算、序列极限、Schwarz 反例。",
+    "zh-Hant": "高度模板化：四年題序幾乎一致（開集 → 夾逼 → 可微性 → C¹/IFT 壓軸），多數真題是習題集“換皮”。總分從 10/40 升至 100 且拆分更細——要寫細節而非只寫答案。2026 新增範圍：隱函數定理、Taylor/Hessian、鏈式法則計算、序列極限、Schwarz 反例。"
+   },
+   "yearly": [
+    {
+     "year": 2020,
+     "rows": [
+      [
+       "Q1",
+       "3",
+       "{0<z<1} ⊂ R³ is open",
+       "1",
+       "—"
+      ],
+      [
+       "Q2",
+       "3",
+       "f = x²sin(1/x) type: differentiability at origin from the definition",
+       "3",
+       "—"
+      ],
+      [
+       "Q3",
+       "4",
+       "f = (x²+y² sin x, sin(xy)): differentiable everywhere, find Df",
+       "3",
+       "—"
+      ]
+     ]
+    },
+    {
+     "year": 2022,
+     "rows": [
+      [
+       "Q1",
+       "10",
+       "Open-set proof",
+       "1",
+       "—"
+      ],
+      [
+       "Q2",
+       "10",
+       "Continuity/limit via squeeze",
+       "2",
+       "—"
+      ],
+      [
+       "Q3",
+       "10",
+       "Piecewise differentiability + Rayleigh-type moments",
+       "3",
+       "—"
+      ],
+      [
+       "Q4",
+       "10",
+       "Local injectivity via IFT (det = 2x(x−1))",
+       "4",
+       "—"
+      ]
+     ]
+    },
+    {
+     "year": 2024,
+     "rows": [
+      [
+       "Q1",
+       "20",
+       "Open-set proof",
+       "1",
+       "—"
+      ],
+      [
+       "Q2",
+       "20",
+       "Continuity, e^x cos y family",
+       "2",
+       "—"
+      ],
+      [
+       "Q3",
+       "30",
+       "Perturbed system + IFT, continuous dependence",
+       "4",
+       "—"
+      ],
+      [
+       "Q4",
+       "30",
+       "Derivative continuity / C¹ criteria",
+       "3",
+       "—"
+      ]
+     ]
+    },
+    {
+     "year": 2025,
+     "rows": [
+      [
+       "Q1",
+       "20",
+       "Open-set proof",
+       "1",
+       "—"
+      ],
+      [
+       "Q2",
+       "20",
+       "Limit/continuity, oscillating sin(1/·)",
+       "2",
+       "—"
+      ],
+      [
+       "Q3",
+       "30",
+       "Partials + differentiability, piecewise at origin (answer: differentiable)",
+       "3",
+       "—"
+      ],
+      [
+       "Q4",
+       "30",
+       "Local injectivity ≠ global: f = (x sin y, x cos y)",
+       "4",
+       "—"
+      ]
+     ]
+    }
+   ],
+   "chapter_share": [
+    {
+     "label": {
+      "en": "Open sets & continuity",
+      "zh-Hans": "开集与连续",
+      "zh-Hant": "開集與連續"
+     },
+     "share": 0.4
+    },
+    {
+     "label": {
+      "en": "Differentiability",
+      "zh-Hans": "可微性",
+      "zh-Hant": "可微性"
+     },
+     "share": 0.3
+    },
+    {
+     "label": {
+      "en": "C¹ / IFT / implicit",
+      "zh-Hans": "C¹ / 反函数 / 隐函数",
+      "zh-Hant": "C¹ / 反函數 / 隱函數"
+     },
+     "share": 0.3
+    }
+   ]
+  },
+  "kind_meta": {
+   "autumn-midterm": {
+    "trends": {
+     "summary": {
+      "en": "Highly templated: four years of nearly identical question order (open set → squeeze → differentiability → C¹/IFT finale), and most questions are re-skins of problem-sheet items. Mark totals rose from 10/40 to 100 with finer mark splits — write details, not just answers. New in scope for 2026: implicit function theorem, Taylor/Hessian, chain-rule computations, sequence limits, Schwarz counterexample.",
+      "zh-Hans": "高度模板化：四年题序几乎一致（开集 → 夹逼 → 可微性 → C¹/IFT 压轴），多数真题是习题集“换皮”。总分从 10/40 升至 100 且拆分更细——要写细节而非只写答案。2026 新增范围：隐函数定理、Taylor/Hessian、链式法则计算、序列极限、Schwarz 反例。",
+      "zh-Hant": "高度模板化：四年題序幾乎一致（開集 → 夾逼 → 可微性 → C¹/IFT 壓軸），多數真題是習題集“換皮”。總分從 10/40 升至 100 且拆分更細——要寫細節而非只寫答案。2026 新增範圍：隱函數定理、Taylor/Hessian、鏈式法則計算、序列極限、Schwarz 反例。"
+     },
+     "yearly": [
+      {
+       "year": 2020,
+       "rows": [
+        [
+         "Q1",
+         "3",
+         "{0<z<1} ⊂ R³ is open",
+         "1",
+         "—"
+        ],
+        [
+         "Q2",
+         "3",
+         "f = x²sin(1/x) type: differentiability at origin from the definition",
+         "3",
+         "—"
+        ],
+        [
+         "Q3",
+         "4",
+         "f = (x²+y² sin x, sin(xy)): differentiable everywhere, find Df",
+         "3",
+         "—"
+        ]
+       ]
+      },
+      {
+       "year": 2022,
+       "rows": [
+        [
+         "Q1",
+         "10",
+         "Open-set proof",
+         "1",
+         "—"
+        ],
+        [
+         "Q2",
+         "10",
+         "Continuity/limit via squeeze",
+         "2",
+         "—"
+        ],
+        [
+         "Q3",
+         "10",
+         "Piecewise differentiability + Rayleigh-type moments",
+         "3",
+         "—"
+        ],
+        [
+         "Q4",
+         "10",
+         "Local injectivity via IFT (det = 2x(x−1))",
+         "4",
+         "—"
+        ]
+       ]
+      },
+      {
+       "year": 2024,
+       "rows": [
+        [
+         "Q1",
+         "20",
+         "Open-set proof",
+         "1",
+         "—"
+        ],
+        [
+         "Q2",
+         "20",
+         "Continuity, e^x cos y family",
+         "2",
+         "—"
+        ],
+        [
+         "Q3",
+         "30",
+         "Perturbed system + IFT, continuous dependence",
+         "4",
+         "—"
+        ],
+        [
+         "Q4",
+         "30",
+         "Derivative continuity / C¹ criteria",
+         "3",
+         "—"
+        ]
+       ]
+      },
+      {
+       "year": 2025,
+       "rows": [
+        [
+         "Q1",
+         "20",
+         "Open-set proof",
+         "1",
+         "—"
+        ],
+        [
+         "Q2",
+         "20",
+         "Limit/continuity, oscillating sin(1/·)",
+         "2",
+         "—"
+        ],
+        [
+         "Q3",
+         "30",
+         "Partials + differentiability, piecewise at origin (answer: differentiable)",
+         "3",
+         "—"
+        ],
+        [
+         "Q4",
+         "30",
+         "Local injectivity ≠ global: f = (x sin y, x cos y)",
+         "4",
+         "—"
+        ]
+       ]
+      }
+     ],
+     "chapter_share": [
+      {
+       "label": {
+        "en": "Open sets & continuity",
+        "zh-Hans": "开集与连续",
+        "zh-Hant": "開集與連續"
+       },
+       "share": 0.4
+      },
+      {
+       "label": {
+        "en": "Differentiability",
+        "zh-Hans": "可微性",
+        "zh-Hant": "可微性"
+       },
+       "share": 0.3
+      },
+      {
+       "label": {
+        "en": "C¹ / IFT / implicit",
+        "zh-Hans": "C¹ / 反函数 / 隐函数",
+        "zh-Hant": "C¹ / 反函數 / 隱函數"
+       },
+       "share": 0.3
+      }
+     ]
+    },
+    "order": {
+     "en": "Highly templated: four years of nearly identical question order (open set → squeeze → differentiability → C¹/IFT finale), and most questions are re-skins of problem-sheet items. Mark totals rose from 10/40 to 100 with finer mark splits — write details, not just answers. New in scope for 2026: implicit function theorem, Taylor/Hessian, chain-rule computations, sequence limits, Schwarz counterexample.",
+     "zh-Hans": "高度模板化：四年题序几乎一致（开集 → 夹逼 → 可微性 → C¹/IFT 压轴），多数真题是习题集“换皮”。总分从 10/40 升至 100 且拆分更细——要写细节而非只写答案。2026 新增范围：隐函数定理、Taylor/Hessian、链式法则计算、序列极限、Schwarz 反例。",
+     "zh-Hant": "高度模板化：四年題序幾乎一致（開集 → 夾逼 → 可微性 → C¹/IFT 壓軸），多數真題是習題集“換皮”。總分從 10/40 升至 100 且拆分更細——要寫細節而非只寫答案。2026 新增範圍：隱函數定理、Taylor/Hessian、鏈式法則計算、序列極限、Schwarz 反例。"
+    },
+    "mock_template": {
+     "slots": [
+      {
+       "qno": "Q1",
+       "format": "1",
+       "note": {
+        "en": "Open-set warm-up",
+        "zh-Hans": "开集热身",
+        "zh-Hant": "開集熱身"
+       }
+      },
+      {
+       "qno": "Q2",
+       "format": "2",
+       "note": {
+        "en": "Squeeze continuity",
+        "zh-Hans": "夹逼连续性",
+        "zh-Hant": "夾逼連續性"
+       }
+      },
+      {
+       "qno": "Q3",
+       "format": "3",
+       "note": {
+        "en": "Differentiability at origin",
+        "zh-Hans": "原点可微性",
+        "zh-Hant": "原點可微性"
+       }
+      },
+      {
+       "qno": "Q4",
+       "format": "4",
+       "note": {
+        "en": "IFT finale",
+        "zh-Hans": "反函数定理压轴",
+        "zh-Hant": "反函數定理壓軸"
+       }
+      }
+     ],
+     "duration_min": 60,
+     "source": {
+      "en": "Fixed order across 2020–2025 (easy → hard).",
+      "zh-Hans": "2020–2025 固定顺序（由易到难）。",
+      "zh-Hant": "2020–2025 固定順序（由易到難）。"
+     }
+    },
+    "lecturers": [
+     {
+      "name": "Module Lecturer (unnamed in sources)",
+      "name_display": {
+       "en": "任课讲师（材料未具名）",
+       "zh-Hans": "任课讲师（材料未具名）",
+       "zh-Hant": "任課講師（材料未具名）"
+      },
+      "role": {
+       "en": "Module lecturer, 2026",
+       "zh-Hans": "本模块讲师，2026 年",
+       "zh-Hant": "本模塊講師，2026 年"
+      },
+      "research": {
+       "en": "Research direction not stated in the uploaded materials.",
+       "zh-Hans": "上传材料中未提及研究方向。",
+       "zh-Hant": "上傳材料中未提及研究方向。"
+      },
+      "habits": [
+       {
+        "en": "【事实】 Scope notice: Chapter 1 in full including the implicit function theorem — newly added topics are in scope despite never being examined.",
+        "zh-Hans": "【事实】范围通知：第 1 章全部含隐函数定理——新增考点虽未考过也在范围内。",
+        "zh-Hant": "【事實】範圍通知：第 1 章全部含隱函數定理——新增考點雖未考過也在範圍內。"
+       },
+       {
+        "en": "【事实】 Four years of near-identical question order: open-set proof first (warm-up), then continuity/squeeze, then differentiability, then C¹/IFT as the finale.",
+        "zh-Hans": "【事实】四年题序几乎一致：开集证明开局（送分），其次连续性/夹逼，再可微性，最后 C¹/反函数定理压轴。",
+        "zh-Hant": "【事實】四年題序幾乎一致：開集證明開局（送分），其次連續性/夾逼，再可微性，最後 C¹/反函數定理壓軸。"
+       },
+       {
+        "en": "【事实】 Repeated function shapes across years: e^x cos y / e^y sin x family (2022, 2024, 2025); piecewise-at-origin differentiability (2022, 2025 — both answers 'differentiable'); sin(1/·) oscillation (2020, 2025).",
+        "zh-Hans": "【事实】重复出现的函数形态：e^x cos y / e^y sin x 家族（2022、2024、2025）；原点分段可微性（2022、2025——两次答案都是“可微”）；sin(1/·) 振荡（2020、2025）。",
+        "zh-Hant": "【事實】重複出現的函數形態：e^x cos y / e^y sin x 家族（2022、2024、2025）；原點分段可微性（2022、2025——兩次答案都是“可微”）；sin(1/·) 振盪（2020、2025）。"
+       }
+      ],
+      "source": {
+       "en": "Uploaded Analysis II revision guide (scope notice, paper analysis).",
+       "zh-Hans": "上传的 Analysis II 应试指南（范围通知、试卷分析）。",
+       "zh-Hant": "上傳的 Analysis II 應試指南（範圍通知、試卷分析）。"
+      }
+     }
+    ]
+   }
+  },
+  "notes": [],
+  "drill_banner": {
+   "default": {
+    "en": "**Grind this format.** Memorise the solution template first, then work every question below under time pressure; finish by self-marking against the scheme and re-reading the pitfalls.",
+    "zh-Hans": "**刷透本题型。** 先背熟解题模板，再限时刷完下列每一题；最后对照评分标准自评，并复读一遍易错点。",
+    "zh-Hant": "**刷透本題型。** 先背熟解題模板，再限時刷完下列每一題；最後對照評分標準自評，並復讀一遍易錯點。"
+   }
+  }
+ },
+ "questions": []
+}

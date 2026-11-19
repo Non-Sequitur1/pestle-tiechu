@@ -1,0 +1,1181 @@
+{
+ "schema": "tiechu-qb-v3",
+ "module": {
+  "code": "MATH50003/50016",
+  "file": "MATH50003.json",
+  "meta_only": true,
+  "name": {
+   "en": "MATH50003/MATH50016 Linear Algebra (Term 1 Midterm)",
+   "zh-Hans": "MATH50003/MATH50016 线性代数（第一学期期中）",
+   "zh-Hant": "MATH50003/MATH50016 線性代數（第一學期期中）"
+  },
+  "short_name": {
+   "en": "Linear Algebra",
+   "zh-Hans": "线性代数",
+   "zh-Hant": "線性代數"
+  },
+  "university": {
+   "en": "Imperial College London",
+   "zh-Hans": "帝国理工学院",
+   "zh-Hant": "帝國理工學院"
+  },
+  "term": {
+   "en": "Autumn 2026 (Week-7 midterm window)",
+   "zh-Hans": "2026 秋季学期（第 7 周期中窗口）",
+   "zh-Hant": "2026 秋季學期（第 7 週期中窗口）"
+  },
+  "scope": {
+   "en": "Per the professor's notice: at least 90% from Weeks 1–5 (up to Primary Decomposition), at most 10% from Week 6 (Jordan canonical form). New lecturer this year (Michele Zordan); past papers remain useful but reliability is reduced. Note the new lecture notes restate the Primary Decomposition Theorem as Prop 11.4 (not 11.3), so the exam may follow the new notes' numbering.",
+   "zh-Hans": "按教授通知：至少 90% 来自 Week 1–5（截至 Primary Decomposition），至多 10% 来自 Week 6（Jordan 标准形）。今年更换讲师（Michele Zordan），往年真题仍有参考价值但可靠性下降。注意新讲义把 Primary Decomposition 定理编号改为 Prop 11.4（非 11.3），考试可能按新讲义的陈述与记号。",
+   "zh-Hant": "按教授通知：至少 90% 來自 Week 1–5（截至 Primary Decomposition），至多 10% 來自 Week 6（Jordan 標準形）。今年更換講師（Michele Zordan），往年真題仍有參考價值但可靠性下降。注意新講義把 Primary Decomposition 定理編號改爲 Prop 11.4（非 11.3），考試可能按新講義的陳述與記號。"
+  },
+  "assessment": {
+   "en": "Past midterms were 100 marks; duration not stated on the uploaded papers — follow the department's notice. Counts toward the module per department rules.",
+   "zh-Hans": "往年期中均为 100 分；上传试卷未标注考试时长，请以学校通知为准。按院系规定计入模块成绩。",
+   "zh-Hant": "往年期中均爲 100 分；上傳試卷未標註考試時長，請以學校通知爲準。按院系規定計入模塊成績。"
+  },
+  "papers": [
+   {
+    "id": "MT2023",
+    "name": {
+     "en": "2023 Midterm (3 questions)",
+     "zh-Hans": "2023 期中试卷（3 题）",
+     "zh-Hant": "2023 期中試卷（3 題）"
+    },
+    "date": null,
+    "kind": "autumn-midterm",
+    "total_marks": 100
+   },
+   {
+    "id": "MT2024",
+    "name": {
+     "en": "2024 Midterm (4 questions)",
+     "zh-Hans": "2024 期中试卷（4 题）",
+     "zh-Hant": "2024 期中試卷（4 題）"
+    },
+    "date": null,
+    "kind": "autumn-midterm",
+    "total_marks": 100
+   },
+   {
+    "id": "MT2025",
+    "name": {
+     "en": "2025 Midterm (2 questions, official answers)",
+     "zh-Hans": "2025 期中试卷（2 题，含官方答案）",
+     "zh-Hant": "2025 期中試卷（2 題，含官方答案）"
+    },
+    "date": null,
+    "kind": "autumn-midterm",
+    "total_marks": 100
+   }
+  ],
+  "paper_kinds": [
+   {
+    "id": "autumn-midterm",
+    "name": {
+     "en": "Autumn Midterm",
+     "zh-Hans": "秋季期中试卷",
+     "zh-Hant": "秋季期中試卷"
+    }
+   },
+   {
+    "id": "spring-midterm",
+    "name": {
+     "en": "Spring Midterm",
+     "zh-Hans": "春季期中试卷",
+     "zh-Hant": "春季期中試卷"
+    }
+   },
+   {
+    "id": "summer",
+    "name": {
+     "en": "Summer Exam",
+     "zh-Hans": "夏季大考",
+     "zh-Hant": "夏季大考"
+    }
+   },
+   {
+    "id": "resit",
+    "name": {
+     "en": "Resit Paper",
+     "zh-Hans": "重考卷",
+     "zh-Hant": "重考卷"
+    }
+   },
+   {
+    "id": "problem-sheet",
+    "name": {
+     "en": "Problem Sheets",
+     "zh-Hans": "习题集",
+     "zh-Hant": "習題集"
+    }
+   },
+   {
+    "id": "unseen-sheet",
+    "name": {
+     "en": "Unseen Sheets",
+     "zh-Hans": "Unseen 习题集",
+     "zh-Hant": "Unseen 習題集"
+    }
+   }
+  ],
+  "lecturers": [
+   {
+    "name": "Michele Zordan",
+    "name_display": {
+     "en": "Dr Michele Zordan（今年主讲）",
+     "zh-Hans": "Dr Michele Zordan（今年主讲）",
+     "zh-Hant": "Dr Michele Zordan（今年主講）"
+    },
+    "role": {
+     "en": "Senior Teaching Fellow, Pure Mathematics Section, Imperial (this year's lecturer)",
+     "zh-Hans": "帝国理工纯数学组 Senior Teaching Fellow（今年主讲）",
+     "zh-Hant": "帝國理工純數學組 Senior Teaching Fellow（今年主講）"
+    },
+    "research": {
+     "en": "PhD Bielefeld 2016 (advisor Christopher Voll; thesis on representation zeta functions of special linear groups); MSc/BA Padua, Leiden. Research: asymptotic group theory, representation theory. Previously taught Calculus / Real Vector Calculus / Algebraic Geometry at Auckland; TA at KU Leuven and Bielefeld.",
+     "zh-Hans": "博士 Bielefeld 2016（导师 C. Voll，论文关于特殊线性群的表示 zeta 函数）；本硕 Padua、Leiden。研究方向：渐近群论、表示论。曾在 Auckland 讲授 Calculus、Real Vector Calculus、Algebraic Geometry；在 KU Leuven、Bielefeld 任助教。",
+     "zh-Hant": "博士 Bielefeld 2016（導師 C. Voll，論文關於特殊線性羣的表示 zeta 函數）；本碩 Padua、Leiden。研究方向：漸近羣論、表示論。曾在 Auckland 講授 Calculus、Real Vector Calculus、Algebraic Geometry；在 KU Leuven、Bielefeld 任助教。"
+    },
+    "habits": [
+     {
+      "en": "【推断】 His research works directly with GL_n and SL_n over finite quotients — the Fp-computation template (companion matrices over Fp) is likely to survive the change of examiner.",
+      "zh-Hans": "【推断】其研究直接涉及有限商上的 GLn、SLn——Fp 计算模板（Fp 上伴随矩阵）大概率在新讲师手中延续。",
+      "zh-Hant": "【推斷】其研究直接涉及有限商上的 GLn、SLn——Fp 計算模板（Fp 上伴隨矩陣）大概率在新講師手中延續。"
+     },
+     {
+      "en": "【推断】 New examiners commonly restructure question counts; the professor himself flagged reduced reliability of past-paper patterns.",
+      "zh-Hans": "【推断】新任讲师常会调整题量与结构；教授本人也提示了往年模式的可靠性下降。",
+      "zh-Hant": "【推斷】新任講師常會調整題量與結構；教授本人也提示了往年模式的可靠性下降。"
+     },
+     {
+      "en": "【网络】 No public linear-algebra exam papers authored by Zordan were found — treat module-specific predictions as inference, not fact.",
+      "zh-Hans": "【网络】未找到 Zordan 本人出过的线代试卷公开版本——本模块的出题预测均为推断而非事实。",
+      "zh-Hant": "【網絡】未找到 Zordan 本人出過的線代試卷公開版本——本模塊的出題預測均爲推斷而非事實。"
+     }
+    ],
+    "source": {
+     "en": "Web: Imperial Pure Maths people page; Algebra & Combinatorics research page; personal homepage; Mathematics Genealogy Project. Uploaded guide's §6.",
+     "zh-Hans": "网络：Imperial 纯数学人员页、代数与组合研究页、个人主页、Mathematics Genealogy Project；上传指南第 6 节。",
+     "zh-Hant": "網絡：Imperial 純數學人員頁、代數與組合研究頁、個人主頁、Mathematics Genealogy Project；上傳指南第 6 節。"
+    }
+   },
+   {
+    "name": "Martin W. Liebeck",
+    "name_display": {
+     "en": "Prof. Martin W. Liebeck（往年出题人）",
+     "zh-Hans": "Prof. Martin W. Liebeck（往年出题人）",
+     "zh-Hant": "Prof. Martin W. Liebeck（往年出題人）"
+    },
+    "role": {
+     "en": "Professor of Pure Mathematics, former Head of Section (previous years' examiner)",
+     "zh-Hans": "纯数学教授、曾任组主任（往年出题人）",
+     "zh-Hant": "純數學教授、曾任組主任（往年出題人）"
+    },
+    "research": {
+     "en": "Algebraic combinatorics and graph theory, asymptotic group theory, representation theory, finite simple groups and algebraic groups, probabilistic group theory.",
+     "zh-Hans": "代数组合与图论、渐近群论、表示论、有限单群与代数群、概率群论。",
+     "zh-Hant": "代數組合與圖論、漸近羣論、表示論、有限單羣與代數羣、概率羣論。"
+    },
+    "habits": [
+     {
+      "en": "【事实】 2023–2025 template: Q1 = Fp companion-matrix computation; middle = existence/construction/true-false; heaviest proof last.",
+      "zh-Hans": "【事实】2023–2025 模板：Q1 = Fp 伴随矩阵计算；中段 = 存在性/构造/判断题；最重的证明题压轴。",
+      "zh-Hant": "【事實】2023–2025 模板：Q1 = Fp 伴隨矩陣計算；中段 = 存在性/構造/判斷題；最重的證明題壓軸。"
+     },
+     {
+      "en": "【事实】 Papers state 'no marks for just writing true or false' (2024, 2025); 2025 awarded 10 marks per true/false item.",
+      "zh-Hans": "【事实】卷面明文“只写 True/False 不给分”（2024、2025）；2025 年每个判断小问 10 分。",
+      "zh-Hant": "【事實】卷面明文“只寫 True/False 不給分”（2024、2025）；2025 年每個判斷小問 10 分。"
+     },
+     {
+      "en": "【事实】 True/false over Fp and 'list all possible minimal polynomials' appeared in all three years.",
+      "zh-Hans": "【事实】Fp 上判断题与“列出所有可能的最小多项式”三年都出现。",
+      "zh-Hant": "【事實】Fp 上判斷題與“列出所有可能的最小多項式”三年都出現。"
+     }
+    ],
+    "source": {
+     "en": "Web: Imperial research pages; uploaded guide §6. Paper facts from uploaded 2023–2025 papers.",
+     "zh-Hans": "网络：Imperial 研究页；上传指南第 6 节。试卷事实来自上传的 2023–2025 真卷。",
+     "zh-Hant": "網絡：Imperial 研究頁；上傳指南第 6 節。試卷事實來自上傳的 2023–2025 真卷。"
+    }
+   }
+  ],
+  "topics": [
+   {
+    "id": "week1-2",
+    "name": {
+     "en": "Weeks 1–2: fields, vector spaces, direct sums, quotient spaces",
+     "zh-Hans": "Week 1–2：域、向量空间、直和、商空间",
+     "zh-Hant": "Week 1–2：域、向量空間、直和、商空間"
+    }
+   },
+   {
+    "id": "week3",
+    "name": {
+     "en": "Week 3: polynomials, Euclid, irreducibility over Fp",
+     "zh-Hans": "Week 3：多项式、Euclid、Fp 上不可约",
+     "zh-Hant": "Week 3：多項式、Euclid、Fp 上不可約"
+    }
+   },
+   {
+    "id": "week4",
+    "name": {
+     "en": "Week 4: eigenvalues, triangularisation, Cayley–Hamilton",
+     "zh-Hans": "Week 4：特征值、三角化、Cayley–Hamilton",
+     "zh-Hant": "Week 4：特徵值、三角化、Cayley–Hamilton"
+    }
+   },
+   {
+    "id": "week5",
+    "name": {
+     "en": "Week 5: minimal polynomial, invariant subspaces, primary decomposition",
+     "zh-Hans": "Week 5：最小多项式、不变子空间、Primary Decomposition",
+     "zh-Hant": "Week 5：最小多項式、不變子空間、Primary Decomposition"
+    }
+   },
+   {
+    "id": "week6",
+    "name": {
+     "en": "Week 6: Jordan canonical form (≤10%)",
+     "zh-Hans": "Week 6：Jordan 标准形（≤10%）",
+     "zh-Hant": "Week 6：Jordan 標準形（≤10%）"
+    }
+   }
+  ],
+  "keypoints": [
+   {
+    "id": "KP-companion",
+    "topic": "week4",
+    "heat": 5,
+    "name": {
+     "en": "Companion matrices over Fp: invertibility & diagonalisability prime-by-prime",
+     "zh-Hans": "伴随矩阵：逐素数讨论可逆与可对角化",
+     "zh-Hant": "伴隨矩陣：逐素數討論可逆與可對角化"
+    },
+    "detail": {
+     "en": "For the companion matrix $C(p)$ of a monic cubic: $c=m=p(x)$; invertible $\\iff p(0)\\ne 0 \\iff p \\nmid r_1r_2r_3$; diagonalisable over $\\mathbb{F}_p \\iff$ roots distinct in $\\mathbb{F}_p$. Check small primes $p=2,3$ and every prime dividing a root difference. Examined 3/3 years (2023 Q1, 2024 Q1, 2025 Q1); drills Sheet 1 Q2/Q7, Sheet 4 Q3(a).",
+     "zh-Hans": "首一三次式的伴随矩阵 $C(p)$：$c=m=p(x)$；可逆 $\\iff p(0)\\ne 0\\iff p\\nmid r_1r_2r_3$；在 $\\mathbb{F}_p$ 上可对角化 $\\iff$ 根在 $\\mathbb{F}_p$ 中互异。单独验证 $p=2,3$ 与每个整除根之差的素数。三年连考（2023 Q1、2024 Q1、2025 Q1）；训练：Sheet 1 Q2/Q7、Sheet 4 Q3(a)。",
+     "zh-Hant": "首一三次式的伴隨矩陣 $C(p)$：$c=m=p(x)$；可逆 $\\iff p(0)\\ne 0\\iff p\\nmid r_1r_2r_3$；在 $\\mathbb{F}_p$ 上可對角化 $\\iff$ 根在 $\\mathbb{F}_p$ 中互異。單獨驗證 $p=2,3$ 與每個整除根之差的素數。三年連考（2023 Q1、2024 Q1、2025 Q1）；訓練：Sheet 1 Q2/Q7、Sheet 4 Q3(a)。"
+    },
+    "years": [
+     "2023 Q1",
+     "2024 Q1",
+     "2025 Q1"
+    ],
+    "kinds": [
+     "autumn-midterm"
+    ]
+   },
+   {
+    "id": "KP-minpoly",
+    "topic": "week5",
+    "heat": 5,
+    "name": {
+     "en": "Minimal polynomial: computation, classification, m | c, Ak = I enumerations",
+     "zh-Hans": "最小多项式：计算、分类、m | c、Ak = I 型枚举",
+     "zh-Hant": "最小多項式：計算、分類、m | c、Ak = I 型枚舉"
+    },
+    "detail": {
+     "en": "Master property $p(T)=0 \\Rightarrow m_T \\mid p$ (Euclid division proof); $m \\mid c$ with the same irreducible factors; $m_A = \\mathrm{lcm}$ over blocks. From $A^k = I$: factor $x^k-1$ over the field, enumerate square-free subproducts with $\\deg m \\le n$. Examined 3/3 years; drills Sheet 4 Q1–Q3.",
+     "zh-Hans": "主性质 $p(T)=0\\Rightarrow m_T\\mid p$（Euclid 带余除法证明）；$m\\mid c$ 且不可约因子相同；分块的 $m_A=\\mathrm{lcm}$。由 $A^k=I$：在域上分解 $x^k-1$，枚举无重复因子子乘积并限制 $\\deg m\\le n$。三年连考；训练：Sheet 4 Q1–Q3。",
+     "zh-Hant": "主性質 $p(T)=0\\Rightarrow m_T\\mid p$（Euclid 帶餘除法證明）；$m\\mid c$ 且不可約因子相同；分塊的 $m_A=\\mathrm{lcm}$。由 $A^k=I$：在域上分解 $x^k-1$，枚舉無重複因子子乘積並限制 $\\deg m\\le n$。三年連考；訓練：Sheet 4 Q1–Q3。"
+    },
+    "years": [
+     "2023 Q2",
+     "2024 Q2",
+     "2025 Q1"
+    ],
+    "kinds": [
+     "autumn-midterm"
+    ]
+   },
+   {
+    "id": "KP-invariant",
+    "topic": "week5",
+    "heat": 4.5,
+    "name": {
+     "en": "T-invariant subspaces, restrictions, quotients",
+     "zh-Hans": "T-不变子空间、限制与商映射",
+     "zh-Hant": "T-不變子空間、限制與商映射"
+    },
+    "detail": {
+     "en": "If $W$ is $k$-dimensional and $T$-invariant then $c_{T_W}$ is a degree-$k$ monic factor of $c_T$ (and $c_T = c_{T_W}c_{\\bar T}$) — the exclusion tool. Construction tools: triangularisation gives invariant subspaces of every dimension; $\\ker f(T)$ is invariant; primary decomposition supplies $\\dim V_i = k_i \\deg f_i$. 2023 Q3, 2025 Q1(d); drills Sheet 2 Q2/Q5/Q8.",
+     "zh-Hans": "若 $W$ 是 $k$ 维 $T$-不变子空间，则 $c_{T_W}$ 是 $c_T$ 的 $k$ 次首一因子（且 $c_T=c_{T_W}c_{\\bar T}$）——排除工具。构造工具：三角化给出各维不变子空间；$\\ker f(T)$ 不变；Primary Decomposition 给出 $\\dim V_i=k_i\\deg f_i$。2023 Q3、2025 Q1(d)；训练：Sheet 2 Q2/Q5/Q8。",
+     "zh-Hant": "若 $W$ 是 $k$ 維 $T$-不變子空間，則 $c_{T_W}$ 是 $c_T$ 的 $k$ 次首一因子（且 $c_T=c_{T_W}c_{\\bar T}$）——排除工具。構造工具：三角化給出各維不變子空間；$\\ker f(T)$ 不變；Primary Decomposition 給出 $\\dim V_i=k_i\\deg f_i$。2023 Q3、2025 Q1(d)；訓練：Sheet 2 Q2/Q5/Q8。"
+    },
+    "years": [
+     "2023 Q3",
+     "2024 Q3",
+     "2025 Q1(d)"
+    ],
+    "kinds": [
+     "autumn-midterm"
+    ]
+   },
+   {
+    "id": "KP-triangularisation",
+    "topic": "week4",
+    "heat": 4.5,
+    "name": {
+     "en": "Triangularisation theorem and computing a basis P",
+     "zh-Hans": "三角化定理与求三角化基 P",
+     "zh-Hant": "三角化定理與求三角化基 P"
+    },
+    "detail": {
+     "en": "Proof by induction: eigenvector → invariant line → quotient by it → lift. Computational version: extend an eigenvector to a basis, strip first row/column, recurse. Simultaneous triangularisation of commuting S, T (2025 Q2): five-step chain — $E_\\lambda(T)$ is $S$-invariant, get a common eigenvector, quotient, induct.",
+     "zh-Hans": "归纳证明：特征向量 → 不变直线 → 作商 → 提升。计算版：把特征向量扩充为基，去掉首行首列，递归。交换算子 S, T 的同时三角化（2025 Q2）五步链：$E_\\lambda(T)$ 是 $S$-不变的 → 取公共特征向量 → 作商 → 归纳。",
+     "zh-Hant": "歸納證明：特徵向量 → 不變直線 → 作商 → 提升。計算版：把特徵向量擴充爲基，去掉首行首列，遞歸。交換算子 S, T 的同時三角化（2025 Q2）五步鏈：$E_\\lambda(T)$ 是 $S$-不變的 → 取公共特徵向量 → 作商 → 歸納。"
+    },
+    "years": [
+     "2025 Q2",
+     "Sheet 2 Q7"
+    ],
+    "kinds": [
+     "autumn-midterm"
+    ]
+   },
+   {
+    "id": "KP-primary",
+    "topic": "week5",
+    "heat": 4.5,
+    "name": {
+     "en": "Primary Decomposition: statement, proof sketch, concrete computation",
+     "zh-Hans": "Primary Decomposition：陈述、证明思路、具体计算",
+     "zh-Hant": "Primary Decomposition：陳述、證明思路、具體計算"
+    },
+    "detail": {
+     "en": "Bezout-based proof: $m = g_1g_2$ coprime ⇒ $V = \\ker g_1(T) \\oplus \\ker g_2(T)$; invariance because $T$ commutes with $g_i(T)$; induct on factors. Computation: block-diagonal basis per factor, $\\dim V_i = k_i \\deg f_i$. New notes number it Prop 11.4. 2025 Q1(d)(ii); drills Sheet 4 Q5/Q6 — exactly Week 5 content.",
+     "zh-Hans": "基于 Bezout 的证明：$m=g_1g_2$ 互素 ⇒ $V=\\ker g_1(T)\\oplus\\ker g_2(T)$；由 $T$ 与 $g_i(T)$ 交换得不变性；对因子归纳。计算：按因子给分块对角基，$\\dim V_i=k_i\\deg f_i$。新讲义编号 Prop 11.4。2025 Q1(d)(ii)；训练：Sheet 4 Q5/Q6——恰为 Week 5 内容。",
+     "zh-Hant": "基於 Bezout 的證明：$m=g_1g_2$ 互素 ⇒ $V=\\ker g_1(T)\\oplus\\ker g_2(T)$；由 $T$ 與 $g_i(T)$ 交換得不變性；對因子歸納。計算：按因子給分塊對角基，$\\dim V_i=k_i\\deg f_i$。新講義編號 Prop 11.4。2025 Q1(d)(ii)；訓練：Sheet 4 Q5/Q6——恰爲 Week 5 內容。"
+    },
+    "years": [
+     "2025 Q1(d)",
+     "2022 final Q2"
+    ],
+    "kinds": [
+     "autumn-midterm"
+    ]
+   },
+   {
+    "id": "KP-irreducible",
+    "topic": "week3",
+    "heat": 4,
+    "name": {
+     "en": "Irreducible polynomials over F2/F3 and factorisations of xn ± 1",
+     "zh-Hans": "F2/F3 上的不可约多项式与 xn ± 1 分解",
+     "zh-Hant": "F2/F3 上的不可約多項式與 xn ± 1 分解"
+    },
+    "detail": {
+     "en": "Memorise the tables: F2 degree 2: $x^2+x+1$; degree 3: $x^3+x+1$, $x^3+x^2+1$; degree 4: $x^4+x+1$, $x^4+x^3+1$, $x^4+x^3+x^2+x+1$. F3 degree 2: $x^2+1$, $x^2+x+2$, $x^2+2x+2$. Tricks: $(a+b)^p = a^p+b^p$ in characteristic p; $x^4+1$ reducible over every $\\mathbb{F}_p$; rational roots of monic integer polynomials are integers. 2024 Q4, 2025 Q1; Sheet 3 Q8.",
+     "zh-Hans": "背熟表：F2 二次 $x^2+x+1$；三次 $x^3+x+1$、$x^3+x^2+1$；四次 $x^4+x+1$、$x^4+x^3+1$、$x^4+x^3+x^2+x+1$。F3 二次 $x^2+1$、$x^2+x+2$、$x^2+2x+2$。技巧：特征 p 下 $(a+b)^p=a^p+b^p$；$x^4+1$ 在每个 $\\mathbb{F}_p$ 上可约；首一整系数多项式的有理根必为整数。2024 Q4、2025 Q1；Sheet 3 Q8。",
+     "zh-Hant": "背熟表：F2 二次 $x^2+x+1$；三次 $x^3+x+1$、$x^3+x^2+1$；四次 $x^4+x+1$、$x^4+x^3+1$、$x^4+x^3+x^2+x+1$。F3 二次 $x^2+1$、$x^2+x+2$、$x^2+2x+2$。技巧：特徵 p 下 $(a+b)^p=a^p+b^p$；$x^4+1$ 在每個 $\\mathbb{F}_p$ 上可約；首一整係數多項式的有理根必爲整數。2024 Q4、2025 Q1；Sheet 3 Q8。"
+    },
+    "years": [
+     "2024 Q4",
+     "2025 Q1(a)"
+    ],
+    "kinds": [
+     "autumn-midterm"
+    ]
+   },
+   {
+    "id": "KP-ch",
+    "topic": "week4",
+    "heat": 3,
+    "name": {
+     "en": "Cayley–Hamilton: statement and applications (A−1, Ak)",
+     "zh-Hans": "Cayley–Hamilton：陈述与应用（A−1、Ak）",
+     "zh-Hant": "Cayley–Hamilton：陳述與應用（A−1、Ak）"
+    },
+    "detail": {
+     "en": "Every matrix satisfies its own characteristic polynomial. Applications: express $A^{-1}$ via $c_A(A)=0$ (when invertible), compute high powers $A^k$ by reducing modulo $c_A$. Drills Sheet 3 Q1–Q5, Q10.",
+     "zh-Hans": "每个矩阵满足自己的特征多项式。应用：由 $c_A(A)=0$ 表出 $A^{-1}$（可逆时）；把 $A^k$ 对 $c_A$ 取余算高次幂。训练：Sheet 3 Q1–Q5、Q10。",
+     "zh-Hant": "每個矩陣滿足自己的特徵多項式。應用：由 $c_A(A)=0$ 表出 $A^{-1}$（可逆時）；把 $A^k$ 對 $c_A$ 取餘算高次冪。訓練：Sheet 3 Q1–Q5、Q10。"
+    },
+    "years": [
+     "Sheet 3 Q1–Q5"
+    ],
+    "kinds": [
+     "autumn-midterm"
+    ]
+   },
+   {
+    "id": "KP-jordan",
+    "topic": "week6",
+    "heat": 2,
+    "name": {
+     "en": "Jordan canonical form quick reference (≤10%)",
+     "zh-Hans": "Jordan 标准形速查（≤10%）",
+     "zh-Hant": "Jordan 標準形速查（≤10%）"
+    },
+    "detail": {
+     "en": "Never examined in 2023–2025 midterms; capped at 10% by the scope notice. Know how to read JCF from the pair $(c, m)$ plus ranks, and the conjugacy-class counting over small fields (2022 final Q2(c): 8 classes in GL₂(F₃)).",
+     "zh-Hans": "2023–2025 期中从未考过；范围通知上限 10%。会由 $(c,m)$ 加秩读出 JCF，以及小域上的共轭类计数（2022 期末 Q2(c)：GL₂(F₃) 共 8 类）。",
+     "zh-Hant": "2023–2025 期中從未考過；範圍通知上限 10%。會由 $(c,m)$ 加秩讀出 JCF，以及小域上的共軛類計數（2022 期末 Q2(c)：GL₂(F₃) 共 8 類）。"
+    },
+    "years": [
+     "2022 final Q2(c)"
+    ],
+    "kinds": [
+     "autumn-midterm"
+    ]
+   }
+  ],
+  "formats": [
+   {
+    "id": "A",
+    "name": {
+     "en": "Fp companion matrix: 'for which primes invertible/diagonalisable'",
+     "zh-Hans": "Fp 伴随矩阵：“对哪些素数 p 可逆/可对角化”",
+     "zh-Hant": "Fp 伴隨矩陣：“對哪些素數 p 可逆/可對角化”"
+    },
+    "stars": 5,
+    "years": [
+     "2023 Q1",
+     "2024 Q1",
+     "2025 Q1"
+    ],
+    "drills": [
+     "Sheet 1 Q2",
+     "Sheet 1 Q7"
+    ],
+    "likelihood": {
+     "en": "Examined 3/3 years; research of the new lecturer points the same way.",
+     "zh-Hans": "三年连考；新讲师研究方向亦指向此处。",
+     "zh-Hant": "三年連考；新講師研究方向亦指向此處。"
+    },
+    "slot": {
+     "en": "Q1, 20–30 marks",
+     "zh-Hans": "Q1，20–30 分",
+     "zh-Hant": "Q1，20–30 分"
+    },
+    "skeleton": {
+     "en": "1. Read off $p(x)$ from the last column: $C(x^3+a_2x^2+a_1x+a_0)$. 2. Factor over $\\mathbb{Z}$ (small integer roots). 3. Invertible $\\iff p \\nmid r_1r_2r_3$. 4. Diagonalisable $\\iff$ roots distinct mod $p$, i.e. $p \\nmid (r_i-r_j)$ (using $m=c$). 5. Check $p=2,3$ and each offending prime separately, listing roots mod p. 6. Answer as a set.",
+     "zh-Hans": "1. 由最后一列读出 $p(x)$：$C(x^3+a_2x^2+a_1x+a_0)$。2. 在 $\\mathbb{Z}$ 上因式分解（试小整根）。3. 可逆 $\\iff p\\nmid r_1r_2r_3$。4. 可对角化 $\\iff$ 根模 p 互异，即 $p\\nmid(r_i-r_j)$（用 $m=c$）。5. 单独验证 $p=2,3$ 与每个相关素数，列出模 p 的根。6. 用集合写出答案。",
+     "zh-Hant": "1. 由最後一列讀出 $p(x)$：$C(x^3+a_2x^2+a_1x+a_0)$。2. 在 $\\mathbb{Z}$ 上因式分解（試小整根）。3. 可逆 $\\iff p\\nmid r_1r_2r_3$。4. 可對角化 $\\iff$ 根模 p 互異，即 $p\\nmid(r_i-r_j)$（用 $m=c$）。5. 單獨驗證 $p=2,3$ 與每個相關素數，列出模 p 的根。6. 用集合寫出答案。"
+    },
+    "kinds": [
+     "autumn-midterm"
+    ]
+   },
+   {
+    "id": "B",
+    "name": {
+     "en": "Irreducible polynomials over Fp[x] and factorisations",
+     "zh-Hans": "Fp[x] 不可约多项式与分解",
+     "zh-Hant": "Fp[x] 不可約多項式與分解"
+    },
+    "stars": 4,
+    "years": [
+     "2024 Q4",
+     "2025 Q1(a)"
+    ],
+    "drills": [
+     "Sheet 3 Q8"
+    ],
+    "likelihood": {
+     "en": "Two of three years; the small-field tables are pure bookwork.",
+     "zh-Hans": "三年两考；小域上的表是纯背诵。",
+     "zh-Hant": "三年兩考；小域上的表是純背誦。"
+    },
+    "slot": {
+     "en": "Early part question, 8–12 marks",
+     "zh-Hans": "大题前段，8–12 分",
+     "zh-Hant": "大題前段，8–12 分"
+    },
+    "skeleton": {
+     "en": "Degree 2–3: no root in $\\mathbb{F}_p$ $\\iff$ irreducible; degree 4: also exclude quadratic factors. Use $(x-1)^p = x^p-1$ in characteristic p; verify factorisations by expanding.",
+     "zh-Hans": "二、三次：$\\mathbb{F}_p$ 中无根 $\\iff$ 不可约；四次：再排除二次因子。特征 p 下用 $(x-1)^p=x^p-1$；分解结果展开验证。",
+     "zh-Hant": "二、三次：$\\mathbb{F}_p$ 中無根 $\\iff$ 不可約；四次：再排除二次因子。特徵 p 下用 $(x-1)^p=x^p-1$；分解結果展開驗證。"
+    },
+    "kinds": [
+     "autumn-midterm"
+    ]
+   },
+   {
+    "id": "C",
+    "name": {
+     "en": "List all minimal polynomials of Ak = I and construct examples",
+     "zh-Hans": "由 Ak = I 列出所有最小多项式并造例子",
+     "zh-Hant": "由 Ak = I 列出所有最小多項式並造例子"
+    },
+    "stars": 5,
+    "years": [
+     "2023 Q2",
+     "2024 Q2"
+    ],
+    "drills": [
+     "Sheet 4 Q1–Q3"
+    ],
+    "likelihood": {
+     "en": "3/3 years in some form.",
+     "zh-Hans": "三年均有某种形态。",
+     "zh-Hant": "三年均有某種形態。"
+    },
+    "slot": {
+     "en": "Mid-paper, 20–25 marks",
+     "zh-Hans": "卷中，20–25 分",
+     "zh-Hant": "卷中，20–25 分"
+    },
+    "skeleton": {
+     "en": "1. Factor $x^k-1$ into irreducibles over the field. 2. $m_A$ = square-free subproduct (exponents allowed where $x^k-1$ has repeated factors, e.g. $(x-1)^3$ over F₃). 3. Constraint $\\deg m \\le n$. 4. m and c share factors; build examples from companion matrices / block diagonals. 5. VERIFY the example (compute $m_A$, check $A^k=I$).",
+     "zh-Hans": "1. 在域上把 $x^k-1$ 分解为不可约因子。2. $m_A$ = 无重复因子子乘积（当 $x^k-1$ 有重因子时允许相应指数，如 F₃ 上 $(x-1)^3$）。3. 约束 $\\deg m\\le n$。4. m 与 c 同因子；用伴随矩阵/分块对角构造例子。5. 验证例子（算 $m_A$、验 $A^k=I$）。",
+     "zh-Hant": "1. 在域上把 $x^k-1$ 分解爲不可約因子。2. $m_A$ = 無重複因子子乘積（當 $x^k-1$ 有重因子時允許相應指數，如 F₃ 上 $(x-1)^3$）。3. 約束 $\\deg m\\le n$。4. m 與 c 同因子；用伴隨矩陣/分塊對角構造例子。5. 驗證例子（算 $m_A$、驗 $A^k=I$）。"
+    },
+    "kinds": [
+     "autumn-midterm"
+    ]
+   },
+   {
+    "id": "D",
+    "name": {
+     "en": "True/false about invariant subspaces (2025 Q1(d) template)",
+     "zh-Hans": "关于不变子空间的判断题（2025 Q1(d) 模板）",
+     "zh-Hant": "關於不變子空間的判斷題（2025 Q1(d) 模板）"
+    },
+    "stars": 4,
+    "years": [
+     "2025 Q1(d)"
+    ],
+    "drills": [
+     "Sheet 2 Q2/Q5/Q8"
+    ],
+    "likelihood": {
+     "en": "2025's new examiner pattern; 'no marks for bare true/false' is explicit.",
+     "zh-Hans": "2025 年新出题模式；卷面明言“光写判断不给分”。",
+     "zh-Hant": "2025 年新出題模式；卷面明言“光寫判斷不給分”。"
+    },
+    "slot": {
+     "en": "Part of a big question, 10 marks per item",
+     "zh-Hans": "大题内小问，每项 10 分",
+     "zh-Hant": "大題內小問，每項 10 分"
+    },
+    "skeleton": {
+     "en": "Four-part answer: (1) verdict; (2) name the theorem; (3) shortest complete argument (exclusion: $c_T$ has no degree-k factor ⇒ no k-dim invariant subspace; construction: triangularisation / $\\ker f(T)$ / primary decomposition); (4) conclude. A cited theorem + a verified example is the marks pattern.",
+     "zh-Hans": "四段式作答：(1) 结论；(2) 点名定理；(3) 最短完整论证（排除：$c_T$ 无 k 次因子 ⇒ 无 k 维不变子空间；构造：三角化 / $\\ker f(T)$ / Primary Decomposition）；(4) 回扣结论。引用定理 + 验证过的例子是给分模式。",
+     "zh-Hant": "四段式作答：(1) 結論；(2) 點名定理；(3) 最短完整論證（排除：$c_T$ 無 k 次因子 ⇒ 無 k 維不變子空間；構造：三角化 / $\\ker f(T)$ / Primary Decomposition）；(4) 回扣結論。引用定理 + 驗證過的例子是給分模式。"
+    },
+    "kinds": [
+     "autumn-midterm"
+    ]
+   },
+   {
+    "id": "E",
+    "name": {
+     "en": "'mT = cT ⇔ cyclic vector' proof chain",
+     "zh-Hans": "“mT = cT ⇔ 存在循环向量”证明链",
+     "zh-Hant": "“mT = cT ⇔ 存在循環向量”證明鏈"
+    },
+    "stars": 4,
+    "years": [
+     "2023 Q3"
+    ],
+    "drills": [
+     "Sheet 2 Q6"
+    ],
+    "likelihood": {
+     "en": "2023's 45-mark centrepiece; the chain is reusable.",
+     "zh-Hans": "2023 年 45 分主菜；链条可复用。",
+     "zh-Hant": "2023 年 45 分主菜；鏈條可複用。"
+    },
+    "slot": {
+     "en": "Final proof question, 30–45 marks",
+     "zh-Hans": "压轴证明，30–45 分",
+     "zh-Hant": "壓軸證明，30–45 分"
+    },
+    "skeleton": {
+     "en": "Cyclic ⇒ m=c (compare degrees via $v, Tv, T^2v,\\ldots$); $m\\ne c$ ⇒ any $v$ generates a proper non-trivial invariant cyclic subspace; irreducible $c_T$ ⇒ companion matrix has NO non-trivial invariant subspace (over $\\mathbb{F}_{3^2}$: dim V = 1 over the extension). Variants: replace $\\mathbb{F}_{3^2}$ by $\\mathbb{F}_{2^3}$ / $\\mathbb{F}_{4^2}$.",
+     "zh-Hans": "循环 ⇒ m=c（用 $v,Tv,T^2v,\\ldots$ 比较次数）；$m\\ne c$ ⇒ 任意 $v$ 生成非平凡真不变循环子空间；$c_T$ 不可约 ⇒ 伴随矩阵无非平凡不变子空间（在 $\\mathbb{F}_{3^2}$ 上 dim V = 1）。变体：把 $\\mathbb{F}_{3^2}$ 换成 $\\mathbb{F}_{2^3}$ / $\\mathbb{F}_{4^2}$。",
+     "zh-Hant": "循環 ⇒ m=c（用 $v,Tv,T^2v,\\ldots$ 比較次數）；$m\\ne c$ ⇒ 任意 $v$ 生成非平凡真不變循環子空間；$c_T$ 不可約 ⇒ 伴隨矩陣無非平凡不變子空間（在 $\\mathbb{F}_{3^2}$ 上 dim V = 1）。變體：把 $\\mathbb{F}_{3^2}$ 換成 $\\mathbb{F}_{2^3}$ / $\\mathbb{F}_{4^2}$。"
+    },
+    "kinds": [
+     "autumn-midterm"
+    ]
+   },
+   {
+    "id": "F",
+    "name": {
+     "en": "Kernels chain and generalised eigenspaces",
+     "zh-Hans": "核的链与广义特征空间",
+     "zh-Hant": "核的鏈與廣義特徵空間"
+    },
+    "stars": 3.5,
+    "years": [
+     "2024 Q3"
+    ],
+    "drills": [
+     "Sheet 4 Q5/Q6"
+    ],
+    "likelihood": {
+     "en": "2024 pattern; bridges to primary decomposition.",
+     "zh-Hans": "2024 年模式；衔接 Primary Decomposition。",
+     "zh-Hant": "2024 年模式；銜接 Primary Decomposition。"
+    },
+    "slot": {
+     "en": "Mid/late question, 10–15 marks",
+     "zh-Hans": "中后段，10–15 分",
+     "zh-Hant": "中後段，10–15 分"
+    },
+    "skeleton": {
+     "en": "$\\ker T \\subseteq \\ker T^2 \\subseteq \\cdots$; once equal, forever equal ($v\\in\\ker T^{k+2} \\Rightarrow Tv \\in \\ker T^{k+1} = \\ker T^k \\Rightarrow v \\in \\ker T^{k+1}$). For eigenvalue λ: $\\ker(T-\\lambda) \\ne \\ker(T-\\lambda)^2 \\iff$ defective; exponent in $m_T$ ≥ 2.",
+     "zh-Hans": "$\\ker T\\subseteq\\ker T^2\\subseteq\\cdots$；一旦相等永远相等（$v\\in\\ker T^{k+2}\\Rightarrow Tv\\in\\ker T^{k+1}=\\ker T^k\\Rightarrow v\\in\\ker T^{k+1}$）。对特征值 λ：$\\ker(T-\\lambda)\\ne\\ker(T-\\lambda)^2\\iff$ 亏损；$m_T$ 中指数 ≥ 2。",
+     "zh-Hant": "$\\ker T\\subseteq\\ker T^2\\subseteq\\cdots$；一旦相等永遠相等（$v\\in\\ker T^{k+2}\\Rightarrow Tv\\in\\ker T^{k+1}=\\ker T^k\\Rightarrow v\\in\\ker T^{k+1}$）。對特徵值 λ：$\\ker(T-\\lambda)\\ne\\ker(T-\\lambda)^2\\iff$ 虧損；$m_T$ 中指數 ≥ 2。"
+    },
+    "kinds": [
+     "autumn-midterm"
+    ]
+   },
+   {
+    "id": "G",
+    "name": {
+     "en": "Commuting operators and simultaneous triangularisation",
+     "zh-Hans": "交换算子与同时三角化",
+     "zh-Hant": "交換算子與同時三角化"
+    },
+    "stars": 4,
+    "years": [
+     "2025 Q2"
+    ],
+    "drills": [
+     "Sheet 4 Q1(d)"
+    ],
+    "likelihood": {
+     "en": "First examined 2025; natural follow-up under a group-theory-flavoured examiner.",
+     "zh-Hans": "2025 年首考；群论背景讲师的天然延伸。",
+     "zh-Hant": "2025 年首考；羣論背景講師的天然延伸。"
+    },
+    "slot": {
+     "en": "Q2, 50 marks (2025)",
+     "zh-Hans": "Q2，50 分（2025 年）",
+     "zh-Hant": "Q2，50 分（2025 年）"
+    },
+    "skeleton": {
+     "en": "Five steps: $ST=TS$ ⇒ $E_\\lambda(T)$ and $\\ker f(T)$ are $S$-invariant ⇒ common eigenvector $v_1$ ⇒ $W=\\mathrm{Sp}(v_1)$ invariant for both ⇒ quotient maps still commute, induct ⇒ basis $B$ simultaneously triangularises. Computation: eigenspace of the smaller dimension first, find S-eigenvector inside it.",
+     "zh-Hans": "五步：$ST=TS$ ⇒ $E_\\lambda(T)$ 与 $\\ker f(T)$ 均为 $S$-不变 ⇒ 取公共特征向量 $v_1$ ⇒ $W=\\mathrm{Sp}(v_1)$ 对两者不变 ⇒ 商映射仍交换，归纳 ⇒ 基 $B$ 同时三角化。计算：先取维数较小的特征空间，在其中找 S 的特征向量。",
+     "zh-Hant": "五步：$ST=TS$ ⇒ $E_\\lambda(T)$ 與 $\\ker f(T)$ 均爲 $S$-不變 ⇒ 取公共特徵向量 $v_1$ ⇒ $W=\\mathrm{Sp}(v_1)$ 對兩者不變 ⇒ 商映射仍交換，歸納 ⇒ 基 $B$ 同時三角化。計算：先取維數較小的特徵空間，在其中找 S 的特徵向量。"
+    },
+    "kinds": [
+     "autumn-midterm"
+    ]
+   },
+   {
+    "id": "H",
+    "name": {
+     "en": "Computing a triangularising basis P",
+     "zh-Hans": "求三角化基 P",
+     "zh-Hant": "求三角化基 P"
+    },
+    "stars": 3.5,
+    "years": [
+     "Sheet 2 Q7"
+    ],
+    "drills": [
+     "Sheet 2 Q7"
+    ],
+    "likelihood": {
+     "en": "Drilled on sheets; computation of the proof algorithm.",
+     "zh-Hans": "习题集重点训练；把证明变成计算。",
+     "zh-Hant": "習題集重點訓練；把證明變成計算。"
+    },
+    "slot": {
+     "en": "Mid question, 10–15 marks",
+     "zh-Hans": "卷中，10–15 分",
+     "zh-Hant": "卷中，10–15 分"
+    },
+    "skeleton": {
+     "en": "Eigenvector $v_1$ → extend to basis → $[T] = \\begin{pmatrix}\\lambda_1 & *\\\\ 0 & A'\\end{pmatrix}$ → recurse on $A'$ (find eigenvector of the quotient, lift back) → columns of P in reverse order of lifting.",
+     "zh-Hans": "特征向量 $v_1$ → 扩充成基 → $[T]=\\begin{pmatrix}\\lambda_1&*\\\\0&A'\\end{pmatrix}$ → 对 $A'$ 递归（求商空间特征向量再提升）→ P 的列按提升逆序排列。",
+     "zh-Hant": "特徵向量 $v_1$ → 擴充成基 → $[T]=\\begin{pmatrix}\\lambda_1&*\\\\0&A'\\end{pmatrix}$ → 對 $A'$ 遞歸（求商空間特徵向量再提升）→ P 的列按提升逆序排列。"
+    },
+    "kinds": [
+     "autumn-midterm"
+    ]
+   },
+   {
+    "id": "I",
+    "name": {
+     "en": "Primary decomposition concrete computation",
+     "zh-Hans": "Primary Decomposition 具体计算",
+     "zh-Hant": "Primary Decomposition 具體計算"
+    },
+    "stars": 4.5,
+    "years": [
+     "2025 Q1(d)(ii)",
+     "Sheet 4 Q5/Q6"
+    ],
+    "drills": [
+     "Sheet 4 Q5",
+     "Sheet 4 Q6"
+    ],
+    "likelihood": {
+     "en": "Exactly Week 5 content; 2025 examined it; new notes renumber it Prop 11.4.",
+     "zh-Hans": "恰为 Week 5 内容；2025 年已考；新讲义改编号 Prop 11.4。",
+     "zh-Hant": "恰爲 Week 5 內容；2025 年已考；新講義改編號 Prop 11.4。"
+    },
+    "slot": {
+     "en": "Late question part, 10–15 marks",
+     "zh-Hans": "后段小问，10–15 分",
+     "zh-Hant": "後段小問，10–15 分"
+    },
+    "skeleton": {
+     "en": "Factor $m_T$ into coprime powers $g_i^{k_i}$; $V_i = \\ker g_i(T)^{k_i}$; $\\dim V_i = k_i \\deg g_i$ (verify against $c_T$); basis of each $V_i$ from $\\ker g_i(T)^{k_i}$; concatenate for the block-diagonal basis.",
+     "zh-Hans": "把 $m_T$ 分解为互素幂 $g_i^{k_i}$；$V_i=\\ker g_i(T)^{k_i}$；$\\dim V_i=k_i\\deg g_i$（与 $c_T$ 核对）；从 $\\ker g_i(T)^{k_i}$ 取各 $V_i$ 的基；拼接得分块对角基。",
+     "zh-Hant": "把 $m_T$ 分解爲互素冪 $g_i^{k_i}$；$V_i=\\ker g_i(T)^{k_i}$；$\\dim V_i=k_i\\deg g_i$（與 $c_T$ 覈對）；從 $\\ker g_i(T)^{k_i}$ 取各 $V_i$ 的基；拼接得分塊對角基。"
+    },
+    "kinds": [
+     "autumn-midterm"
+    ]
+   },
+   {
+    "id": "J",
+    "name": {
+     "en": "Direct sums & quotient space basics",
+     "zh-Hans": "直和与商空间基础证明",
+     "zh-Hant": "直和與商空間基礎證明"
+    },
+    "stars": 3.5,
+    "years": [
+     "Sheet 2 Q1–Q3"
+    ],
+    "drills": [
+     "Sheet 2 Q1–Q3"
+    ],
+    "likelihood": {
+     "en": "Sheet-heavy; feeds the proof questions.",
+     "zh-Hans": "习题集密集；为证明题供弹药。",
+     "zh-Hant": "習題集密集；爲證明題供彈藥。"
+    },
+    "slot": {
+     "en": "Proof components",
+     "zh-Hans": "证明题组件",
+     "zh-Hant": "證明題組件"
+    },
+    "skeleton": {
+     "en": "Direct-sum criteria: $V=\\sum V_i$, each $V_i \\cap \\sum_{j\\ne i}V_j = 0$ (pairwise is NOT enough for $k\\ge3$); $\\dim V/W = \\dim V - \\dim W$; basis lemma: $\\{w_i\\}$ basis of W plus lifts $\\{v_j\\}$ gives basis of V.",
+     "zh-Hans": "直和判据：$V=\\sum V_i$ 且每个 $V_i\\cap\\sum_{j\\ne i}V_j=0$（$k\\ge3$ 时两两相交为零不够）；$\\dim V/W=\\dim V-\\dim W$；基引理：W 的基 $\\{w_i\\}$ 加提升 $\\{v_j\\}$ 给出 V 的基。",
+     "zh-Hant": "直和判據：$V=\\sum V_i$ 且每個 $V_i\\cap\\sum_{j\\ne i}V_j=0$（$k\\ge3$ 時兩兩相交爲零不夠）；$\\dim V/W=\\dim V-\\dim W$；基引理：W 的基 $\\{w_i\\}$ 加提升 $\\{v_j\\}$ 給出 V 的基。"
+    },
+    "kinds": [
+     "autumn-midterm"
+    ]
+   }
+  ],
+  "mock_template": {
+   "slots": [
+    {
+     "qno": "Q1",
+     "format": "A",
+     "note": {
+      "en": "Fp companion-matrix opener",
+      "zh-Hans": "Fp 伴随矩阵开局",
+      "zh-Hant": "Fp 伴隨矩陣開局"
+     }
+    },
+    {
+     "qno": "Q2",
+     "format": "C",
+     "note": {
+      "en": "Minimal-polynomial enumeration",
+      "zh-Hans": "最小多项式枚举",
+      "zh-Hant": "最小多項式枚舉"
+     }
+    },
+    {
+     "qno": "Q3",
+     "format": "E",
+     "note": {
+      "en": "Invariant-subspace proof",
+      "zh-Hans": "不变子空间证明",
+      "zh-Hant": "不變子空間證明"
+     }
+    }
+   ],
+   "duration_min": 90,
+   "source": {
+    "en": "Follows the 2023–2025 shape (100 marks); awaiting first Zordan paper.",
+    "zh-Hans": "沿用 2023–2025 形态（100 分）；等待首份 Zordan 试卷验证。",
+    "zh-Hant": "沿用 2023–2025 形態（100 分）；等待首份 Zordan 試卷驗證。"
+   }
+  },
+  "trends": {
+   "summary": {
+    "en": "Three years of 100-mark papers: question counts 3 → 4 → 2, with single questions growing heavier (2025 had two 50-mark questions). Every year contains: (1) an Fp matrix/polynomial computation; (2) minimal polynomial with $A^k=I$-style enumeration; (3) invariant subspaces; (4) at least one proof worth 35–50 marks, placed last. True/false items explicitly award nothing for bare verdicts (2024, 2025). 2025 first examined triangularisation (including simultaneous) and primary decomposition; Jordan form has never appeared in a midterm. The examiner changed to Michele Zordan for 2026 — treat patterns as 【推断】.",
+    "zh-Hans": "三份 100 分试卷：题数 3 → 4 → 2，单题分值越来越大（2025 年仅两道 50 分大题）。每年必含：(1) Fp 上矩阵/多项式计算；(2) 最小多项式与 $A^k=I$ 型枚举；(3) 不变子空间；(4) 至少一道 35–50 分证明题压轴。判断题明文“只写结论不给分”（2024、2025）。2025 年首考三角化（含同时三角化）与 Primary Decomposition；Jordan 形期中从未出现。2026 年更换出题人为 Michele Zordan——规律按【推断】对待。",
+    "zh-Hant": "三份 100 分試卷：題數 3 → 4 → 2，單題分值越來越大（2025 年僅兩道 50 分大題）。每年必含：(1) Fp 上矩陣/多項式計算；(2) 最小多項式與 $A^k=I$ 型枚舉；(3) 不變子空間；(4) 至少一道 35–50 分證明題壓軸。判斷題明文“只寫結論不給分”（2024、2025）。2025 年首考三角化（含同時三角化）與 Primary Decomposition；Jordan 形期中從未出現。2026 年更換出題人爲 Michele Zordan——規律按【推斷】對待。"
+   },
+   "yearly": [
+    {
+     "year": 2023,
+     "rows": [
+      [
+       "Q1",
+       "30",
+       "3×3 companion matrix over Fp: char poly, invertible/diagonalisable primes",
+       "A",
+       "—"
+      ],
+      [
+       "Q2",
+       "25",
+       "A∈M₃(R), A⁴=I: list all minimal polynomials + examples",
+       "C",
+       "—"
+      ],
+      [
+       "Q3",
+       "45",
+       "Invariant subspaces; cyclic ⇒ m=c; m≠c ⇒ proper invariant subspace; irreducible c",
+       "E",
+       "—"
+      ]
+     ]
+    },
+    {
+     "year": 2024,
+     "rows": [
+      [
+       "Q1",
+       "30",
+       "Companion matrix over Fp (invertible p=3 nuance vs diagonalisable)",
+       "A",
+       "—"
+      ],
+      [
+       "Q2",
+       "25",
+       "F₂: minimal polynomials with A⁴=I; irreducible quartics",
+       "C",
+       "B"
+      ],
+      [
+       "Q3",
+       "20",
+       "Kernels chain, generalised eigenspaces",
+       "F",
+       "—"
+      ],
+      [
+       "Q4",
+       "25",
+       "Irreducibility over Fp[x]; true/false with justification",
+       "B",
+       "D"
+      ]
+     ]
+    },
+    {
+     "year": 2025,
+     "rows": [
+      [
+       "Q1",
+       "50",
+       "F₃ irreducibles; companion matrix; invariant-subspace true/false; primary decomposition dims",
+       "A",
+       "B/D/I"
+      ],
+      [
+       "Q2",
+       "50",
+       "Simultaneous triangularisation of commuting matrices (proof + computation)",
+       "G",
+       "H"
+      ]
+     ]
+    }
+   ],
+   "chapter_share": [
+    {
+     "label": {
+      "en": "Weeks 1–3 foundations",
+      "zh-Hans": "Week 1–3 基础",
+      "zh-Hant": "Week 1–3 基礎"
+     },
+     "share": 0.25
+    },
+    {
+     "label": {
+      "en": "Week 4 eigen/triangularisation",
+      "zh-Hans": "Week 4 特征值/三角化",
+      "zh-Hant": "Week 4 特徵值/三角化"
+     },
+     "share": 0.35
+    },
+    {
+     "label": {
+      "en": "Week 5 minimal poly / primary",
+      "zh-Hans": "Week 5 最小多项式/Primary",
+      "zh-Hant": "Week 5 最小多項式/Primary"
+     },
+     "share": 0.35
+    },
+    {
+     "label": {
+      "en": "Week 6 Jordan (≤10%)",
+      "zh-Hans": "Week 6 Jordan（≤10%）",
+      "zh-Hant": "Week 6 Jordan（≤10%）"
+     },
+     "share": 0.05
+    }
+   ]
+  },
+  "kind_meta": {
+   "autumn-midterm": {
+    "trends": {
+     "summary": {
+      "en": "Three years of 100-mark papers: question counts 3 → 4 → 2, with single questions growing heavier (2025 had two 50-mark questions). Every year contains: (1) an Fp matrix/polynomial computation; (2) minimal polynomial with $A^k=I$-style enumeration; (3) invariant subspaces; (4) at least one proof worth 35–50 marks, placed last. True/false items explicitly award nothing for bare verdicts (2024, 2025). 2025 first examined triangularisation (including simultaneous) and primary decomposition; Jordan form has never appeared in a midterm. The examiner changed to Michele Zordan for 2026 — treat patterns as 【推断】.",
+      "zh-Hans": "三份 100 分试卷：题数 3 → 4 → 2，单题分值越来越大（2025 年仅两道 50 分大题）。每年必含：(1) Fp 上矩阵/多项式计算；(2) 最小多项式与 $A^k=I$ 型枚举；(3) 不变子空间；(4) 至少一道 35–50 分证明题压轴。判断题明文“只写结论不给分”（2024、2025）。2025 年首考三角化（含同时三角化）与 Primary Decomposition；Jordan 形期中从未出现。2026 年更换出题人为 Michele Zordan——规律按【推断】对待。",
+      "zh-Hant": "三份 100 分試卷：題數 3 → 4 → 2，單題分值越來越大（2025 年僅兩道 50 分大題）。每年必含：(1) Fp 上矩陣/多項式計算；(2) 最小多項式與 $A^k=I$ 型枚舉；(3) 不變子空間；(4) 至少一道 35–50 分證明題壓軸。判斷題明文“只寫結論不給分”（2024、2025）。2025 年首考三角化（含同時三角化）與 Primary Decomposition；Jordan 形期中從未出現。2026 年更換出題人爲 Michele Zordan——規律按【推斷】對待。"
+     },
+     "yearly": [
+      {
+       "year": 2023,
+       "rows": [
+        [
+         "Q1",
+         "30",
+         "3×3 companion matrix over Fp: char poly, invertible/diagonalisable primes",
+         "A",
+         "—"
+        ],
+        [
+         "Q2",
+         "25",
+         "A∈M₃(R), A⁴=I: list all minimal polynomials + examples",
+         "C",
+         "—"
+        ],
+        [
+         "Q3",
+         "45",
+         "Invariant subspaces; cyclic ⇒ m=c; m≠c ⇒ proper invariant subspace; irreducible c",
+         "E",
+         "—"
+        ]
+       ]
+      },
+      {
+       "year": 2024,
+       "rows": [
+        [
+         "Q1",
+         "30",
+         "Companion matrix over Fp (invertible p=3 nuance vs diagonalisable)",
+         "A",
+         "—"
+        ],
+        [
+         "Q2",
+         "25",
+         "F₂: minimal polynomials with A⁴=I; irreducible quartics",
+         "C",
+         "B"
+        ],
+        [
+         "Q3",
+         "20",
+         "Kernels chain, generalised eigenspaces",
+         "F",
+         "—"
+        ],
+        [
+         "Q4",
+         "25",
+         "Irreducibility over Fp[x]; true/false with justification",
+         "B",
+         "D"
+        ]
+       ]
+      },
+      {
+       "year": 2025,
+       "rows": [
+        [
+         "Q1",
+         "50",
+         "F₃ irreducibles; companion matrix; invariant-subspace true/false; primary decomposition dims",
+         "A",
+         "B/D/I"
+        ],
+        [
+         "Q2",
+         "50",
+         "Simultaneous triangularisation of commuting matrices (proof + computation)",
+         "G",
+         "H"
+        ]
+       ]
+      }
+     ],
+     "chapter_share": [
+      {
+       "label": {
+        "en": "Weeks 1–3 foundations",
+        "zh-Hans": "Week 1–3 基础",
+        "zh-Hant": "Week 1–3 基礎"
+       },
+       "share": 0.25
+      },
+      {
+       "label": {
+        "en": "Week 4 eigen/triangularisation",
+        "zh-Hans": "Week 4 特征值/三角化",
+        "zh-Hant": "Week 4 特徵值/三角化"
+       },
+       "share": 0.35
+      },
+      {
+       "label": {
+        "en": "Week 5 minimal poly / primary",
+        "zh-Hans": "Week 5 最小多项式/Primary",
+        "zh-Hant": "Week 5 最小多項式/Primary"
+       },
+       "share": 0.35
+      },
+      {
+       "label": {
+        "en": "Week 6 Jordan (≤10%)",
+        "zh-Hans": "Week 6 Jordan（≤10%）",
+        "zh-Hant": "Week 6 Jordan（≤10%）"
+       },
+       "share": 0.05
+      }
+     ]
+    },
+    "order": {
+     "en": "Three years of 100-mark papers: question counts 3 → 4 → 2, with single questions growing heavier (2025 had two 50-mark questions). Every year contains: (1) an Fp matrix/polynomial computation; (2) minimal polynomial with $A^k=I$-style enumeration; (3) invariant subspaces; (4) at least one proof worth 35–50 marks, placed last. True/false items explicitly award nothing for bare verdicts (2024, 2025). 2025 first examined triangularisation (including simultaneous) and primary decomposition; Jordan form has never appeared in a midterm. The examiner changed to Michele Zordan for 2026 — treat patterns as 【推断】.",
+     "zh-Hans": "三份 100 分试卷：题数 3 → 4 → 2，单题分值越来越大（2025 年仅两道 50 分大题）。每年必含：(1) Fp 上矩阵/多项式计算；(2) 最小多项式与 $A^k=I$ 型枚举；(3) 不变子空间；(4) 至少一道 35–50 分证明题压轴。判断题明文“只写结论不给分”（2024、2025）。2025 年首考三角化（含同时三角化）与 Primary Decomposition；Jordan 形期中从未出现。2026 年更换出题人为 Michele Zordan——规律按【推断】对待。",
+     "zh-Hant": "三份 100 分試卷：題數 3 → 4 → 2，單題分值越來越大（2025 年僅兩道 50 分大題）。每年必含：(1) Fp 上矩陣/多項式計算；(2) 最小多項式與 $A^k=I$ 型枚舉；(3) 不變子空間；(4) 至少一道 35–50 分證明題壓軸。判斷題明文“只寫結論不給分”（2024、2025）。2025 年首考三角化（含同時三角化）與 Primary Decomposition；Jordan 形期中從未出現。2026 年更換出題人爲 Michele Zordan——規律按【推斷】對待。"
+    },
+    "mock_template": {
+     "slots": [
+      {
+       "qno": "Q1",
+       "format": "A",
+       "note": {
+        "en": "Fp companion-matrix opener",
+        "zh-Hans": "Fp 伴随矩阵开局",
+        "zh-Hant": "Fp 伴隨矩陣開局"
+       }
+      },
+      {
+       "qno": "Q2",
+       "format": "C",
+       "note": {
+        "en": "Minimal-polynomial enumeration",
+        "zh-Hans": "最小多项式枚举",
+        "zh-Hant": "最小多項式枚舉"
+       }
+      },
+      {
+       "qno": "Q3",
+       "format": "E",
+       "note": {
+        "en": "Invariant-subspace proof",
+        "zh-Hans": "不变子空间证明",
+        "zh-Hant": "不變子空間證明"
+       }
+      }
+     ],
+     "duration_min": 90,
+     "source": {
+      "en": "Follows the 2023–2025 shape (100 marks); awaiting first Zordan paper.",
+      "zh-Hans": "沿用 2023–2025 形态（100 分）；等待首份 Zordan 试卷验证。",
+      "zh-Hant": "沿用 2023–2025 形態（100 分）；等待首份 Zordan 試卷驗證。"
+     }
+    },
+    "lecturers": [
+     {
+      "name": "Michele Zordan",
+      "name_display": {
+       "en": "Dr Michele Zordan（今年主讲）",
+       "zh-Hans": "Dr Michele Zordan（今年主讲）",
+       "zh-Hant": "Dr Michele Zordan（今年主講）"
+      },
+      "role": {
+       "en": "Senior Teaching Fellow, Pure Mathematics Section, Imperial (this year's lecturer)",
+       "zh-Hans": "帝国理工纯数学组 Senior Teaching Fellow（今年主讲）",
+       "zh-Hant": "帝國理工純數學組 Senior Teaching Fellow（今年主講）"
+      },
+      "research": {
+       "en": "PhD Bielefeld 2016 (advisor Christopher Voll; thesis on representation zeta functions of special linear groups); MSc/BA Padua, Leiden. Research: asymptotic group theory, representation theory. Previously taught Calculus / Real Vector Calculus / Algebraic Geometry at Auckland; TA at KU Leuven and Bielefeld.",
+       "zh-Hans": "博士 Bielefeld 2016（导师 C. Voll，论文关于特殊线性群的表示 zeta 函数）；本硕 Padua、Leiden。研究方向：渐近群论、表示论。曾在 Auckland 讲授 Calculus、Real Vector Calculus、Algebraic Geometry；在 KU Leuven、Bielefeld 任助教。",
+       "zh-Hant": "博士 Bielefeld 2016（導師 C. Voll，論文關於特殊線性羣的表示 zeta 函數）；本碩 Padua、Leiden。研究方向：漸近羣論、表示論。曾在 Auckland 講授 Calculus、Real Vector Calculus、Algebraic Geometry；在 KU Leuven、Bielefeld 任助教。"
+      },
+      "habits": [
+       {
+        "en": "【推断】 His research works directly with GL_n and SL_n over finite quotients — the Fp-computation template (companion matrices over Fp) is likely to survive the change of examiner.",
+        "zh-Hans": "【推断】其研究直接涉及有限商上的 GLn、SLn——Fp 计算模板（Fp 上伴随矩阵）大概率在新讲师手中延续。",
+        "zh-Hant": "【推斷】其研究直接涉及有限商上的 GLn、SLn——Fp 計算模板（Fp 上伴隨矩陣）大概率在新講師手中延續。"
+       },
+       {
+        "en": "【推断】 New examiners commonly restructure question counts; the professor himself flagged reduced reliability of past-paper patterns.",
+        "zh-Hans": "【推断】新任讲师常会调整题量与结构；教授本人也提示了往年模式的可靠性下降。",
+        "zh-Hant": "【推斷】新任講師常會調整題量與結構；教授本人也提示了往年模式的可靠性下降。"
+       },
+       {
+        "en": "【网络】 No public linear-algebra exam papers authored by Zordan were found — treat module-specific predictions as inference, not fact.",
+        "zh-Hans": "【网络】未找到 Zordan 本人出过的线代试卷公开版本——本模块的出题预测均为推断而非事实。",
+        "zh-Hant": "【網絡】未找到 Zordan 本人出過的線代試卷公開版本——本模塊的出題預測均爲推斷而非事實。"
+       }
+      ],
+      "source": {
+       "en": "Web: Imperial Pure Maths people page; Algebra & Combinatorics research page; personal homepage; Mathematics Genealogy Project. Uploaded guide's §6.",
+       "zh-Hans": "网络：Imperial 纯数学人员页、代数与组合研究页、个人主页、Mathematics Genealogy Project；上传指南第 6 节。",
+       "zh-Hant": "網絡：Imperial 純數學人員頁、代數與組合研究頁、個人主頁、Mathematics Genealogy Project；上傳指南第 6 節。"
+      }
+     },
+     {
+      "name": "Martin W. Liebeck",
+      "name_display": {
+       "en": "Prof. Martin W. Liebeck（往年出题人）",
+       "zh-Hans": "Prof. Martin W. Liebeck（往年出题人）",
+       "zh-Hant": "Prof. Martin W. Liebeck（往年出題人）"
+      },
+      "role": {
+       "en": "Professor of Pure Mathematics, former Head of Section (previous years' examiner)",
+       "zh-Hans": "纯数学教授、曾任组主任（往年出题人）",
+       "zh-Hant": "純數學教授、曾任組主任（往年出題人）"
+      },
+      "research": {
+       "en": "Algebraic combinatorics and graph theory, asymptotic group theory, representation theory, finite simple groups and algebraic groups, probabilistic group theory.",
+       "zh-Hans": "代数组合与图论、渐近群论、表示论、有限单群与代数群、概率群论。",
+       "zh-Hant": "代數組合與圖論、漸近羣論、表示論、有限單羣與代數羣、概率羣論。"
+      },
+      "habits": [
+       {
+        "en": "【事实】 2023–2025 template: Q1 = Fp companion-matrix computation; middle = existence/construction/true-false; heaviest proof last.",
+        "zh-Hans": "【事实】2023–2025 模板：Q1 = Fp 伴随矩阵计算；中段 = 存在性/构造/判断题；最重的证明题压轴。",
+        "zh-Hant": "【事實】2023–2025 模板：Q1 = Fp 伴隨矩陣計算；中段 = 存在性/構造/判斷題；最重的證明題壓軸。"
+       },
+       {
+        "en": "【事实】 Papers state 'no marks for just writing true or false' (2024, 2025); 2025 awarded 10 marks per true/false item.",
+        "zh-Hans": "【事实】卷面明文“只写 True/False 不给分”（2024、2025）；2025 年每个判断小问 10 分。",
+        "zh-Hant": "【事實】卷面明文“只寫 True/False 不給分”（2024、2025）；2025 年每個判斷小問 10 分。"
+       },
+       {
+        "en": "【事实】 True/false over Fp and 'list all possible minimal polynomials' appeared in all three years.",
+        "zh-Hans": "【事实】Fp 上判断题与“列出所有可能的最小多项式”三年都出现。",
+        "zh-Hant": "【事實】Fp 上判斷題與“列出所有可能的最小多項式”三年都出現。"
+       }
+      ],
+      "source": {
+       "en": "Web: Imperial research pages; uploaded guide §6. Paper facts from uploaded 2023–2025 papers.",
+       "zh-Hans": "网络：Imperial 研究页；上传指南第 6 节。试卷事实来自上传的 2023–2025 真卷。",
+       "zh-Hant": "網絡：Imperial 研究頁；上傳指南第 6 節。試卷事實來自上傳的 2023–2025 真卷。"
+      }
+     }
+    ]
+   }
+  },
+  "notes": [],
+  "drill_banner": {
+   "default": {
+    "en": "**Grind this format.** Memorise the solution template first, then work every question below under time pressure; finish by self-marking against the scheme and re-reading the pitfalls.",
+    "zh-Hans": "**刷透本题型。** 先背熟解题模板，再限时刷完下列每一题；最后对照评分标准自评，并复读一遍易错点。",
+    "zh-Hant": "**刷透本題型。** 先背熟解題模板，再限時刷完下列每一題；最後對照評分標準自評，並復讀一遍易錯點。"
+   }
+  }
+ },
+ "questions": []
+}

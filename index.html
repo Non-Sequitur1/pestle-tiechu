@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>铁杵 Pestle | 只要功夫深，题海磨成针</title>
+    <link rel="stylesheet" href="./assets/style.css">
+    <meta name="robots" content="index,follow">
+    <meta name="keywords" content="铁杵, Pestle, Tiechu, 题库, 大学试题, 期中复习, 题型归纳, MATH50013">
+    <meta name="description" content="铁杵 · 大学版题海研磨机：题型归纳、高频考点、历年趋势、自编模拟卷。只要功夫深，铁杵磨成针。">
+    <meta property="og:title" content="铁杵 Pestle | 只要功夫深，题海磨成针">
+    <meta property="og:description" content="大学版题海研磨机：题型归纳、高频考点、历年趋势、自编模拟卷。">
+    <script>function toggleDarkMode(){var e=document.body,d=document.head,t=document.getElementById("darkmodebtn");"disabled"===(localStorage.getItem("darkMode")||"disabled")?(e.classList.add("dark-mode"),d.classList.add("dark-mode"),localStorage.setItem("darkMode","enabled"),t.innerText="Light Mode"):(e.classList.remove("dark-mode"),d.classList.remove("dark-mode"),localStorage.setItem("darkMode","disabled"),t.innerText="Dark Mode")}document.addEventListener("DOMContentLoaded",(()=>{const e=localStorage.getItem("darkMode"),d=window.matchMedia("(prefers-color-scheme: dark)").matches;"enabled"===e?(document.body.classList.add("dark-mode"),document.head.classList.add("dark-mode"),document.getElementById("darkmodebtn").innerText="Light Mode"):"disabled"===e?(document.body.classList.remove("dark-mode"),document.head.classList.remove("dark-mode"),document.getElementById("darkmodebtn").innerText="Dark Mode"):d?(document.body.classList.add("dark-mode"),document.head.classList.add("dark-mode"),document.getElementById("darkmodebtn").innerText="Light Mode",localStorage.setItem("darkMode","enabled")):(document.body.classList.remove("dark-mode"),document.head.classList.remove("dark-mode"),document.getElementById("darkmodebtn").innerText="Dark Mode")}));</script>
+</head>
+
+<body>
+    <div id="root">
+        <div class="me-auto ms-auto flex flex-col items-center p-4 pt-3" id="landingPage">
+            <header class="flex w-full items-start" style="position: fixed">
+                <div style="position: fixed; right: 15px; z-index: 9999;">
+                    <select id="langSel" aria-label="language" style="min-width:0">
+                        <option value="zh-Hans">简体中文</option>
+                        <option value="zh-Hant">繁體中文</option>
+                        <option value="en">English</option>
+                    </select>
+                    <button id="darkmodebtn" class="btn-primary" onclick="toggleDarkMode()">Dark Mode</button>
+                </div>
+            </header>
+            <div>
+                <div style="text-align:center;">
+                    <h1><b data-i18n="brand">铁杵</b> <span class="text-neutralVariant">Pestle (Tiechu)</span></h1><br>
+                </div>
+                <h1 style="text-align:center;"><span data-i18n="slogan-a">只要功夫深</span> <em
+                        data-i18n="slogan-b">题海磨成针</em></h1>
+            </div><br>
+            <div class="mt-4" style="text-align:center;">
+                <h2 data-i18n="tagline">大学版题海研磨机：题型归纳 · 高频考点 · 历年趋势 · 自编模拟卷</h2><br>
+                <h2 style="color:orangered" data-i18n="mobile-ok">已全面适配手机 / 平板 / 桌面。</h2>
+            </div>
+            <br>
+            <div class="p-3" style="text-align:center;"><a href="app/index.html"><button class="btn-primary"><h1
+                            data-i18n="cta">开磨！</h1></button></a></div>
+            <br>
+            <div class="mt-8 font-medium text-neutralVariant">
+                <h2 data-i18n="features">功能</h2>
+            </div>
+            <section class="flex w-full justify-evenly pt-5 text-center" style="flex-wrap:wrap; gap:1rem">
+                <div class="flex shrink grow basis-0 flex-col items-center" style="min-width:8rem">
+                    <div class="rounded-full bg-secondary/30 p-2"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                            height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="12" y1="5" x2="12" y2="19"></line>
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                        </svg></div>
+                    <div class="font-medium text-gray-500" data-i18n="feat-1">题型归纳与解题模板</div>
+                </div>
+                <div class="flex shrink grow basis-0 flex-col items-center" style="min-width:8rem">
+                    <div class="rounded-full bg-secondary/30 p-2">★</div>
+                    <div class="font-medium text-gray-500" data-i18n="feat-2">被考概率五星评级</div>
+                </div>
+                <div class="flex shrink grow basis-0 flex-col items-center" style="min-width:8rem">
+                    <div class="rounded-full bg-secondary/30 p-2">📈</div>
+                    <div class="font-medium text-gray-500" data-i18n="feat-3">历年出题趋势</div>
+                </div>
+                <div class="flex shrink grow basis-0 flex-col items-center" style="min-width:8rem">
+                    <div class="rounded-full bg-red-300/30 p-2">📝</div>
+                    <div class="font-medium text-gray-500" data-i18n="feat-4">自编模拟卷</div>
+                </div>
+                <div class="flex shrink grow basis-0 flex-col items-center" style="min-width:8rem">
+                    <div class="rounded-full bg-gray-400/30 p-2"><img src="./assets/anon.svg" alt="anonymous image"></div>
+                    <div class="font-medium text-gray-500" data-i18n="feat-5">无追踪 · 无 Cookie</div>
+                </div>
+            </section>
+            <br>
+        </div>
+
+        <footer class="mt-16 flex flex-col text-center">
+            <p><span data-i18n="credit">伦敦红星软件 出品</span> · London Red Star Software</p>
+            <p class="text-neutralVariant" data-i18n="credit-orig">基于 Mortar &amp; Pestle（public domain）重构</p>
+        </footer>
+    </div>
+    <script src="./assets/i18n.js"></script>
+</body>
+</html>
