@@ -117,6 +117,342 @@
      "zh-Hant": "2025 夏季試卷"
     },
     "date": null
+   },
+   {
+    "id": "LA-S1",
+    "kind": "problem-sheet",
+    "year": null,
+    "date": null,
+    "total_marks": 60,
+    "name": {
+     "en": "Imperial Exercises Sheet 1",
+     "zh-Hans": "帝国理工习题 Sheet 1",
+     "zh-Hant": "帝國理工習題 Sheet 1"
+    }
+   },
+   {
+    "id": "LA-S10",
+    "kind": "problem-sheet",
+    "year": null,
+    "date": null,
+    "total_marks": 72,
+    "name": {
+     "en": "Imperial Exercises Sheet 10",
+     "zh-Hans": "帝国理工习题 Sheet 10",
+     "zh-Hant": "帝國理工習題 Sheet 10"
+    }
+   },
+   {
+    "id": "LA-S2",
+    "kind": "problem-sheet",
+    "year": null,
+    "date": null,
+    "total_marks": 72,
+    "name": {
+     "en": "Imperial Exercises Sheet 2",
+     "zh-Hans": "帝国理工习题 Sheet 2",
+     "zh-Hant": "帝國理工習題 Sheet 2"
+    }
+   },
+   {
+    "id": "LA-S3",
+    "kind": "problem-sheet",
+    "year": null,
+    "date": null,
+    "total_marks": 78,
+    "name": {
+     "en": "Imperial Exercises Sheet 3",
+     "zh-Hans": "帝国理工习题 Sheet 3",
+     "zh-Hant": "帝國理工習題 Sheet 3"
+    }
+   },
+   {
+    "id": "LA-S4",
+    "kind": "problem-sheet",
+    "year": null,
+    "date": null,
+    "total_marks": 66,
+    "name": {
+     "en": "Imperial Exercises Sheet 4",
+     "zh-Hans": "帝国理工习题 Sheet 4",
+     "zh-Hant": "帝國理工習題 Sheet 4"
+    }
+   },
+   {
+    "id": "LA-S5",
+    "kind": "problem-sheet",
+    "year": null,
+    "date": null,
+    "total_marks": 58,
+    "name": {
+     "en": "Imperial Exercises Sheet 5",
+     "zh-Hans": "帝国理工习题 Sheet 5",
+     "zh-Hant": "帝國理工習題 Sheet 5"
+    }
+   },
+   {
+    "id": "LA-S6",
+    "kind": "problem-sheet",
+    "year": null,
+    "date": null,
+    "total_marks": 44,
+    "name": {
+     "en": "Imperial Exercises Sheet 6",
+     "zh-Hans": "帝国理工习题 Sheet 6",
+     "zh-Hant": "帝國理工習題 Sheet 6"
+    }
+   },
+   {
+    "id": "LA-S7",
+    "kind": "problem-sheet",
+    "year": null,
+    "date": null,
+    "total_marks": 52,
+    "name": {
+     "en": "Imperial Exercises Sheet 7",
+     "zh-Hans": "帝国理工习题 Sheet 7",
+     "zh-Hant": "帝國理工習題 Sheet 7"
+    }
+   },
+   {
+    "id": "LA-S8",
+    "kind": "problem-sheet",
+    "year": null,
+    "date": null,
+    "total_marks": 72,
+    "name": {
+     "en": "Imperial Exercises Sheet 8",
+     "zh-Hans": "帝国理工习题 Sheet 8",
+     "zh-Hant": "帝國理工習題 Sheet 8"
+    }
+   },
+   {
+    "id": "LA-S9",
+    "kind": "problem-sheet",
+    "year": null,
+    "date": null,
+    "total_marks": 42,
+    "name": {
+     "en": "Imperial Exercises Sheet 9",
+     "zh-Hans": "帝国理工习题 Sheet 9",
+     "zh-Hant": "帝國理工習題 Sheet 9"
+    }
+   },
+   {
+    "id": "LA-U1",
+    "kind": "problem-sheet",
+    "year": null,
+    "date": null,
+    "total_marks": 20,
+    "name": {
+     "en": "Unseen practice set 1",
+     "zh-Hans": "Unseen 练习集 1",
+     "zh-Hant": "Unseen 練習集 1"
+    }
+   },
+   {
+    "id": "LA-U2",
+    "kind": "problem-sheet",
+    "year": null,
+    "date": null,
+    "total_marks": 20,
+    "name": {
+     "en": "Unseen practice set 2",
+     "zh-Hans": "Unseen 练习集 2",
+     "zh-Hant": "Unseen 練習集 2"
+    }
+   },
+   {
+    "id": "LA-U3",
+    "kind": "problem-sheet",
+    "year": null,
+    "date": null,
+    "total_marks": 20,
+    "name": {
+     "en": "Unseen practice set 3",
+     "zh-Hans": "Unseen 练习集 3",
+     "zh-Hant": "Unseen 練習集 3"
+    }
+   },
+   {
+    "id": "LA-U4",
+    "kind": "problem-sheet",
+    "year": null,
+    "date": null,
+    "total_marks": 20,
+    "name": {
+     "en": "Unseen practice set 4",
+     "zh-Hans": "Unseen 练习集 4",
+     "zh-Hant": "Unseen 練習集 4"
+    }
+   },
+   {
+    "id": "LA-U5",
+    "kind": "problem-sheet",
+    "year": null,
+    "date": null,
+    "total_marks": 20,
+    "name": {
+     "en": "Unseen practice set 5",
+     "zh-Hans": "Unseen 练习集 5",
+     "zh-Hant": "Unseen 練習集 5"
+    }
+   },
+   {
+    "id": "LA-U6",
+    "kind": "problem-sheet",
+    "year": null,
+    "date": null,
+    "total_marks": 20,
+    "name": {
+     "en": "Unseen practice set 6",
+     "zh-Hans": "Unseen 练习集 6",
+     "zh-Hant": "Unseen 練習集 6"
+    }
+   },
+   {
+    "id": "LA-U7",
+    "kind": "problem-sheet",
+    "year": null,
+    "date": null,
+    "total_marks": 20,
+    "name": {
+     "en": "Unseen practice set 7",
+     "zh-Hans": "Unseen 练习集 7",
+     "zh-Hant": "Unseen 練習集 7"
+    }
+   },
+   {
+    "id": "LA-U8",
+    "kind": "problem-sheet",
+    "year": null,
+    "date": null,
+    "total_marks": 20,
+    "name": {
+     "en": "Unseen practice set 8",
+     "zh-Hans": "Unseen 练习集 8",
+     "zh-Hant": "Unseen 練習集 8"
+    }
+   },
+   {
+    "id": "NUS-0809S1",
+    "kind": "problem-sheet",
+    "year": null,
+    "date": null,
+    "total_marks": 100,
+    "name": {
+     "en": "NUS 2008/09 Semester 1 paper",
+     "zh-Hans": "新加坡国大 2008/09 第一学期卷",
+     "zh-Hant": "新加坡國大 2008/09 第一學期卷"
+    }
+   },
+   {
+    "id": "NUS-0809S2",
+    "kind": "problem-sheet",
+    "year": null,
+    "date": null,
+    "total_marks": 120,
+    "name": {
+     "en": "NUS 2008/09 Semester 2 paper",
+     "zh-Hans": "新加坡国大 2008/09 第二学期卷",
+     "zh-Hant": "新加坡國大 2008/09 第二學期卷"
+    }
+   },
+   {
+    "id": "NUS-0910S1",
+    "kind": "problem-sheet",
+    "year": null,
+    "date": null,
+    "total_marks": 115,
+    "name": {
+     "en": "NUS 2009/10 Semester 1 paper",
+     "zh-Hans": "新加坡国大 2009/10 第一学期卷",
+     "zh-Hant": "新加坡國大 2009/10 第一學期卷"
+    }
+   },
+   {
+    "id": "NUS-0910S2",
+    "kind": "problem-sheet",
+    "year": null,
+    "date": null,
+    "total_marks": 120,
+    "name": {
+     "en": "NUS 2009/10 Semester 2 paper",
+     "zh-Hans": "新加坡国大 2009/10 第二学期卷",
+     "zh-Hant": "新加坡國大 2009/10 第二學期卷"
+    }
+   },
+   {
+    "id": "NUS-1011S1",
+    "kind": "problem-sheet",
+    "year": null,
+    "date": null,
+    "total_marks": 100,
+    "name": {
+     "en": "NUS 2010/11 Semester 1 paper",
+     "zh-Hans": "新加坡国大 2010/11 第一学期卷",
+     "zh-Hant": "新加坡國大 2010/11 第一學期卷"
+    }
+   },
+   {
+    "id": "NUS-1011S2",
+    "kind": "problem-sheet",
+    "year": null,
+    "date": null,
+    "total_marks": 100,
+    "name": {
+     "en": "NUS 2010/11 Semester 2 paper",
+     "zh-Hans": "新加坡国大 2010/11 第二学期卷",
+     "zh-Hant": "新加坡國大 2010/11 第二學期卷"
+    }
+   },
+   {
+    "id": "NUS-1112S1",
+    "kind": "problem-sheet",
+    "year": null,
+    "date": null,
+    "total_marks": 100,
+    "name": {
+     "en": "NUS 2011/12 Semester 1 paper",
+     "zh-Hans": "新加坡国大 2011/12 第一学期卷",
+     "zh-Hant": "新加坡國大 2011/12 第一學期卷"
+    }
+   },
+   {
+    "id": "NUS-1112S2",
+    "kind": "problem-sheet",
+    "year": null,
+    "date": null,
+    "total_marks": 100,
+    "name": {
+     "en": "NUS 2011/12 Semester 2 paper",
+     "zh-Hans": "新加坡国大 2011/12 第二学期卷",
+     "zh-Hant": "新加坡國大 2011/12 第二學期卷"
+    }
+   },
+   {
+    "id": "NUS-1213S1",
+    "kind": "problem-sheet",
+    "year": null,
+    "date": null,
+    "total_marks": 72,
+    "name": {
+     "en": "NUS 2012/13 Semester 1 paper",
+     "zh-Hans": "新加坡国大 2012/13 第一学期卷",
+     "zh-Hant": "新加坡國大 2012/13 第一學期卷"
+    }
+   },
+   {
+    "id": "NUS-1213S2",
+    "kind": "problem-sheet",
+    "year": null,
+    "date": null,
+    "total_marks": 120,
+    "name": {
+     "en": "NUS 2012/13 Semester 2 paper",
+     "zh-Hans": "新加坡国大 2012/13 第二学期卷",
+     "zh-Hant": "新加坡國大 2012/13 第二學期卷"
+    }
    }
   ],
   "paper_kinds": [
@@ -290,6 +626,30 @@
      "en": "Week 6: Jordan canonical form (≤10%)",
      "zh-Hans": "Week 6：Jordan 标准形（≤10%）",
      "zh-Hant": "Week 6：Jordan 標準形（≤10%）"
+    }
+   },
+   {
+    "id": "inner-product",
+    "name": {
+     "en": "Inner products: adjoints, projections, spectral theorem",
+     "zh-Hans": "内积：伴随、投影、谱定理",
+     "zh-Hant": "內積：伴隨、投影、譜定理"
+    }
+   },
+   {
+    "id": "bilinear-forms",
+    "name": {
+     "en": "Symmetric bilinear forms and quadratic forms",
+     "zh-Hans": "对称双线性形式与二次型",
+     "zh-Hant": "對稱雙線性形式與二次型"
+    }
+   },
+   {
+    "id": "jordan",
+    "name": {
+     "en": "Jordan canonical form: JCF, powers, Dunford decomposition",
+     "zh-Hans": "Jordan 标准形：JCF、幂、Dunford 分解",
+     "zh-Hant": "Jordan 標準形：JCF、冪、Dunford 分解"
     }
    }
   ],
@@ -470,6 +830,86 @@
     "kinds": [
      "autumn-midterm"
     ]
+   },
+   {
+    "id": "KP-SU-JORDAN",
+    "topic": "jordan",
+    "heat": 5,
+    "years": [
+     "2021 Q2",
+     "2022 Q1",
+     "2024 Q2",
+     "2025 Q1"
+    ],
+    "name": {
+     "en": "Jordan machinery: JCF, powers of blocks, Dunford decomposition",
+     "zh-Hans": "Jordan 机制：JCF、块的幂、Dunford 分解",
+     "zh-Hant": "Jordan 機制：JCF、塊的冪、Dunford 分解"
+    },
+    "detail": {
+     "en": "Summer four-for-four (2021/2022/2024/2025 all have a Jordan-centred question). Must-flows: block size from $\\dim\\ker(A-\\lambda I)^k$; $J_n(\\lambda)=\\lambda I+N$ so $J^r=\\lambda^rI+\\binom r1\\lambda^{r-1}N+\\cdots$; $J_n(1)^r$ splits into blocks of size $\\min(n,r+1)$-pattern; eigenvalue-1-only ⇒ $A\\sim A^r$; Dunford $A=D+N$ from the JCF. Over Fp the JCF depends on how $c_A$ factors — answer per prime (2021 Q2).",
+     "zh-Hans": "夏季四年四中（2021/2022/2024/2025 都有 Jordan 主题大题）。必会流程：块大小由 $\\dim\\ker(A-\\lambda I)^k$；$J_n(\\lambda)=\\lambda I+N$ 故 $J^r=\\lambda^rI+\\binom r1\\lambda^{r-1}N+\\cdots$；$J_n(1)^r$ 按 $\\min(n,r+1)$ 型分裂；特征值全 1 ⇒ $A\\sim A^r$；Dunford $A=D+N$ 从 JCF 直接读。Fp 上 JCF 随 $c_A$ 分解方式而变——按素数分答（2021 Q2）。",
+     "zh-Hant": "夏季四年四中（2021/2022/2024/2025 都有 Jordan 主題大題）。必會流程：塊大小由 $\\dim\\ker(A-\\lambda I)^k$；$J_n(\\lambda)=\\lambda I+N$ 故 $J^r=\\lambda^rI+\\binom r1\\lambda^{r-1}N+\\cdots$；$J_n(1)^r$ 按 $\\min(n,r+1)$ 型分裂；特徵值全 1 ⇒ $A\\sim A^r$；Dunford $A=D+N$ 從 JCF 直接讀。Fp 上 JCF 隨 $c_A$ 分解方式而變——按素數分答（2021 Q2）。"
+    }
+   },
+   {
+    "id": "KP-SU-ADJOINT",
+    "topic": "inner-product",
+    "heat": 5,
+    "years": [
+     "2021 Q3",
+     "2022 Q3",
+     "2025 Q3"
+    ],
+    "name": {
+     "en": "Adjoints and orthogonal projections in exotic inner products",
+     "zh-Hans": "特殊内积下的伴随与正交投影",
+     "zh-Hant": "特殊內積下的伴隨與正交投影"
+    },
+    "detail": {
+     "en": "Three of four summer Q3s. The adjoint is DEFINED by $(Tv,w)=(v,T^*w)$ — in a non-orthonormal basis you must use this, not conjugate-transpose. Recurring instances: $(ST)^*=T^*S^*$ and $(T^*)^{-1}=(T^{-1})^*$ (2021); $\\pi_W^2=\\pi_W$, $\\|\\pi_Wv\\|\\le\\|v\\|$, abstract characterisation via $P^2=P$ + norm bound (2022, 12 分); trace inner product $(A,B)=\\mathrm{tr}(AB^T)$ on $M_n(\\mathbb R)$ with $S(A)=A+A^T$ having eigenvalues 0/1/2 (2025). Spectral theorem for self-adjoint maps: quote precisely.",
+     "zh-Hans": "四份卷中三份的 Q3。伴随由 $(Tv,w)=(v,T^*w)$ 定义——非标准正交基下必须用它而非共轭转置。反复出现：$(ST)^*=T^*S^*$、$(T^*)^{-1}=(T^{-1})^*$（2021）；$\\pi_W^2=\\pi_W$、$\\|\\pi_Wv\\|\\le\\|v\\|$、抽象刻画 $P^2=P$+范数界（2022，12 分）；$M_n(\\mathbb R)$ 上迹内积 $(A,B)=\\mathrm{tr}(AB^T)$ 与 $S(A)=A+A^T$ 特征值 0/1/2（2025）。自伴映射的谱定理要能精确陈述。",
+     "zh-Hant": "四份卷中三份的 Q3。伴隨由 $(Tv,w)=(v,T^*w)$ 定義——非標準正交基下必須用它而非共軛轉置。反覆出現：$(ST)^*=T^*S^*$、$(T^*)^{-1}=(T^{-1})^*$（2021）；$\\pi_W^2=\\pi_W$、$\\|\\pi_Wv\\|\\le\\|v\\|$、抽象刻畫 $P^2=P$+範數界（2022，12 分）；$M_n(\\mathbb R)$ 上跡內積 $(A,B)=\\mathrm{tr}(AB^T)$ 與 $S(A)=A+A^T$ 特徵值 0/1/2（2025）。自伴映射的譜定理要能精確陳述。"
+    }
+   },
+   {
+    "id": "KP-SU-SIMILARITY",
+    "topic": "week5",
+    "heat": 4.5,
+    "years": [
+     "2021 Q1",
+     "2022 Q2",
+     "2025 Q1(c)",
+     "2025 Q2"
+    ],
+    "name": {
+     "en": "Similarity invariants: deciding A ~ B (A⁻¹, Aʳ, companion)",
+     "zh-Hans": "相似不变量：判定 A ~ B（A⁻¹、Aʳ、伴随矩阵）",
+     "zh-Hant": "相似不變量：判定 A ~ B（A⁻¹、Aʳ、伴隨矩陣）"
+    },
+    "detail": {
+     "en": "Summer loves \"is A similar to B?\" verdicts: $B$ vs $B^{-1}$ with $m_B=x^2+x+1$ (2021: odd-dim C fails because the -1-block pairing breaks; even-dim R works); $A\\sim A^r$ for eigenvalue-1-only (2024); $A\\sim A^{-1}$ via block-size comparison (2025); $m_A=c_A$ ⇒ $A$ similar to its companion matrix via RCF (2025). Tool: two matrices are similar iff same JCF (over C) / same RCF (any field); count classes over finite fields by enumerating exponent partitions (2022 Q2(c): invertible 2×2 over F3).",
+     "zh-Hans": "夏季偏爱\"A 与 B 相似吗\"的判定：$m_B=x^2+x+1$ 时 $B$ 与 $B^{-1}$（2021：奇维 C 因 -1 块自配对破坏而失败；偶维 R 成立）；特征值全 1 时 $A\\sim A^r$（2024）；比较块大小判 $A\\sim A^{-1}$（2025）；$m_A=c_A$ ⇒ 由 RCF 得 $A$ 相似于其伴随矩阵（2025）。工具：相似 ⇔ 同 JCF（C 上）/ 同 RCF（任意域）；有限域上数相似类用指数分拆枚举（2022 Q2(c)：F3 上可逆 2×2）。",
+     "zh-Hant": "夏季偏愛\"A 與 B 相似嗎\"的判定：$m_B=x^2+x+1$ 時 $B$ 與 $B^{-1}$（2021：奇維 C 因 -1 塊自配對破壞而失敗；偶維 R 成立）；特徵值全 1 時 $A\\sim A^r$（2024）；比較塊大小判 $A\\sim A^{-1}$（2025）；$m_A=c_A$ ⇒ 由 RCF 得 $A$ 相似於其伴隨矩陣（2025）。工具：相似 ⇔ 同 JCF（C 上）/ 同 RCF（任意域）；有限域上數相似類用指數分拆枚舉（2022 Q2(c)：F3 上可逆 2×2）。"
+    }
+   },
+   {
+    "id": "KP-SU-FORMS",
+    "topic": "bilinear-forms",
+    "heat": 3.5,
+    "years": [
+     "2024 Q3"
+    ],
+    "name": {
+     "en": "Quadratic forms over Q: non-degeneracy, diagonalisation, solvability",
+     "zh-Hans": "Q 上的二次型：非退化、对角化、可解性",
+     "zh-Hant": "Q 上的二次型：非退化、對角化、可解性"
+    },
+    "detail": {
+     "en": "The one-off 2024 Q3 but the ONLY place this syllabus strand is examined. Bookwork 7 分: definitions of symmetric bilinear form / quadratic form / non-degenerate + the polarisation proof that non-degenerate ⇒ some Q(v)≠0. Method: Lagrange completion of the square over Q; solvability of $Q=c$ decided by diagonal entries (signs, rational-square classes). Congruence $P^TAP$ — NOT similarity.",
+     "zh-Hans": "仅 2024 Q3 一次，但这是该大纲线索唯一被考之处。默写 7 分：对称双线性形式/二次型/非退化定义 + 极化证明非退化 ⇒ 存在 Q(v)≠0。方法：Q 上 Lagrange 配方；$Q=c$ 的可解性由对角元（符号、有理平方类）判断。合同 $P^TAP$——不是相似。",
+     "zh-Hant": "僅 2024 Q3 一次，但這是該大綱線索唯一被考之處。默寫 7 分：對稱雙線性形式/二次型/非退化定義 + 極化證明非退化 ⇒ 存在 Q(v)≠0。方法：Q 上 Lagrange 配方；$Q=c$ 的可解性由對角元（符號、有理平方類）判斷。合同 $P^TAP$——不是相似。"
+    }
    }
   ],
   "formats": [
@@ -482,9 +922,10 @@
     },
     "stars": 5,
     "years": [
-     "2023 Q1",
-     "2024 Q1",
-     "2025 Q1"
+     "2023 MT Q1",
+     "2024 MT Q1",
+     "2025 MT Q1",
+     "2025 SU Q2"
     ],
     "drills": [
      "Sheet 1 Q2",
@@ -496,9 +937,9 @@
      "zh-Hant": "三年連考；新講師研究方向亦指向此處。"
     },
     "slot": {
-     "en": "Q1, 20–30 marks",
-     "zh-Hans": "Q1，20–30 分",
-     "zh-Hant": "Q1，20–30 分"
+     "en": "Midterm Q1 (companion matrix over Fp); summer 2025 Q2 (companion/RCF theory)",
+     "zh-Hans": "期中 Q1（Fp 伴随矩阵）；2025 夏季 Q2（伴随矩阵/RCF 理论）",
+     "zh-Hant": "期中 Q1（Fp 伴隨矩陣）；2025 夏季 Q2（伴隨矩陣/RCF 理論）"
     },
     "skeleton": {
      "en": "1. Read off $p(x)$ from the last column: $C(x^3+a_2x^2+a_1x+a_0)$. 2. Factor over $\\mathbb{Z}$ (small integer roots). 3. Invertible $\\iff p \\nmid r_1r_2r_3$. 4. Diagonalisable $\\iff$ roots distinct mod $p$, i.e. $p \\nmid (r_i-r_j)$ (using $m=c$). 5. Check $p=2,3$ and each offending prime separately, listing roots mod p. 6. Answer as a set.",
@@ -506,7 +947,8 @@
      "zh-Hant": "1. 由最後一列讀出 $p(x)$：$C(x^3+a_2x^2+a_1x+a_0)$。2. 在 $\\mathbb{Z}$ 上因式分解（試小整根）。3. 可逆 $\\iff p\\nmid r_1r_2r_3$。4. 可對角化 $\\iff$ 根模 p 互異，即 $p\\nmid(r_i-r_j)$（用 $m=c$）。5. 單獨驗證 $p=2,3$ 與每個相關素數，列出模 p 的根。6. 用集合寫出答案。"
     },
     "kinds": [
-     "autumn-midterm"
+     "autumn-midterm",
+     "summer"
     ]
    },
    {
@@ -540,7 +982,8 @@
      "zh-Hant": "二、三次：$\\mathbb{F}_p$ 中無根 $\\iff$ 不可約；四次：再排除二次因子。特徵 p 下用 $(x-1)^p=x^p-1$；分解結果展開驗證。"
     },
     "kinds": [
-     "autumn-midterm"
+     "autumn-midterm",
+     "problem-sheet"
     ]
    },
    {
@@ -552,8 +995,9 @@
     },
     "stars": 5,
     "years": [
-     "2023 Q2",
-     "2024 Q2"
+     "2023 MT Q2",
+     "2024 MT Q2",
+     "2021 SU Q1"
     ],
     "drills": [
      "Sheet 4 Q1–Q3"
@@ -564,9 +1008,9 @@
      "zh-Hant": "三年均有某種形態。"
     },
     "slot": {
-     "en": "Mid-paper, 20–25 marks",
-     "zh-Hans": "卷中，20–25 分",
-     "zh-Hant": "卷中，20–25 分"
+     "en": "Midterm Q2 (list minimal polynomials of Aᵏ=I); summer 2021 Q1 (min-poly similarity invariants B vs B⁻¹)",
+     "zh-Hans": "期中 Q2（枚举 Aᵏ=I 的最小多项式）；2021 夏季 Q1（B 与 B⁻¹ 的最小多项式相似不变量）",
+     "zh-Hant": "期中 Q2（枚舉 Aᵏ=I 的最小多項式）；2021 夏季 Q1（B 與 B⁻¹ 的最小多項式相似不變量）"
     },
     "skeleton": {
      "en": "1. Factor $x^k-1$ into irreducibles over the field. 2. $m_A$ = square-free subproduct (exponents allowed where $x^k-1$ has repeated factors, e.g. $(x-1)^3$ over F₃). 3. Constraint $\\deg m \\le n$. 4. m and c share factors; build examples from companion matrices / block diagonals. 5. VERIFY the example (compute $m_A$, check $A^k=I$).",
@@ -574,7 +1018,8 @@
      "zh-Hant": "1. 在域上把 $x^k-1$ 分解爲不可約因子。2. $m_A$ = 無重複因子子乘積（當 $x^k-1$ 有重因子時允許相應指數，如 F₃ 上 $(x-1)^3$）。3. 約束 $\\deg m\\le n$。4. m 與 c 同因子；用伴隨矩陣/分塊對角構造例子。5. 驗證例子（算 $m_A$、驗 $A^k=I$）。"
     },
     "kinds": [
-     "autumn-midterm"
+     "autumn-midterm",
+     "summer"
     ]
    },
    {
@@ -586,7 +1031,8 @@
     },
     "stars": 4,
     "years": [
-     "2025 Q1(d)"
+     "2025 MT Q1",
+     "2024 SU Q1"
     ],
     "drills": [
      "Sheet 2 Q2/Q5/Q8"
@@ -597,9 +1043,9 @@
      "zh-Hant": "2025 年新出題模式；卷面明言“光寫判斷不給分”。"
     },
     "slot": {
-     "en": "Part of a big question, 10 marks per item",
-     "zh-Hans": "大题内小问，每项 10 分",
-     "zh-Hant": "大題內小問，每項 10 分"
+     "en": "Midterm 2025 Q1 true/false; summer 2024 Q1 (invariant subspaces, min-poly of restriction)",
+     "zh-Hans": "期中 2025 Q1 判断题；2024 夏季 Q1（不变子空间、限制的最小多项式）",
+     "zh-Hant": "期中 2025 Q1 判斷題；2024 夏季 Q1（不變子空間、限制的最小多項式）"
     },
     "skeleton": {
      "en": "Four-part answer: (1) verdict; (2) name the theorem; (3) shortest complete argument (exclusion: $c_T$ has no degree-k factor ⇒ no k-dim invariant subspace; construction: triangularisation / $\\ker f(T)$ / primary decomposition); (4) conclude. A cited theorem + a verified example is the marks pattern.",
@@ -607,7 +1053,8 @@
      "zh-Hant": "四段式作答：(1) 結論；(2) 點名定理；(3) 最短完整論證（排除：$c_T$ 無 k 次因子 ⇒ 無 k 維不變子空間；構造：三角化 / $\\ker f(T)$ / Primary Decomposition）；(4) 回扣結論。引用定理 + 驗證過的例子是給分模式。"
     },
     "kinds": [
-     "autumn-midterm"
+     "autumn-midterm",
+     "summer"
     ]
    },
    {
@@ -640,7 +1087,8 @@
      "zh-Hant": "循環 ⇒ m=c（用 $v,Tv,T^2v,\\ldots$ 比較次數）；$m\\ne c$ ⇒ 任意 $v$ 生成非平凡真不變循環子空間；$c_T$ 不可約 ⇒ 伴隨矩陣無非平凡不變子空間（在 $\\mathbb{F}_{3^2}$ 上 dim V = 1）。變體：把 $\\mathbb{F}_{3^2}$ 換成 $\\mathbb{F}_{2^3}$ / $\\mathbb{F}_{4^2}$。"
     },
     "kinds": [
-     "autumn-midterm"
+     "autumn-midterm",
+     "problem-sheet"
     ]
    },
    {
@@ -673,7 +1121,8 @@
      "zh-Hant": "$\\ker T\\subseteq\\ker T^2\\subseteq\\cdots$；一旦相等永遠相等（$v\\in\\ker T^{k+2}\\Rightarrow Tv\\in\\ker T^{k+1}=\\ker T^k\\Rightarrow v\\in\\ker T^{k+1}$）。對特徵值 λ：$\\ker(T-\\lambda)\\ne\\ker(T-\\lambda)^2\\iff$ 虧損；$m_T$ 中指數 ≥ 2。"
     },
     "kinds": [
-     "autumn-midterm"
+     "autumn-midterm",
+     "problem-sheet"
     ]
    },
    {
@@ -685,7 +1134,9 @@
     },
     "stars": 4,
     "years": [
-     "2025 Q2"
+     "2025 MT Q2",
+     "2021 SU Q3",
+     "2022 SU Q3"
     ],
     "drills": [
      "Sheet 4 Q1(d)"
@@ -696,9 +1147,9 @@
      "zh-Hant": "2025 年首考；羣論背景講師的天然延伸。"
     },
     "slot": {
-     "en": "Q2, 50 marks (2025)",
-     "zh-Hans": "Q2，50 分（2025 年）",
-     "zh-Hant": "Q2，50 分（2025 年）"
+     "en": "Midterm 2025 Q2 (simultaneous triangularisation); summer inner-product/projection parts before LA-adjoint card",
+     "zh-Hans": "期中 2025 Q2（同时三角化）；夏季内积/投影小问（现归 LA-adjoint 卡）",
+     "zh-Hant": "期中 2025 Q2（同時三角化）；夏季內積/投影小問（現歸 LA-adjoint 卡）"
     },
     "skeleton": {
      "en": "Five steps: $ST=TS$ ⇒ $E_\\lambda(T)$ and $\\ker f(T)$ are $S$-invariant ⇒ common eigenvector $v_1$ ⇒ $W=\\mathrm{Sp}(v_1)$ invariant for both ⇒ quotient maps still commute, induct ⇒ basis $B$ simultaneously triangularises. Computation: eigenspace of the smaller dimension first, find S-eigenvector inside it.",
@@ -706,7 +1157,8 @@
      "zh-Hant": "五步：$ST=TS$ ⇒ $E_\\lambda(T)$ 與 $\\ker f(T)$ 均爲 $S$-不變 ⇒ 取公共特徵向量 $v_1$ ⇒ $W=\\mathrm{Sp}(v_1)$ 對兩者不變 ⇒ 商映射仍交換，歸納 ⇒ 基 $B$ 同時三角化。計算：先取維數較小的特徵空間，在其中找 S 的特徵向量。"
     },
     "kinds": [
-     "autumn-midterm"
+     "autumn-midterm",
+     "summer"
     ]
    },
    {
@@ -751,8 +1203,9 @@
     },
     "stars": 4.5,
     "years": [
-     "2025 Q1(d)(ii)",
-     "Sheet 4 Q5/Q6"
+     "2023 MT Q1",
+     "2024 MT Q1",
+     "2022 SU Q2"
     ],
     "drills": [
      "Sheet 4 Q5",
@@ -774,7 +1227,8 @@
      "zh-Hant": "把 $m_T$ 分解爲互素冪 $g_i^{k_i}$；$V_i=\\ker g_i(T)^{k_i}$；$\\dim V_i=k_i\\deg g_i$（與 $c_T$ 覈對）；從 $\\ker g_i(T)^{k_i}$ 取各 $V_i$ 的基；拼接得分塊對角基。"
     },
     "kinds": [
-     "autumn-midterm"
+     "autumn-midterm",
+     "summer"
     ]
    },
    {
@@ -807,8 +1261,144 @@
      "zh-Hant": "直和判據：$V=\\sum V_i$ 且每個 $V_i\\cap\\sum_{j\\ne i}V_j=0$（$k\\ge3$ 時兩兩相交爲零不夠）；$\\dim V/W=\\dim V-\\dim W$；基引理：W 的基 $\\{w_i\\}$ 加提升 $\\{v_j\\}$ 給出 V 的基。"
     },
     "kinds": [
-     "autumn-midterm"
+     "autumn-midterm",
+     "problem-sheet"
     ]
+   },
+   {
+    "id": "LA-Jordan",
+    "kinds": [
+     "summer"
+    ],
+    "stars": 5,
+    "slot": {
+     "en": "Q1/Q2, 20-mark Jordan-centred question",
+     "zh-Hans": "Q1/Q2，20 分 Jordan 主题大题",
+     "zh-Hant": "Q1/Q2，20 分 Jordan 主題大題"
+    },
+    "name": {
+     "en": "Jordan form: definition, JCF computation, powers, Dunford decomposition",
+     "zh-Hans": "Jordan 标准形：定义、JCF 计算、幂、Dunford 分解",
+     "zh-Hant": "Jordan 標準形：定義、JCF 計算、冪、Dunford 分解"
+    },
+    "likelihood": {
+     "en": "Appears in 3 of 4 summer papers (2021 Q2, 2022 Q1, 2024 Q2, 2025 Q1 — four of four if power/counting variants count). Fixed ladder: (a) define $J_n(\\lambda)$ + state JCF theorem [1–2 分], (b) compute JCF of a small matrix (answer may depend on p over Fp), (c) find Jordan basis / P, (d) powers $J_n(1)^r$ or $A\\sim A^r$ for eigenvalue-1-only A, (e) Dunford decomposition $A=D+N$.",
+     "zh-Hans": "四份卷里三份出现（2021 Q2、2022 Q1、2024 Q2、2025 Q1——算上幂/计数变体即四中四）。固定阶梯：(a) 定义 $J_n(\\lambda)$ + 陈述 JCF 定理 [1–2 分]，(b) 算小矩阵的 JCF（Fp 上答案可依赖 p），(c) 求 Jordan 基 / P，(d) 幂 $J_n(1)^r$ 或特征值全 1 时 $A\\sim A^r$，(e) Dunford 分解 $A=D+N$。",
+     "zh-Hant": "四份卷裏三份出現（2021 Q2、2022 Q1、2024 Q2、2025 Q1——算上冪/計數變體即四中四）。固定階梯：(a) 定義 $J_n(\\lambda)$ + 陳述 JCF 定理 [1–2 分]，(b) 算小矩陣的 JCF（Fp 上答案可依賴 p），(c) 求 Jordan 基 / P，(d) 冪 $J_n(1)^r$ 或特徵值全 1 時 $A\\sim A^r$，(e) Dunford 分解 $A=D+N$。"
+    },
+    "years": [
+     "2021 Q2",
+     "2022 Q1",
+     "2024 Q2",
+     "2025 Q1"
+    ],
+    "drills": [
+     "Sheet 5 Jordan drills",
+     "PSX-Jordan"
+    ],
+    "skeleton": {
+     "en": "**(a) Definition:** $J_n(\\lambda)=\\lambda I_n+N$ with $N$ the shift matrix ($N_{i,i+1}=1$); JCF theorem: every $A\\in M_n(\\mathbb C)$ is similar to a direct sum of Jordan blocks, unique up to permutation.\n\n**(b) JCF:** char poly → eigenvalues; for each $\\lambda$, block sizes from $\\dim\\ker(A-\\lambda I)^k$ (or minimal poly exponent = largest block). Over $\\mathbb{F}_p$: factor $c_A$ case by case on p.\n\n**(c) Jordan basis:** solve $(A-\\lambda I)v_2=v_1$ chains; columns of $P$ = basis vectors in chain order.\n\n**(d) Powers:** $J_n(1)^r=I+N^r$ — one Jordan block of size $\\min(n, r+1)$-splitting: size $n-r$ block + size $r$ blocks when $r<n$ (write $N^r$ shifts by r). If all eigenvalues are 1, $A^r$ has the same JCF ⇒ $A\\sim A^r$.\n\n**(e) Dunford:** $A=D+N$, $D$ diagonalisable, $N$ nilpotent, $DN=ND$ — read off the JCF: $D$ = diagonal part, $N$ = off-diagonal part.",
+     "zh-Hans": "**(a) 定义：** $J_n(\\lambda)=\\lambda I_n+N$（$N$ 为移位矩阵）；JCF 定理：每个 $A\\in M_n(\\mathbb C)$ 相似于 Jordan 块的直和，且在块排列意义下唯一。\n\n**(b) JCF：** 特征多项式 → 特征值；每个 $\\lambda$ 的块大小由 $\\dim\\ker(A-\\lambda I)^k$（或最小多项式次数 = 最大块）确定。$\\mathbb{F}_p$ 上按 p 分情况分解 $c_A$。\n\n**(c) Jordan 基：** 解链 $(A-\\lambda I)v_2=v_1$；$P$ 的列 = 按链序排列的基向量。\n\n**(d) 幂：** $J_n(1)^r=I+N^r$——$r<n$ 时分裂为大小 $n-r$ 与 $r$ 的块（$N^r$ 右移 r 位）；特征值全 1 时 $A^r$ 与 $A$ 同 JCF ⇒ $A\\sim A^r$。\n\n**(e) Dunford：** $A=D+N$（$D$ 可对角化、$N$ 幂零、$DN=ND$）——直接从 JCF 读出：$D$=对角部分、$N$=次对角部分。",
+     "zh-Hant": "**(a) 定義：** $J_n(\\lambda)=\\lambda I_n+N$（$N$ 爲移位矩陣）；JCF 定理：每個 $A\\in M_n(\\mathbb C)$ 相似於 Jordan 塊的直和，且在塊排列意義下唯一。\n\n**(b) JCF：** 特徵多項式 → 特徵值；每個 $\\lambda$ 的塊大小由 $\\dim\\ker(A-\\lambda I)^k$（或最小多項式次數 = 最大塊）確定。$\\mathbb{F}_p$ 上按 p 分情況分解 $c_A$。\n\n**(c) Jordan 基：** 解鏈 $(A-\\lambda I)v_2=v_1$；$P$ 的列 = 按鏈序排列的基向量。\n\n**(d) 冪：** $J_n(1)^r=I+N^r$——$r<n$ 時分裂爲大小 $n-r$ 與 $r$ 的塊（$N^r$ 右移 r 位）；特徵值全 1 時 $A^r$ 與 $A$ 同 JCF ⇒ $A\\sim A^r$。\n\n**(e) Dunford：** $A=D+N$（$D$ 可對角化、$N$ 冪零、$DN=ND$）——直接從 JCF 讀出：$D$=對角部分、$N$=次對角部分。"
+    },
+    "pitfalls": {
+     "en": "- Over Fp the JCF answer genuinely depends on p (2021 Q2(a)(ii)): test each prime separately before writing the final list.\n- A Jordan BASIS is a basis of vectors, not block labels: examiners want the chains solved.\n- In (d) the block-splitting of $J_n(1)^r$ needs the min(n, r+1) argument, not just \"it is still one block\".",
+     "zh-Hans": "- Fp 上 JCF 答案真的依赖 p（2021 Q2(a)(ii)）：先逐素数验证再写结论。\n- Jordan 基是向量组而非块标签：考官要的是解出的链。\n- (d) 中 $J_n(1)^r$ 的分裂要给 min(n, r+1) 论证，不能只说\"还是一个块\"。",
+     "zh-Hant": "- Fp 上 JCF 答案真的依賴 p（2021 Q2(a)(ii)）：先逐素數驗證再寫結論。\n- Jordan 基是向量組而非塊標籤：考官要的是解出的鏈。\n- (d) 中 $J_n(1)^r$ 的分裂要給 min(n, r+1) 論證，不能只說\"還是一個塊\"。"
+    },
+    "secrets": {
+     "en": "Everything reduces to the nilpotent shift $N$: powers, chains, Dunford. Write $N$ explicitly next to your work and read off ranks — $\\dim\\ker N^k$ = number of boxes of size ≤ k in the Young-diagram of blocks. For $A\\sim A^{-1}$ questions (2021 Q1(b), 2025 Q1(c)(iv)): compare block sizes of $\\lambda$ vs $\\lambda^{-1}$; over odd-dimension C, a size-2 block at λ=-1 pairs with itself and fails.",
+     "zh-Hans": "一切归结为幂零移位 $N$：幂、链、Dunford。在草稿上显式写出 $N$ 并读秩——$\\dim\\ker N^k$ = 块大小 ≤ k 的框数（块杨图）。$A\\sim A^{-1}$ 问题（2021 Q1(b)、2025 Q1(c)(iv)）：比较 $\\lambda$ 与 $\\lambda^{-1}$ 的块大小；奇数维 C 上 -1 处的大小 2 块自配对即失败。",
+     "zh-Hant": "一切歸結爲冪零移位 $N$：冪、鏈、Dunford。在草稿上顯式寫出 $N$ 並讀秩——$\\dim\\ker N^k$ = 塊大小 ≤ k 的框數（塊楊圖）。$A\\sim A^{-1}$ 問題（2021 Q1(b)、2025 Q1(c)(iv)）：比較 $\\lambda$ 與 $\\lambda^{-1}$ 的塊大小；奇數維 C 上 -1 處的大小 2 塊自配對即失敗。"
+    }
+   },
+   {
+    "id": "LA-adjoint",
+    "kinds": [
+     "summer"
+    ],
+    "stars": 5,
+    "slot": {
+     "en": "Q3, 20-mark inner-product finale",
+     "zh-Hans": "Q3，20 分内积压轴",
+     "zh-Hant": "Q3，20 分內積壓軸"
+    },
+    "name": {
+     "en": "Inner products: adjoints, orthogonal projections, spectral theorem",
+     "zh-Hans": "内积：伴随、正交投影、谱定理",
+     "zh-Hant": "內積：伴隨、正交投影、譜定理"
+    },
+    "likelihood": {
+     "en": "The Q3 finale in 3 of 4 papers (2021 Q3, 2022 Q3, 2025 Q3; 2024 replaced it with bilinear forms). Ladder: (a) define inner product / adjoint [2–5 分], (b) prove identities ($(ST)^*=T^*S^*$, $(T^*)^{-1}=(T^{-1})^*$, $\\|\\pi_W\\|\\le1$), (c) compute with a NON-standard inner product (matrix space with $(A,B)=\\mathrm{tr}(AB^T)$), (d) rank-one maps / abstract characterisation of orthogonal projections.",
+     "zh-Hans": "四份卷三份的 Q3 压轴（2021 Q3、2022 Q3、2025 Q3；2024 换成双线性形式）。阶梯：(a) 定义内积/伴随 [2–5 分]，(b) 证明恒等式（$(ST)^*=T^*S^*$、$(T^*)^{-1}=(T^{-1})^*$、$\\|\\pi_W\\|\\le1$），(c) 在非标准内积下计算（矩阵空间 $(A,B)=\\mathrm{tr}(AB^T)$），(d) 秩一映射 / 正交投影的抽象刻画。",
+     "zh-Hant": "四份卷三份的 Q3 壓軸（2021 Q3、2022 Q3、2025 Q3；2024 換成雙線性形式）。階梯：(a) 定義內積/伴隨 [2–5 分]，(b) 證明恆等式（$(ST)^*=T^*S^*$、$(T^*)^{-1}=(T^{-1})^*$、$\\|\\pi_W\\|\\le1$），(c) 在非標準內積下計算（矩陣空間 $(A,B)=\\mathrm{tr}(AB^T)$），(d) 秩一映射 / 正交投影的抽象刻畫。"
+    },
+    "years": [
+     "2021 Q3",
+     "2022 Q3",
+     "2025 Q3"
+    ],
+    "drills": [
+     "Sheet 6 inner-product drills"
+    ],
+    "skeleton": {
+     "en": "**(a) Definitions:** inner product axioms (conjugate symmetry, linear in first slot, positive definite); $T^*$ defined by $(Tv,w)=(v,T^*w)$ for all $v,w$.\n\n**(b) Identity proofs:** unfold the defining relation: $(STv,w)=(Tv,S^*w)=(v,T^*S^*w)$. Inverse: $T^*T^{-1}$-chase. Projection norm: $\\|\\pi_Wv\\|^2=(w,w)\\le(w+w',w+w')=\\|v\\|^2$ using orthogonality $w\\perp w'$.\n\n**(c) Non-standard inner product:** verify axioms first (2 分); Gram–Schmidt to orthogonalise; adjoint via the defining relation, NOT by transposing the matrix.\n\n**(d) Rank-one:** $T(v)=(v,a)b$ ⇒ $T^*(v)=(v,b)a$; $T=T^*$ forces $b\\parallel a$ with real scalar. Abstract projection: $P^2=P$ + $\\|Pv\\|\\le\\|v\\|$ ⇒ orthogonal projection (2022 Q3(c) 12 分: build eigenbasis from $P^2=P$, then orthogonality from the norm bound).\n\n**Spectral theorem:** self-adjoint ⇒ orthonormal eigenbasis; quote it when asked (2025 Q3(b)(ii)).",
+     "zh-Hans": "**(a) 定义：** 内积公理（共轭对称、第一变元线性、正定）；$T^*$ 由 $(Tv,w)=(v,T^*w)$ 定义。\n\n**(b) 恒等式：** 展开定义关系：$(STv,w)=(Tv,S^*w)=(v,T^*S^*w)$。逆：$T^*T^{-1}$ 追踪。投影范数：$\\|\\pi_Wv\\|^2=(w,w)\\le\\|v\\|^2$（用 $w\\perp w'$）。\n\n**(c) 非标准内积：** 先验证公理（2 分）；Gram–Schmidt 正交化；伴随用定义关系求，不能直接转置矩阵。\n\n**(d) 秩一映射：** $T(v)=(v,a)b$ ⇒ $T^*(v)=(v,b)a$；$T=T^*$ 强制 $b\\parallel a$ 且实标量。抽象投影：$P^2=P$ + 范数界 ⇒ 正交投影（2022 Q3(c) 12 分：先由 $P^2=P$ 建特征基，再由范数界证正交）。\n\n**谱定理：** 自伴 ⇒ 标准正交特征基；被问到就整条陈述（2025 Q3(b)(ii)）。",
+     "zh-Hant": "**(a) 定義：** 內積公理（共軛對稱、第一變元線性、正定）；$T^*$ 由 $(Tv,w)=(v,T^*w)$ 定義。\n\n**(b) 恆等式：** 展開定義關係：$(STv,w)=(Tv,S^*w)=(v,T^*S^*w)$。逆：$T^*T^{-1}$ 追蹤。投影範數：$\\|\\pi_Wv\\|^2=(w,w)\\le\\|v\\|^2$（用 $w\\perp w'$）。\n\n**(c) 非標準內積：** 先驗證公理（2 分）；Gram–Schmidt 正交化；伴隨用定義關係求，不能直接轉置矩陣。\n\n**(d) 秩一映射：** $T(v)=(v,a)b$ ⇒ $T^*(v)=(v,b)a$；$T=T^*$ 強制 $b\\parallel a$ 且實標量。抽象投影：$P^2=P$ + 範數界 ⇒ 正交投影（2022 Q3(c) 12 分：先由 $P^2=P$ 建特徵基，再由範數界證正交）。\n\n**譜定理：** 自伴 ⇒ 標準正交特徵基；被問到就整條陳述（2025 Q3(b)(ii)）。"
+    },
+    "pitfalls": {
+     "en": "- Computing $T^*$ by conjugate-transposing only works in an ORTHONORMAL basis: in (c)-type parts the defining relation is mandatory.\n- Positive definiteness needs checking on the exotic space (trace inner product: $\\mathrm{tr}(AA^T)=\\sum a_{ij}^2>0$).\n- The 2022 12-mark characterisation is a guided proof: follow its (i)→(ii)→(iii) structure; jumping to the conclusion loses method marks.",
+     "zh-Hans": "- 只有在标准正交基下才能用共轭转置求 $T^*$：(c) 类小问必须用定义关系。\n- 正定性要在特殊空间上验证（迹内积：$\\mathrm{tr}(AA^T)=\\sum a_{ij}^2>0$）。\n- 2022 的 12 分刻画是引导式证明：按 (i)→(ii)→(iii) 走，跳到结论丢方法分。",
+     "zh-Hant": "- 只有在標準正交基下才能用共軛轉置求 $T^*$：(c) 類小問必須用定義關係。\n- 正定性要在特殊空間上驗證（跡內積：$\\mathrm{tr}(AA^T)=\\sum a_{ij}^2>0$）。\n- 2022 的 12 分刻畫是引導式證明：按 (i)→(ii)→(iii) 走，跳到結論丟方法分。"
+    },
+    "secrets": {
+     "en": "Every adjoint identity is the defining relation applied to both sides — write \"$(u,\\cdot)=(u,\\cdot)$\" and chase. The eigenvalues of $S(A)=A+A^T$-type operators on matrix space are 0, 1, 2 with the symmetric/skew decomposition as eigenspaces (2025 Q3(d)); the trace inner product makes the standard basis orthonormal, so eigenbasis = normalised symmetric + skew matrices.",
+     "zh-Hans": "伴随恒等式都是定义关系两边展开——写 \"$(u,\\cdot)=(u,\\cdot)$\" 然后追。矩阵空间上 $S(A)=A+A^T$ 型算子的特征值是 0、1、2，特征空间即对称/反对称分解（2025 Q3(d)）；迹内积下标准基标准正交，特征基 = 归一化的对称 + 反对称矩阵。",
+     "zh-Hant": "伴隨恆等式都是定義關係兩邊展開——寫 \"$(u,\\cdot)=(u,\\cdot)$\" 然後追。矩陣空間上 $S(A)=A+A^T$ 型算子的特徵值是 0、1、2，特徵空間即對稱/反對稱分解（2025 Q3(d)）；跡內積下標準基標準正交，特徵基 = 歸一化的對稱 + 反對稱矩陣。"
+    }
+   },
+   {
+    "id": "LA-bilinear",
+    "kinds": [
+     "summer"
+    ],
+    "stars": 3.5,
+    "slot": {
+     "en": "Q3, 20 marks (2024 variant)",
+     "zh-Hans": "Q3，20 分（2024 变体）",
+     "zh-Hant": "Q3，20 分（2024 變體）"
+    },
+    "name": {
+     "en": "Symmetric bilinear forms and quadratic forms",
+     "zh-Hans": "对称双线性形式与二次型",
+     "zh-Hant": "對稱雙線性形式與二次型"
+    },
+    "likelihood": {
+     "en": "Seen once (2024 Q3) — a syllabus topic the midterm never tests, so summer is its only home. Ladder: (a) definitions [7 分: symmetric bilinear form, quadratic form, non-degenerate, proof that non-degenerate ⇒ ∃v Q(v)≠0], (b) equivalence of forms, (c) diagonalise a rational quadratic form + solve Diophantine-type equations.",
+     "zh-Hans": "仅 2024 Q3 出现一次——期中不考的大纲主题，夏季是唯一考点。阶梯：(a) 定义 [7 分：对称双线性形式、二次型、非退化、非退化 ⇒ ∃v Q(v)≠0 的证明]，(b) 形式等价，(c) 有理数域上对角化二次型 + 解丢番图型方程。",
+     "zh-Hant": "僅 2024 Q3 出現一次——期中不考的大綱主題，夏季是唯一考點。階梯：(a) 定義 [7 分：對稱雙線性形式、二次型、非退化、非退化 ⇒ ∃v Q(v)≠0 的證明]，(b) 形式等價，(c) 有理數域上對角化二次型 + 解丟番圖型方程。"
+    },
+    "years": [
+     "2024 Q3"
+    ],
+    "drills": [
+     "Sheet 7 bilinear-form drills"
+    ],
+    "skeleton": {
+     "en": "**(a) Definitions:** bilinear $b:V\\times V\\to F$ linear in each slot; symmetric $b(v,w)=b(w,v)$; $Q(v)=b(v,v)$ with char ≠ 2 so $b(v,w)=\\frac{Q(v+w)-Q(v)-Q(w)}2$; non-degenerate: the matrix of $b$ is invertible.\n\n**Non-degenerate ⇒ ∃v:** if $Q(v)=0$ for all v then $b\\equiv0$ (polarise), so the matrix is zero — contradiction with invertibility.\n\n**(b) Equivalence:** $Q'(v)=Q(Pv)$ for invertible P.\n\n**(c) Diagonalise:** complete the square over $\\mathbb{Q}$ (Lagrange's method): $Q=ax_1^2+2bx_1x_2+\\ldots$ ⇒ factor the cross terms. Then solve $Q=0$ / $Q=c$ by the signs of the diagonal entries.",
+     "zh-Hans": "**(a) 定义：** 双线性 $b$ 关于两个变元都线性；对称 $b(v,w)=b(w,v)$；$Q(v)=b(v,v)$（char≠2 时 $b(v,w)=\\frac{Q(v+w)-Q(v)-Q(w)}2$）；非退化：$b$ 的矩阵可逆。\n\n**非退化 ⇒ ∃v：** 若对一切 v 有 $Q(v)=0$，则由极化 $b\\equiv0$，矩阵为零——与可逆矛盾。\n\n**(b) 等价：** $Q'(v)=Q(Pv)$（P 可逆）。\n\n**(c) 对角化：** $\\mathbb{Q}$ 上配方（Lagrange 法）：先吸收交叉项；再用对角元符号判断 $Q=0$ / $Q=c$ 是否有解。",
+     "zh-Hant": "**(a) 定義：** 雙線性 $b$ 關於兩個變元都線性；對稱 $b(v,w)=b(w,v)$；$Q(v)=b(v,v)$（char≠2 時 $b(v,w)=\\frac{Q(v+w)-Q(v)-Q(w)}2$）；非退化：$b$ 的矩陣可逆。\n\n**非退化 ⇒ ∃v：** 若對一切 v 有 $Q(v)=0$，則由極化 $b\\equiv0$，矩陣爲零——與可逆矛盾。\n\n**(b) 等價：** $Q'(v)=Q(Pv)$（P 可逆）。\n\n**(c) 對角化：** $\\mathbb{Q}$ 上配方（Lagrange 法）：先吸收交叉項；再用對角元符號判斷 $Q=0$ / $Q=c$ 是否有解。"
+    },
+    "pitfalls": {
+     "en": "- Non-degeneracy is about the FORM (matrix invertible), not about Q taking nonzero values — that is the content of the (a)(iv) proof, not the definition.\n- Over Q, diagonalisation must stay rational: no eigenvalue orthogonalisation, complete squares only.\n- Equivalence of forms is congruence $P^TAP$, not similarity $P^{-1}AP$.",
+     "zh-Hans": "- 非退化说的是\"形式\"（矩阵可逆），不是\"Q 取非零值\"——那是 (a)(iv) 要证的内容，不是定义。\n- Q 上对角化必须保持有理：不能做特征值正交化，只能配方。\n- 形式等价是合同 $P^TAP$，不是相似 $P^{-1}AP$。",
+     "zh-Hant": "- 非退化說的是\"形式\"（矩陣可逆），不是\"Q 取非零值\"——那是 (a)(iv) 要證的內容，不是定義。\n- Q 上對角化必須保持有理：不能做特徵值正交化，只能配方。\n- 形式等價是合同 $P^TAP$，不是相似 $P^{-1}AP$。"
+    },
+    "secrets": {
+     "en": "Lagrange completion of the square handles every concrete quadratic form over Q; for solvability questions compare the signs/rational-square classes of the diagonal entries. The (a)-part definitions are pure bookwork — 7 free marks if memorised exactly.",
+     "zh-Hans": "Lagrange 配方法处理 Q 上一切具体二次型；可解性问题比较对角元的符号/有理平方类即可。(a) 部分定义是纯默写——背准就是 7 分白给。",
+     "zh-Hant": "Lagrange 配方法處理 Q 上一切具體二次型；可解性問題比較對角元的符號/有理平方類即可。(a) 部分定義是純默寫——背準就是 7 分白給。"
+    }
    }
   ],
   "mock_template": {
@@ -1220,16 +1810,243 @@
    "summer": {
     "trends": {
      "summary": {
-      "en": "Summer exams 2021–2025 (MATH50016): 3 questions × 20 marks each, 90 minutes. JCF/RCF computation and inner-product-space theory dominate; one Fp counting question most years.",
-      "zh-Hans": "夏季试卷 2021–2025（MATH50016）：3 题 × 20 分，90 分钟。JCF/RCF 计算与内积空间理论为主；多数年份有一道 Fp 计数题。",
-      "zh-Hant": "夏季試卷 2021–2025（MATH50016）：3 題 × 20 分，90 分鐘。JCF/RCF 計算與內積空間理論為主；多數年份有一道 Fp 計數題。"
+      "en": "Summer exams 2021/2022/2024/2025 (MATH50003): 3 questions × 20 marks, 60 total. Every paper: one Jordan-centred question (JCF computation + powers/Dunford), one inner-product finale (adjoints/projections/spectral theorem — 2024 swapped in bilinear forms), and one invariant-theory question (min-poly similarity verdicts, RCF counting, or companion-matrix theory). Definitions open every question for 1–2 easy marks; verdict questions (A ∼ B?) are decided by comparing Jordan/rational canonical data.",
+      "zh-Hans": "夏季试卷 2021/2022/2024/2025（MATH50003）：3 题 × 20 分共 60 分。每卷必有：一道 Jordan 主题题（JCF 计算 + 幂/Dunford 分解）、一道内积压轴（伴随/投影/谱定理——2024 换成双线性形式）、一道不变量理论题（最小多项式相似判定、RCF 计数或伴随矩阵理论）。每题以 1–2 分定义默写开头；判定题（A ∼ B?）通过比较 Jordan/有理标准形数据裁决。",
+      "zh-Hant": "夏季試卷 2021/2022/2024/2025（MATH50003）：3 題 × 20 分共 60 分。每卷必有：一道 Jordan 主題題（JCF 計算 + 冪/Dunford 分解）、一道內積壓軸（伴隨/投影/譜定理——2024 換成雙線性形式）、一道不變量理論題（最小多項式相似判定、RCF 計數或伴隨矩陣理論）。每題以 1–2 分定義默寫開頭；判定題（A ∼ B?）通過比較 Jordan/有理標準形數據裁決。"
      },
-     "yearly": [],
-     "chapter_share": []
+     "yearly": [
+      {
+       "year": 2021,
+       "rows": [
+        [
+         "Q1",
+         "20",
+         "4×4 char/min poly over C, R, F₃; m=x²+x+1: B invertible, m_{B⁻¹}=m, B∼B⁻¹ fails odd-n C / holds even-n R",
+         "C",
+         "A"
+        ],
+        [
+         "Q2",
+         "20",
+         "Fp 3×3: c_A splits into linear factors; JCF per prime; Jordan basis over F₂; m|c companion construction",
+         "LA-Jordan",
+         "A"
+        ],
+        [
+         "Q3",
+         "20",
+         "Adjoint def & identities (ST)*=T*S*, (T*)⁻¹=(T⁻¹)*; non-standard inner product orthonormalise; rank-one T(v)=(v,a)b, T=T*⇒b=λa",
+         "LA-adjoint",
+         "G"
+        ]
+       ]
+      },
+      {
+       "year": 2022,
+       "rows": [
+        [
+         "Q1",
+         "20",
+         "J_n(λ) def + JCF theorem; 3×3 JCF and P; J=λI+N nilpotent part; Dunford A=D+N; explicit D,N",
+         "LA-Jordan",
+         "—"
+        ],
+        [
+         "Q2",
+         "20",
+         "Primary decomposition statement; dim V₁=k, dim V₂=2l; count RCFs of f₁ᵏ⊕f₂ˡ; |GL₂(F₃)|/class count",
+         "I",
+         "A"
+        ],
+        [
+         "Q3",
+         "20",
+         "Orthogonal projection def, π²=π, ‖πv‖≤‖v‖; R³ computation; P²=P + norm ⇒ orthogonal projection (12)",
+         "LA-adjoint",
+         "G"
+        ]
+       ]
+      },
+      {
+       "year": 2024,
+       "rows": [
+        [
+         "Q1",
+         "20",
+         "Cayley–Hamilton; invariant subspace def, min-poly uniqueness, m_{T_W} | m_T; F₂ vs F₃ proper invariant subspaces",
+         "D",
+         "F"
+        ],
+        [
+         "Q2",
+         "20",
+         "Jordan block def, JCF theorem; C⁴ JCF + Jordan basis; J_n(1)ʳ JCF; eigenvalue-1 ⇒ A∼Aʳ",
+         "LA-Jordan",
+         "—"
+        ],
+        [
+         "Q3",
+         "20",
+         "Symmetric bilinear/quadratic forms, non-degenerate ⇒ ∃Q(v)≠0; equivalence; diagonalise over Q; solvability of equations",
+         "LA-bilinear",
+         "J"
+        ]
+       ]
+      },
+      {
+       "year": 2025,
+       "rows": [
+        [
+         "Q1",
+         "20",
+         "Jordan def + JCF theorem; 3×3 char poly, JCF, P; A∼A⁻¹ verdict; count A³=A over F₂ (n=2m)",
+         "LA-Jordan",
+         "B"
+        ],
+        [
+         "Q2",
+         "20",
+         "Companion def, c_{C(f)}=f; RCF theorem; 20×20 F₂ matrix analysis; m=c ⇒ A∼C(m_A)",
+         "A",
+         "C"
+        ],
+        [
+         "Q3",
+         "20",
+         "Inner-product def; T* def; spectral theorem; trace form (A,B)=tr(ABᵀ); S(A)=A+Aᵀ eigen 0/1/2, orthonormal eigenbasis of M₂(R)",
+         "LA-adjoint",
+         "G"
+        ]
+       ]
+      }
+     ],
+     "chapter_share": [
+      {
+       "label": {
+        "en": "Weeks 1–3: fields, Fp, char/min poly, companion, RCF",
+        "zh-Hans": "第 1–3 周：域、Fp、特征/最小多项式、伴随矩阵、RCF",
+        "zh-Hant": "第 1–3 周：域、Fp、特徵/最小多項式、伴隨矩陣、RCF"
+       },
+       "share": 0.25
+      },
+      {
+       "label": {
+        "en": "Week 4–5: invariant subspaces, triangularisation, primary decomposition",
+        "zh-Hans": "第 4–5 周：不变子空间、三角化、主分解",
+        "zh-Hant": "第 4–5 周：不變子空間、三角化、主分解"
+       },
+       "share": 0.15
+      },
+      {
+       "label": {
+        "en": "Jordan form: JCF, powers, Dunford",
+        "zh-Hans": "Jordan 标准形：JCF、幂、Dunford",
+        "zh-Hant": "Jordan 標準形：JCF、冪、Dunford"
+       },
+       "share": 0.3
+      },
+      {
+       "label": {
+        "en": "Inner products: adjoints, projections, spectral theorem",
+        "zh-Hans": "内积：伴随、投影、谱定理",
+        "zh-Hant": "內積：伴隨、投影、譜定理"
+       },
+       "share": 0.2
+      },
+      {
+       "label": {
+        "en": "Bilinear & quadratic forms",
+        "zh-Hans": "双线性与二次型",
+        "zh-Hant": "雙線性與二次型"
+       },
+       "share": 0.1
+      }
+     ]
     },
-    "order": null,
-    "mock_template": null,
-    "lecturers": []
+    "order": {
+     "en": "Three 20-mark questions, each internally (a)–(e) with printed marks. Stable blueprint 2021–2025: **Q1/Q2 rotation** between the Jordan question and the invariant-theory question (whichever is Q2 one year tends to be Q1-adjacent the next); **Q3 is always the \"second half of the module\"**: inner products in 2021/2022/2025, bilinear forms in 2024. Definitions (Jordan block, adjoint, inner product, non-degenerate) are asked verbatim at the head of the relevant question — memorise exact statements.",
+     "zh-Hans": "三道 20 分大题，各题内 (a)–(e) 并印分值。2021–2025 稳定蓝图：**Q1/Q2 轮换**于 Jordan 题与不变量理论题之间；**Q3 永远是\"课程后半\"**：2021/2022/2025 为内积、2024 为双线性形式。定义（Jordan 块、伴随、内积、非退化）在相应题目开头逐字考查——务必背精确陈述。",
+     "zh-Hant": "三道 20 分大題，各題內 (a)–(e) 並印分值。2021–2025 穩定藍圖：**Q1/Q2 輪換**於 Jordan 題與不變量理論題之間；**Q3 永遠是\"課程後半\"**：2021/2022/2025 爲內積、2024 爲雙線性形式。定義（Jordan 塊、伴隨、內積、非退化）在相應題目開頭逐字考查——務必背精確陳述。"
+    },
+    "mock_template": {
+     "source": {
+      "en": "Blueprint distilled from summer papers 2021/2022/2024/2025",
+      "zh-Hans": "由 2021/2022/2024/2025 夏季卷提炼的蓝图",
+      "zh-Hant": "由 2021/2022/2024/2025 夏季卷提煉的藍圖"
+     },
+     "duration_min": 120,
+     "slots": [
+      {
+       "qno": "Q1",
+       "format": "LA-Jordan",
+       "note": {
+        "en": "JCF computation + powers/Dunford (mirror 2022 Q1 / 2025 Q1)",
+        "zh-Hans": "JCF 计算 + 幂/Dunford（仿 2022 Q1 / 2025 Q1）",
+        "zh-Hant": "JCF 計算 + 冪/Dunford（仿 2022 Q1 / 2025 Q1）"
+       }
+      },
+      {
+       "qno": "Q2",
+       "format": "A",
+       "note": {
+        "en": "Companion/RCF or min-poly similarity verdicts (mirror 2025 Q2 / 2021 Q1)",
+        "zh-Hans": "伴随矩阵/RCF 或最小多项式相似判定（仿 2025 Q2 / 2021 Q1）",
+        "zh-Hant": "伴隨矩陣/RCF 或最小多項式相似判定（仿 2025 Q2 / 2021 Q1）"
+       }
+      },
+      {
+       "qno": "Q3",
+       "format": "LA-adjoint",
+       "note": {
+        "en": "Inner-product finale: adjoints, projections, spectral theorem (mirror 2025 Q3)",
+        "zh-Hans": "内积压轴：伴随、投影、谱定理（仿 2025 Q3）",
+        "zh-Hant": "內積壓軸：伴隨、投影、譜定理（仿 2025 Q3）"
+       }
+      }
+     ]
+    },
+    "lecturers": [
+     {
+      "name": "MATH50003 examining team",
+      "name_display": {
+       "en": "MATH50003 命题组（历年卷面署名）",
+       "zh-Hans": "MATH50003 examining team (papers 2021–2025)",
+       "zh-Hant": "MATH50003 examining team (papers 2021–2025)"
+      },
+      "role": {
+       "en": "Setters/checkers per exam-board signatures",
+       "zh-Hans": "命题人/复核人（见试卷签名栏）",
+       "zh-Hant": "命題人/複覈人（見試卷簽名欄）"
+      },
+      "research": {
+       "en": "Linear Algebra for JMC (2nd-year module)",
+       "zh-Hans": "Linear Algebra for JMC（二年级课程）",
+       "zh-Hant": "Linear Algebra for JMC（二年級課程）"
+      },
+      "habits": [
+       {
+        "en": "Every question opens with 1–2-mark verbatim definitions (Jordan block, adjoint, inner product, non-degenerate form) — free marks for exact statements.",
+        "zh-Hans": "每题以 1–2 分的定义默写开头（Jordan 块、伴随、内积、非退化形式）——陈述精确即白给。",
+        "zh-Hant": "每題以 1–2 分的定義默寫開頭（Jordan 塊、伴隨、內積、非退化形式）——陳述精確即白給。"
+       },
+       {
+        "en": "Finite-field variants (F₂, F₃) appear every year: the answer changes with the prime, so case-split before concluding.",
+        "zh-Hans": "有限域变体（F₂、F₃）年年出现：答案随素数而变，先分情况再下结论。",
+        "zh-Hant": "有限域變體（F₂、F₃）年年出現：答案隨素數而變，先分情況再下結論。"
+       },
+       {
+        "en": "\"Is A similar to B?\" verdicts are decided by canonical-form data (block sizes, RCF) — never by computing both matrices in full.",
+        "zh-Hans": "\"A 与 B 相似吗\"由标准形数据（块大小、RCF）裁决——绝不要把两个矩阵完整算出来。",
+        "zh-Hant": "\"A 與 B 相似嗎\"由標準形數據（塊大小、RCF）裁決——絕不要把兩個矩陣完整算出來。"
+       }
+      ],
+      "source": {
+       "en": "Question papers & solutions 2021/2022/2024/2025",
+       "zh-Hans": "2021/2022/2024/2025 试卷与解答",
+       "zh-Hant": "2021/2022/2024/2025 試卷與解答"
+      }
+     }
+    ]
    },
    "problem-sheet": {
     "trends": {
@@ -1238,15 +2055,353 @@
       "zh-Hans": "习题集 1–10（72 题）、选做 Unseen 1–8、NUS MA2101 真题 2008–2013（10 卷）与 Oxford M2PM2 线代部分：与考试题型对应的训练材料。",
       "zh-Hant": "習題集 1–10（72 題）、選做 Unseen 1–8、NUS MA2101 真題 2008–2013（10 卷）與 Oxford M2PM2 線代部分：與考試題型對應的訓練材料。"
      },
-     "yearly": [],
-     "chapter_share": []
+     "yearly": [
+      {
+       "year": "题库一览",
+       "rows": [
+        [
+         "帝国理工习题 Sheet 1",
+         "7",
+         "60 分 · 题型 A/J",
+         "—",
+         "—"
+        ],
+        [
+         "帝国理工习题 Sheet 10",
+         "8",
+         "72 分 · 题型 J",
+         "—",
+         "—"
+        ],
+        [
+         "帝国理工习题 Sheet 2",
+         "8",
+         "72 分 · 题型 F/H/J",
+         "—",
+         "—"
+        ],
+        [
+         "帝国理工习题 Sheet 3",
+         "10",
+         "78 分 · 题型 B/C/H/J",
+         "—",
+         "—"
+        ],
+        [
+         "帝国理工习题 Sheet 4",
+         "7",
+         "66 分 · 题型 D/E/I",
+         "—",
+         "—"
+        ],
+        [
+         "帝国理工习题 Sheet 5",
+         "7",
+         "58 分 · 题型 F",
+         "—",
+         "—"
+        ],
+        [
+         "帝国理工习题 Sheet 6",
+         "5",
+         "44 分 · 题型 F",
+         "—",
+         "—"
+        ],
+        [
+         "帝国理工习题 Sheet 7",
+         "6",
+         "52 分 · 题型 B",
+         "—",
+         "—"
+        ],
+        [
+         "帝国理工习题 Sheet 8",
+         "8",
+         "72 分 · 题型 G",
+         "—",
+         "—"
+        ],
+        [
+         "帝国理工习题 Sheet 9",
+         "5",
+         "42 分 · 题型 G",
+         "—",
+         "—"
+        ],
+        [
+         "Unseen 练习集 1",
+         "1",
+         "20 分 · 题型 B",
+         "—",
+         "—"
+        ],
+        [
+         "Unseen 练习集 2",
+         "1",
+         "20 分 · 题型 B",
+         "—",
+         "—"
+        ],
+        [
+         "Unseen 练习集 3",
+         "1",
+         "20 分 · 题型 B",
+         "—",
+         "—"
+        ],
+        [
+         "Unseen 练习集 4",
+         "1",
+         "20 分 · 题型 B",
+         "—",
+         "—"
+        ],
+        [
+         "Unseen 练习集 5",
+         "1",
+         "20 分 · 题型 B",
+         "—",
+         "—"
+        ],
+        [
+         "Unseen 练习集 6",
+         "1",
+         "20 分 · 题型 B",
+         "—",
+         "—"
+        ],
+        [
+         "Unseen 练习集 7",
+         "1",
+         "20 分 · 题型 B",
+         "—",
+         "—"
+        ],
+        [
+         "Unseen 练习集 8",
+         "1",
+         "20 分 · 题型 J",
+         "—",
+         "—"
+        ],
+        [
+         "新加坡国大 2008/09 第一学期卷",
+         "11",
+         "100 分 · 题型 D/E/F/G/J",
+         "—",
+         "—"
+        ],
+        [
+         "新加坡国大 2008/09 第二学期卷",
+         "7",
+         "120 分 · 题型 F/G/J",
+         "—",
+         "—"
+        ],
+        [
+         "新加坡国大 2009/10 第一学期卷",
+         "8",
+         "115 分 · 题型 D/F/G/J",
+         "—",
+         "—"
+        ],
+        [
+         "新加坡国大 2009/10 第二学期卷",
+         "7",
+         "120 分 · 题型 F/G/J",
+         "—",
+         "—"
+        ],
+        [
+         "新加坡国大 2010/11 第一学期卷",
+         "8",
+         "100 分 · 题型 D/F/G/J",
+         "—",
+         "—"
+        ],
+        [
+         "新加坡国大 2010/11 第二学期卷",
+         "8",
+         "100 分 · 题型 F/G/J",
+         "—",
+         "—"
+        ],
+        [
+         "新加坡国大 2011/12 第一学期卷",
+         "6",
+         "100 分 · 题型 D/F/G/J",
+         "—",
+         "—"
+        ],
+        [
+         "新加坡国大 2011/12 第二学期卷",
+         "8",
+         "100 分 · 题型 D/F/G/J",
+         "—",
+         "—"
+        ],
+        [
+         "新加坡国大 2012/13 第一学期卷",
+         "6",
+         "72 分 · 题型 D/G/J",
+         "—",
+         "—"
+        ],
+        [
+         "新加坡国大 2012/13 第二学期卷",
+         "7",
+         "120 分 · 题型 D/F/G/J",
+         "—",
+         "—"
+        ]
+       ]
+      }
+     ],
+     "chapter_share": [
+      {
+       "label": {
+        "en": "Sheets 1–4: fields, quotients, polynomials (J/B)",
+        "zh-Hans": "Sheet 1–4：域、商空间、多项式（J/B）",
+        "zh-Hant": "Sheet 1–4：域、商空間、多項式（J/B）"
+       },
+       "share": 0.4
+      },
+      {
+       "label": {
+        "en": "Sheets 5–6: eigen, triangularisation, min-poly (F/G)",
+        "zh-Hans": "Sheet 5–6：特征值、三角化、最小多项式（F/G）",
+        "zh-Hant": "Sheet 5–6：特徵值、三角化、最小多項式（F/G）"
+       },
+       "share": 0.25
+      },
+      {
+       "label": {
+        "en": "Sheets 7–8: primary, Jordan (I)",
+        "zh-Hans": "Sheet 7–8：主分解、Jordan（I）",
+        "zh-Hant": "Sheet 7–8：主分解、Jordan（I）"
+       },
+       "share": 0.15
+      },
+      {
+       "label": {
+        "en": "Unseen + NUS: mixed revision",
+        "zh-Hans": "Unseen + NUS：综合复习",
+        "zh-Hant": "Unseen + NUS：綜合複習"
+       },
+       "share": 0.2
+      }
+     ]
     },
     "order": null,
     "mock_template": null,
     "lecturers": []
    }
   },
-  "notes": [],
+  "notes": [
+   {
+    "id": "NT-SU-JORDAN",
+    "topic": "jordan",
+    "kinds": [
+     "summer"
+    ],
+    "title": {
+     "en": "Jordan survival kit for the summer paper",
+     "zh-Hans": "夏季卷 Jordan 生存包",
+     "zh-Hant": "夏季卷 Jordan 生存包"
+    },
+    "body": {
+     "en": "## One shift matrix rules them all\n\n$J_n(\\lambda)=\\lambda I+N$ with $N_{i,i+1}=1$. Then $N^k$ has 1s on the k-th superdiagonal and $N^n=0$; so\n$$J_n(\\lambda)^r=\\sum_{k=0}^{\\min(r,n-1)}\\binom{r}{k}\\lambda^{r-k}N^k.$$\n\nFor $\\lambda=1$: $J_n(1)^r=I+N^r$. If $r\\ge n$: still one block ($N^r=0$... only when $r\\ge n$!). If $r<n$: $N^r$ has rank $n-r$, giving blocks of sizes $r$-pattern — work it out with $\\dim\\ker$.\n\n## JCF recipe over any field\n\n1. Factor $c_A$ (over $\\mathbb{F}_p$ the factorisation changes with p — list cases).\n2. Largest block at $\\lambda$ = multiplicity of $\\lambda$ in $m_A$.\n3. Number of blocks at $\\lambda$ = $\\dim\\ker(A-\\lambda I)$; refine with higher powers if ambiguous.\n\n## Dunford (Jordan–Chevalley) decomposition\n\n$A=D+N$: read from JCF — $D$ keeps the diagonal, $N$ the superdiagonal. Automatically $D$ diagonalisable, $N$ nilpotent, $DN=ND$. Examined 2022 Q1(c)–(e) as a proof-then-compute pair.\n\n## $A\\sim A^{-1}$ / $A\\sim A^r$ verdicts\n\nCompare the multiset of Jordan block sizes at $\\lambda$ (for A) vs $\\lambda^{-1}$ / $\\lambda^r$ (for the power). Fixpoints ($\\lambda=\\lambda^{-1}$, i.e. $\\pm1$) are where odd things happen — e.g. 2021 Q1(b)(iii): odd dimension over C forces an unpaired -1 issue.",
+     "zh-Hans": "## 一个移位矩阵统管一切\n\n$J_n(\\lambda)=\\lambda I+N$（$N_{i,i+1}=1$）。$N^k$ 的第 k 条超对角线为 1 且 $N^n=0$；故\n$$J_n(\\lambda)^r=\\sum_{k=0}^{\\min(r,n-1)}\\binom{r}{k}\\lambda^{r-k}N^k.$$\n\n$\\lambda=1$ 时 $J_n(1)^r=I+N^r$。$r\\ge n$：仍是一块；$r<n$：$N^r$ 秩为 $n-r$，块大小呈 r 型分裂——用 $\\dim\\ker$ 推。\n\n## 任意域上的 JCF 配方\n\n1. 分解 $c_A$（$\\mathbb{F}_p$ 上分解方式随 p 变——分情况列出）。\n2. $\\lambda$ 处最大块 = $\\lambda$ 在 $m_A$ 中的重数。\n3. $\\lambda$ 处块数 = $\\dim\\ker(A-\\lambda I)$；不定时用更高次幂细化。\n\n## Dunford（Jordan–Chevalley）分解\n\n$A=D+N$：从 JCF 直接读——$D$ 留对角、$N$ 留超对角。自动满足 $D$ 可对角化、$N$ 幂零、$DN=ND$。2022 Q1(c)–(e) 以\"先证后算\"成对出现。\n\n## $A\\sim A^{-1}$ / $A\\sim A^r$ 判定\n\n比较 A 在 $\\lambda$ 处的块大小多重集与幂在 $\\lambda^{-1}$ / $\\lambda^r$ 处的。不动点（$\\lambda=\\pm1$）是异常之源——如 2021 Q1(b)(iii)：C 上奇数维强制 -1 处无法配对。",
+     "zh-Hant": "## 一個移位矩陣統管一切\n\n$J_n(\\lambda)=\\lambda I+N$（$N_{i,i+1}=1$）。$N^k$ 的第 k 條超對角線爲 1 且 $N^n=0$；故\n$$J_n(\\lambda)^r=\\sum_{k=0}^{\\min(r,n-1)}\\binom{r}{k}\\lambda^{r-k}N^k.$$\n\n$\\lambda=1$ 時 $J_n(1)^r=I+N^r$。$r\\ge n$：仍是一塊；$r<n$：$N^r$ 秩爲 $n-r$，塊大小呈 r 型分裂——用 $\\dim\\ker$ 推。\n\n## 任意域上的 JCF 配方\n\n1. 分解 $c_A$（$\\mathbb{F}_p$ 上分解方式隨 p 變——分情況列出）。\n2. $\\lambda$ 處最大塊 = $\\lambda$ 在 $m_A$ 中的重數。\n3. $\\lambda$ 處塊數 = $\\dim\\ker(A-\\lambda I)$；不定時用更高次冪細化。\n\n## Dunford（Jordan–Chevalley）分解\n\n$A=D+N$：從 JCF 直接讀——$D$ 留對角、$N$ 留超對角。自動滿足 $D$ 可對角化、$N$ 冪零、$DN=ND$。2022 Q1(c)–(e) 以\"先證後算\"成對出現。\n\n## $A\\sim A^{-1}$ / $A\\sim A^r$ 判定\n\n比較 A 在 $\\lambda$ 處的塊大小多重集與冪在 $\\lambda^{-1}$ / $\\lambda^r$ 處的。不動點（$\\lambda=\\pm1$）是異常之源——如 2021 Q1(b)(iii)：C 上奇數維強制 -1 處無法配對。"
+    }
+   },
+   {
+    "id": "NT-SU-ADJOINT",
+    "topic": "inner-product",
+    "kinds": [
+     "summer"
+    ],
+    "title": {
+     "en": "Adjoint & projection identities (inner-product spaces)",
+     "zh-Hans": "伴随与投影恒等式（内积空间）",
+     "zh-Hant": "伴隨與投影恆等式（內積空間）"
+    },
+    "body": {
+     "en": "## The one definition that proves everything\n\n$$(Tv,w)=(v,T^*w)\\quad\\text{for all }v,w.$$\n\n- $(ST)^*=T^*S^*$: $(STv,w)=(Tv,S^*w)=(v,T^*S^*w)$.\n- $T$ invertible ⇒ $(T^*)^{-1}=(T^{-1})^*$: chase $(Tv,\\,(T^{-1})^*w)=(v,w)$.\n- Rank-one $T(v)=(v,a)b$ ⇒ $T^*(v)=(v,b)a$; $T=T^*$ ⇔ $b=\\lambda a$, $\\lambda\\in\\mathbb R$ (2021 Q3(c)).\n\n## Orthogonal projections\n\nDefinition via $v=w+w'$, $w\\in W$, $w'\\in W^\\perp$: $\\pi_W(v)=w$. Properties: $\\pi_W^2=\\pi_W$; $\\|\\pi_Wv\\|\\le\\|v\\|$ (expand $\\|v\\|^2=\\|w\\|^2+\\|w'\\|^2$); $\\ker\\pi_W=W^\\perp$. Converse characterisation (2022, 12 分): $P^2=P$ + $\\|Pv\\|\\le\\|v\\|$ ⇒ eigenvalues ∈{0,1}, images ⊥ kernels ⇒ orthogonal projection.\n\n## Matrix spaces with the trace form\n\n$M_n(\\mathbb R)$ with $(A,B)=\\mathrm{tr}(AB^T)=\\sum a_{ij}b_{ij}$: the standard basis is orthonormal. Maps like $S(A)=A+A^T$ decompose $V=\\mathrm{Sym}\\oplus\\mathrm{Skew}$: eigenvalues 2 (symmetric part), 0 (skew part), and eigenvalue 1 on off-diagonal pairs $E_{ij}+E_{ji}$ (2025 Q3(d)). Gram–Schmidt on exotic forms: verify axioms FIRST (2 分 each paper).",
+     "zh-Hans": "## 一个定义证一切\n\n$$(Tv,w)=(v,T^*w)\\quad\\forall v,w.$$\n\n- $(ST)^*=T^*S^*$：$(STv,w)=(Tv,S^*w)=(v,T^*S^*w)$。\n- $T$ 可逆 ⇒ $(T^*)^{-1}=(T^{-1})^*$：追踪 $(Tv,(T^{-1})^*w)=(v,w)$。\n- 秩一 $T(v)=(v,a)b$ ⇒ $T^*(v)=(v,b)a$；$T=T^*$ ⇔ $b=\\lambda a$（$\\lambda\\in\\mathbb R$）（2021 Q3(c)）。\n\n## 正交投影\n\n由分解 $v=w+w'$（$w\\in W,w'\\in W^\\perp$）定义 $\\pi_W(v)=w$。性质：$\\pi_W^2=\\pi_W$；$\\|\\pi_Wv\\|\\le\\|v\\|$（展开 $\\|v\\|^2=\\|w\\|^2+\\|w'\\|^2$）；$\\ker\\pi_W=W^\\perp$。反向刻画（2022，12 分）：$P^2=P$ + 范数界 ⇒ 特征值 ∈{0,1}、像⊥核 ⇒ 正交投影。\n\n## 迹型矩阵空间\n\n$M_n(\\mathbb R)$ 配 $(A,B)=\\mathrm{tr}(AB^T)$：标准基标准正交。$S(A)=A+A^T$ 型映射给出 $V=\\mathrm{Sym}\\oplus\\mathrm{Skew}$：特征值 2（对称部分）、0（反对称部分）、1（$E_{ij}+E_{ji}$ 对）（2025 Q3(d)）。特殊内积下先验证公理（每年 2 分）。",
+     "zh-Hant": "## 一個定義證一切\n\n$$(Tv,w)=(v,T^*w)\\quad\\forall v,w.$$\n\n- $(ST)^*=T^*S^*$：$(STv,w)=(Tv,S^*w)=(v,T^*S^*w)$。\n- $T$ 可逆 ⇒ $(T^*)^{-1}=(T^{-1})^*$：追蹤 $(Tv,(T^{-1})^*w)=(v,w)$。\n- 秩一 $T(v)=(v,a)b$ ⇒ $T^*(v)=(v,b)a$；$T=T^*$ ⇔ $b=\\lambda a$（$\\lambda\\in\\mathbb R$）（2021 Q3(c)）。\n\n## 正交投影\n\n由分解 $v=w+w'$（$w\\in W,w'\\in W^\\perp$）定義 $\\pi_W(v)=w$。性質：$\\pi_W^2=\\pi_W$；$\\|\\pi_Wv\\|\\le\\|v\\|$（展開 $\\|v\\|^2=\\|w\\|^2+\\|w'\\|^2$）；$\\ker\\pi_W=W^\\perp$。反向刻畫（2022，12 分）：$P^2=P$ + 範數界 ⇒ 特徵值 ∈{0,1}、像⊥核 ⇒ 正交投影。\n\n## 跡型矩陣空間\n\n$M_n(\\mathbb R)$ 配 $(A,B)=\\mathrm{tr}(AB^T)$：標準基標準正交。$S(A)=A+A^T$ 型映射給出 $V=\\mathrm{Sym}\\oplus\\mathrm{Skew}$：特徵值 2（對稱部分）、0（反對稱部分）、1（$E_{ij}+E_{ji}$ 對）（2025 Q3(d)）。特殊內積下先驗證公理（每年 2 分）。"
+    }
+   },
+   {
+    "id": "NT-SU-FORMS",
+    "topic": "bilinear-forms",
+    "kinds": [
+     "summer"
+    ],
+    "title": {
+     "en": "Bilinear forms & quadratic forms (2024-style finale notes)",
+     "zh-Hans": "双线性形式与二次型（2024 式压轴笔记）",
+     "zh-Hant": "雙線性形式與二次型（2024 式壓軸筆記）"
+    },
+    "body": {
+     "en": "## Definitions that are 7 free marks\n\n- **Symmetric bilinear form:** $b:V\\times V\\to F$, linear in each slot, $b(v,w)=b(w,v)$.\n- **Quadratic form:** $Q(v)=b(v,v)$ for such a b; conversely (char ≠ 2) $b(v,w)=\\tfrac12[Q(v+w)-Q(v)-Q(w)]$ (polarisation).\n- **Non-degenerate:** the matrix $[b(e_i,e_j)]$ is invertible. Proof that this forces some $Q(v)\\ne0$: if $Q\\equiv0$ then polarisation gives $b\\equiv0$, zero matrix — contradiction.\n\n## Equivalence and diagonalisation\n\n$Q\\sim Q'$ iff $Q'(v)=Q(Pv)$ for invertible P, i.e. matrices related by congruence $P^TAP$. Over $\\mathbb{Q}$/$\\mathbb{R}$: Lagrange complete the square:\n$$a x_1^2+2b\\,x_1x_2+cx_2^2=a\\Big(x_1+\\tfrac ba x_2\\Big)^2+\\Big(c-\\tfrac{b^2}a\\Big)x_2^2.$$\n\n## Solvability of Q(x)=c over Q\n\nAfter diagonalisation $Q=\\lambda_1y_1^2+\\lambda_2y_2^2$: compare signs and rational-square classes of the $\\lambda_i$ — e.g. $y_1^2-2y_2^2=0$ has only the trivial solution (else $\\sqrt2\\in\\mathbb{Q}$), while $y_1^2-2y_2^2=1$ has infinitely many (Pell-type, 2024 Q3(c)(ii)).",
+     "zh-Hans": "## 白送 7 分的定义\n\n- **对称双线性形式：** $b:V\\times V\\to F$ 关于两变元线性且 $b(v,w)=b(w,v)$。\n- **二次型：** $Q(v)=b(v,v)$；反之（char≠2）$b(v,w)=\\tfrac12[Q(v+w)-Q(v)-Q(w)]$（极化）。\n- **非退化：** 矩阵 $[b(e_i,e_j)]$ 可逆。证明其强制存在 $Q(v)\\ne0$：若 $Q\\equiv0$ 则极化给 $b\\equiv0$、零矩阵——矛盾。\n\n## 等价与对角化\n\n$Q\\sim Q'$ ⇔ 存在可逆 P 使 $Q'(v)=Q(Pv)$，即矩阵合同 $P^TAP$。$\\mathbb{Q}$/$\\mathbb{R}$ 上用 Lagrange 配方：\n$$a x_1^2+2b\\,x_1x_2+cx_2^2=a\\big(x_1+\\tfrac ba x_2\\big)^2+\\big(c-\\tfrac{b^2}a\\big)x_2^2.$$\n\n## Q 上 Q(x)=c 的可解性\n\n对角化后 $Q=\\lambda_1y_1^2+\\lambda_2y_2^2$：比较 $\\lambda_i$ 的符号与有理平方类——如 $y_1^2-2y_2^2=0$ 只有零解（否则 $\\sqrt2\\in\\mathbb{Q}$），而 $y_1^2-2y_2^2=1$ 有无穷多解（Pell 型，2024 Q3(c)(ii)）。",
+     "zh-Hant": "## 白送 7 分的定義\n\n- **對稱雙線性形式：** $b:V\\times V\\to F$ 關於兩變元線性且 $b(v,w)=b(w,v)$。\n- **二次型：** $Q(v)=b(v,v)$；反之（char≠2）$b(v,w)=\\tfrac12[Q(v+w)-Q(v)-Q(w)]$（極化）。\n- **非退化：** 矩陣 $[b(e_i,e_j)]$ 可逆。證明其強制存在 $Q(v)\\ne0$：若 $Q\\equiv0$ 則極化給 $b\\equiv0$、零矩陣——矛盾。\n\n## 等價與對角化\n\n$Q\\sim Q'$ ⇔ 存在可逆 P 使 $Q'(v)=Q(Pv)$，即矩陣合同 $P^TAP$。$\\mathbb{Q}$/$\\mathbb{R}$ 上用 Lagrange 配方：\n$$a x_1^2+2b\\,x_1x_2+cx_2^2=a\\big(x_1+\\tfrac ba x_2\\big)^2+\\big(c-\\tfrac{b^2}a\\big)x_2^2.$$\n\n## Q 上 Q(x)=c 的可解性\n\n對角化後 $Q=\\lambda_1y_1^2+\\lambda_2y_2^2$：比較 $\\lambda_i$ 的符號與有理平方類——如 $y_1^2-2y_2^2=0$ 只有零解（否則 $\\sqrt2\\in\\mathbb{Q}$），而 $y_1^2-2y_2^2=1$ 有無窮多解（Pell 型，2024 Q3(c)(ii)）。"
+    }
+   },
+   {
+    "id": "NT-AM-FP",
+    "topic": "week3",
+    "kinds": [
+     "autumn-midterm"
+    ],
+    "title": {
+     "en": "Fp and Fp[x] survival facts (midterm)",
+     "zh-Hans": "Fp 与 Fp[x] 生存事实（期中）",
+     "zh-Hant": "Fp 與 Fp[x] 生存事實（期中）"
+    },
+    "body": {
+     "en": "## Working over Fp\n\n- $\\mathbb{F}_p=\\{0,\\ldots,p-1\\}$ with mod-p arithmetic; a unit in $\\mathbb{F}_p[x]$ is exactly the nonzero constant.\n- $f$ invertible-friendly: $\\gcd(f,x)=1$ ⇔ $x\\nmid f$ ⇔ $f(0)\\ne0$.\n- Quadratic reciprocity-free irreducibility test for small p: a cubic is irreducible over $\\mathbb{F}_p$ iff it has no root in $\\mathbb{F}_p$; quartics need the extra check $x^{p^2}\\equiv x$ on a non-root.\n- Factor counting over $\\mathbb{F}_2$: $x^{2^k}-x$ = product of ALL monic irreducibles whose degree divides k — the mother identity for \"how many irreducibles of degree d\" questions.\n\n## Companion matrices\n\n$C(f)$ for $f=x^n+a_{n-1}x^{n-1}+\\cdots+a_0$: subdiagonal ones, last column $(-a_0,\\ldots,-a_{n-1})^T$. Facts to quote: $c_{C(f)}=m_{C(f)}=f$; diagonalisable over $F$ iff $f$ splits into DISTINCT linear factors over $F$. This is why the midterm asks \"for which primes p\" — the factorisation of the fixed integer polynomial changes with p.",
+     "zh-Hans": "## 在 Fp 上做题\n\n- $\\mathbb{F}_p=\\{0,\\ldots,p-1\\}$，模 p 算术；$\\mathbb{F}_p[x]$ 的单位恰为非零常数。\n- $\\gcd(f,x)=1$ ⇔ $x\\nmid f$ ⇔ $f(0)\\ne0$。\n- 小 p 的不可约判别：三次不可约 ⇔ 在 $\\mathbb{F}_p$ 上无根；四次需再查非根处 $x^{p^2}\\equiv x$。\n- $\\mathbb{F}_2$ 上因式计数母恒等式：$x^{2^k}-x$ = 所有次数整除 k 的首一不可约多项式之积——\"有多少个 d 次不可约\"的源头。\n\n## 伴随矩阵\n\n$C(f)$（$f=x^n+a_{n-1}x^{n-1}+\\cdots+a_0$）：次对角线为 1，末列 $(-a_0,\\ldots,-a_{n-1})^T$。可直接引用：$c_{C(f)}=m_{C(f)}=f$；在 $F$ 上可对角化 ⇔ $f$ 在 $F$ 上分解为**互异**一次因式。期中问\"对哪些素数 p\"正是因为固定整系数多项式的分解方式随 p 变化。",
+     "zh-Hant": "## 在 Fp 上做題\n\n- $\\mathbb{F}_p=\\{0,\\ldots,p-1\\}$，模 p 算術；$\\mathbb{F}_p[x]$ 的單位恰爲非零常數。\n- $\\gcd(f,x)=1$ ⇔ $x\\nmid f$ ⇔ $f(0)\\ne0$。\n- 小 p 的不可約判別：三次不可約 ⇔ 在 $\\mathbb{F}_p$ 上無根；四次需再查非根處 $x^{p^2}\\equiv x$。\n- $\\mathbb{F}_2$ 上因式計數母恆等式：$x^{2^k}-x$ = 所有次數整除 k 的首一不可約多項式之積——\"有多少個 d 次不可約\"的源頭。\n\n## 伴隨矩陣\n\n$C(f)$（$f=x^n+a_{n-1}x^{n-1}+\\cdots+a_0$）：次對角線爲 1，末列 $(-a_0,\\ldots,-a_{n-1})^T$。可直接引用：$c_{C(f)}=m_{C(f)}=f$；在 $F$ 上可對角化 ⇔ $f$ 在 $F$ 上分解爲**互異**一次因式。期中問\"對哪些素數 p\"正是因爲固定整係數多項式的分解方式隨 p 變化。"
+    }
+   },
+   {
+    "id": "NT-AM-INV",
+    "topic": "week5",
+    "kinds": [
+     "autumn-midterm"
+    ],
+    "title": {
+     "en": "Invariant subspaces & minimal polynomials (midterm proofs)",
+     "zh-Hans": "不变子空间与最小多项式（期中证明）",
+     "zh-Hant": "不變子空間與最小多項式（期中證明）"
+    },
+    "body": {
+     "en": "## The three chains of implications\n\n1. $W$ is $T$-invariant ⇒ $m_{T_W}$ divides $m_T$ (restrict the relation $m_T(T)=0$ to W).\n2. $m_T=c_T$ ⇔ some vector has cyclic span = V (cyclic vector) ⇒ every invariant subspace has an invariant complement? NO — that is semisimple, a different property; the midterm 2023 Q3 chain was: cyclic ⇒ m=c; m≠c ⇒ a proper invariant subspace exists (from the RCF block structure).\n3. $A^k=I$: eigenvalues are k-th roots of unity; min poly divides $x^k-1$ and has no repeated roots when char F ∤ k ⇒ diagonalisable; classification = which multisets of cyclotomic factors fit the dimension and give $m\\mid c$ both equal-degree-determined.\n\n## Minimal polynomial mechanics\n\n- $m_A$ = the lcm of the invariant factors = the largest Jordan block per eigenvalue.\n- $m_{A\\otimes B},\\ m_{A\\oplus B}=\\mathrm{lcm}(m_A,m_B)$, $m_{p(A)}=p(m_A)$-careful: substitution rule holds for the minimal polynomial of p(A).\n- Uniqueness proof (asked 2024 midterm & 2024 summer): division algorithm — both monic generators of the same ideal divide each other.",
+     "zh-Hans": "## 三条蕴含链\n\n1. $W$ 为 $T$-不变 ⇒ $m_{T_W}\\mid m_T$（把 $m_T(T)=0$ 限制到 W 上）。\n2. $m_T=c_T$ ⇔ 存在循环向量张成 V ⇒ 循环；期中 2023 Q3 的链条：循环 ⇒ m=c；m≠c ⇒ 存在真不变子空间（由 RCF 块结构）。\n3. $A^k=I$：特征值为 k 次单位根；$m_A\\mid x^k-1$ 且 char F ∤ k 时无重根 ⇒ 可对角化；分类 = 哪些分圆因式多重集能放进维度。\n\n## 最小多项式机制\n\n- $m_A$ = 不变因子的 lcm = 每个特征值最大 Jordan 块。\n- $m_{A\\oplus B}=\\mathrm{lcm}(m_A,m_B)$；$p(A)$ 的最小多项式用代入规则。\n- 唯一性证明（2024 期中与 2024 夏季都考）：带余除法——同一理想的首一生成元互相整除。",
+     "zh-Hant": "## 三條蘊含鏈\n\n1. $W$ 爲 $T$-不變 ⇒ $m_{T_W}\\mid m_T$（把 $m_T(T)=0$ 限制到 W 上）。\n2. $m_T=c_T$ ⇔ 存在循環向量張成 V ⇒ 循環；期中 2023 Q3 的鏈條：循環 ⇒ m=c；m≠c ⇒ 存在真不變子空間（由 RCF 塊結構）。\n3. $A^k=I$：特徵值爲 k 次單位根；$m_A\\mid x^k-1$ 且 char F ∤ k 時無重根 ⇒ 可對角化；分類 = 哪些分圓因式多重集能放進維度。\n\n## 最小多項式機制\n\n- $m_A$ = 不變因子的 lcm = 每個特徵值最大 Jordan 塊。\n- $m_{A\\oplus B}=\\mathrm{lcm}(m_A,m_B)$；$p(A)$ 的最小多項式用代入規則。\n- 唯一性證明（2024 期中與 2024 夏季都考）：帶餘除法——同一理想的首一生成元互相整除。"
+    }
+   },
+   {
+    "id": "NT-AM-TRI",
+    "topic": "week4",
+    "kinds": [
+     "autumn-midterm"
+    ],
+    "title": {
+     "en": "Triangularisation & primary decomposition quick reference",
+     "zh-Hans": "三角化与主分解速查",
+     "zh-Hant": "三角化與主分解速查"
+    },
+    "body": {
+     "en": "## Simultaneous triangularisation (2025 midterm Q2)\n\nCommuting family over C: induct on dim — pick a COMMON eigenvector (eigenspaces of one operator are invariant under the others), restrict to the quotient, lift. For two commuting matrices: triangularise one; the other restricted to each eigenspace is still commuting; iterate.\n\n## Primary decomposition\n\nStatement to quote: write $m_T=\\prod p_i^{e_i}$ (distinct monic irreducibles); then $V=\\bigoplus\\ker p_i(T)^{e_i}$, each summand $T$-invariant, and the minimal polynomial of $T|_{V_i}$ is $p_i^{e_i}$. Dimension bookkeeping (2022 summer Q2(b)): $\\dim V_i=\\deg p_i\\times$(total degree in $c_T$) when multiplicities align.\n\n## Kernel chains (2024 midterm Q3)\n\n$\\ker T^k\\subseteq\\ker T^{k+1}$, strictly increasing until it stabilises at $\\ker m$-power = generalised eigenspace. For nilpotent T: $\\dim\\ker T^k$ jump pattern = the block column heights of the Jordan form — the midterm computation engine.",
+     "zh-Hans": "## 同时三角化（2025 期中 Q2）\n\nC 上交换族：对维数归纳——取公共特征向量（一个算子的特征空间被其余算子保持），限制到商空间再提升。两个交换矩阵：先三角化一个；另一个限制到每个特征空间仍交换；迭代。\n\n## 主分解\n\n需整段陈述：写 $m_T=\\prod p_i^{e_i}$（互异首一不可约）；则 $V=\\bigoplus\\ker p_i(T)^{e_i}$，各项 $T$-不变，且 $T|_{V_i}$ 的最小多项式为 $p_i^{e_i}$。维数记账（2022 夏季 Q2(b)）：重数对齐时 $\\dim V_i=\\deg p_i\\times$（$c_T$ 中的总次数）。\n\n## 核链（2024 期中 Q3）\n\n$\\ker T^k\\subseteq\\ker T^{k+1}$ 严格增直到稳定于广义特征空间。幂零 T：$\\dim\\ker T^k$ 的跳跃模式 = Jordan 形的块列高——期中计算引擎。",
+     "zh-Hant": "## 同時三角化（2025 期中 Q2）\n\nC 上交換族：對維數歸納——取公共特徵向量（一個算子的特徵空間被其餘算子保持），限制到商空間再提升。兩個交換矩陣：先三角化一個；另一個限制到每個特徵空間仍交換；迭代。\n\n## 主分解\n\n需整段陳述：寫 $m_T=\\prod p_i^{e_i}$（互異首一不可約）；則 $V=\\bigoplus\\ker p_i(T)^{e_i}$，各項 $T$-不變，且 $T|_{V_i}$ 的最小多項式爲 $p_i^{e_i}$。維數記賬（2022 夏季 Q2(b)）：重數對齊時 $\\dim V_i=\\deg p_i\\times$（$c_T$ 中的總次數）。\n\n## 核鏈（2024 期中 Q3）\n\n$\\ker T^k\\subseteq\\ker T^{k+1}$ 嚴格增直到穩定於廣義特徵空間。冪零 T：$\\dim\\ker T^k$ 的跳躍模式 = Jordan 形的塊列高——期中計算引擎。"
+    }
+   }
+  ],
   "drill_banner": {
    "default": {
     "en": "**Grind this format.** Memorise the solution template first, then work every question below under time pressure; finish by self-marking against the scheme and re-reading the pitfalls.",
@@ -1271,7 +2426,7 @@
     "zh-Hans": "**(a)(i)** 特征多项式：$c_A(x)=x^4+2x^3+3x^2+2x+1=(x^2+x+1)^2$。（1 分，A）\n\n**(a)(ii)** 验证 $A^2+A+I=0$，故 $m_A(x)$ 整除 $x^2+x+1$。因 $A$ 不是单位阵的标量倍，最小多项式非一次，故 $m_A(x)=x^2+x+1$。（3 分，A）\n\n**(a)(iii)** (α) 在 $\\mathbb{C}$ 上，$m_A(x)=(x-\\omega)(x-\\omega^2)$（$\\omega=e^{2\\pi i/3}$）：互异一次因式之积，故 $A$ 可对角化。（2 分，B）(β) 在 $\\mathbb{R}$ 上，$m_A(x)$ 是不可约二次式，不是互异一次因式之积，故 $A$ 不可对角化。（2 分，B）(γ) 在 $\\mathbb{F}_3$ 上，$x^2+x+1=(x-1)^2$，故 $m_A(x)=(x-1)^2$：重因式，$A$ 不可对角化。（2 分，B）\n\n**(b)(i)** 由 $B^2+B+I=0$ 得 $B(-B-I)=I$，故 $B$ 可逆且 $B^{-1}=-B-I$。（1 分，A）\n\n**(b)(ii)** 用 $B^{-2}$ 乘 $B^2+B+I=0$ 两边得 $I+B^{-1}+B^{-2}=0$，即 $B^{-1}$ 满足 $x^2+x+1$。其最小多项式不能是一次（否则 $B^{-1}$ 从而 $B$ 是标量阵），故为 $x^2+x+1$。（3 分，A）\n\n**(b)(iii)** 在 $\\mathbb{C}$ 上 $B$ 可对角化，相似于 $\\mathrm{diag}(\\omega I_r,\\omega^{-1}I_s)$（$r+s=n$）；于是 $B^{-1}$ 相似于 $\\mathrm{diag}(\\omega^{-1}I_r,\\omega I_s)$。$n$ 为奇数时 $r\\neq s$，两者特征值重数不同，故不相似。（3 分，C）\n\n**(b)(iv)** 在 $\\mathbb{R}$ 上 $x^2+x+1$ 不可约，故 $c_B(x)=(x^2+x+1)^m$，$n=2m$，$B$ 的有理标准形是 $C\\oplus\\cdots\\oplus C$，其中 $C=\\begin{pmatrix}0&-1\\\\1&-1\\end{pmatrix}$ 是 $x^2+x+1$ 的伴随矩阵。$B^{-1}$ 有相同的最小多项式与 RCF；由 RCF 定理，$B$ 相似于 $B^{-1}$。（3 分，D）",
     "zh-Hant": "**(a)(i)** 特徵多項式：$c_A(x)=x^4+2x^3+3x^2+2x+1=(x^2+x+1)^2$。（1 分，A）\n\n**(a)(ii)** 驗證 $A^2+A+I=0$，故 $m_A(x)$ 整除 $x^2+x+1$。因 $A$ 不是單位陣的標量倍，最小多項式非一次，故 $m_A(x)=x^2+x+1$。（3 分，A）\n\n**(a)(iii)** (α) 在 $\\mathbb{C}$ 上，$m_A(x)=(x-\\omega)(x-\\omega^2)$（$\\omega=e^{2\\pi i/3}$）：互異一次因式之積，故 $A$ 可對角化。（2 分，B）(β) 在 $\\mathbb{R}$ 上，$m_A(x)$ 是不可約二次式，不是互異一次因式之積，故 $A$ 不可對角化。（2 分，B）(γ) 在 $\\mathbb{F}_3$ 上，$x^2+x+1=(x-1)^2$，故 $m_A(x)=(x-1)^2$：重因式，$A$ 不可對角化。（2 分，B）\n\n**(b)(i)** 由 $B^2+B+I=0$ 得 $B(-B-I)=I$，故 $B$ 可逆且 $B^{-1}=-B-I$。（1 分，A）\n\n**(b)(ii)** 用 $B^{-2}$ 乘 $B^2+B+I=0$ 兩邊得 $I+B^{-1}+B^{-2}=0$，即 $B^{-1}$ 滿足 $x^2+x+1$。其最小多項式不能是一次（否則 $B^{-1}$ 從而 $B$ 是標量陣），故爲 $x^2+x+1$。（3 分，A）\n\n**(b)(iii)** 在 $\\mathbb{C}$ 上 $B$ 可對角化，相似於 $\\mathrm{diag}(\\omega I_r,\\omega^{-1}I_s)$（$r+s=n$）；於是 $B^{-1}$ 相似於 $\\mathrm{diag}(\\omega^{-1}I_r,\\omega I_s)$。$n$ 爲奇數時 $r\\neq s$，兩者特徵值重數不同，故不相似。（3 分，C）\n\n**(b)(iv)** 在 $\\mathbb{R}$ 上 $x^2+x+1$ 不可約，故 $c_B(x)=(x^2+x+1)^m$，$n=2m$，$B$ 的有理標準形是 $C\\oplus\\cdots\\oplus C$，其中 $C=\\begin{pmatrix}0&-1\\\\1&-1\\end{pmatrix}$ 是 $x^2+x+1$ 的伴隨矩陣。$B^{-1}$ 有相同的最小多項式與 RCF；由 RCF 定理，$B$ 相似於 $B^{-1}$。（3 分，D）"
    },
-   "secondary_format": null,
+   "secondary_format": "A",
    "source": {
     "paper_id": "SU2021",
     "paper_name": {
@@ -1302,7 +2457,7 @@
    "question_id": "MATH50003.SU2021.Q2",
    "module": "MATH50003/50016",
    "qtype": "subjective",
-   "format": "F",
+   "format": "LA-Jordan",
    "Question": {
     "en": "**(a)** Let $p$ be a prime number, let $\\mathbb{F}_p$ denote the field of $p$ elements, and let $A$ be the following $3\\times 3$ matrix over $\\mathbb{F}_p$:\n\n$$A=\\begin{pmatrix}0&0&-1\\\\1&0&1\\\\0&1&1\\end{pmatrix}.$$\n\n**(i)** Show that the characteristic polynomial of $A$ factorizes as a product of linear factors.\n**(ii)** Find the Jordan Canonical Form of $A$ (the answer will depend on $p$).\n**(iii)** Let $p=2$, let $V=(\\mathbb{F}_2)^3$, and let $T:V\\to V$ be the linear map defined by $T(v)=Av$ ($v\\in V$). Find a Jordan basis for $T$. **[7]**\n\n**(b)** Let $V$ be a vector space, and let $T:V\\to V$ be a linear map with the properties:\n(1) the characteristic polynomial $c_T(x)=x^5(x-1)^6$;\n(2) $\\mathrm{rank}(T)=8$ and $\\mathrm{rank}(T^2)=7$;\n(3) $\\mathrm{rank}(T-I)=9$ and $\\mathrm{rank}(T-I)^3=6$.\nFind the Jordan Canonical Form of $T$. **[6]**\n\n**(c)** Let $F$ be a field, let $n$ be a positive integer, and let $c(x)\\in F[x]$ be a polynomial of degree $n$. Let $m(x)\\in F[x]$ be a polynomial satisfying: (1) $m(x)$ divides $c(x)$; (2) if $p(x)\\in F[x]$ is an irreducible factor of $c(x)$, then $p(x)$ divides $m(x)$. Decide whether the following statement is true or false: there exists an $n\\times n$ matrix over $F$ that has characteristic polynomial $c(x)$ and minimal polynomial $m(x)$. If true, give a proof; if false, give a counterexample. **[7]**",
     "zh-Hans": "**(a)** 设 $p$ 为素数，$\\mathbb{F}_p$ 为 $p$ 元域，$A$ 是 $\\mathbb{F}_p$ 上的如下 $3\\times 3$ 矩阵：\n\n$$A=\\begin{pmatrix}0&0&-1\\\\1&0&1\\\\0&1&1\\end{pmatrix}.$$\n\n**(i)** 证明 $A$ 的特征多项式可分解为一次因式之积。\n**(ii)** 求 $A$ 的 Jordan 标准形（答案依赖于 $p$）。\n**(iii)** 取 $p=2$，$V=(\\mathbb{F}_2)^3$，$T:V\\to V$ 由 $T(v)=Av$（$v\\in V$）定义。求 $T$ 的一个 Jordan 基。**[7 分]**\n\n**(b)** 设 $V$ 是向量空间，$T:V\\to V$ 是线性映射，满足：\n(1) 特征多项式 $c_T(x)=x^5(x-1)^6$；\n(2) $\\mathrm{rank}(T)=8$，$\\mathrm{rank}(T^2)=7$；\n(3) $\\mathrm{rank}(T-I)=9$，$\\mathrm{rank}(T-I)^3=6$。\n求 $T$ 的 Jordan 标准形。**[6 分]**\n\n**(c)** 设 $F$ 是域，$n$ 是正整数，$c(x)\\in F[x]$ 是 $n$ 次多项式。$m(x)\\in F[x]$ 满足：(1) $m(x)$ 整除 $c(x)$；(2) 若 $p(x)\\in F[x]$ 是 $c(x)$ 的不可约因子，则 $p(x)$ 整除 $m(x)$。判断下列命题真假：存在 $F$ 上的 $n\\times n$ 矩阵，其特征多项式为 $c(x)$、最小多项式为 $m(x)$。若为真，给出证明；若为假，给出反例。**[7 分]**",
@@ -1313,7 +2468,7 @@
     "zh-Hans": "**(a)(i)** $c_A(x)=x^3-x^2-x+1=(x-1)^2(x+1)$。（1 分，A）\n\n**(a)(ii)** $A$ 的最小多项式也是 $(x-1)^2(x+1)$。故 $p\\neq 2$ 时 JCF 为 $J_2(1)\\oplus J_1(-1)$；$p=2$ 时 $-1=1$，JCF 为 $J_3(1)$。（3 分，A）\n\n**(a)(iii)** $p=2$ 时 $T$ 的最小多项式为 $(x-1)^3$。$(T-I)^2V$ 的一组基是 $v_1=e_1+e_3$；且 $(T-I)(e_1+e_2)=v_1$，$(T-I)(e_1)=e_1+e_2$。故 Jordan 基为 $e_1+e_3,\\ e_1+e_2,\\ e_1$。（3 分，A）\n\n**(b)** 由 (1) $\\dim V=11$；由 (2) 特征值 0 的几何重数 $g(0)=3$，即 0-块共三块、大小之和为 5。$T^2$ 秩为 7，这些块的平方总秩为 1，故为 $J_3(0),J_1(0),J_1(0)$。由 (3) $g(1)=2$，两个 1-块大小和为 6；$(T-I)^3$ 秩为 6，其立方总秩为 1，故为 $J_4(1),J_2(1)$。JCF 为 $J_3(0)\\oplus J_1(0)^2\\oplus J_4(1)\\oplus J_2(1)$。（6 分，B）\n\n**(c)** 真。分解 $c(x)=p_1(x)^{a_1}\\cdots p_r(x)^{a_r}$，$m(x)=p_1(x)^{b_1}\\cdots p_r(x)^{b_r}$（$a_i\\ge b_i>0$）。对每个 $i$ 令 $C_i=C(p_i(x)^{b_i})\\oplus C(p_i(x))\\oplus\\cdots\\oplus C(p_i(x))$，其中 $C(p_i(x))$ 取 $a_i-b_i$ 份。则 $C_i$ 的最小多项式为 $p_i(x)^{b_i}$、特征多项式为 $p_i(x)^{a_i}$，于是 $C=C_1\\oplus\\cdots\\oplus C_r$ 满足 $m_C(x)=m(x)$，$c_C(x)=c(x)$。（7 分，D）",
     "zh-Hant": "**(a)(i)** $c_A(x)=x^3-x^2-x+1=(x-1)^2(x+1)$。（1 分，A）\n\n**(a)(ii)** $A$ 的最小多項式也是 $(x-1)^2(x+1)$。故 $p\\neq 2$ 時 JCF 爲 $J_2(1)\\oplus J_1(-1)$；$p=2$ 時 $-1=1$，JCF 爲 $J_3(1)$。（3 分，A）\n\n**(a)(iii)** $p=2$ 時 $T$ 的最小多項式爲 $(x-1)^3$。$(T-I)^2V$ 的一組基是 $v_1=e_1+e_3$；且 $(T-I)(e_1+e_2)=v_1$，$(T-I)(e_1)=e_1+e_2$。故 Jordan 基爲 $e_1+e_3,\\ e_1+e_2,\\ e_1$。（3 分，A）\n\n**(b)** 由 (1) $\\dim V=11$；由 (2) 特徵值 0 的幾何重數 $g(0)=3$，即 0-塊共三塊、大小之和爲 5。$T^2$ 秩爲 7，這些塊的平方總秩爲 1，故爲 $J_3(0),J_1(0),J_1(0)$。由 (3) $g(1)=2$，兩個 1-塊大小和爲 6；$(T-I)^3$ 秩爲 6，其立方總秩爲 1，故爲 $J_4(1),J_2(1)$。JCF 爲 $J_3(0)\\oplus J_1(0)^2\\oplus J_4(1)\\oplus J_2(1)$。（6 分，B）\n\n**(c)** 真。分解 $c(x)=p_1(x)^{a_1}\\cdots p_r(x)^{a_r}$，$m(x)=p_1(x)^{b_1}\\cdots p_r(x)^{b_r}$（$a_i\\ge b_i>0$）。對每個 $i$ 令 $C_i=C(p_i(x)^{b_i})\\oplus C(p_i(x))\\oplus\\cdots\\oplus C(p_i(x))$，其中 $C(p_i(x))$ 取 $a_i-b_i$ 份。則 $C_i$ 的最小多項式爲 $p_i(x)^{b_i}$、特徵多項式爲 $p_i(x)^{a_i}$，於是 $C=C_1\\oplus\\cdots\\oplus C_r$ 滿足 $m_C(x)=m(x)$，$c_C(x)=c(x)$。（7 分，D）"
    },
-   "secondary_format": null,
+   "secondary_format": "A",
    "source": {
     "paper_id": "SU2021",
     "paper_name": {
@@ -1343,7 +2498,7 @@
    "question_id": "MATH50003.SU2021.Q3",
    "module": "MATH50003/50016",
    "qtype": "subjective",
-   "format": "G",
+   "format": "LA-adjoint",
    "Question": {
     "en": "**(a)** Let $V$ be a finite-dimensional inner product space over $\\mathbb{C}$, and let $S,T:V\\to V$ be linear maps.\n**(i)** Define what is meant by the adjoint map $T^*$.\n**(ii)** Prove that $(ST)^*=T^*S^*$.\n**(iii)** Prove that if $T$ is invertible then $(T^*)^{-1}=(T^{-1})^*$. **[5]**\n\n**(b)** Let $V=\\mathbb{C}^2$, and define $(u,v)=u^TA\\overline{v}$ for $u,v\\in V$, where\n\n$$A=\\begin{pmatrix}2&i\\\\-i&1\\end{pmatrix}.$$\n\n**(i)** Prove that $(\\ ,\\ )$ is an inner product on $V$.\n**(ii)** Find an orthonormal basis of $V$.\n**(iii)** Let $T:V\\to V$ be a linear map such that $[T]_{\\mathcal{B}}=X$ for the orthonormal basis $\\mathcal{B}$ from (ii), where $X=\\begin{pmatrix}2&i\\\\0&1\\end{pmatrix}$. Find the matrix $A$ of $T$ with respect to the standard basis, i.e. the matrix $A$ with $T(v)=Av$ for all $v$. **[8]**\n\n**(c)** Let $V$ be a finite-dimensional inner product space over $\\mathbb{C}$, and let $a,b\\in V$. Define $T:V\\to V$ by $T(v)=(v,a)b$.\n**(i)** Prove that $T$ is linear.\n**(ii)** Find $T^*$.\n**(iii)** Suppose $T=T^*$. Prove that $b=\\lambda a$ for some $\\lambda\\in\\mathbb{R}$. **[7]**\n\n*(Note: reconstructed from the official solutions and examiner's report; the original question page is missing from the PDF.)*",
     "zh-Hans": "**(a)** 设 $V$ 是 $\\mathbb{C}$ 上有限维内积空间，$S,T:V\\to V$ 是线性映射。\n**(i)** 给出伴随映射 $T^*$ 的定义。\n**(ii)** 证明 $(ST)^*=T^*S^*$。\n**(iii)** 证明：若 $T$ 可逆，则 $(T^*)^{-1}=(T^{-1})^*$。**[5 分]**\n\n**(b)** 设 $V=\\mathbb{C}^2$，对 $u,v\\in V$ 定义 $(u,v)=u^TA\\overline{v}$，其中\n\n$$A=\\begin{pmatrix}2&i\\\\-i&1\\end{pmatrix}.$$\n\n**(i)** 证明 $(\\ ,\\ )$ 是 $V$ 上的内积。\n**(ii)** 求 $V$ 的一组标准正交基。\n**(iii)** 设 $T:V\\to V$ 是线性映射，在 (ii) 的标准正交基 $\\mathcal{B}$ 下 $[T]_{\\mathcal{B}}=X=\\begin{pmatrix}2&i\\\\0&1\\end{pmatrix}$。求 $T$ 在标准基下的矩阵 $A$（即对所有 $v$ 有 $T(v)=Av$）。**[8 分]**\n\n**(c)** 设 $V$ 是 $\\mathbb{C}$ 上有限维内积空间，$a,b\\in V$。定义 $T:V\\to V$，$T(v)=(v,a)b$。\n**(i)** 证明 $T$ 线性。\n**(ii)** 求 $T^*$。\n**(iii)** 设 $T=T^*$。证明存在 $\\lambda\\in\\mathbb{R}$ 使 $b=\\lambda a$。**[7 分]**\n\n*（注：本题题干依据官方解答与考官报告复原；原卷题面页在 PDF 中缺失。）*",
@@ -1354,7 +2509,7 @@
     "zh-Hans": "**(a)(i)** $T^*:V\\to V$ 是满足 $(T(v),w)=(v,T^*(w))$（对一切 $v,w\\in V$）的映射。（1 分，A）\n\n**(a)(ii)** 对一切 $v,w$：$(ST(v),w)=(T(v),S^*(w))=(v,T^*S^*(w))$；由伴随的唯一性，$(ST)^*(w)=T^*S^*(w)$。（1 分，A）\n\n**(a)(iii)** 对 $TT^{-1}=I$ 用 (ii)：$(T^{-1})^*T^*=I^*=I$，故 $T^*$ 可逆且逆为 $(T^{-1})^*$。（3 分，B）\n\n**(b)(i)** 该形式左线性且 $(v,u)=\\overline{(u,v)}$。对 $u\\neq 0$：$(u,u)=(u_1-iu_2)(\\overline{u_1}+i\\overline{u_2})+u_2\\overline{u_2}=|u_1-iu_2|^2+|u_2|^2>0$。故为内积。（2 分，A）\n\n**(b)(ii)** 对 $e_1,e_2$ 做 Gram–Schmidt：$\\|e_1\\|=1$；令 $v_2=e_2-(e_2,e_1)e_1=e_2+ie_1=(i,1)^T$（则 $(v_2,e_1)=0$），且 $\\|v_2\\|=1$。标准正交基：$e_1,\\ e_2+ie_1$。（2 分，A）\n\n**(b)(iii)** 换基矩阵 $P=\\begin{pmatrix}1&i\\\\0&1\\end{pmatrix}$；由 $[T^*]_{\\mathcal{B}}=\\overline{X}^{\\,T}$ 经共轭转置关系得 $A=P\\overline{X}^{\\,T}\\overline{P}^{\\,T}=\\begin{pmatrix}3&-2i\\\\-i&0\\end{pmatrix}$——通过伴随关系的共轭正确算出矩阵即得满分。（4 分，B）\n\n**(c)(i)** 内积左线性，故 $T$ 线性。（1 分，A）\n\n**(c)(ii)** $(T(v),w)=((v,a)b,w)=(v,a)(b,w)=(v,(b,w)a)=(v,(w,b)a)$，故 $T^*(w)=(w,b)a$，即 $T^*(v)=(v,b)a$。（3 分，C）\n\n**(c)(iii)** 若 $T=T^*$，则 $(v,a)b=(v,b)a$ 对一切 $v$。取 $v=a$：$b=\\frac{(a,b)}{(a,a)}a=\\lambda a$。于是 $(T(a),a)=\\lambda(a,a)^2=(a,T^*(a))=(a,T(a))=\\overline{\\lambda}(a,a)^2$，故 $\\lambda\\in\\mathbb{R}$。（3 分，C）",
     "zh-Hant": "**(a)(i)** $T^*:V\\to V$ 是滿足 $(T(v),w)=(v,T^*(w))$（對一切 $v,w\\in V$）的映射。（1 分，A）\n\n**(a)(ii)** 對一切 $v,w$：$(ST(v),w)=(T(v),S^*(w))=(v,T^*S^*(w))$；由伴隨的唯一性，$(ST)^*(w)=T^*S^*(w)$。（1 分，A）\n\n**(a)(iii)** 對 $TT^{-1}=I$ 用 (ii)：$(T^{-1})^*T^*=I^*=I$，故 $T^*$ 可逆且逆爲 $(T^{-1})^*$。（3 分，B）\n\n**(b)(i)** 該形式左線性且 $(v,u)=\\overline{(u,v)}$。對 $u\\neq 0$：$(u,u)=(u_1-iu_2)(\\overline{u_1}+i\\overline{u_2})+u_2\\overline{u_2}=|u_1-iu_2|^2+|u_2|^2>0$。故爲內積。（2 分，A）\n\n**(b)(ii)** 對 $e_1,e_2$ 做 Gram–Schmidt：$\\|e_1\\|=1$；令 $v_2=e_2-(e_2,e_1)e_1=e_2+ie_1=(i,1)^T$（則 $(v_2,e_1)=0$），且 $\\|v_2\\|=1$。標準正交基：$e_1,\\ e_2+ie_1$。（2 分，A）\n\n**(b)(iii)** 換基矩陣 $P=\\begin{pmatrix}1&i\\\\0&1\\end{pmatrix}$；由 $[T^*]_{\\mathcal{B}}=\\overline{X}^{\\,T}$ 經共軛轉置關係得 $A=P\\overline{X}^{\\,T}\\overline{P}^{\\,T}=\\begin{pmatrix}3&-2i\\\\-i&0\\end{pmatrix}$——通過伴隨關係的共軛正確算出矩陣即得滿分。（4 分，B）\n\n**(c)(i)** 內積左線性，故 $T$ 線性。（1 分，A）\n\n**(c)(ii)** $(T(v),w)=((v,a)b,w)=(v,a)(b,w)=(v,(b,w)a)=(v,(w,b)a)$，故 $T^*(w)=(w,b)a$，即 $T^*(v)=(v,b)a$。（3 分，C）\n\n**(c)(iii)** 若 $T=T^*$，則 $(v,a)b=(v,b)a$ 對一切 $v$。取 $v=a$：$b=\\frac{(a,b)}{(a,a)}a=\\lambda a$。於是 $(T(a),a)=\\lambda(a,a)^2=(a,T^*(a))=(a,T(a))=\\overline{\\lambda}(a,a)^2$，故 $\\lambda\\in\\mathbb{R}$。（3 分，C）"
    },
-   "secondary_format": null,
+   "secondary_format": "G",
    "source": {
     "paper_id": "SU2021",
     "paper_name": {
@@ -1384,7 +2539,7 @@
    "question_id": "MATH50003.SU2022.Q1",
    "module": "MATH50003/50016",
    "qtype": "subjective",
-   "format": "H",
+   "format": "LA-Jordan",
    "Question": {
     "en": "**(a)** Let $n$ be a positive integer, and let $\\lambda\\in\\mathbb{C}$. Define the Jordan block $J_n(\\lambda)$. State the Jordan Canonical Form (JCF) Theorem. **[3]**\n\n**(b)** Let\n\n$$A=\\begin{pmatrix}0&1&0\\\\-1&2&0\\\\-1&0&2\\end{pmatrix}.$$\n\n**(i)** Find the JCF of $A$.\n**(ii)** Find an invertible $3\\times 3$ matrix $P$ such that $P^{-1}AP=J$, where $J$ is the JCF of $A$. **[6]**\n\n**(c)** Recall that a matrix is nilpotent if some power of it is equal to the zero matrix. Show that there is a nilpotent $n\\times n$ matrix $J_0$ such that\n\n$$J_n(\\lambda)=\\lambda I_n+J_0.$$\n\n(You should justify that $J_0$ is nilpotent.) **[2]**\n\n**(d)** Now let $B$ be an $n\\times n$ matrix over $\\mathbb{C}$. Using the JCF Theorem (or otherwise), prove that there exists a diagonalisable $n\\times n$ matrix $D$, and a nilpotent $n\\times n$ matrix $N$, such that $B=D+N$ and $DN=ND$. **[6]**\n\n**(e)** Let $A$ be the $3\\times 3$ matrix in part (b). Find matrices $D,N$ such that $A=D+N$, where $D,N$ satisfy the properties given in part (d). **[3]**",
     "zh-Hans": "**(a)** 设 $n$ 为正整数，$\\lambda\\in\\mathbb{C}$。给出 Jordan 块 $J_n(\\lambda)$ 的定义，并陈述 Jordan 标准形（JCF）定理。**[3 分]**\n\n**(b)** 设\n\n$$A=\\begin{pmatrix}0&1&0\\\\-1&2&0\\\\-1&0&2\\end{pmatrix}.$$\n\n**(i)** 求 $A$ 的 JCF。\n**(ii)** 求可逆 $3\\times 3$ 矩阵 $P$，使 $P^{-1}AP=J$（$J$ 为 $A$ 的 JCF）。**[6 分]**\n\n**(c)** 回忆：若矩阵某个幂为零矩阵则称其为幂零的。证明存在幂零的 $n\\times n$ 矩阵 $J_0$ 使\n\n$$J_n(\\lambda)=\\lambda I_n+J_0.$$\n\n（需论证 $J_0$ 幂零。）**[2 分]**\n\n**(d)** 设 $B$ 是 $\\mathbb{C}$ 上的 $n\\times n$ 矩阵。用 JCF 定理（或其他方法）证明：存在可对角化的 $n\\times n$ 矩阵 $D$ 与幂零矩阵 $N$，使 $B=D+N$ 且 $DN=ND$。**[6 分]**\n\n**(e)** 取 (b) 中的 $3\\times 3$ 矩阵 $A$，求矩阵 $D,N$ 使 $A=D+N$ 且满足 (d) 中的性质。**[3 分]**",
@@ -1436,7 +2591,7 @@
     "zh-Hans": "**(a)** 主分解定理：设 $V$ 是 $F$ 上有限维空间，最小多项式的不可约分解为 $m_T(x)=\\prod_{i=1}^r f_i(x)^{n_i}$。令 $V_i=\\ker(f_i(T)^{n_i})$。则 (1) $V=V_1\\oplus\\cdots\\oplus V_r$；(2) 每个 $V_i$ 是 $T$-不变子空间；(3) 每个限制 $T_{V_i}$ 的最小多项式为 $f_i(x)^{n_i}$。（2 分，A）\n\n**(b)(i)** $V_1=\\ker(f_1(T)^2)$，$V_2=\\ker(f_2(T)^{l-2})$。因每个 $f_i$ 是 $c_T$ 的不可约因子，$T_{V_i}$ 的特征多项式是 $f_i$ 的幂；设分别为 $f_1^a$、$f_2^b$，则由 $c_T=f_1^a f_2^b$ 得 $a=k$、$b=l$。由 $\\dim V_i=\\deg(T_{V_i}\\text{ 的特征多项式})$：$\\dim V_1=k\\cdot\\deg f_1=k$，$\\dim V_2=l\\cdot\\deg f_2=2l$。（5 分，B）\n\n**(b)(ii)** RCF 由 $f_1$-部分（维数 $k$，最小多项式次数恰为 2）与 $f_2$-部分（维数 $2l$，最小多项式次数恰为 $l-2$）如何拆分成伴随块决定。$V_1$：把 $k$ 分成最大部分恰为 2 的分拆——即 $k\\ge2$ 时共 $k-1$ 种。$V_2$：把 $l$（按 $f_2$ 的次数单位）分成最大部分恰为 $l-2$ 的分拆——$l-3$ 种。总计 $(k-1)(l-3)$。（5 分，D）\n\n**(c)** 可逆 $\\Leftrightarrow$ 最小多项式不含因子 $x$。$\\mathbb{F}_3$ 上可逆 $2\\times 2$ 矩阵的相似类对应于：不含 $x$ 因子的首一二次特征多项式与相容最小多项式的组合——枚举各情形（不可约特征多项式；互异一次因式；重因式的两种最小多项式）总计 $\\mathbf{24}$ 类。通过 RCF/JCF 在 $\\mathbb{F}_3$ 上正确枚举并给出论证即得满分。（8 分，D）",
     "zh-Hant": "**(a)** 主分解定理：設 $V$ 是 $F$ 上有限維空間，最小多項式的不可約分解爲 $m_T(x)=\\prod_{i=1}^r f_i(x)^{n_i}$。令 $V_i=\\ker(f_i(T)^{n_i})$。則 (1) $V=V_1\\oplus\\cdots\\oplus V_r$；(2) 每個 $V_i$ 是 $T$-不變子空間；(3) 每個限制 $T_{V_i}$ 的最小多項式爲 $f_i(x)^{n_i}$。（2 分，A）\n\n**(b)(i)** $V_1=\\ker(f_1(T)^2)$，$V_2=\\ker(f_2(T)^{l-2})$。因每個 $f_i$ 是 $c_T$ 的不可約因子，$T_{V_i}$ 的特徵多項式是 $f_i$ 的冪；設分別爲 $f_1^a$、$f_2^b$，則由 $c_T=f_1^a f_2^b$ 得 $a=k$、$b=l$。由 $\\dim V_i=\\deg(T_{V_i}\\text{ 的特徵多項式})$：$\\dim V_1=k\\cdot\\deg f_1=k$，$\\dim V_2=l\\cdot\\deg f_2=2l$。（5 分，B）\n\n**(b)(ii)** RCF 由 $f_1$-部分（維數 $k$，最小多項式次數恰爲 2）與 $f_2$-部分（維數 $2l$，最小多項式次數恰爲 $l-2$）如何拆分成伴隨塊決定。$V_1$：把 $k$ 分成最大部分恰爲 2 的分拆——即 $k\\ge2$ 時共 $k-1$ 種。$V_2$：把 $l$（按 $f_2$ 的次數單位）分成最大部分恰爲 $l-2$ 的分拆——$l-3$ 種。總計 $(k-1)(l-3)$。（5 分，D）\n\n**(c)** 可逆 $\\Leftrightarrow$ 最小多項式不含因子 $x$。$\\mathbb{F}_3$ 上可逆 $2\\times 2$ 矩陣的相似類對應於：不含 $x$ 因子的首一二次特徵多項式與相容最小多項式的組合——枚舉各情形（不可約特徵多項式；互異一次因式；重因式的兩種最小多項式）總計 $\\mathbf{24}$ 類。通過 RCF/JCF 在 $\\mathbb{F}_3$ 上正確枚舉並給出論證即得滿分。（8 分，D）"
    },
-   "secondary_format": null,
+   "secondary_format": "A",
    "source": {
     "paper_id": "SU2022",
     "paper_name": {
@@ -1467,7 +2622,7 @@
    "question_id": "MATH50003.SU2022.Q3",
    "module": "MATH50003/50016",
    "qtype": "subjective",
-   "format": "G",
+   "format": "LA-adjoint",
    "Question": {
     "en": "**(a)** Let $V$ be a finite-dimensional inner product space, and let $W$ be a subspace of $V$. As in the lectures, we define the orthogonal projection $\\pi_W:V\\to W$ as follows: for $v\\in V$, we can write $v=w+w'$ for unique $w\\in W$, $w'\\in W^\\perp$, and we define $\\pi_W(v)=w$.\n\n**(i)** Prove that $(\\pi_W)^2=\\pi_W$.\n**(ii)** Show that $\\|\\pi_W(v)\\|\\le\\|v\\|$ for all $v\\in V$. **[5]**\n\n**(b)** Let $V=\\mathbb{R}^3$ with the usual inner product, and let $T:V\\to V$ be the linear map defined by $T(v)=Av$ for all $v\\in V$, where\n\n$$A=\\begin{pmatrix}\\tfrac12&0&\\tfrac12\\\\1&0&1\\\\0&\\tfrac12&0\\end{pmatrix}.$$\n\nGiven that $T$ is an orthogonal projection, find a subspace $W$ such that $T=\\pi_W$. **[3]**\n\n**(c)** Now suppose that $V$ is a 2-dimensional inner product space over $\\mathbb{R}$, and let $P:V\\to V$ be a linear map satisfying: $P^2=P$; $\\|P(v)\\|\\le\\|v\\|$ for all $v\\in V$; $P\\neq O_V,I_V$.\n\n**(i)** Prove that there is a basis $\\mathcal{B}=\\{v_1,v_2\\}$ of $V$ such that $[P]_{\\mathcal{B}}=\\begin{pmatrix}1&0\\\\0&0\\end{pmatrix}$.\n**(ii)** Using the second property of $P$, prove that $(v_1,v_2)=0$.\n**(iii)** Deduce that $P$ is an orthogonal projection. **[12]**",
     "zh-Hans": "**(a)** 设 $V$ 是有限维内积空间，$W$ 是 $V$ 的子空间。按讲义定义正交投影 $\\pi_W:V\\to W$：对 $v\\in V$，唯一地写 $v=w+w'$（$w\\in W$，$w'\\in W^\\perp$），令 $\\pi_W(v)=w$。\n\n**(i)** 证明 $(\\pi_W)^2=\\pi_W$。\n**(ii)** 证明对一切 $v\\in V$ 有 $\\|\\pi_W(v)\\|\\le\\|v\\|$。**[5 分]**\n\n**(b)** 设 $V=\\mathbb{R}^3$（通常内积），$T:V\\to V$ 由 $T(v)=Av$ 定义，其中\n\n$$A=\\begin{pmatrix}\\tfrac12&0&\\tfrac12\\\\1&0&1\\\\0&\\tfrac12&0\\end{pmatrix}.$$\n\n已知 $T$ 是正交投影，求子空间 $W$ 使 $T=\\pi_W$。**[3 分]**\n\n**(c)** 设 $V$ 是 $\\mathbb{R}$ 上 2 维内积空间，线性映射 $P:V\\to V$ 满足：$P^2=P$；对一切 $v\\in V$，$\\|P(v)\\|\\le\\|v\\|$；$P\\neq O_V,I_V$。\n\n**(i)** 证明存在 $V$ 的基 $\\mathcal{B}=\\{v_1,v_2\\}$ 使 $[P]_{\\mathcal{B}}=\\begin{pmatrix}1&0\\\\0&0\\end{pmatrix}$。\n**(ii)** 利用 $P$ 的第二条性质证明 $(v_1,v_2)=0$。\n**(iii)** 推出 $P$ 是正交投影。**[12 分]**",
@@ -1478,7 +2633,7 @@
     "zh-Hans": "**(a)(i)** 对 $v=w+w'$：$\\pi_W(v)=w\\in W$，故 $\\pi_W^2(v)=\\pi_W(w)=w=\\pi_W(v)$。（2 分，A）\n\n**(a)(ii)** $v=w+w'$ 且 $w\\perp w'$，由勾股定理 $\\|v\\|^2=\\|w\\|^2+\\|w'\\|^2\\ge\\|w\\|^2=\\|\\pi_W(v)\\|^2$。（3 分，A）\n\n**(b)** $W=\\mathrm{Im}(T)=\\mathrm{Sp}((1,2,0)^T,(1,2,1)^T)$，即 $A$ 的列空间；给出正确的 $W$（投影的像）即得分。（3 分，A）\n\n**(c)(i)** $P^2=P$ 给出 $V=U\\oplus W$，其中 $U=\\mathrm{Im}(P)$，$W=\\ker(P)$，$P|_U=I$，$P|_W=0$。取 $v_1\\in U\\setminus\\{0\\}$，$v_2\\in W\\setminus\\{0\\}$：$[P]_{\\mathcal{B}}=\\begin{pmatrix}1&0\\\\0&0\\end{pmatrix}$。（4 分，B）\n\n**(c)(ii)** 设 $(v_1,v_2)=c\\neq 0$（必要时缩放使 $\\|v_1\\|=1$）。对一切 $t$ 把范数不等式用于 $v=tv_1+v_2$：$\\|tv_1\\|^2=t^2\\le\\|tv_1+v_2\\|^2=t^2+2tc+\\|v_2\\|^2$，要求 $2tc+\\|v_2\\|^2\\ge0$ 对一切 $t$ 成立；取 $t$ 充分正与充分负即矛盾，除非 $c=0$。故 $(v_1,v_2)=0$。（5 分，D）\n\n**(c)(iii)** $v_1\\perp v_2$ 在 2 维情形即 $W\\perp U$，于是 $V=U\\oplus W$ 且 $W\\subseteq U^\\perp$；维数计数逼出 $W=U^\\perp$，故 $P=\\pi_U$ 是正交投影。（3 分，C）",
     "zh-Hant": "**(a)(i)** 對 $v=w+w'$：$\\pi_W(v)=w\\in W$，故 $\\pi_W^2(v)=\\pi_W(w)=w=\\pi_W(v)$。（2 分，A）\n\n**(a)(ii)** $v=w+w'$ 且 $w\\perp w'$，由勾股定理 $\\|v\\|^2=\\|w\\|^2+\\|w'\\|^2\\ge\\|w\\|^2=\\|\\pi_W(v)\\|^2$。（3 分，A）\n\n**(b)** $W=\\mathrm{Im}(T)=\\mathrm{Sp}((1,2,0)^T,(1,2,1)^T)$，即 $A$ 的列空間；給出正確的 $W$（投影的像）即得分。（3 分，A）\n\n**(c)(i)** $P^2=P$ 給出 $V=U\\oplus W$，其中 $U=\\mathrm{Im}(P)$，$W=\\ker(P)$，$P|_U=I$，$P|_W=0$。取 $v_1\\in U\\setminus\\{0\\}$，$v_2\\in W\\setminus\\{0\\}$：$[P]_{\\mathcal{B}}=\\begin{pmatrix}1&0\\\\0&0\\end{pmatrix}$。（4 分，B）\n\n**(c)(ii)** 設 $(v_1,v_2)=c\\neq 0$（必要時縮放使 $\\|v_1\\|=1$）。對一切 $t$ 把範數不等式用於 $v=tv_1+v_2$：$\\|tv_1\\|^2=t^2\\le\\|tv_1+v_2\\|^2=t^2+2tc+\\|v_2\\|^2$，要求 $2tc+\\|v_2\\|^2\\ge0$ 對一切 $t$ 成立；取 $t$ 充分正與充分負即矛盾，除非 $c=0$。故 $(v_1,v_2)=0$。（5 分，D）\n\n**(c)(iii)** $v_1\\perp v_2$ 在 2 維情形即 $W\\perp U$，於是 $V=U\\oplus W$ 且 $W\\subseteq U^\\perp$；維數計數逼出 $W=U^\\perp$，故 $P=\\pi_U$ 是正交投影。（3 分，C）"
    },
-   "secondary_format": null,
+   "secondary_format": "G",
    "source": {
     "paper_id": "SU2022",
     "paper_name": {
@@ -1519,7 +2674,7 @@
     "zh-Hans": "**(a)** Cayley–Hamilton：设 $V$ 有限维，$T:V\\to V$ 线性，特征多项式 $c_T(x)$，则 $c_T(T)=0$。（2 分，A）\n\n**(b)(i)** $W\\le V$ 是 $T$-不变的，若对一切 $w\\in W$ 有 $T(w)\\in W$。（1 分，A）\n\n**(b)(ii)** $m_T(x)$ 是使 $m_T(T)=0$ 的次数最低的首一多项式。若 $m_1,m_2$ 都满足，作带余除法 $m_1=qm_2+r$（$\\deg r<\\deg m_2$）；则 $r(T)=0$，由最小性 $r=0$；再由首一性 $m_1=m_2$。（2 分，B）\n\n**(b)(iii)** $m_T(T)=0$ 在 $V$ 上成立，则在 $W$ 上也成立：$m_T(T_W)=0$。由除法/最小性论证，$m_{T_W}$ 整除 $m_T$。（3 分，B）\n\n**(c)(i)** $c_T(x)=x^4+x^3+x^2+1$（在任意 $F$ 上展开 $\\det(A-xI)$）；在 $\\mathbb{F}_2$ 上分解为 $(x^2+1)(x^2+x+1)$，在 $\\mathbb{F}_3$ 上分解含 $(x+1)^2$ 与 $x^2+1$——各情形最小多项式都等于特征多项式（伴随矩阵型），即 $m_T=c_T$。（4 分，A）\n\n**(c)(ii)** 在 $\\mathbb{F}_2$ 上：$c_T=(x+1)^2(x^2+x+1)$ 含互异不可约因子，由主分解 $V=V_1\\oplus V_2$ 且两个 $V_i$ 都非 $0,V$：存在非平凡不变子空间。（4 分，C）\n\n**(c)(iii)** 在 $\\mathbb{F}_3$ 上：分解给出重因子；$m_T=c_T$ 且矩阵是 $c_T$ 的伴随矩阵（循环）时，不变子空间对应 $m_T$ 的因子；$c_T$ 有满足 $0<\\deg f<4$ 的因子 $f$，故 $\\ker(f(T))$ 存在：是，例如 $\\ker(T^2+I)\\neq 0,V$。（4 分，C）",
     "zh-Hant": "**(a)** Cayley–Hamilton：設 $V$ 有限維，$T:V\\to V$ 線性，特徵多項式 $c_T(x)$，則 $c_T(T)=0$。（2 分，A）\n\n**(b)(i)** $W\\le V$ 是 $T$-不變的，若對一切 $w\\in W$ 有 $T(w)\\in W$。（1 分，A）\n\n**(b)(ii)** $m_T(x)$ 是使 $m_T(T)=0$ 的次數最低的首一多項式。若 $m_1,m_2$ 都滿足，作帶餘除法 $m_1=qm_2+r$（$\\deg r<\\deg m_2$）；則 $r(T)=0$，由最小性 $r=0$；再由首一性 $m_1=m_2$。（2 分，B）\n\n**(b)(iii)** $m_T(T)=0$ 在 $V$ 上成立，則在 $W$ 上也成立：$m_T(T_W)=0$。由除法/最小性論證，$m_{T_W}$ 整除 $m_T$。（3 分，B）\n\n**(c)(i)** $c_T(x)=x^4+x^3+x^2+1$（在任意 $F$ 上展開 $\\det(A-xI)$）；在 $\\mathbb{F}_2$ 上分解爲 $(x^2+1)(x^2+x+1)$，在 $\\mathbb{F}_3$ 上分解含 $(x+1)^2$ 與 $x^2+1$——各情形最小多項式都等於特徵多項式（伴隨矩陣型），即 $m_T=c_T$。（4 分，A）\n\n**(c)(ii)** 在 $\\mathbb{F}_2$ 上：$c_T=(x+1)^2(x^2+x+1)$ 含互異不可約因子，由主分解 $V=V_1\\oplus V_2$ 且兩個 $V_i$ 都非 $0,V$：存在非平凡不變子空間。（4 分，C）\n\n**(c)(iii)** 在 $\\mathbb{F}_3$ 上：分解給出重因子；$m_T=c_T$ 且矩陣是 $c_T$ 的伴隨矩陣（循環）時，不變子空間對應 $m_T$ 的因子；$c_T$ 有滿足 $0<\\deg f<4$ 的因子 $f$，故 $\\ker(f(T))$ 存在：是，例如 $\\ker(T^2+I)\\neq 0,V$。（4 分，C）"
    },
-   "secondary_format": null,
+   "secondary_format": "F",
    "source": {
     "paper_id": "SU2024",
     "paper_name": {
@@ -1550,7 +2705,7 @@
    "question_id": "MATH50003.SU2024.Q2",
    "module": "MATH50003/50016",
    "qtype": "subjective",
-   "format": "F",
+   "format": "LA-Jordan",
    "Question": {
     "en": "**(a)** Let $n$ be a positive integer, and let $\\lambda\\in\\mathbb{C}$. Define the $n\\times n$ Jordan block $J_n(\\lambda)$. **[1]**\n\n**(b)** State the Jordan Canonical Form theorem for matrices over $\\mathbb{C}$. **[2]**\n\n**(c)** Let $V=\\mathbb{C}^4$, and let $T:V\\to V$ be the linear map defined by $T(v)=Av$ for all $v\\in V$, where\n\n$$A=\\begin{pmatrix}1&-1&0&0\\\\0&1&0&0\\\\1&1&2&-1\\\\1&0&1&0\\end{pmatrix}.$$\n\n**(i)** Find the Jordan Canonical Form of $T$.\n**(ii)** Find a Jordan basis of $V$ for the linear map $T$. **[7]**\n\n**(d)** For any positive integer $r$, find the Jordan Canonical Form of the $r$th power $J_n(1)^r$. Justify your answer. **[6]**\n\n**(e)** Let $A$ be an $n\\times n$ matrix over $\\mathbb{C}$, and suppose that the only eigenvalue of $A$ is $1$. Prove that $A$ is similar to $A^r$ for any positive integer $r$. **[4]**",
     "zh-Hans": "**(a)** 设 $n$ 为正整数，$\\lambda\\in\\mathbb{C}$。给出 $n\\times n$ Jordan 块 $J_n(\\lambda)$ 的定义。**[1 分]**\n\n**(b)** 陈述 $\\mathbb{C}$ 上矩阵的 Jordan 标准形定理。**[2 分]**\n\n**(c)** 设 $V=\\mathbb{C}^4$，$T:V\\to V$ 由 $T(v)=Av$ 定义，其中\n\n$$A=\\begin{pmatrix}1&-1&0&0\\\\0&1&0&0\\\\1&1&2&-1\\\\1&0&1&0\\end{pmatrix}.$$\n\n**(i)** 求 $T$ 的 Jordan 标准形。\n**(ii)** 求 $T$ 的一个 Jordan 基。**[7 分]**\n\n**(d)** 对任意正整数 $r$，求 $J_n(1)^r$ 的 Jordan 标准形，并给出理由。**[6 分]**\n\n**(e)** 设 $A$ 是 $\\mathbb{C}$ 上 $n\\times n$ 矩阵，且 $A$ 只有特征值 $1$。证明对任意正整数 $r$，$A$ 相似于 $A^r$。**[4 分]**",
@@ -1591,7 +2746,7 @@
    "question_id": "MATH50003.SU2024.Q3",
    "module": "MATH50003/50016",
    "qtype": "subjective",
-   "format": "J",
+   "format": "LA-bilinear",
    "Question": {
     "en": "**(a)** Let $V$ be a finite-dimensional vector space over a field $F$, and assume that the characteristic of $F$ is not 2.\n**(i)** Define what is meant by a symmetric bilinear form on $V$.\n**(ii)** Define also what is meant by a quadratic form $Q:V\\to F$.\n**(iii)** What is meant by the statement that the quadratic form $Q$ is non-degenerate?\n**(iv)** Let $Q:V\\to F$ be a non-degenerate quadratic form. Prove that there exists $v\\in V$ such that $Q(v)\\neq 0$. **[7]**\n\n**(b)** Let $V=F^n$, and let $Q:V\\to F$ and $Q':V\\to F$ be quadratic forms. What is meant by the statement that $Q$ and $Q'$ are equivalent? **[1]**\n\n**(c)** Now let $V=\\mathbb{Q}^2$, a 2-dimensional vector space over the rationals $\\mathbb{Q}$, and let $Q:V\\to\\mathbb{Q}$ be the quadratic form\n\n$$Q(x)=x_1^2+2x_1x_2-x_2^2\\qquad(x=(x_1,x_2)\\in\\mathbb{Q}^2).$$\n\n**(i)** Find a quadratic form $Q'(x)=\\lambda_1x_1^2+\\lambda_2x_2^2$ that is equivalent to $Q$, where $\\lambda_1,\\lambda_2\\in\\mathbb{Q}$.\n**(ii)** Which of the following equations have a solution $x\\in\\mathbb{Q}^2$:\n(1) $Q(x)=0$ with $x\\neq(0,0)$?\n(2) $Q(x)=2$?\n(3) $Q(x)=3$? **[12]**",
     "zh-Hans": "**(a)** 设 $V$ 是域 $F$ 上有限维向量空间，且 $F$ 的特征不为 2。\n**(i)** 给出 $V$ 上对称双线性形式的定义。\n**(ii)** 给出二次型 $Q:V\\to F$ 的定义。\n**(iii)** 二次型 $Q$ 非退化是什么意思？\n**(iv)** 设 $Q:V\\to F$ 是非退化二次型。证明存在 $v\\in V$ 使 $Q(v)\\neq 0$。**[7 分]**\n\n**(b)** 设 $V=F^n$，$Q,Q':V\\to F$ 是二次型。$Q$ 与 $Q'$ 等价是什么意思？**[1 分]**\n\n**(c)** 设 $V=\\mathbb{Q}^2$，$Q:V\\to\\mathbb{Q}$ 是二次型\n\n$$Q(x)=x_1^2+2x_1x_2-x_2^2\\qquad(x=(x_1,x_2)\\in\\mathbb{Q}^2).$$\n\n**(i)** 求 $Q$ 的等价二次型 $Q'(x)=\\lambda_1x_1^2+\\lambda_2x_2^2$（$\\lambda_1,\\lambda_2\\in\\mathbb{Q}$）。\n**(ii)** 下列方程哪些在 $\\mathbb{Q}^2$ 中有解：\n(1) $Q(x)=0$ 且 $x\\neq(0,0)$？\n(2) $Q(x)=2$？\n(3) $Q(x)=3$？**[12 分]**",
@@ -1602,7 +2757,7 @@
     "zh-Hans": "**(a)(i)** 对称双线性形式是 $V\\times V\\to F$ 的映射 $(\\ ,\\ )$，左线性且右线性，并满足 $(u,v)=(v,u)$（对一切 $u,v\\in V$）。（2 分，A）\n\n**(a)(ii)** 若存在对称双线性形式 $(\\ ,\\ )$ 使 $Q(v)=(v,v)$ 对一切 $v\\in V$ 成立，则称 $Q:V\\to F$ 为二次型。（1 分，A）\n\n**(a)(iii)** $Q$ 非退化是指对应的对称双线性形式非退化：$(u,v)=0\\ \\forall v\\in V\\Rightarrow u=0$。（1 分，A）\n\n**(a)(iv)** 反证：设对一切 $v$ 有 $Q(v)=0$。则对 $x,y\\in V$：$0=Q(x+y)=Q(x)+Q(y)+(x,y)+(y,x)=0+0+2(x,y)$。因 $F$ 中 $2\\neq0$，得 $(x,y)=0$ 对一切 $x,y$，与非退化矛盾。（3 分，B）\n\n**(b)** 由讲义存在矩阵 $A,B$ 使 $Q(v)=v^TAv$、$Q'(v)=v^TBv$。若存在可逆矩阵 $P$ 使 $B=P^TAP$，则称 $Q,Q'$ 等价。（1 分，A）\n\n**(c)(i)** $Q(x)=(x_1+x_2)^2-2x_2^2$，故 $Q\\sim Q'$，其中 $Q'(x)=x_1^2-2x_2^2$。（3 分，B）\n\n**(c)(ii)** $Q(x)=k$ 有解当且仅当 $Q'(x)=k$ 有解。\n(1) $Q'(x)=0$ 无非零有理解，否则 $(x_1/x_2)^2=2$，但 $\\sqrt2$ 是无理数。（2 分，B）\n(2) $Q'(x)=2$ 有解 $x=(2,1)$。（2 分，B）\n(3) $Q'(x)=3$ 无解：通分后得整数 $a,b,c$（不全为 0、无公因子）满足 $a^2-2b^2=3c^2$。于是 $a^2\\equiv 2b^2\\pmod 3$；若 $a,b\\not\\equiv0$ 则 $1\\equiv2\\pmod 3$，矛盾。故 $a\\equiv b\\equiv0\\pmod 3$，进而 $c\\equiv0\\pmod 3$——三者有公因子 3，矛盾。（5 分，D）",
     "zh-Hant": "**(a)(i)** 對稱雙線性形式是 $V\\times V\\to F$ 的映射 $(\\ ,\\ )$，左線性且右線性，並滿足 $(u,v)=(v,u)$（對一切 $u,v\\in V$）。（2 分，A）\n\n**(a)(ii)** 若存在對稱雙線性形式 $(\\ ,\\ )$ 使 $Q(v)=(v,v)$ 對一切 $v\\in V$ 成立，則稱 $Q:V\\to F$ 爲二次型。（1 分，A）\n\n**(a)(iii)** $Q$ 非退化是指對應的對稱雙線性形式非退化：$(u,v)=0\\ \\forall v\\in V\\Rightarrow u=0$。（1 分，A）\n\n**(a)(iv)** 反證：設對一切 $v$ 有 $Q(v)=0$。則對 $x,y\\in V$：$0=Q(x+y)=Q(x)+Q(y)+(x,y)+(y,x)=0+0+2(x,y)$。因 $F$ 中 $2\\neq0$，得 $(x,y)=0$ 對一切 $x,y$，與非退化矛盾。（3 分，B）\n\n**(b)** 由講義存在矩陣 $A,B$ 使 $Q(v)=v^TAv$、$Q'(v)=v^TBv$。若存在可逆矩陣 $P$ 使 $B=P^TAP$，則稱 $Q,Q'$ 等價。（1 分，A）\n\n**(c)(i)** $Q(x)=(x_1+x_2)^2-2x_2^2$，故 $Q\\sim Q'$，其中 $Q'(x)=x_1^2-2x_2^2$。（3 分，B）\n\n**(c)(ii)** $Q(x)=k$ 有解當且僅當 $Q'(x)=k$ 有解。\n(1) $Q'(x)=0$ 無非零有理解，否則 $(x_1/x_2)^2=2$，但 $\\sqrt2$ 是無理數。（2 分，B）\n(2) $Q'(x)=2$ 有解 $x=(2,1)$。（2 分，B）\n(3) $Q'(x)=3$ 無解：通分後得整數 $a,b,c$（不全爲 0、無公因子）滿足 $a^2-2b^2=3c^2$。於是 $a^2\\equiv 2b^2\\pmod 3$；若 $a,b\\not\\equiv0$ 則 $1\\equiv2\\pmod 3$，矛盾。故 $a\\equiv b\\equiv0\\pmod 3$，進而 $c\\equiv0\\pmod 3$——三者有公因子 3，矛盾。（5 分，D）"
    },
-   "secondary_format": null,
+   "secondary_format": "J",
    "source": {
     "paper_id": "SU2024",
     "paper_name": {
@@ -1632,7 +2787,7 @@
    "question_id": "MATH50003.SU2025.Q1",
    "module": "MATH50003/50016",
    "qtype": "subjective",
-   "format": "F",
+   "format": "LA-Jordan",
    "Question": {
     "en": "**(a)** Let $F$ be a field, let $n$ be a positive integer, and let $\\lambda\\in F$. Define the $n\\times n$ Jordan block $J_n(\\lambda)$. **[1]**\n\n**(b)** State the Jordan Canonical Form theorem for matrices over a field $F$. **[2]**\n\n**(c)** Let $A$ be the following $3\\times 3$ matrix over $\\mathbb{C}$:\n\n$$A=\\begin{pmatrix}2&0&1\\\\1&1&1\\\\-1&0&0\\end{pmatrix}.$$\n\n**(i)** Find the characteristic polynomial of $A$.\n**(ii)** Find the Jordan Canonical Form $J$ of $A$.\n**(iii)** Find an invertible $3\\times 3$ matrix $P$ such that $P^{-1}AP=J$.\n**(iv)** Is $A$ similar to $A^{-1}$? Justify your answer. **[9]**\n\n**(d)** Let $\\mathbb{F}_2$ be the field of 2 elements, and let $n=2m$ be an even positive integer. Giving your reasoning, calculate (in terms of $m$) the number of similarity classes of $n\\times n$ matrices $A$ over $\\mathbb{F}_2$ that satisfy the equation $A^3=A$. **[8]**",
     "zh-Hans": "**(a)** 设 $F$ 是域，$n$ 是正整数，$\\lambda\\in F$。给出 $n\\times n$ Jordan 块 $J_n(\\lambda)$ 的定义。**[1 分]**\n\n**(b)** 陈述域 $F$ 上矩阵的 Jordan 标准形定理。**[2 分]**\n\n**(c)** 设 $A$ 是 $\\mathbb{C}$ 上的如下 $3\\times 3$ 矩阵：\n\n$$A=\\begin{pmatrix}2&0&1\\\\1&1&1\\\\-1&0&0\\end{pmatrix}.$$\n\n**(i)** 求 $A$ 的特征多项式。\n**(ii)** 求 $A$ 的 Jordan 标准形 $J$。\n**(iii)** 求可逆 $3\\times 3$ 矩阵 $P$ 使 $P^{-1}AP=J$。\n**(iv)** $A$ 是否相似于 $A^{-1}$？给出理由。**[9 分]**\n\n**(d)** 设 $\\mathbb{F}_2$ 是 2 元域，$n=2m$ 为偶正整数。计算（用 $m$ 表示）$\\mathbb{F}_2$ 上满足 $A^3=A$ 的 $n\\times n$ 矩阵 $A$ 的相似类个数，并给出理由。**[8 分]**",
@@ -1643,7 +2798,7 @@
     "zh-Hans": "**(a)** $J_n(\\lambda)$：对角线为 $\\lambda$、超对角线为 1、其余为 0。（1 分，A）\n\n**(b)** 若 $A$ 的特征多项式在 $F$ 上分解为一次因式之积，则 $A$ 相似于 Jordan 块的直和，不计块序唯一。（2 分，A）\n\n**(c)(i)** $c_A(x)=x^3-3x^2+3x-1=(x-1)^3$。（1 分，A）\n\n**(c)(ii)** $\\mathrm{rank}(A-I)=2$ 给出单个 Jordan 块：$J=J_3(1)$。（2 分，A）\n\n**(c)(iii)** Jordan 链：取 $(A-I)^2e_1$ 得 $v_1$；构造 $v_1,v_2,v_3$ 满足 $(A-I)v_3=v_2$、$(A-I)v_2=v_1$、$(A-I)v_1=0$；$P=(v_1\\ v_2\\ v_3)$ 由任意有效链构成。（3 分，B）\n\n**(c)(iv)** 是：$A=PJ_3(1)P^{-1}$，故 $A^{-1}=PJ_3(1)^{-1}P^{-1}$；而 $J_3(1)^{-1}$ 也是特征值 1 的单个 $3\\times3$ Jordan 块（同 SU2024 Q2(d) 的论证），故 $J_3(1)^{-1}\\sim J_3(1)$，得 $A\\sim A^{-1}$。（3 分，C）\n\n**(d)** $A^3=A$ 当且仅当 $x^3-x=x(x-1)^2(x+1)$ 零化 $A$；在 $\\mathbb{F}_2$ 上 $x+1=x-1$，故 $x^3-x=x(x-1)^2$。相似类对应一对分拆：0-块各部分 $\\le1$（只有全 1 一种）与 1-块各部分 $\\le2$。对 $r_0=0,\\ldots,2m$ 求和，把 $2m-r_0$ 分成部分 $\\le2$ 的分拆数为 $\\lfloor(2m-r_0)/2\\rfloor+1$，总计 $\\sum_{j=0}^{2m}(\\lfloor j/2\\rfloor+1)=(m+1)^2$。（8 分，D）",
     "zh-Hant": "**(a)** $J_n(\\lambda)$：對角線爲 $\\lambda$、超對角線爲 1、其餘爲 0。（1 分，A）\n\n**(b)** 若 $A$ 的特徵多項式在 $F$ 上分解爲一次因式之積，則 $A$ 相似於 Jordan 塊的直和，不計塊序唯一。（2 分，A）\n\n**(c)(i)** $c_A(x)=x^3-3x^2+3x-1=(x-1)^3$。（1 分，A）\n\n**(c)(ii)** $\\mathrm{rank}(A-I)=2$ 給出單個 Jordan 塊：$J=J_3(1)$。（2 分，A）\n\n**(c)(iii)** Jordan 鏈：取 $(A-I)^2e_1$ 得 $v_1$；構造 $v_1,v_2,v_3$ 滿足 $(A-I)v_3=v_2$、$(A-I)v_2=v_1$、$(A-I)v_1=0$；$P=(v_1\\ v_2\\ v_3)$ 由任意有效鏈構成。（3 分，B）\n\n**(c)(iv)** 是：$A=PJ_3(1)P^{-1}$，故 $A^{-1}=PJ_3(1)^{-1}P^{-1}$；而 $J_3(1)^{-1}$ 也是特徵值 1 的單個 $3\\times3$ Jordan 塊（同 SU2024 Q2(d) 的論證），故 $J_3(1)^{-1}\\sim J_3(1)$，得 $A\\sim A^{-1}$。（3 分，C）\n\n**(d)** $A^3=A$ 當且僅當 $x^3-x=x(x-1)^2(x+1)$ 零化 $A$；在 $\\mathbb{F}_2$ 上 $x+1=x-1$，故 $x^3-x=x(x-1)^2$。相似類對應一對分拆：0-塊各部分 $\\le1$（只有全 1 一種）與 1-塊各部分 $\\le2$。對 $r_0=0,\\ldots,2m$ 求和，把 $2m-r_0$ 分成部分 $\\le2$ 的分拆數爲 $\\lfloor(2m-r_0)/2\\rfloor+1$，總計 $\\sum_{j=0}^{2m}(\\lfloor j/2\\rfloor+1)=(m+1)^2$。（8 分，D）"
    },
-   "secondary_format": null,
+   "secondary_format": "B",
    "source": {
     "paper_id": "SU2025",
     "paper_name": {
@@ -1684,7 +2839,7 @@
     "zh-Hans": "**(a)** 对 $f(x)=x^n+a_{n-1}x^{n-1}+\\cdots+a_1x+a_0$，$C(f(x))$ 是次对角线为 1、最后一列为 $-a_0,-a_1,\\ldots,-a_{n-1}$、其余为 0 的 $n\\times n$ 矩阵。（2 分，A）\n\n**(b)** 归纳/直接行列式展开：$\\det(C(f)-xI)=f(x)$；如沿第一行展开并对子式用归纳假设，或利用 $C(f)$ 在循环向量 $e_1$ 上满足 $f(C(f))e_1=0$ 的结构。（4 分，B）\n\n**(c)** 域 $F$ 上任意 $n\\times n$ 矩阵相似于伴随矩阵的直和 $C(g_1)\\oplus\\cdots\\oplus C(g_r)$，且 $g_{i+1}\\mid g_i$，在不计次序意义下唯一。（2 分，A）\n\n**(d)** $x^2+x+1$ 部分（次数 8，指数 2）：$\\mathrm{rank}(A^2+A+I)=14$ 即零度 6，两个 $f$-块的直和核维数为 6，得块 $C(f^2)\\oplus C(f)\\oplus C(f)$（次数 4+2+2）。$x^3+x+1$ 部分（次数 12，指数 2）：$\\mathrm{rank}(A^3+A+I)=14$ 给零度 6，得块 $C(g^2)\\oplus C(g)$（次数 6+3+3）。RCF $=C(f^2)\\oplus C(f)^2\\oplus C(g^2)\\oplus C(g)^2$，其中 $f=x^2+x+1$、$g=x^3+x+1$。（6 分，C）\n\n**(e)** 若 $m_A=c_A$，则 RCF 只有一块：分解 $C(g_1)\\oplus\\cdots$ 满足 $m_A=\\mathrm{lcm}(g_i)$、$c_A=\\prod g_i$；相等迫使只有一个因子且 $g_1=m_A=c_A$。故 $A\\sim C(m_A(x))$。（6 分，D）",
     "zh-Hant": "**(a)** 對 $f(x)=x^n+a_{n-1}x^{n-1}+\\cdots+a_1x+a_0$，$C(f(x))$ 是次對角線爲 1、最後一列爲 $-a_0,-a_1,\\ldots,-a_{n-1}$、其餘爲 0 的 $n\\times n$ 矩陣。（2 分，A）\n\n**(b)** 歸納/直接行列式展開：$\\det(C(f)-xI)=f(x)$；如沿第一行展開並對子式用歸納假設，或利用 $C(f)$ 在循環向量 $e_1$ 上滿足 $f(C(f))e_1=0$ 的結構。（4 分，B）\n\n**(c)** 域 $F$ 上任意 $n\\times n$ 矩陣相似於伴隨矩陣的直和 $C(g_1)\\oplus\\cdots\\oplus C(g_r)$，且 $g_{i+1}\\mid g_i$，在不計次序意義下唯一。（2 分，A）\n\n**(d)** $x^2+x+1$ 部分（次數 8，指數 2）：$\\mathrm{rank}(A^2+A+I)=14$ 即零度 6，兩個 $f$-塊的直和核維數爲 6，得塊 $C(f^2)\\oplus C(f)\\oplus C(f)$（次數 4+2+2）。$x^3+x+1$ 部分（次數 12，指數 2）：$\\mathrm{rank}(A^3+A+I)=14$ 給零度 6，得塊 $C(g^2)\\oplus C(g)$（次數 6+3+3）。RCF $=C(f^2)\\oplus C(f)^2\\oplus C(g^2)\\oplus C(g)^2$，其中 $f=x^2+x+1$、$g=x^3+x+1$。（6 分，C）\n\n**(e)** 若 $m_A=c_A$，則 RCF 只有一塊：分解 $C(g_1)\\oplus\\cdots$ 滿足 $m_A=\\mathrm{lcm}(g_i)$、$c_A=\\prod g_i$；相等迫使只有一個因子且 $g_1=m_A=c_A$。故 $A\\sim C(m_A(x))$。（6 分，D）"
    },
-   "secondary_format": null,
+   "secondary_format": "C",
    "source": {
     "paper_id": "SU2025",
     "paper_name": {
@@ -1715,7 +2870,7 @@
    "question_id": "MATH50003.SU2025.Q3",
    "module": "MATH50003/50016",
    "qtype": "subjective",
-   "format": "G",
+   "format": "LA-adjoint",
    "Question": {
     "en": "**(a)** Define what is meant by an inner product space. **[2]**\n\n**(b)** Let $V$ be a finite-dimensional inner product space, and $T:V\\to V$ a linear map.\n**(i)** Define what is meant by the adjoint map $T^*$.\n**(ii)** State the Spectral Theorem for self-adjoint linear maps. **[4]**\n\n**(c)** Let $V=M_n(\\mathbb{R})$, the $n^2$-dimensional vector space consisting of all $n\\times n$ matrices over $\\mathbb{R}$. For $A,B\\in M_n(\\mathbb{R})$, define\n\n$$(A,B)=\\mathrm{trace}(A^TB)$$\n\n(where as usual $A^T$ denotes the transpose of $A$). Prove that $(\\ ,\\ )$ is an inner product on $V$. **[4]**\n\n**(d)** Let $V=M_n(\\mathbb{R})$, with inner product as in part (c) with $n\\ge2$, and let $S:V\\to V$ be the linear map defined by\n\n$$S(A)=A^T\\qquad\\text{for all }A\\in V.$$\n\n**(i)** Find all the eigenvalues of $S$.\n**(ii)** Prove that $S$ is self-adjoint.\n**(iii)** Suppose $n=2$. Find an orthonormal basis of $V=M_2(\\mathbb{R})$ (with respect to the inner product of (c)) consisting of eigenvectors of $S$. **[10]**",
     "zh-Hans": "**(a)** 给出内积空间的定义。**[2 分]**\n\n**(b)** 设 $V$ 是有限维内积空间，$T:V\\to V$ 是线性映射。\n**(i)** 给出伴随映射 $T^*$ 的定义。\n**(ii)** 陈述自伴线性映射的谱定理。**[4 分]**\n\n**(c)** 设 $V=M_n(\\mathbb{R})$（$\\mathbb{R}$ 上全体 $n\\times n$ 矩阵构成的 $n^2$ 维空间）。对 $A,B\\in M_n(\\mathbb{R})$ 定义\n\n$$(A,B)=\\mathrm{trace}(A^TB)$$\n\n（$A^T$ 表示 $A$ 的转置）。证明 $(\\ ,\\ )$ 是 $V$ 上的内积。**[4 分]**\n\n**(d)** 设 $V=M_n(\\mathbb{R})$（$n\\ge2$），取 (c) 中的内积，$S:V\\to V$ 由\n\n$$S(A)=A^T\\qquad(\\forall A\\in V)$$\n\n定义。\n\n**(i)** 求 $S$ 的所有特征值。\n**(ii)** 证明 $S$ 自伴。\n**(iii)** 设 $n=2$。求 $V=M_2(\\mathbb{R})$ 的一组由 $S$ 的特征向量构成的标准正交基（关于 (c) 的内积）。**[10 分]**",
@@ -1726,7 +2881,7 @@
     "zh-Hans": "**(a)** 内积空间是 $F=\\mathbb{R}$ 或 $\\mathbb{C}$ 上的向量空间 $V$ 连同映射 $(\\ ,\\ ):V\\times V\\to F$，满足：第一变元线性、$(u,v)=\\overline{(v,u)}$、$(v,v)\\ge0$ 且等号当且仅当 $v=0$。（2 分，A）\n\n**(b)(i)** $T^*:V\\to V$ 是满足 $(T(v),w)=(v,T^*(w))$（对一切 $v,w\\in V$）的唯一映射。（1 分，A）\n\n**(b)(ii)** 谱定理：若 $T=T^*$，则 $V$ 存在由 $T$ 的特征向量构成的标准正交基；等价地，在某标准正交基下 $[T]_{\\mathcal{B}}$ 为对角阵，且特征值全为实数。（3 分，A）\n\n**(c)** 双线性由迹与转置的线性性得出：$(\\lambda A+\\mu B,C)=\\mathrm{trace}((\\lambda A+\\mu B)^TC)=\\lambda(A,C)+\\mu(B,C)$。对称：$(A,B)=\\mathrm{trace}(A^TB)=\\mathrm{trace}((A^TB)^T)=\\mathrm{trace}(B^TA)=(B,A)$。正定：$(A,A)=\\mathrm{trace}(A^TA)=\\sum_{i,j}a_{ij}^2>0$ 除非 $A=0$。（4 分，A）\n\n**(d)(i)** $S^2=I$，故特征值满足 $\\lambda^2=1$：$\\lambda=\\pm1$；特征向量分别是对称（$\\lambda=1$）与反对称（$\\lambda=-1$）矩阵，均非零。（3 分，B）\n\n**(d)(ii)** $(S(A),B)=\\mathrm{trace}((A^T)^TB)=\\mathrm{trace}(A^TB^T)=\\mathrm{trace}((BA)^T)=\\mathrm{trace}(BA)=\\mathrm{trace}(AB)=(A,S(B))$（用迹的轮换性）；故 $S^*=S$。（3 分，C）\n\n**(d)(iii)** $n=2$：对称特征向量 $\\begin{pmatrix}1&0\\\\0&0\\end{pmatrix},\\begin{pmatrix}0&0\\\\0&1\\end{pmatrix},\\begin{pmatrix}0&1\\\\1&0\\end{pmatrix}$（特征值 1）与反对称 $\\begin{pmatrix}0&1\\\\-1&0\\end{pmatrix}$（特征值 $-1$）。每个 $(A,A)=1$（元素平方和为 1），不同矩阵间 $(A,B)=\\mathrm{trace}(A^TB)=0$（支撑不相交/迹为零）。即标准正交特征基。（4 分，C）",
     "zh-Hant": "**(a)** 內積空間是 $F=\\mathbb{R}$ 或 $\\mathbb{C}$ 上的向量空間 $V$ 連同映射 $(\\ ,\\ ):V\\times V\\to F$，滿足：第一變元線性、$(u,v)=\\overline{(v,u)}$、$(v,v)\\ge0$ 且等號當且僅當 $v=0$。（2 分，A）\n\n**(b)(i)** $T^*:V\\to V$ 是滿足 $(T(v),w)=(v,T^*(w))$（對一切 $v,w\\in V$）的唯一映射。（1 分，A）\n\n**(b)(ii)** 譜定理：若 $T=T^*$，則 $V$ 存在由 $T$ 的特徵向量構成的標準正交基；等價地，在某標準正交基下 $[T]_{\\mathcal{B}}$ 爲對角陣，且特徵值全爲實數。（3 分，A）\n\n**(c)** 雙線性由跡與轉置的線性性得出：$(\\lambda A+\\mu B,C)=\\mathrm{trace}((\\lambda A+\\mu B)^TC)=\\lambda(A,C)+\\mu(B,C)$。對稱：$(A,B)=\\mathrm{trace}(A^TB)=\\mathrm{trace}((A^TB)^T)=\\mathrm{trace}(B^TA)=(B,A)$。正定：$(A,A)=\\mathrm{trace}(A^TA)=\\sum_{i,j}a_{ij}^2>0$ 除非 $A=0$。（4 分，A）\n\n**(d)(i)** $S^2=I$，故特徵值滿足 $\\lambda^2=1$：$\\lambda=\\pm1$；特徵向量分別是對稱（$\\lambda=1$）與反對稱（$\\lambda=-1$）矩陣，均非零。（3 分，B）\n\n**(d)(ii)** $(S(A),B)=\\mathrm{trace}((A^T)^TB)=\\mathrm{trace}(A^TB^T)=\\mathrm{trace}((BA)^T)=\\mathrm{trace}(BA)=\\mathrm{trace}(AB)=(A,S(B))$（用跡的輪換性）；故 $S^*=S$。（3 分，C）\n\n**(d)(iii)** $n=2$：對稱特徵向量 $\\begin{pmatrix}1&0\\\\0&0\\end{pmatrix},\\begin{pmatrix}0&0\\\\0&1\\end{pmatrix},\\begin{pmatrix}0&1\\\\1&0\\end{pmatrix}$（特徵值 1）與反對稱 $\\begin{pmatrix}0&1\\\\-1&0\\end{pmatrix}$（特徵值 $-1$）。每個 $(A,A)=1$（元素平方和爲 1），不同矩陣間 $(A,B)=\\mathrm{trace}(A^TB)=0$（支撐不相交/跡爲零）。即標準正交特徵基。（4 分，C）"
    },
-   "secondary_format": null,
+   "secondary_format": "G",
    "source": {
     "paper_id": "SU2025",
     "paper_name": {

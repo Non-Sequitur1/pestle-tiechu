@@ -147,6 +147,102 @@
      "zh-Hant": "夏季試卷（年份未標註）"
     },
     "date": null
+   },
+   {
+    "id": "PSX1",
+    "kind": "problem-sheet",
+    "year": null,
+    "date": null,
+    "total_marks": 93,
+    "name": {
+     "en": "Exercises 1 (problem sheet)",
+     "zh-Hans": "习题集 1（Exercises 1）",
+     "zh-Hant": "習題集 1（Exercises 1）"
+    }
+   },
+   {
+    "id": "PSX2",
+    "kind": "problem-sheet",
+    "year": null,
+    "date": null,
+    "total_marks": 81,
+    "name": {
+     "en": "Exercises 2 (problem sheet)",
+     "zh-Hans": "习题集 2（Exercises 2）",
+     "zh-Hant": "習題集 2（Exercises 2）"
+    }
+   },
+   {
+    "id": "PSX3",
+    "kind": "problem-sheet",
+    "year": null,
+    "date": null,
+    "total_marks": 74,
+    "name": {
+     "en": "Exercises 3 (problem sheet)",
+     "zh-Hans": "习题集 3（Exercises 3）",
+     "zh-Hant": "習題集 3（Exercises 3）"
+    }
+   },
+   {
+    "id": "PSX4",
+    "kind": "problem-sheet",
+    "year": null,
+    "date": null,
+    "total_marks": 106,
+    "name": {
+     "en": "Exercises 4 (problem sheet)",
+     "zh-Hans": "习题集 4（Exercises 4）",
+     "zh-Hant": "習題集 4（Exercises 4）"
+    }
+   },
+   {
+    "id": "PSX5",
+    "kind": "problem-sheet",
+    "year": null,
+    "date": null,
+    "total_marks": 76,
+    "name": {
+     "en": "Exercises 5 (problem sheet)",
+     "zh-Hans": "习题集 5（Exercises 5）",
+     "zh-Hant": "習題集 5（Exercises 5）"
+    }
+   },
+   {
+    "id": "PSX6",
+    "kind": "problem-sheet",
+    "year": null,
+    "date": null,
+    "total_marks": 86,
+    "name": {
+     "en": "Exercises 6 (problem sheet)",
+     "zh-Hans": "习题集 6（Exercises 6）",
+     "zh-Hant": "習題集 6（Exercises 6）"
+    }
+   },
+   {
+    "id": "PSX7",
+    "kind": "problem-sheet",
+    "year": null,
+    "date": null,
+    "total_marks": 46,
+    "name": {
+     "en": "Exercises 7 (problem sheet)",
+     "zh-Hans": "习题集 7（Exercises 7）",
+     "zh-Hant": "習題集 7（Exercises 7）"
+    }
+   },
+   {
+    "id": "UQ",
+    "kind": "unseen-sheet",
+    "year": null,
+    "date": null,
+    "total_marks": 20,
+    "name": {
+     "en": "In-house unseen practice set",
+     "zh-Hans": "自编 Unseen 练习集",
+     "zh-Hant": "自編 Unseen 練習集"
+    }
    }
   ],
   "paper_kinds": [
@@ -565,6 +661,113 @@
     "kinds": [
      "autumn-midterm"
     ]
+   },
+   {
+    "id": "KP-SU-MLE",
+    "topic": "estimation",
+    "heat": 5,
+    "years": [
+     "2021 Q3",
+     "2022 Q3",
+     "2023 Q2",
+     "2024 Q2",
+     "2025 Q2"
+    ],
+    "name": {
+     "en": "MLE chain: log-likelihood, unbiasedness, minimal variance",
+     "zh-Hans": "MLE 链条：对数似然、无偏性、最小方差",
+     "zh-Hant": "MLE 鏈條：對數似然、無偏性、最小方差"
+    },
+    "detail": {
+     "en": "Summer five-for-five. Every year: write $\\ell$, solve, verify with $\\ell''<0$, then prove unbiasedness via a substitution that turns the integral into an Exponential mean ($z=x^2$ in 2021 & 2025, $z=\\log x$ in 2023). 2025 added the Cramér–Rao check $-nE[\\ell'\\'(\\theta)]=1/\\mathrm{Var}(\\hat\\theta)$ — compute $E[\\ell'\\' ]$ by the same substitution.",
+     "zh-Hans": "夏季五年五中。每年：写 $\\ell$、求解、$\\ell''<0$ 验证，再用代换把积分化成指数均值证无偏（2021/2025 用 $z=x^2$、2023 用 $z=\\log x$）。2025 加了 Cramér–Rao 检验 $-nE[\\ell'\\'(\\theta)]=1/\\mathrm{Var}(\\hat\\theta)$——同一代换算 $E[\\ell'\\' ]$。",
+     "zh-Hant": "夏季五年五中。每年：寫 $\\ell$、求解、$\\ell''<0$ 驗證，再用代換把積分化成指數均值證無偏（2021/2025 用 $z=x^2$、2023 用 $z=\\log x$）。2025 加了 Cramér–Rao 檢驗 $-nE[\\ell'\\'(\\theta)]=1/\\mathrm{Var}(\\hat\\theta)$——同一代換算 $E[\\ell'\\' ]$。"
+    }
+   },
+   {
+    "id": "KP-SU-CI",
+    "topic": "estimation",
+    "heat": 5,
+    "years": [
+     "2021 Q3(d)",
+     "2022 Q3",
+     "2023 Q2(iii)",
+     "2025 Q2(iii)"
+    ],
+    "name": {
+     "en": "CLT-based confidence intervals and their exact inversion",
+     "zh-Hans": "基于 CLT 的置信区间及其精确反转",
+     "zh-Hant": "基於 CLT 的置信區間及其精確反轉"
+    },
+    "detail": {
+     "en": "Standardise $\\hat\\theta$, then invert the double inequality for $\\theta$ — the resulting interval is asymmetric whenever $\\theta$ appears in the standard error (2021: $\\hat\\theta(1\\pm1.96/\\sqrt{2n})^{-1}$). 2023 asked for a CI on $1/\\theta$ then inverted reciprocally for $\\theta$. Never approximate further after the CLT step: examiners dock marks for symmetrising.",
+     "zh-Hans": "标准化 $\\hat\\theta$ 后对 $\\theta$ 反解双重不等式——只要 $\\theta$ 出现在标准误里，区间就不对称（2021：$\\hat\\theta(1\\pm1.96/\\sqrt{2n})^{-1}$）。2023 先对 $1/\\theta$ 建区间再取倒数得 $\\theta$ 的区间。CLT 之后不得再近似：考官对\"强行对称化\"扣分。",
+     "zh-Hant": "標準化 $\\hat\\theta$ 後對 $\\theta$ 反解雙重不等式——只要 $\\theta$ 出現在標準誤裏，區間就不對稱（2021：$\\hat\\theta(1\\pm1.96/\\sqrt{2n})^{-1}$）。2023 先對 $1/\\theta$ 建區間再取倒數得 $\\theta$ 的區間。CLT 之後不得再近似：考官對\"強行對稱化\"扣分。"
+    }
+   },
+   {
+    "id": "KP-SU-TRANSFORM",
+    "topic": "joint-distributions",
+    "heat": 5,
+    "years": [
+     "2021 Q4",
+     "2022 Q4",
+     "2023 Q3(b)",
+     "2024 Q4",
+     "2025 Q1(d)"
+    ],
+    "name": {
+     "en": "Jacobian transformations of joint densities",
+     "zh-Hans": "联合密度的雅可比变换",
+     "zh-Hant": "聯合密度的雅可比變換"
+    },
+    "detail": {
+     "en": "Five-for-five finale skill. Steps examiners mark separately: inverse functions, NEW support, Jacobian absolute value, substitution. 2021 used polar-type $(U,V)=(X,\\,X^2+Y^2)$; 2022 the ratio-sum pair $(\\frac{X-Y}{X+Y},\\,X+Y)$ with triangular support $u>|v|$ style; 2024 $U=XY,\\,V=(1-X)Y$. Recognise $X/(X+Y)\\sim\\mathrm{Uniform}(0,1)$ for independent Gammas with equal rate (2025 Q1(d) instance).",
+     "zh-Hans": "压轴五年五中的技能。考官按步给分：逆函数、新支撑、雅可比绝对值、代入。2021 用 $(U,V)=(X,X^2+Y^2)$；2022 用 $(\\frac{X-Y}{X+Y},X+Y)$（三角支撑）；2024 用 $U=XY,V=(1-X)Y$。记住：等速率独立 Gamma 时 $X/(X+Y)\\sim\\mathrm{Uniform}(0,1)$（2025 Q1(d)）。",
+     "zh-Hant": "壓軸五年五中的技能。考官按步給分：逆函數、新支撐、雅可比絕對值、代入。2021 用 $(U,V)=(X,X^2+Y^2)$；2022 用 $(\\frac{X-Y}{X+Y},X+Y)$（三角支撐）；2024 用 $U=XY,V=(1-X)Y$。記住：等速率獨立 Gamma 時 $X/(X+Y)\\sim\\mathrm{Uniform}(0,1)$（2025 Q1(d)）。"
+    }
+   },
+   {
+    "id": "KP-SU-CHI2",
+    "topic": "testing",
+    "heat": 4.5,
+    "years": [
+     "2022 Q3(d)",
+     "2023 Q4",
+     "2024 Q3(b)",
+     "2025 Q3(c)"
+    ],
+    "name": {
+     "en": "Chi-squared GOF: merging, df = k−1−m, conclusion in context",
+     "zh-Hans": "卡方拟合优度：并格、df=k−1−m、情境结论",
+     "zh-Hant": "卡方擬合優度：並格、df=k−1−m、情境結論"
+    },
+    "detail": {
+     "en": "Applied datasets (dart throws, quiz answers, weekday calls, family sex ratios). Scored steps: expected counts with the estimated parameter, merge cells with $E<5$ (recompute!), $\\chi^2$ statistic, df $=k-1-m$, compare with the table, one-sentence conclusion naming the model. 2025 Q3(c) did this TWICE in one question (estimated $p$, then fixed $p=1/2$).",
+     "zh-Hans": "应用数据集（飞镖、答题、工作日来电、家庭男女比）。给分步骤：带估计参数的期望计数、并 $E<5$ 格（重算！）、$\\chi^2$ 统计量、df $=k-1-m$、查表比较、点名模型的一句话结论。2025 Q3(c) 一题里做了两遍（先估计 $p$，再固定 $p=1/2$）。",
+     "zh-Hant": "應用數據集（飛鏢、答題、工作日來電、家庭男女比）。給分步驟：帶估計參數的期望計數、並 $E<5$ 格（重算！）、$\\chi^2$ 統計量、df $=k-1-m$、查表比較、點名模型的一句話結論。2025 Q3(c) 一題裏做了兩遍（先估計 $p$，再固定 $p=1/2$）。"
+    }
+   },
+   {
+    "id": "KP-SU-CONV",
+    "topic": "convergence",
+    "heat": 4,
+    "years": [
+     "2021 Q1(b)",
+     "2023 Q4(b)",
+     "2024 Q1(c)",
+     "2025 Q1(c)"
+    ],
+    "name": {
+     "en": "Convergence in distribution/probability: statements and counterexamples",
+     "zh-Hans": "依分布/依概率收敛：陈述与反例",
+     "zh-Hant": "依分佈/依概率收斂：陳述與反例"
+    },
+    "detail": {
+     "en": "Summer keeps probing the same distinction: sums closed under probability convergence but NOT distribution (2025 Q1(c)(iii) counterexample $X_n+Y_n\\equiv0$); $nX_n$ rescaling limits (2024 Beta→Exponential via $F_n\\to1-e^{-y}$); MGF continuity theorem for Binomial$(n,\\lambda/n)\\to$Poisson (2023 Q4(b)(ii)). Know: probability ⇒ distribution; degenerate limits reverse; Markov/Chebyshev for the proofs.",
+     "zh-Hans": "夏季反复考查同一区分：依概率下加法封闭、依分布下不封闭（2025 Q1(c)(iii) 反例 $X_n+Y_n\\equiv0$）；$nX_n$ 重标度极限（2024 Beta→Exponential，$F_n\\to1-e^{-y}$）；MGF 连续性定理证 Binomial$(n,\\lambda/n)\\to$Poisson（2023 Q4(b)(ii)）。记住：依概率⇒依分布；退化极限可反向；证明用 Markov/Chebyshev。",
+     "zh-Hant": "夏季反覆考查同一區分：依概率下加法封閉、依分佈下不封閉（2025 Q1(c)(iii) 反例 $X_n+Y_n\\equiv0$）；$nX_n$ 重標度極限（2024 Beta→Exponential，$F_n\\to1-e^{-y}$）；MGF 連續性定理證 Binomial$(n,\\lambda/n)\\to$Poisson（2023 Q4(b)(ii)）。記住：依概率⇒依分佈；退化極限可反向；證明用 Markov/Chebyshev。"
+    }
    }
   ],
   "formats": [
@@ -602,7 +805,8 @@
      "zh-Hant": "**第 1 步——先寫 $Y$ 的支撐集。** 任何計算之前先寫範圍；漏寫必扣分。\n\n**第 2 步——事件行。** $F_Y(y)=P(g(X)\\le y)$。遞減 $g$ 翻轉不等號；$\\min/\\max$ 轉化爲事件的並/補。\n\n**第 3 步——非單調 $g$。** 把 $x$ 軸切成單調分段再加減。\n\n**第 4 步——代入 $F_X$ 化簡。** 需要時用 $\\Phi(-a)=1-\\Phi(a)$。\n\n**第 5 步——求導。** 支撐上 $f_Y(y)=F_Y'(y)$，其餘爲 0；鏈式法則小心內層函數（如 $\\sqrt{\\ln(1/y)}$）。\n\n**第 6 步——自檢。** $f_Y\\ge0$？$\\int f_Y=1$？$F_Y$ 遞增？30 秒抓住大部分錯誤。"
     },
     "kinds": [
-     "autumn-midterm"
+     "autumn-midterm",
+     "problem-sheet"
     ],
     "pitfalls": {
      "en": "**Don't differentiate $g^{-1}$ directly.** The CDF method never needs the derivative of the inverse; differentiate the CDF you built, with respect to $y$. When $g$ is monotone decreasing, the support flips — re-derive $f_Y$ on the flipped support and check it integrates to 1.",
@@ -624,25 +828,27 @@
     },
     "stars": 5,
     "likelihood": {
-     "en": "Near-certain. Q1 in every paper 2022–2025 (4/4 as dedicated Q1).",
-     "zh-Hans": "近乎必考。2022–2025 年每年 Q1（连续四年独占 Q1）。",
-     "zh-Hant": "近乎必考。2022–2025 年每年 Q1（連續四年獨佔 Q1）。"
+     "en": "Bankable in both formats: midterm Q1 four years running; in summer it is the mixed foundations slot (proof + Bayes + convergence) every year 2021–2025.",
+     "zh-Hans": "两种卷型都可押：期中 Q1 连续四年；夏季每年都是 Q1/Q2 的混合基础位（证明 + 贝叶斯 + 收敛），2021–2025 五年不缺席。",
+     "zh-Hant": "兩種卷型都可押：期中 Q1 連續四年；夏季每年都是 Q1/Q2 的混合基礎位（證明 + 貝葉斯 + 收斂），2021–2025 五年不缺席。"
     },
     "slot": {
-     "en": "Q1, 7–10 marks; 2025 split into (a) definition 4 + (b) construction 4",
-     "zh-Hans": "Q1，7–10 分；2025 年拆为 (a) 定义 4 分 + (b) 构造 4 分",
-     "zh-Hant": "Q1，7–10 分；2025 年拆爲 (a) 定義 4 分 + (b) 構造 4 分"
+     "en": "Midterm Q1 (7–10 marks); summer Q1/Q2 mixed-foundations slot (20 marks)",
+     "zh-Hans": "期中 Q1（7–10 分）；夏季 Q1/Q2 混合基础位（20 分）",
+     "zh-Hant": "期中 Q1（7–10 分）；夏季 Q1/Q2 混合基礎位（20 分）"
     },
     "years": [
-     "2021 (embedded)",
-     "2022 Q1",
+     "2021 Q1",
+     "2022 Q2",
      "2023 Q1",
      "2024 Q1",
      "2025 Q1"
     ],
     "drills": [
      "PS1 Q3",
-     "PS1 Q4"
+     "PS1 Q4",
+     "PSX1 Q5",
+     "PSX1 Q10"
     ],
     "skeleton": {
      "en": "**Definition (verbatim).** (i) $\\emptyset\\in\\mathcal{F}$; (ii) closed under complements; (iii) closed under countable unions.\n\n**Closure proofs** — check the three axioms one by one against the candidate collection (trace $A\\cap F$, preimage $f^{-1}(A)$, countable/co-countable).\n\n**Constructions** — smallest σ-algebra containing given sets: list generators, close under complement and union until stable.\n\n**Cardinality fact** — on finite non-empty $S$, elements pair as $A\\leftrightarrow A^c$, so the count is even.",
@@ -650,7 +856,8 @@
      "zh-Hant": "**定義（逐字）。** (i) $\\emptyset\\in\\mathcal{F}$；(ii) 對補封閉；(iii) 對可數並封閉。\n\n**封閉性證明**——對候選集族逐條驗證三公理（截斷 $A\\cap F$、原像 $f^{-1}(A)$、可數/餘可數）。\n\n**構造題**——含給定集合的最小 σ-代數：列出生成元，反覆取補、取並直到封閉。\n\n**基數事實**——有限非空 $S$ 上元素按 $A\\leftrightarrow A^c$ 配對，故個數爲偶數。"
     },
     "kinds": [
-     "autumn-midterm"
+     "autumn-midterm",
+     "summer"
     ],
     "pitfalls": {
      "en": "Closure proofs must quote the **countable** union axiom with an explicit index set ($\\bigcup_{n=1}^{\\infty}$); a finite union quote loses the mark. $A^c\\cap B^c$ vs $(A\\cap B)^c$ mix-ups are the classic slip — write De Morgan out in full.",
@@ -699,7 +906,8 @@
      "zh-Hant": "**第 1 步——文字翻譯成事件。** 給原因命名 $A_i$（門、工廠、元件包質量、誰漏球），給觀測命名 $B$。\n\n**第 2 步——先驗與似然。** $P(A_i)$ 來自題意；$P(B\\mid A_i)$ 在每個情形內直接計數。\n\n**第 3 步——全概率分母。** $P(B)=\\sum_j P(B\\mid A_j)P(A_j)$；一個原因都不能漏，算術是丟分重災區。\n\n**第 4 步——貝葉斯並驗證。** $P(A_i\\mid B)=\\ldots$；檢查後驗之和爲 1。對“並事件”取條件（2025 Q2）：$A_i$ 互斥時 $P(A_3\\mid A_1\\cup A_2\\cup A_3)$。"
     },
     "kinds": [
-     "autumn-midterm"
+     "autumn-midterm",
+     "problem-sheet"
     ],
     "pitfalls": {
      "en": "Define every event ($A$ = …, $B_j$ = …) before writing $\\mathbb{P}(\\cdot)$; an undefined event costs the method marks even if the arithmetic is right. The partition requirement of Total Probability (disjoint + exhaustive) must be stated, not implied.",
@@ -748,7 +956,8 @@
      "zh-Hant": "**路線 1——計數。** 等可能結果總數 $\\binom{N}{B}$，有利結果 $\\binom{N-k}{B-1}$ 型計數；超幾何形態。\n\n**路線 2——序列。** 沿着情節連乘條件概率（$W W \\cdots W B$）；幾何型等待 $P(Y=y)=p(1-p)^y$。\n\n**永遠：** 先寫取值範圍；驗證 PMF 之和爲 1；兩條路線評分標準都認。"
     },
     "kinds": [
-     "autumn-midterm"
+     "autumn-midterm",
+     "problem-sheet"
     ],
     "pitfalls": {
      "en": "Normalise before solving: the PMF table must sum to 1, so solve the normalising constant first, then read off $\\mathbb{P}(X=k)$. Forgetting $k$ ranges (e.g. $k\\ge 1$ vs $k\\ge 0$ for geometric conventions) breaks every later part.",
@@ -795,7 +1004,8 @@
      "zh-Hant": "**證明套路**——展開 $P((A\\cup B)\\cap C)$，用互斥性拆開，湊出乘積（2024 Q2）。\n\n**反例套路**——平凡事件技巧：$A=\\emptyset$ 使三重積成立而兩兩積失效（2023 Q2）。雙骰子奇偶/和做“兩兩但不相互”（PS1 Q11）。\n\n**練熟：** 不相交 vs 獨立；兩兩 vs 相互。"
     },
     "kinds": [
-     "autumn-midterm"
+     "autumn-midterm",
+     "problem-sheet"
     ],
     "pitfalls": {
      "en": "Pairwise independence does NOT imply mutual independence — always test the $2^n$ joint factorisation before claiming either. For the converse direction a single explicit counterexample (two coin tosses) suffices; do not try to prove a negative in general.",
@@ -822,14 +1032,15 @@
      "zh-Hant": "較爲可能。2025 Q4 主菜，另見於 2024 Q5(a)、2021 Q1。熱度上升——2026 年大概率有變體。"
     },
     "slot": {
-     "en": "Q4 or a part of Q5, 7–8 marks",
-     "zh-Hans": "Q4 或 Q5 的一小问，7–8 分",
-     "zh-Hant": "Q4 或 Q5 的一小問，7–8 分"
+     "en": "Midterm Q4/Q5 sub-part (7–8 marks); summer finale slot as the mixed-skills last question (2025 Q4)",
+     "zh-Hans": "期中 Q4/Q5 小问（7–8 分）；夏季压轴位——2025 年作为技能混合末题出现",
+     "zh-Hant": "期中 Q4/Q5 小問（7–8 分）；夏季壓軸位——2025 年作爲技能混合末題出現"
     },
     "years": [
-     "2021 Q1",
-     "2024 Q5a",
-     "2025 Q4"
+     "2021 Q2(b)",
+     "2023 Q1(c)",
+     "2025 Q4",
+     "2024 MT Q5"
     ],
     "drills": [
      "PS3 Q2"
@@ -840,7 +1051,8 @@
      "zh-Hant": "**二項式定理：** $\\sum_k \\binom{n}{k}a^kb^{n-k}=(a+b)^n$，故 $E[c^X]=\\sum_k\\binom{n}{k}(cp)^k(1-p)^{n-k}=(cp+1-p)^n$。\n\n**指數級數：** $e^\\lambda=\\sum_k\\lambda^k/k!$，冪次配對即得泊松各階矩。\n\n**絕不**先求 $c^X$ 或 $g(X)$ 的分佈——永遠在 X 空間用 LOTUS。"
     },
     "kinds": [
-     "autumn-midterm"
+     "autumn-midterm",
+     "summer"
     ],
     "pitfalls": {
      "en": "Interchanging $\\sum$ and expectation needs the non-negativity (or absolute convergence) argument written down; quote Tonelli for non-negative series. Sign slips in telescoping identities ($\\pm 1$ alternating) are the top mark-killer here.",
@@ -885,7 +1097,8 @@
      "zh-Hant": "**高斯核積分：** 取 $u=x$、$dv=xe^{-x^2/2}$ 分部積分；識別 $\\varphi$ 的偶倍數以複用 $\\int e^{-x^2/2}=\\sqrt{2\\pi}$。\n\n**識別形態：** $(0,1)$ 均勻、指數 $\\lambda e^{-\\lambda x}$；一律現場推導均值與方差，不背結論。"
     },
     "kinds": [
-     "autumn-midterm"
+     "autumn-midterm",
+     "problem-sheet"
     ],
     "pitfalls": {
      "en": "Exponential: memorylessness is $\\mathbb{P}(X>s+t\\mid X>s)=\\mathbb{P}(X>t)$ — conditioning on the WRONG event is the standard error. Uniform: a linear transform $aX+b$ with $a<0$ flips the support; state the new endpoints.",
@@ -912,12 +1125,13 @@
      "zh-Hant": "不太可能。僅 2021 年出現；2022 年起淘汰。可回收超幾何的二項極限。"
     },
     "slot": {
-     "en": "Retired",
-     "zh-Hans": "已淘汰",
-     "zh-Hant": "已淘汰"
+     "en": "2021 summer Q1-style mixed multi-part; retired since",
+     "zh-Hans": "2021 夏季 Q1 式混合多问；此后退役",
+     "zh-Hant": "2021 夏季 Q1 式混合多問；此後退役"
     },
     "years": [
-     "2021 Q1–Q3"
+     "2021 Q1",
+     "2021 MT Q1–Q3"
     ],
     "drills": [],
     "skeleton": {
@@ -926,7 +1140,8 @@
      "zh-Hant": "**可回收：** 2021 Q2(e)——超幾何的二項極限：$n,b\\to\\infty$ 且 $b/n\\to p$ 時 $P(X=k)\\to\\binom{m}{k}p^k(1-p)^{m-k}$。一段乾淨的極限論證，值得演練。"
     },
     "kinds": [
-     "autumn-midterm"
+     "autumn-midterm",
+     "summer"
     ],
     "pitfalls": {
      "en": "This format has not appeared since the 2021 single-paper layout was retired; spending revision time here has near-zero expected marks. Skim for style only — the 2021 modelling question has no successor in 2022–2025 papers.",
@@ -937,6 +1152,148 @@
      "en": "**Secret: retirement notice.** The 2021 long modelling format was a one-off; its marks reappeared 2022–2025 as format-A transformation finales. Read it once for style, then redirect all practice time to formats A and F — that is where its 18–20 marks went.",
      "zh-Hans": "**秘笈：退役公告。** 2021 年的长篇建模格式是一次性的；它的分值在 2022–2025 年以题型 A 变换压轴的形式复活。通读一遍找感觉即可，然后把手感训练全部转给题型 A 与 F——它的 18–20 分就落在这两处。",
      "zh-Hant": "**祕笈：退役公告。** 2021 年的長篇建模格式是一次性的；它的分值在 2022–2025 年以題型 A 變換壓軸的形式復活。通讀一遍找感覺即可，然後把手感訓練全部轉給題型 A 與 F——它的 18–20 分就落在這兩處。"
+    }
+   },
+   {
+    "id": "SA",
+    "kinds": [
+     "summer"
+    ],
+    "stars": 5,
+    "slot": {
+     "en": "Q2/Q4, 20-mark multi-part finale",
+     "zh-Hans": "Q2/Q4，20 分多问压轴",
+     "zh-Hant": "Q2/Q4，20 分多問壓軸"
+    },
+    "name": {
+     "en": "Joint densities: marginals, conditionals, transformations",
+     "zh-Hans": "联合密度：边缘、条件、变换",
+     "zh-Hant": "聯合密度：邊緣、條件、變換"
+    },
+    "likelihood": {
+     "en": "Every summer paper 2021–2025 has one joint-PDF finale (5/5). Fixed template: (a) normalise/find a constant, (b) probability of a region or a quantile, (c) transformation to (U,V) with Jacobian, (d) conditional distribution.",
+     "zh-Hans": "2021–2025 每份夏季卷必有一道联合密度压轴（五年五中）。固定模板：(a) 归一化求常数，(b) 区域概率或分位数，(c) 变换到 (U,V) 求雅可比，(d) 条件分布。",
+     "zh-Hant": "2021–2025 每份夏季卷必有一道聯合密度壓軸（五年五中）。固定模板：(a) 歸一化求常數，(b) 區域概率或分位數，(c) 變換到 (U,V) 求雅可比，(d) 條件分佈。"
+    },
+    "years": [
+     "2021 Q4",
+     "2022 Q4",
+     "2023 Q3(b)",
+     "2024 Q4",
+     "2025 Q1(d)"
+    ],
+    "drills": [
+     "Exercises 4 Q4–Q8",
+     "Exercises 4 Q11–Q12"
+    ],
+    "skeleton": {
+     "en": "**Part (a) Constant:** integrate $f$ over the support and set $=1$; factorise $\\int\\int=\\prod\\int$ when the density splits.\n\n**Part (b) Region:** express the event ($X>Y$, $X$ in $[0,a]$, etc.) as a region and integrate; symmetry arguments (e.g. $X>Y\\iff U>0$) save work.\n\n**Part (c) Transformation:** write $x(u,v),y(u,v)$, state the support of $(U,V)$, Jacobian $|J|=|\\partial(x,y)/\\partial(u,v)|$, then $f_{UV}=f_{XY}(x(u,v),y(u,v))\\cdot|J|$.\n\n**Part (d) Conditional:** divide joint by marginal $f_{U|V}=f_{UV}/f_V$; identify a named distribution (uniform / scaled Beta are common).",
+     "zh-Hans": "**(a) 求常数：** 在支撑上积分 $f$ 并置 1；密度可分解时 $\\int\\int=\\prod\\int$。\n\n**(b) 区域概率：** 把事件（$X>Y$、$X\\in[0,a]$ 等）写成区域再积分；对称论证（如 $X>Y\\iff U>0$）省时。\n\n**(c) 变换：** 写出 $x(u,v),y(u,v)$、声明 $(U,V)$ 支撑、雅可比 $|J|$，代入 $f_{UV}=f_{XY}\\cdot|J|$。\n\n**(d) 条件分布：** 联合除以边缘 $f_{U|V}=f_{UV}/f_V$；识别命名分布（均匀 / 缩放 Beta 常见）。",
+     "zh-Hant": "**(a) 求常數：** 在支撐上積分 $f$ 並置 1；密度可分解時 $\\int\\int=\\prod\\int$。\n\n**(b) 區域概率：** 把事件（$X>Y$、$X\\in[0,a]$ 等）寫成區域再積分；對稱論證（如 $X>Y\\iff U>0$）省時。\n\n**(c) 變換：** 寫出 $x(u,v),y(u,v)$、聲明 $(U,V)$ 支撐、雅可比 $|J|$，代入 $f_{UV}=f_{XY}\\cdot|J|$。\n\n**(d) 條件分佈：** 聯合除以邊緣 $f_{U|V}=f_{UV}/f_V$；識別命名分佈（均勻 / 縮放 Beta 常見）。"
+    },
+    "pitfalls": {
+     "en": "- Forgetting to state the NEW support of $(U,V)$ loses the method marks of part (c) even if the density is right.\n- $P(X>Y)$ is not $\\int f_X f_Y$ — condition or transform first (2022 examiners specifically penalised this).\n- Jacobian must be non-negative: take the absolute value; if zero on a set, the transform is not injective there.",
+     "zh-Hans": "- 忘写 $(U,V)$ 的新支撑：即使密度算对，(c) 的方法分照扣（2022 考官明确指出）。\n- $P(X>Y)\\ne\\int f_Xf_Y$——先条件化或变换。\n- 雅可比取绝对值；若在一集合上为零则该处变换非单射。",
+     "zh-Hant": "- 忘寫 $(U,V)$ 的新支撐：即使密度算對，(c) 的方法分照扣（2022 考官明確指出）。\n- $P(X>Y)\\ne\\int f_Xf_Y$——先條件化或變換。\n- 雅可比取絕對值；若在一集合上爲零則該處變換非單射。"
+    },
+    "secrets": {
+     "en": "The four parts are always the same ladder: constant → region → transform → conditional. If stuck on (c), compute the marginal asked in (d) first — the integral often reveals the Jacobian structure. Gaussian-type exponents (2023 Q3, 2024 Q4): complete the square, never expand.",
+     "zh-Hans": "四小问永远是同一阶梯：常数 → 区域 → 变换 → 条件。若 (c) 卡住，先算 (d) 要的边缘——积分常揭示雅可比结构。高斯型指数（2023 Q3、2024 Q4）配方，切勿展开。",
+     "zh-Hant": "四小問永遠是同一階梯：常數 → 區域 → 變換 → 條件。若 (c) 卡住，先算 (d) 要的邊緣——積分常揭示雅可比結構。高斯型指數（2023 Q3、2024 Q4）配方，切勿展開。"
+    }
+   },
+   {
+    "id": "SB",
+    "kinds": [
+     "summer"
+    ],
+    "stars": 5,
+    "slot": {
+     "en": "Q2/Q3, full 20-mark estimation question",
+     "zh-Hans": "Q2/Q3，20 分完整估计大题",
+     "zh-Hant": "Q2/Q3，20 分完整估計大題"
+    },
+    "name": {
+     "en": "Estimation pipeline: MLE → bias/variance → CLT → confidence interval",
+     "zh-Hans": "估计全流程：MLE → 偏差/方差 → CLT → 置信区间",
+     "zh-Hant": "估計全流程：MLE → 偏差/方差 → CLT → 置信區間"
+    },
+    "likelihood": {
+     "en": "Every summer paper 2021–2025 (5/5). The chained template: (a) log-likelihood + MLE, (b) unbiasedness, (c) approximate sampling distribution via CLT, (d) exact CI inversion, (e) an applied twist (Cramér–Rao, reparametrisation, or a counting model).",
+     "zh-Hans": "2021–2025 每年必考（五年五中）。链条模板：(a) 对数似然 + MLE，(b) 无偏性，(c) CLT 近似抽样分布，(d) 精确置信区间反转，(e) 应用变体（Cramér–Rao、重参数化或计数模型）。",
+     "zh-Hant": "2021–2025 每年必考（五年五中）。鏈條模板：(a) 對數似然 + MLE，(b) 無偏性，(c) CLT 近似抽樣分佈，(d) 精確置信區間反轉，(e) 應用變體（Cramér–Rao、重參數化或計數模型）。"
+    },
+    "years": [
+     "2021 Q3",
+     "2022 Q3",
+     "2023 Q2",
+     "2024 Q2",
+     "2025 Q2"
+    ],
+    "drills": [
+     "Exercises 5 Q1–Q5",
+     "Exercises 5 Q10"
+    ],
+    "skeleton": {
+     "en": "**(a) MLE:** $\\ell(\\theta)=\\sum\\log f(x_i|\\theta)$; solve $\\ell'(\\theta)=0$; confirm $\\ell''(\\hat\\theta)<0$.\n\n**(b) Bias:** compute $E[\\hat\\theta]$ via substitution tricks ($z=x^2$, $z=\\log x$ often converts to an Exponential mean); Jensen for 1/X-type estimators (2022: biased HIGH).\n\n**(c) CLT:** $\\hat\\theta\\approx N\\big(\\theta,\\ \\mathrm{Var}(X\\text{-piece})/n\\big)$; state mean AND variance explicitly.\n\n**(d) CI:** standardise $Z=(\\hat\\theta-\\theta)/\\mathrm{se}$, invert BOTH inequalities for $\\theta$ — the interval is generally asymmetric; no further approximation (2021 Q3(d) required this explicitly).\n\n**(e) Twist:** Cramér–Rao check $1/\\mathrm{Var}=-nE[\\ell'\\!']$ (2025); invariance $\\hat\\sigma=g(\\hat\\theta)$ (2025); Fisher scoring not needed.",
+     "zh-Hans": "**(a) MLE：** $\\ell=\\sum\\log f$；解 $\\ell'=0$；验证 $\\ell''(\\hat\\theta)<0$。\n\n**(b) 偏差：** 代换技巧（$z=x^2$、$z=\\log x$ 常化为指数均值）；1/X 型用 Jensen（2022：系统性偏高）。\n\n**(c) CLT：** $\\hat\\theta\\approx N(\\theta,\\ \\mathrm{Var}/n)$；明确写出均值与方差。\n\n**(d) 置信区间：** 标准化后对 $\\theta$ 反解两个不等式——区间一般不对称；不得再做近似（2021 Q3(d) 明确要求）。\n\n**(e) 变体：** Cramér–Rao 检验 $1/\\mathrm{Var}=-nE[\\ell'\\!']$（2025）；不变性 $\\hat\\sigma=g(\\hat\\theta)$（2025）。",
+     "zh-Hant": "**(a) MLE：** $\\ell=\\sum\\log f$；解 $\\ell'=0$；驗證 $\\ell''(\\hat\\theta)<0$。\n\n**(b) 偏差：** 代換技巧（$z=x^2$、$z=\\log x$ 常化爲指數均值）；1/X 型用 Jensen（2022：系統性偏高）。\n\n**(c) CLT：** $\\hat\\theta\\approx N(\\theta,\\ \\mathrm{Var}/n)$；明確寫出均值與方差。\n\n**(d) 置信區間：** 標準化後對 $\\theta$ 反解兩個不等式——區間一般不對稱；不得再做近似（2021 Q3(d) 明確要求）。\n\n**(e) 變體：** Cramér–Rao 檢驗 $1/\\mathrm{Var}=-nE[\\ell'\\!']$（2025）；不變性 $\\hat\\sigma=g(\\hat\\theta)$（2025）。"
+    },
+    "pitfalls": {
+     "en": "- Forgetting the second-derivative check costs 1–2 marks every year.\n- The CI must be inverted for $\\theta$, not for $\\hat\\theta$: divide/multiply through carefully (2021: $\\hat\\theta(1\\pm1.96/\\sqrt{2n})^{-1}$).\n- \"Unbiased\" claims need $E[\\hat\\theta]=\\theta$ computed, not asserted.",
+     "zh-Hans": "- 忘做二阶导检验每年扣 1–2 分。\n- 置信区间要对 $\\theta$ 反解而非 $\\hat\\theta$：小心移项（2021：$\\hat\\theta(1\\pm1.96/\\sqrt{2n})^{-1}$）。\n- \"无偏\"要算出 $E[\\hat\\theta]=\\theta$，不能只断言。",
+     "zh-Hant": "- 忘做二階導檢驗每年扣 1–2 分。\n- 置信區間要對 $\\theta$ 反解而非 $\\hat\\theta$：小心移項（2021：$\\hat\\theta(1\\pm1.96/\\sqrt{2n})^{-1}$）。\n- \"無偏\"要算出 $E[\\hat\\theta]=\\theta$，不能只斷言。"
+    },
+    "secrets": {
+     "en": "Graders award per link in the chain, so attempt every part even if (a) failed — later parts can use the GIVEN estimator. Variance of the MLE is almost always $\\theta^2/(cn)$ for some constant c; if your algebra gives something else, re-check the substitution.",
+     "zh-Hans": "评分按链条逐环给分，(a) 失败也要做后面——后续小问可用\"给定\"的估计量。MLE 方差几乎总是 $\\theta^2/(cn)$；算出别的形式就检查代换。",
+     "zh-Hant": "評分按鏈條逐環給分，(a) 失敗也要做後面——後續小問可用\"給定\"的估計量。MLE 方差幾乎總是 $\\theta^2/(cn)$；算出別的形式就檢查代換。"
+    }
+   },
+   {
+    "id": "SC",
+    "kinds": [
+     "summer"
+    ],
+    "stars": 4.5,
+    "slot": {
+     "en": "Q3(b)/Q4, 12–20 marks applied testing",
+     "zh-Hans": "Q3(b)/Q4，12–20 分应用检验",
+     "zh-Hant": "Q3(b)/Q4，12–20 分應用檢驗"
+    },
+    "name": {
+     "en": "Hypothesis testing: t / chi-squared GOF, applied data",
+     "zh-Hans": "假设检验：t / 卡方拟合优度，数据应用",
+     "zh-Hant": "假設檢驗：t / 卡方擬合優度，數據應用"
+    },
+    "likelihood": {
+     "en": "Present in 4 of 5 summer papers (all but 2021, which tested via the exponential rejection region instead). Two families: (i) two-sample / paired t-tests on real data (2025 Q3(a)(b)); (ii) chi-squared goodness-of-fit with estimated parameters, cell merging when E<5, and df = k−1−m (2022 Q3(d), 2023 Q4, 2025 Q3(c)).",
+     "zh-Hans": "五份卷中四份出现（仅 2021 以指数拒绝域形式替代）。两族：(i) 真实数据的双样本/配对 t 检验（2025 Q3(a)(b)）；(ii) 带参数估计的卡方拟合优度——E<5 并格、df=k−1−m（2022 Q3(d)、2023 Q4、2025 Q3(c)）。",
+     "zh-Hant": "五份卷中四份出現（僅 2021 以指數拒絕域形式替代）。兩族：(i) 真實數據的雙樣本/配對 t 檢驗（2025 Q3(a)(b)）；(ii) 帶參數估計的卡方擬合優度——E<5 並格、df=k−1−m（2022 Q3(d)、2023 Q4、2025 Q3(c)）。"
+    },
+    "years": [
+     "2022 Q3(d)",
+     "2023 Q4",
+     "2024 Q3(b)",
+     "2025 Q3"
+    ],
+    "drills": [
+     "Exercises 6 Q1–Q8"
+    ],
+    "skeleton": {
+     "en": "**Recipe (state in this order):** $H_0$/$H_1$ → test statistic → its null distribution (with df) → rejection region at level $\\alpha$ → compute → conclude in context.\n\n**t-tests:** unpaired $T=\\frac{\\bar X-\\bar Y}{S_p\\sqrt{1/n_X+1/n_Y}}\\sim t_{n_X+n_Y-2}$; paired: differences $d_i$, $T=\\bar d/(S_d/\\sqrt{n})\\sim t_{n-1}$.\n\n**$\\chi^2$ GOF:** $E_i=n\\pi_i(\\hat\\theta)$; if any $E_i<5$ merge adjacent cells FIRST; $\\chi^2=\\sum(O_i-E_i)^2/E_i$; df $=k-1-m$ ($m$ = parameters estimated from data).\n\n**Poisson/geometric models:** estimate the mean from the data (2023: $\\hat p$ from total throws), then proceed as above.",
+     "zh-Hans": "**按此顺序陈述：** $H_0/H_1$ → 检验统计量 → 零分布（含自由度）→ $\\alpha$ 水平拒绝域 → 计算 → 结合情境下结论。\n\n**t 检验：** 非配对 $T=\\frac{\\bar X-\\bar Y}{S_p\\sqrt{1/n_X+1/n_Y}}\\sim t_{n_X+n_Y-2}$；配对：差值 $d_i$，$T=\\bar d/(S_d/\\sqrt n)\\sim t_{n-1}$。\n\n**卡方 GOF：** $E_i=n\\pi_i(\\hat\\theta)$；任一 $E_i<5$ 先并相邻格；$\\chi^2=\\sum(O_i-E_i)^2/E_i$；df $=k-1-m$（$m$=从数据估计的参数个数）。\n\n**Poisson/几何模型：** 先用数据估均值（2023：由总投掷数得 $\\hat p$），再如上进行。",
+     "zh-Hant": "**按此順序陳述：** $H_0/H_1$ → 檢驗統計量 → 零分佈（含自由度）→ $\\alpha$ 水平拒絕域 → 計算 → 結合情境下結論。\n\n**t 檢驗：** 非配對 $T=\\frac{\\bar X-\\bar Y}{S_p\\sqrt{1/n_X+1/n_Y}}\\sim t_{n_X+n_Y-2}$；配對：差值 $d_i$，$T=\\bar d/(S_d/\\sqrt n)\\sim t_{n-1}$。\n\n**卡方 GOF：** $E_i=n\\pi_i(\\hat\\theta)$；任一 $E_i<5$ 先並相鄰格；$\\chi^2=\\sum(O_i-E_i)^2/E_i$；df $=k-1-m$（$m$=從數據估計的參數個數）。\n\n**Poisson/幾何模型：** 先用數據估均值（2023：由總投擲數得 $\\hat p$），再如上進行。"
+    },
+    "pitfalls": {
+     "en": "- Merging cells after computing $\\chi^2$, or merging without recomputing expected counts, is the #1 error (2025 marker comments).\n- df arithmetic: every parameter estimated from the data costs one degree of freedom on top of k−1.\n- One-sided vs two-sided: read whether the question asks \"higher/lower\" (one-sided) or \"different\" (two-sided).",
+     "zh-Hans": "- 先算 $\\chi^2$ 再并格 / 并格后不重算期望，是头号错误（2025 考官评语）。\n- 自由度算术：从数据估计的每个参数在 $k-1$ 之外再扣一。\n- 单双侧：看题目问\"更高/更低\"（单侧）还是\"不同\"（双侧）。",
+     "zh-Hant": "- 先算 $\\chi^2$ 再並格 / 並格後不重算期望，是頭號錯誤（2025 考官評語）。\n- 自由度算術：從數據估計的每個參數在 $k-1$ 之外再扣一。\n- 單雙側：看題目問\"更高/更低\"（單側）還是\"不同\"（雙側）。"
+    },
+    "secrets": {
+     "en": "The numbers are engineered to be decisive: if your $\\chi^2$ lands just barely inside the critical value, suspect an $E_i$ or df slip. For paired designs the differences are always small integers — compute them in the margin first.",
+     "zh-Hans": "数据都设计成结论明确：若 $\\chi^2$ 恰好压线，先怀疑 $E_i$ 或自由度算错。配对设计的差值总是小整数——先在边上算好。",
+     "zh-Hant": "數據都設計成結論明確：若 $\\chi^2$ 恰好壓線，先懷疑 $E_i$ 或自由度算錯。配對設計的差值總是小整數——先在邊上算好。"
     }
    }
   ],
@@ -1528,16 +1885,313 @@
    "summer": {
     "trends": {
      "summary": {
-      "en": "Summer exams 2021–2025 (MATH50013): 4 questions × 20 marks. Q1 foundations (σ-algebras, Bayes, convergence); Q2–Q3 estimation and testing (MLE, confidence intervals, t and chi-squared tests); Q4 finale (joint PDFs, transformations, or mixed models).",
-      "zh-Hans": "夏季试卷 2021–2025（MATH50013）：4 题 × 20 分。Q1 基础（σ-代数、贝叶斯、收敛）；Q2–Q3 估计与检验（MLE、置信区间、t/卡方检验）；Q4 压轴（联合密度、变换或综合模型）。",
-      "zh-Hant": "夏季試卷 2021–2025（MATH50013）：4 題 × 20 分。Q1 基礎（σ-代數、貝葉斯、收斂）；Q2–Q3 估計與檢驗（MLE、置信區間、t/卡方檢驗）；Q4 壓軸（聯合密度、變換或綜合模型）。"
+      "en": "Summer exams 2021–2025 (MATH50013): 4 questions × 20 marks, 80 total, ~3h with the LA paper. Fixed skeleton: Q1 foundations (σ-algebras, Bayes, convergence MCQ/proofs); Q2–Q3 estimation and testing (MLE chain → CLT → exact CI; t and χ² tests on applied data); Q4 finale (joint density: constant → region → Jacobian transformation → conditional). Mark schemes tag every item A/B/C/D by skill depth; data questions are engineered to be decisive (reject/accept clearly).",
+      "zh-Hans": "夏季试卷 2021–2025（MATH50013）：4 题 × 20 分共 80 分，约 3 小时（与线代卷连考）。固定骨架：Q1 基础（σ-代数、贝叶斯、收敛选择/证明）；Q2–Q3 估计与检验（MLE 链条 → CLT → 精确置信区间；应用数据的 t/卡方检验）；Q4 压轴（联合密度：常数 → 区域 → 雅可比变换 → 条件）。评分标准按技能深度给每项打 A/B/C/D 标签；数据题都设计成结论明确（拒绝/接受一目了然）。",
+      "zh-Hant": "夏季試卷 2021–2025（MATH50013）：4 題 × 20 分共 80 分，約 3 小時（與線代卷連考）。固定骨架：Q1 基礎（σ-代數、貝葉斯、收斂選擇/證明）；Q2–Q3 估計與檢驗（MLE 鏈條 → CLT → 精確置信區間；應用數據的 t/卡方檢驗）；Q4 壓軸（聯合密度：常數 → 區域 → 雅可比變換 → 條件）。評分標準按技能深度給每項打 A/B/C/D 標籤；數據題都設計成結論明確（拒絕/接受一目瞭然）。"
      },
-     "yearly": [],
-     "chapter_share": []
+     "yearly": [
+      {
+       "year": 2021,
+       "rows": [
+        [
+         "Q1",
+         "20",
+         "Disjoint/independence proofs; convergence MCQ; Bayes bird mutation; name-that-distribution ×4",
+         "H",
+         "B"
+        ],
+        [
+         "Q2",
+         "20",
+         "Two-piece pdf: constants, CDF, median, mgf→variance; binomial library requests; random subsets proper-subset",
+         "A",
+         "F"
+        ],
+        [
+         "Q3",
+         "20",
+         "Sensor noise MLE chain: log-likelihood, unbiased, CLT, EXACT inverted CI, exponential rejection region",
+         "SB",
+         "—"
+        ],
+        [
+         "Q4",
+         "20",
+         "Prize quadrant: normalise, 90% square, (U,V)=(X,X²+Y²) Jacobian, conditional of U given V=r²",
+         "SA",
+         "—"
+        ]
+       ]
+      },
+      {
+       "year": 2022,
+       "rows": [
+        [
+         "Q1",
+         "20",
+         "Triangular pdf a,c; CDF; IQR; mgf Taylor moments; acceptance-rejection proof + expected iterations",
+         "A",
+         "F"
+        ],
+        [
+         "Q2",
+         "20",
+         "Odds-ratio identity; vitamin C protective factor ≈10⁵; Poisson CI from single-obs functions; horse-race sample space",
+         "C",
+         "B"
+        ],
+        [
+         "Q3",
+         "20",
+         "Exponential MLE; Jensen bias HIGH; χ² GOF on failure times (df=3, reject at 1%)",
+         "SB",
+         "SC"
+        ],
+        [
+         "Q4",
+         "20",
+         "c·x/(x+y)² joint: range, f_UV=(c/4)(1+u)e^{-2v}, P(X>Y)=3/4; skill-vs-luck regression b=r²/(r²+1)",
+         "SA",
+         "—"
+        ]
+       ]
+      },
+      {
+       "year": 2023,
+       "rows": [
+        [
+         "Q1",
+         "20",
+         "P(A|B)>P(A|Bᶜ); 5-ball smallest-number removal E=15; Laplace double-exponential mgf, E(Y³)=n³+6n²",
+         "B",
+         "F"
+        ],
+        [
+         "Q2",
+         "20",
+         "Power density θx^{θ-1}: MLE −n/Σlog x, CLT for 1/θ̂, 90% CI; Poisson-thinned N|Y=5",
+         "SB",
+         "C"
+        ],
+        [
+         "Q3",
+         "20",
+         "Gaussian joint k=1/π, X|Y=y ~ N(y/2,1/4); (U,V)=( (√X+√Y)/2, …) Jacobian 8(u²−v²), conditional at V=0",
+         "SA",
+         "—"
+        ],
+        [
+         "Q4",
+         "20",
+         "Dart geometric model: p̂, truncated pmf, χ² GOF df=3 reject; F_n→Uniform(1,2); Bin(n,λ/n)→Poisson via mgf",
+         "SC",
+         "—"
+        ]
+       ]
+      },
+      {
+       "year": 2024,
+       "rows": [
+        [
+         "Q1",
+         "20",
+         "σ-algebra {B: B∩A∈{∅,A}}; two-test negative predictive 1/163 then ≈0.105; Beta(1,n)→Exp(1); ∏Xᵢ→0 by Markov",
+         "B",
+         "—"
+        ],
+        [
+         "Q2",
+         "20",
+         "Weighted-normal MLE μ̂=Σyᵢ/xᵢ² /Σ1/xᵢ², N(μ,(Σ1/xᵢ²)⁻¹σ²), consistency ⇔ Σ1/xᵢ²→∞; Beta×Gamma (U,V)=(XY,(1−X)Y)",
+         "SB",
+         "SA"
+        ],
+        [
+         "Q3",
+         "20",
+         "nS²/σ²~χ²ₙ; exact σ-CI; reject σ=1; CLT N(σ²,2σ⁴/n); weekday calls χ²=8.2 accept",
+         "SC",
+         "—"
+        ],
+        [
+         "Q4",
+         "20",
+         "Gaussian joint c·exp(−x²−2y²−xy): marginals, conditional, cov=−1/7, P((√7−1)X>4Y)=1/2; covariance estimator unbiased",
+         "SA",
+         "F"
+        ]
+       ]
+      },
+      {
+       "year": 2025,
+       "rows": [
+        [
+         "Q1",
+         "20",
+         "Finite/co-finite NOT σ-algebra; trace σ-algebra; Xₙ+Yₙ counterexample; X/(X+Y)~U(0,1)",
+         "B",
+         "—"
+        ],
+        [
+         "Q2",
+         "20",
+         "Rayleigh-type θx-exp: MLE=ΣXᵢ²/n, unbiased, Var=θ²/n, CI [4.9,75.1]; reparametrisation σ=θ/2; Cramér–Rao minimal variance",
+         "SB",
+         "—"
+        ],
+        [
+         "Q3",
+         "20",
+         "Two-sample t (wind turbines, do not reject); paired t (blood pressure, t=2.24 reject); χ² twice: estimated p̂=0.6 reject, p=1/2 reject",
+         "SC",
+         "—"
+        ],
+        [
+         "Q4",
+         "20",
+         "Cauchy c=1/π, mean undefined; Markov-type bound; urn geometric E=28/15; best-of-seven 4(p⁴(1−p)+p(1−p)⁴)",
+         "F",
+         "A"
+        ]
+       ]
+      }
+     ],
+     "chapter_share": [
+      {
+       "label": {
+        "en": "Foundations & convergence (Ch. 1–2, 8)",
+        "zh-Hans": "基础与收敛（第 1–2、8 章）",
+        "zh-Hant": "基礎與收斂（第 1–2、8 章）"
+       },
+       "share": 0.2
+      },
+      {
+       "label": {
+        "en": "Discrete RV & named distributions (Ch. 3)",
+        "zh-Hans": "离散随机变量与命名分布（第 3 章）",
+        "zh-Hant": "離散隨機變量與命名分佈（第 3 章）"
+       },
+       "share": 0.15
+      },
+      {
+       "label": {
+        "en": "Continuous RV, joint & transformations (Ch. 3–4)",
+        "zh-Hans": "连续随机变量、联合与变换（第 3–4 章）",
+        "zh-Hant": "連續隨機變量、聯合與變換（第 3–4 章）"
+       },
+       "share": 0.25
+      },
+      {
+       "label": {
+        "en": "Estimation: MLE, CI (Ch. 5)",
+        "zh-Hans": "估计：MLE、置信区间（第 5 章）",
+        "zh-Hant": "估計：MLE、置信區間（第 5 章）"
+       },
+       "share": 0.25
+      },
+      {
+       "label": {
+        "en": "Hypothesis testing (Ch. 7)",
+        "zh-Hans": "假设检验（第 7 章）",
+        "zh-Hant": "假設檢驗（第 7 章）"
+       },
+       "share": 0.15
+      }
+     ]
     },
-    "order": null,
-    "mock_template": null,
-    "lecturers": []
+    "order": {
+     "en": "Four 20-mark questions, each internally a–e multi-part with per-part marks printed. Blueprint seen across all five years: **Q1 mixed foundations** (proof + short applications), **Q2 estimation A** (pdf or applied MLE), **Q3 estimation/testing B** (second estimation or χ²/t on data), **Q4 joint-density finale**. Parts escalate: bookwork definitions (1–2 分) → method (A/B marks) → unseen twist (D marks). The examiner report notes partial credit for explanations on MCQ parts.",
+     "zh-Hans": "四道 20 分大题，各题内 a–e 多小问并印有分值。五年不变的蓝图：**Q1 混合基础**（证明 + 短应用）、**Q2 估计 A**（密度或应用 MLE）、**Q3 估计/检验 B**（第二道估计或数据上的卡方/t）、**Q4 联合密度压轴**。小问递进：定义默写（1–2 分）→ 方法（A/B 分）→ 未见过的变体（D 分）。考官报告注明选择题部分的解释可用于部分得分。",
+     "zh-Hant": "四道 20 分大題，各題內 a–e 多小問並印有分值。五年不變的藍圖：**Q1 混合基礎**（證明 + 短應用）、**Q2 估計 A**（密度或應用 MLE）、**Q3 估計/檢驗 B**（第二道估計或數據上的卡方/t）、**Q4 聯合密度壓軸**。小問遞進：定義默寫（1–2 分）→ 方法（A/B 分）→ 未見過的變體（D 分）。考官報告註明選擇題部分的解釋可用於部分得分。"
+    },
+    "mock_template": {
+     "source": {
+      "en": "Blueprint distilled from summer papers 2021–2025",
+      "zh-Hans": "由 2021–2025 夏季卷提炼的蓝图",
+      "zh-Hant": "由 2021–2025 夏季卷提煉的藍圖"
+     },
+     "duration_min": 120,
+     "slots": [
+      {
+       "qno": "Q1",
+       "format": "B",
+       "note": {
+        "en": "σ-algebra + Bayes + convergence (mirror 2024/2025 Q1)",
+        "zh-Hans": "σ-代数 + 贝叶斯 + 收敛（仿 2024/2025 Q1）",
+        "zh-Hant": "σ-代數 + 貝葉斯 + 收斂（仿 2024/2025 Q1）"
+       }
+      },
+      {
+       "qno": "Q2",
+       "format": "SB",
+       "note": {
+        "en": "Estimation chain: MLE → bias → CLT → exact CI (mirror 2021 Q3 / 2025 Q2)",
+        "zh-Hans": "估计链条：MLE → 偏差 → CLT → 精确置信区间（仿 2021 Q3 / 2025 Q2）",
+        "zh-Hant": "估計鏈條：MLE → 偏差 → CLT → 精確置信區間（仿 2021 Q3 / 2025 Q2）"
+       }
+      },
+      {
+       "qno": "Q3",
+       "format": "SC",
+       "note": {
+        "en": "t-test + χ² GOF on data (mirror 2025 Q3)",
+        "zh-Hans": "数据上的 t 检验 + 卡方拟合优度（仿 2025 Q3）",
+        "zh-Hant": "數據上的 t 檢驗 + 卡方擬合優度（仿 2025 Q3）"
+       }
+      },
+      {
+       "qno": "Q4",
+       "format": "SA",
+       "note": {
+        "en": "Joint-density finale: constant → region → Jacobian → conditional (mirror 2024 Q4)",
+        "zh-Hans": "联合密度压轴：常数 → 区域 → 雅可比 → 条件（仿 2024 Q4）",
+        "zh-Hant": "聯合密度壓軸：常數 → 區域 → 雅可比 → 條件（仿 2024 Q4）"
+       }
+      }
+     ]
+    },
+    "lecturers": [
+     {
+      "name": "MATH50013 examining team",
+      "name_display": {
+       "en": "MATH50013 命题组（历年卷面署名）",
+       "zh-Hans": "MATH50013 examining team (papers 2021–2025)",
+       "zh-Hant": "MATH50013 examining team (papers 2021–2025)"
+      },
+      "role": {
+       "en": "Setters/checkers per exam-board signatures",
+       "zh-Hans": "命题人/复核人（见试卷签名栏）",
+       "zh-Hant": "命題人/複覈人（見試卷簽名欄）"
+      },
+      "research": {
+       "en": "Probability & Statistics for JMC",
+       "zh-Hans": "Probability & Statistics for JMC",
+       "zh-Hant": "Probability & Statistics for JMC"
+      },
+      "habits": [
+       {
+        "en": "Every mark carries an A/B/C/D skill tag and bookwork/similar-seen/unseen label — practise articulating method, not just answers.",
+        "zh-Hans": "每一分都带 A/B/C/D 技能标签与 bookwork/similar-seen/unseen 标注——练的是表述方法而不只是答案。",
+        "zh-Hant": "每一分都帶 A/B/C/D 技能標籤與 bookwork/similar-seen/unseen 標註——練的是表述方法而不只是答案。"
+       },
+       {
+        "en": "Applied scenarios recur: birds/mutation, wind turbines, darts, hospital scurvy, lottery balls — the wrapper changes, the statistics is always MLE or χ²/t.",
+        "zh-Hans": "应用情境反复出现：鸟类突变、风机、飞镖、坏血病、彩票球——包装在变，统计内核永远是 MLE 或卡方/t。",
+        "zh-Hant": "應用情境反覆出現：鳥類突變、風機、飛鏢、壞血病、彩票球——包裝在變，統計內核永遠是 MLE 或卡方/t。"
+       },
+       {
+        "en": "Hint boxes are genuine method hints (e.g. \"start by translating the story into probability statements\") — use their phrasing in your answers.",
+        "zh-Hans": "提示框是真正的方法提示（如\"先把故事翻译成概率陈述\"）——答题时可沿用其措辞。",
+        "zh-Hant": "提示框是真正的方法提示（如\"先把故事翻譯成概率陳述\"）——答題時可沿用其措辭。"
+       }
+      ],
+      "source": {
+       "en": "Question papers & solutions 2021–2025",
+       "zh-Hans": "2021–2025 试卷与解答",
+       "zh-Hant": "2021–2025 試卷與解答"
+      }
+     }
+    ]
    },
    "problem-sheet": {
     "trends": {
@@ -1546,8 +2200,104 @@
       "zh-Hans": "习题集 1–7（Exercises 1–7）共 111 题，与考试题型对应——样本空间与条件、PMF/PDF 与变换、联合分布、MLE 与置信区间、假设检验、矩母函数与中心极限定理。",
       "zh-Hant": "習題集 1–7（Exercises 1–7）共 111 題，與考試題型對應——樣本空間與條件、PMF/PDF 與變換、聯合分佈、MLE 與置信區間、假設檢驗、矩母函數與中心極限定理。"
      },
-     "yearly": [],
-     "chapter_share": []
+     "yearly": [
+      {
+       "year": "题库一览",
+       "rows": [
+        [
+         "Exercises 1",
+         "14",
+         "93 分 · 题型 B/C/E",
+         "—",
+         "—"
+        ],
+        [
+         "Exercises 2",
+         "10",
+         "81 分 · 题型 B/C/D/E",
+         "—",
+         "—"
+        ],
+        [
+         "Exercises 3",
+         "9",
+         "74 分 · 题型 A/C/D/F/G",
+         "—",
+         "—"
+        ],
+        [
+         "Exercises 4",
+         "12",
+         "106 分 · 题型 E",
+         "—",
+         "—"
+        ],
+        [
+         "Exercises 5",
+         "10",
+         "76 分 · 题型 H",
+         "—",
+         "—"
+        ],
+        [
+         "Exercises 6",
+         "8",
+         "86 分 · 题型 G",
+         "—",
+         "—"
+        ],
+        [
+         "Exercises 7",
+         "5",
+         "46 分 · 题型 F",
+         "—",
+         "—"
+        ]
+       ]
+      }
+     ],
+     "chapter_share": [
+      {
+       "label": {
+        "en": "Ch. 1–2 foundations (Exercises 1–2)",
+        "zh-Hans": "第 1–2 章 基础（习题 1–2）",
+        "zh-Hant": "第 1–2 章 基礎（習題 1–2）"
+       },
+       "share": 0.3
+      },
+      {
+       "label": {
+        "en": "Ch. 3 discrete & continuous (Exercises 2–3)",
+        "zh-Hans": "第 3 章 离散与连续（习题 2–3）",
+        "zh-Hant": "第 3 章 離散與連續（習題 2–3）"
+       },
+       "share": 0.3
+      },
+      {
+       "label": {
+        "en": "Ch. 4 joint distributions (Exercises 4)",
+        "zh-Hans": "第 4 章 联合分布（习题 4）",
+        "zh-Hant": "第 4 章 聯合分佈（習題 4）"
+       },
+       "share": 0.15
+      },
+      {
+       "label": {
+        "en": "Ch. 5 estimation (Exercises 5)",
+        "zh-Hans": "第 5 章 估计（习题 5）",
+        "zh-Hant": "第 5 章 估計（習題 5）"
+       },
+       "share": 0.15
+      },
+      {
+       "label": {
+        "en": "Ch. 7–8 testing & convergence (Exercises 6–7)",
+        "zh-Hans": "第 7–8 章 检验与收敛（习题 6–7）",
+        "zh-Hant": "第 7–8 章 檢驗與收斂（習題 6–7）"
+       },
+       "share": 0.1
+      }
+     ]
     },
     "order": null,
     "mock_template": null,
@@ -1621,6 +2371,91 @@
      "en": "**PDF/CDF.** $f_X\\ge0$, $\\int f_X=1$; $F_X(x)=\\int_{-\\infty}^x f_X$; $f_X=F_X'$ (a.e.); $\\mathbb{P}(a<X\\le b)=F(b)-F(a)$.\n\n**CDF method for $Y=g(X)$.**\n1. $F_Y(y)=\\mathbb{P}(g(X)\\le y)$ — solve the inequality through $g^{-1}$ (flip direction if $g$ decreasing);\n2. differentiate w.r.t. $y$;\n3. check support: $f_Y\\ge0$ and $\\int f_Y=1$ on the NEW support.\n\n**LOTUS.** $\\mathbb{E}[h(Y)]=\\mathbb{E}[h(g(X))]=\\int h(g(x))f_X(x)\\,dx$ — beats finding $f_Y$ first for moments.\n\n**Named laws.** Uniform$(a,b)$: $f=\\frac{1}{b-a}$, mean $\\frac{a+b}{2}$, var $\\frac{(b-a)^2}{12}$. Exponential($\\lambda$): $f=\\lambda e^{-\\lambda x}$, memoryless, mean $1/\\lambda$, var $1/\\lambda^2$. Probability integral transform: $F_X(X)\\sim\\mathrm{U}(0,1)$ for continuous $F_X$.",
      "zh-Hans": "**PDF/CDF。** $f_X\\ge0$，$\\int f_X=1$；$F_X(x)=\\int_{-\\infty}^x f_X$；$f_X=F_X'$（几乎处处）；$\\mathbb{P}(a<X\\le b)=F(b)-F(a)$。\n\n**$Y=g(X)$ 的 CDF 法。**\n1. $F_Y(y)=\\mathbb{P}(g(X)\\le y)$——用 $g^{-1}$ 解不等式（$g$ 递减时翻转方向）；\n2. 对 $y$ 求导；\n3. 检查支撑：在新支撑上 $f_Y\\ge0$ 且 $\\int f_Y=1$。\n\n**LOTUS。** $\\mathbb{E}[h(Y)]=\\mathbb{E}[h(g(X))]=\\int h(g(x))f_X(x)\\,dx$——求矩时优于先求 $f_Y$。\n\n**常用分布。** Uniform$(a,b)$：$f=\\frac{1}{b-a}$，均值 $\\frac{a+b}{2}$，方差 $\\frac{(b-a)^2}{12}$。Exponential($\\lambda$)：$f=\\lambda e^{-\\lambda x}$，无记忆，均值 $1/\\lambda$，方差 $1/\\lambda^2$。概率积分变换：连续 $F_X$ 有 $F_X(X)\\sim\\mathrm{U}(0,1)$。",
      "zh-Hant": "**PDF/CDF。** $f_X\\ge0$，$\\int f_X=1$；$F_X(x)=\\int_{-\\infty}^x f_X$；$f_X=F_X'$（幾乎處處）；$\\mathbb{P}(a<X\\le b)=F(b)-F(a)$。\n\n**$Y=g(X)$ 的 CDF 法。**\n1. $F_Y(y)=\\mathbb{P}(g(X)\\le y)$——用 $g^{-1}$ 解不等式（$g$ 遞減時翻轉方向）；\n2. 對 $y$ 求導；\n3. 檢查支撐：在新支撐上 $f_Y\\ge0$ 且 $\\int f_Y=1$。\n\n**LOTUS。** $\\mathbb{E}[h(Y)]=\\mathbb{E}[h(g(X))]=\\int h(g(x))f_X(x)\\,dx$——求矩時優於先求 $f_Y$。\n\n**常用分佈。** Uniform$(a,b)$：$f=\\frac{1}{b-a}$，均值 $\\frac{a+b}{2}$，方差 $\\frac{(b-a)^2}{12}$。Exponential($\\lambda$)：$f=\\lambda e^{-\\lambda x}$，無記憶，均值 $1/\\lambda$，方差 $1/\\lambda^2$。概率積分變換：連續 $F_X$ 有 $F_X(X)\\sim\\mathrm{U}(0,1)$。"
+    }
+   },
+   {
+    "id": "NT-SU-MLE",
+    "topic": "estimation",
+    "kinds": [
+     "summer"
+    ],
+    "title": {
+     "en": "Estimation toolkit for summer papers (MLE → CI)",
+     "zh-Hans": "夏季卷估计工具箱（MLE → 置信区间）",
+     "zh-Hant": "夏季卷估計工具箱（MLE → 置信區間）"
+    },
+    "body": {
+     "en": "## The five-link chain every summer paper tests\n\n1. **Log-likelihood:** $\\ell(\\theta)=\\sum_{i=1}^n\\log f(x_i|\\theta)$. Solve $\\ell'(\\theta)=0$ and CHECK $\\ell''(\\hat\\theta)<0$ (1–2 marks by itself).\n2. **Bias:** the golden substitutions — $z=x^2$ (2021 noise pdf, 2025 Rayleigh-type), $z=\\log x$ (2023 power density) — turn $E[X^k]$ integrals into Exponential moments. For reciprocals use Jensen: $1/x$ is convex, so $E[1/\\bar X]\\ge1/E[\\bar X]$ (biased HIGH, 2022 Q3(b)).\n3. **CLT:** $\\hat\\theta\\approx N(\\theta,\\ \\sigma^2_{\\hat\\theta})$ with $\\sigma^2_{\\hat\\theta}=\\mathrm{Var}(\\text{single piece})/n$.\n4. **CI:** invert $-1.96<\\frac{\\hat\\theta-\\theta}{\\mathrm{se}(\\theta)}<1.96$ for $\\theta$. When se depends on $\\theta$ the interval is asymmetric — that asymmetry is worth marks (2021 Q3(d)).\n5. **Cramér–Rao (2025):** minimal variance iff $\\frac{1}{\\mathrm{Var}(\\hat\\theta)}=-nE\\left[\\frac{\\partial^2\\log f}{\\partial\\theta^2}\\right]$.\n\nStandard results to memorise: Uniform$[0,\\theta]$: $\\hat\\theta=\\max x_i$; Poisson/Geometric/Binomial: $\\hat\\theta$ = sample mean (of the natural count); Exponential rate: $\\hat\\lambda=1/\\bar x$; power density $\\theta x^{\\theta-1}$: $\\hat\\theta=-n/\\sum\\log x_i$.",
+     "zh-Hans": "## 夏季卷每年必考的五环链条\n\n1. **对数似然：** $\\ell(\\theta)=\\sum\\log f(x_i|\\theta)$。解 $\\ell'(\\theta)=0$ 并检验 $\\ell''(\\hat\\theta)<0$（单独占 1–2 分）。\n2. **偏差：** 黄金代换——$z=x^2$（2021 噪声密度、2025 瑞利型）、$z=\\log x$（2023 幂密度）——把 $E[X^k]$ 积分化为指数矩。倒数型用 Jensen：$1/x$ 凸，故 $E[1/\\bar X]\\ge1/E[\\bar X]$（系统性偏高，2022 Q3(b)）。\n3. **CLT：** $\\hat\\theta\\approx N(\\theta,\\ \\mathrm{Var}(\\text{单块})/n)$。\n4. **置信区间：** 对 $\\theta$ 反解 $-1.96<\\frac{\\hat\\theta-\\theta}{\\mathrm{se}}<1.96$。se 含 $\\theta$ 时区间不对称——不对称性本身值分（2021 Q3(d)）。\n5. **Cramér–Rao（2025）：** 最小方差当且仅当 $\\frac{1}{\\mathrm{Var}(\\hat\\theta)}=-nE[\\frac{\\partial^2\\log f}{\\partial\\theta^2}]$。\n\n需背结论：Uniform$[0,\\theta]$：$\\hat\\theta=\\max x_i$；Poisson/几何/二项：$\\hat\\theta$=样本均值；指数速率：$\\hat\\lambda=1/\\bar x$；幂密度 $\\theta x^{\\theta-1}$：$\\hat\\theta=-n/\\sum\\log x_i$。",
+     "zh-Hant": "## 夏季卷每年必考的五環鏈條\n\n1. **對數似然：** $\\ell(\\theta)=\\sum\\log f(x_i|\\theta)$。解 $\\ell'(\\theta)=0$ 並檢驗 $\\ell''(\\hat\\theta)<0$（單獨佔 1–2 分）。\n2. **偏差：** 黃金代換——$z=x^2$（2021 噪聲密度、2025 瑞利型）、$z=\\log x$（2023 冪密度）——把 $E[X^k]$ 積分化爲指數矩。倒數型用 Jensen：$1/x$ 凸，故 $E[1/\\bar X]\\ge1/E[\\bar X]$（系統性偏高，2022 Q3(b)）。\n3. **CLT：** $\\hat\\theta\\approx N(\\theta,\\ \\mathrm{Var}(\\text{單塊})/n)$。\n4. **置信區間：** 對 $\\theta$ 反解 $-1.96<\\frac{\\hat\\theta-\\theta}{\\mathrm{se}}<1.96$。se 含 $\\theta$ 時區間不對稱——不對稱性本身值分（2021 Q3(d)）。\n5. **Cramér–Rao（2025）：** 最小方差當且僅當 $\\frac{1}{\\mathrm{Var}(\\hat\\theta)}=-nE[\\frac{\\partial^2\\log f}{\\partial\\theta^2}]$。\n\n需背結論：Uniform$[0,\\theta]$：$\\hat\\theta=\\max x_i$；Poisson/幾何/二項：$\\hat\\theta$=樣本均值；指數速率：$\\hat\\lambda=1/\\bar x$；冪密度 $\\theta x^{\\theta-1}$：$\\hat\\theta=-n/\\sum\\log x_i$。"
+    }
+   },
+   {
+    "id": "NT-SU-JOINT",
+    "topic": "joint-distributions",
+    "kinds": [
+     "summer"
+    ],
+    "title": {
+     "en": "Joint densities and transformations (summer finale notes)",
+     "zh-Hans": "联合密度与变换（夏季压轴笔记）",
+     "zh-Hant": "聯合密度與變換（夏季壓軸筆記）"
+    },
+    "body": {
+     "en": "## Why the finale is always the same shape\n\nThe examiner builds the finale from a product-form density $f_{XY}(x,y)=g(x)h(y)e^{-\\text{link}}$ so that: (a) the constant factorises; (c) a clever $(U,V)$ splits the link. Recognise the two classic pairs:\n\n- **Sum & ratio:** $V=X+Y$, $U=X/(X+Y)$ or $(X-Y)/(X+Y)$. Jacobian $v/2$-type; support $-1<u<1$, $v>0$. For independent equal-rate Gammas: $U\\sim\\mathrm{Uniform}(0,1)$ AND $U\\perp V$ (2025 Q1(d), Exercises 4 Q8).\n- **Square & distance:** $U=X$, $V=X^2+Y^2$ or $(\\sqrt X+\\sqrt Y)/2$ forms (2021 Q4, 2023 Q3(b)). Jacobians $\\frac{1}{2\\sqrt{v-u^2}}$ or $8(u^2-v^2)$.\n\n**Marking order for (c):** inverse map → support of $(U,V)$ → $|J|$ → substitute. Missing the support forfeits the method marks even with a correct density.\n\n**Conditional (d):** $f_{U|V}=f_{UV}/f_V$ — integrate out the nuisance variable; the answer is usually proportional to a simple power $u^k$ on a clean interval.",
+     "zh-Hans": "## 为什么压轴永远是这个形状\n\n考官用乘积型密度 $f_{XY}=g(x)h(y)e^{-\\text{link}}$ 造压轴，使得：(a) 常数可分解；(c) 巧妙的 $(U,V)$ 拆开 link。识别两对经典变换：\n\n- **和与比：** $V=X+Y$、$U=X/(X+Y)$ 或 $(X-Y)/(X+Y)$。雅可比 $v/2$ 型；支撑 $-1<u<1,v>0$。等速率独立 Gamma：$U\\sim\\mathrm{Uniform}(0,1)$ 且 $U\\perp V$（2025 Q1(d)、习题 4 Q8）。\n- **平方与距离：** $U=X$、$V=X^2+Y^2$ 或 $(\\sqrt X+\\sqrt Y)/2$ 型（2021 Q4、2023 Q3(b)）。雅可比 $\\frac{1}{2\\sqrt{v-u^2}}$ 或 $8(u^2-v^2)$。\n\n**(c) 的给分顺序：** 逆映射 → $(U,V)$ 支撑 → $|J|$ → 代入。漏支撑即使密度对也丢方法分。\n\n**(d) 条件：** $f_{U|V}=f_{UV}/f_V$——积掉多余变量；答案通常在干净区间上正比于幂 $u^k$。",
+     "zh-Hant": "## 爲什麼壓軸永遠是這個形狀\n\n考官用乘積型密度 $f_{XY}=g(x)h(y)e^{-\\text{link}}$ 造壓軸，使得：(a) 常數可分解；(c) 巧妙的 $(U,V)$ 拆開 link。識別兩對經典變換：\n\n- **和與比：** $V=X+Y$、$U=X/(X+Y)$ 或 $(X-Y)/(X+Y)$。雅可比 $v/2$ 型；支撐 $-1<u<1,v>0$。等速率獨立 Gamma：$U\\sim\\mathrm{Uniform}(0,1)$ 且 $U\\perp V$（2025 Q1(d)、習題 4 Q8）。\n- **平方與距離：** $U=X$、$V=X^2+Y^2$ 或 $(\\sqrt X+\\sqrt Y)/2$ 型（2021 Q4、2023 Q3(b)）。雅可比 $\\frac{1}{2\\sqrt{v-u^2}}$ 或 $8(u^2-v^2)$。\n\n**(c) 的給分順序：** 逆映射 → $(U,V)$ 支撐 → $|J|$ → 代入。漏支撐即使密度對也丟方法分。\n\n**(d) 條件：** $f_{U|V}=f_{UV}/f_V$——積掉多餘變量；答案通常在乾淨區間上正比於冪 $u^k$。"
+    }
+   },
+   {
+    "id": "NT-SU-TEST",
+    "topic": "testing",
+    "kinds": [
+     "summer"
+    ],
+    "title": {
+     "en": "Hypothesis testing recipes (t / chi-squared)",
+     "zh-Hans": "假设检验配方（t / 卡方）",
+     "zh-Hant": "假設檢驗配方（t / 卡方）"
+    },
+    "body": {
+     "en": "## t-tests: choose the design first\n\n- **Paired** (before/after on same subjects): differences $d_i$, $T=\\bar d/(S_d/\\sqrt n)\\sim t_{n-1}$. 2025 Q3(b): five patients, $t\\approx2.24>2.13$ → drug works.\n- **Unpaired, equal variances:** pooled $S_p^2=\\frac{(n_X-1)S_X^2+(n_Y-1)S_Y^2}{n_X+n_Y-2}$, $T\\sim t_{n_X+n_Y-2}$.\n\n## Chi-squared goodness of fit — the exam version\n\n1. Estimate parameters from the data (MLE of the mean, etc.) — each costs 1 df.\n2. Expected $E_i=n\\pi_i(\\hat\\theta)$; **merge until all $E_i\\ge5$**, recomputing both $O$ and $E$.\n3. $\\chi^2=\\sum(O_i-E_i)^2/E_i$, df $=k-1-m$, compare with the printed table.\n4. Conclude naming the model: \"reject $H_0$: the Binomial(4, 1/2) model is inconsistent with guessing\" (2025 Q3(c)(ii)).\n\nChi-squared table values used in past papers: $\\chi^2_{2,0.05}=5.99$, $\\chi^2_{3,0.01}=11.34$, $\\chi^2_{4,0.05}=9.49$, $\\chi^2_{5,0.05}=11.07$, $\\chi^2_{5,0.01}=15.09$, $\\chi^2_{6,0.05}=12.59$.",
+     "zh-Hans": "## t 检验：先定设计\n\n- **配对**（同一对象前后）：差值 $d_i$，$T=\\bar d/(S_d/\\sqrt n)\\sim t_{n-1}$。2025 Q3(b)：5 名患者 $t\\approx2.24>2.13$ → 药物有效。\n- **非配对、等方差：** 合并 $S_p^2=\\frac{(n_X-1)S_X^2+(n_Y-1)S_Y^2}{n_X+n_Y-2}$，$T\\sim t_{n_X+n_Y-2}$。\n\n## 卡方拟合优度——考试版流程\n\n1. 从数据估参数（均值 MLE 等）——每个扣 1 自由度。\n2. 期望 $E_i=n\\pi_i(\\hat\\theta)$；**并格到全部 $E_i\\ge5$**，$O$、$E$ 都重算。\n3. $\\chi^2=\\sum(O_i-E_i)^2/E_i$，df $=k-1-m$，与卷面表格比较。\n4. 点名模型下结论：\"拒绝 $H_0$：Binomial(4,1/2) 模型与随机作答不符\"（2025 Q3(c)(ii)）。\n\n历年用过的卡方临界值：$\\chi^2_{2,0.05}=5.99$、$\\chi^2_{3,0.01}=11.34$、$\\chi^2_{4,0.05}=9.49$、$\\chi^2_{5,0.05}=11.07$、$\\chi^2_{5,0.01}=15.09$、$\\chi^2_{6,0.05}=12.59$。",
+     "zh-Hant": "## t 檢驗：先定設計\n\n- **配對**（同一對象前後）：差值 $d_i$，$T=\\bar d/(S_d/\\sqrt n)\\sim t_{n-1}$。2025 Q3(b)：5 名患者 $t\\approx2.24>2.13$ → 藥物有效。\n- **非配對、等方差：** 合併 $S_p^2=\\frac{(n_X-1)S_X^2+(n_Y-1)S_Y^2}{n_X+n_Y-2}$，$T\\sim t_{n_X+n_Y-2}$。\n\n## 卡方擬合優度——考試版流程\n\n1. 從數據估參數（均值 MLE 等）——每個扣 1 自由度。\n2. 期望 $E_i=n\\pi_i(\\hat\\theta)$；**並格到全部 $E_i\\ge5$**，$O$、$E$ 都重算。\n3. $\\chi^2=\\sum(O_i-E_i)^2/E_i$，df $=k-1-m$，與卷面表格比較。\n4. 點名模型下結論：\"拒絕 $H_0$：Binomial(4,1/2) 模型與隨機作答不符\"（2025 Q3(c)(ii)）。\n\n歷年用過的卡方臨界值：$\\chi^2_{2,0.05}=5.99$、$\\chi^2_{3,0.01}=11.34$、$\\chi^2_{4,0.05}=9.49$、$\\chi^2_{5,0.05}=11.07$、$\\chi^2_{5,0.01}=15.09$、$\\chi^2_{6,0.05}=12.59$。"
+    }
+   },
+   {
+    "id": "NT-SU-DIST",
+    "topic": "convergence",
+    "kinds": [
+     "summer"
+    ],
+    "title": {
+     "en": "Convergence facts & named distributions that recur",
+     "zh-Hans": "收敛结论与反复出现的命名分布",
+     "zh-Hant": "收斂結論與反覆出現的命名分佈"
+    },
+    "body": {
+     "en": "## Convergence implications (one line each)\n\n- Probability $\\Rightarrow$ distribution; the converse fails; with a DEGENERATE limit, distribution $\\Rightarrow$ probability.\n- Sums: closed under probability convergence (triangle inequality + $\\epsilon/2$), NOT under distribution (2025 counterexample $X_n+Y_n\\equiv0$ with both $\\to U$).\n- Proofs: Markov $P(|X|>a)\\le E|X|/a$; Chebyshev; MGF continuity theorem ($X_n\\sim\\mathrm{Bin}(n,\\lambda/n)$: $M_n=(1-\\lambda(1-e^t)/n)^n\\to e^{\\lambda(e^t-1)}$).\n\n## Named distributions the summer papers lean on\n\n- **Gamma/Exponential family:** equal-rate Gammas split into (sum, ratio) with uniform ratio; $nX_n$ rescaling of Beta$(1,n)$ → Exponential(1).\n- **Cauchy-type $c/(1+(x-\\theta)^2)$:** $c=1/\\pi$; NO mean (2025 Q4) — tails decay like $1/x^2$.\n- **Geometric:** memorylessness $P(X=n+k|X>n)=P(X=k)$; both conventions (support $\\{1,2,\\ldots\\}$ vs $\\{0,1,\\ldots\\}$).\n- **Poisson splitting/thinning:** independent Poisson processes merge at rate $\\beta+\\gamma$; each arrival independently type-1 with prob $\\beta/(\\beta+\\gamma)$; count between type-1 arrivals is geometric.",
+     "zh-Hans": "## 收敛蕴含（各一行）\n\n- 依概率 ⇒ 依分布；反之为假；极限退化时依分布 ⇒ 依概率。\n- 和：依概率下封闭（三角不等式 + $\\epsilon/2$），依分布下不封闭（2025 反例 $X_n+Y_n\\equiv0$ 而两者都 $\\to U$）。\n- 证明工具：Markov $P(|X|>a)\\le E|X|/a$；Chebyshev；MGF 连续性定理（$X_n\\sim\\mathrm{Bin}(n,\\lambda/n)$：$M_n\\to e^{\\lambda(e^t-1)}$）。\n\n## 夏季卷倚重的命名分布\n\n- **Gamma/指数族：** 等速率 Gamma 拆（和、比）且比为均匀；Beta$(1,n)$ 的 $nX_n$ 重标度 → Exponential(1)。\n- **Cauchy 型 $c/(1+(x-\\theta)^2)$：** $c=1/\\pi$；均值不存在（2025 Q4）——尾部按 $1/x^2$ 衰减。\n- **几何：** 无记忆性 $P(X=n+k|X>n)=P(X=k)$；两种约定（支撑 $\\{1,2,\\ldots\\}$ 与 $\\{0,1,\\ldots\\}$）都要熟。\n- **Poisson 分裂/稀释：** 独立泊松过程合并速率 $\\beta+\\gamma$；每次到达独立以 $\\beta/(\\beta+\\gamma)$ 为 1 型；两相继 1 型之间的 2 型计数是几何分布。",
+     "zh-Hant": "## 收斂蘊含（各一行）\n\n- 依概率 ⇒ 依分佈；反之爲假；極限退化時依分佈 ⇒ 依概率。\n- 和：依概率下封閉（三角不等式 + $\\epsilon/2$），依分佈下不封閉（2025 反例 $X_n+Y_n\\equiv0$ 而兩者都 $\\to U$）。\n- 證明工具：Markov $P(|X|>a)\\le E|X|/a$；Chebyshev；MGF 連續性定理（$X_n\\sim\\mathrm{Bin}(n,\\lambda/n)$：$M_n\\to e^{\\lambda(e^t-1)}$）。\n\n## 夏季卷倚重的命名分佈\n\n- **Gamma/指數族：** 等速率 Gamma 拆（和、比）且比爲均勻；Beta$(1,n)$ 的 $nX_n$ 重標度 → Exponential(1)。\n- **Cauchy 型 $c/(1+(x-\\theta)^2)$：** $c=1/\\pi$；均值不存在（2025 Q4）——尾部按 $1/x^2$ 衰減。\n- **幾何：** 無記憶性 $P(X=n+k|X>n)=P(X=k)$；兩種約定（支撐 $\\{1,2,\\ldots\\}$ 與 $\\{0,1,\\ldots\\}$）都要熟。\n- **Poisson 分裂/稀釋：** 獨立泊松過程合併速率 $\\beta+\\gamma$；每次到達獨立以 $\\beta/(\\beta+\\gamma)$ 爲 1 型；兩相繼 1 型之間的 2 型計數是幾何分佈。"
+    }
+   },
+   {
+    "id": "NT-PS-DRILL",
+    "topic": "foundations",
+    "kinds": [
+     "problem-sheet"
+    ],
+    "title": {
+     "en": "How to drill with the Exercises (sheet strategy)",
+     "zh-Hans": "如何用习题集刷题（刷题策略）",
+     "zh-Hant": "如何用習題集刷題（刷題策略）"
+    },
+    "body": {
+     "en": "## Sheet ↔ exam-format map\n\n- **Exercises 1** → midterm B (σ-algebras), C (Bayes), E (independence): Q1–Q14 walk through every week-1/2 proof type.\n- **Exercises 2** → C/D: urn problems, total probability, conditional chains; Banach matchboxes is the classic \"hard D\".\n- **Exercises 3** → D/A/F: PMF derivations, pdf/CDF/mgf, transformations — the midterm Q3/Q5 engines.\n- **Exercises 4** → summer SA: joint densities, covariance, Jacobians, mixtures, Poisson splitting.\n- **Exercises 5** → summer SB: MLE recipes, unbiasedness, CIs.\n- **Exercises 6** → summer SC: every applied test in the module (Darwin t, lottery χ², ESP z).\n- **Exercises 7** → F + summer convergence: mgf power series, CLT normal approximations, Neyman–Pearson.\n\n**Suggested order:** 1 → 2 → 3 before the midterm; 4 → 5 → 6 → 7 before the summer paper. Partial answers are printed at the end of each sheet — attempt fully before peeking.",
+     "zh-Hans": "## 习题单 ↔ 考试题型对照\n\n- **习题 1** → 期中 B（σ-代数）、C（贝叶斯）、E（独立性）：Q1–Q14 走遍第 1–2 周全部证明类型。\n- **习题 2** → C/D：罐子模型、全概率、条件链；Banach 火柴盒是经典\"难题 D\"。\n- **习题 3** → D/A/F：PMF 推导、pdf/CDF/mgf、变换——期中 Q3/Q5 的引擎。\n- **习题 4** → 夏季 SA：联合密度、协方差、雅可比、混合、Poisson 分裂。\n- **习题 5** → 夏季 SB：MLE 配方、无偏、置信区间。\n- **习题 6** → 夏季 SC：课程全部应用检验（达尔文 t、彩票卡方、ESP z）。\n- **习题 7** → F + 夏季收敛：mgf 幂级数、CLT 正态近似、Neyman–Pearson。\n\n**建议顺序：** 期中前 1 → 2 → 3；夏季卷前 4 → 5 → 6 → 7。每张习题单末尾印有部分答案——先完整尝试再看。",
+     "zh-Hant": "## 習題單 ↔ 考試題型對照\n\n- **習題 1** → 期中 B（σ-代數）、C（貝葉斯）、E（獨立性）：Q1–Q14 走遍第 1–2 周全部證明類型。\n- **習題 2** → C/D：罐子模型、全概率、條件鏈；Banach 火柴盒是經典\"難題 D\"。\n- **習題 3** → D/A/F：PMF 推導、pdf/CDF/mgf、變換——期中 Q3/Q5 的引擎。\n- **習題 4** → 夏季 SA：聯合密度、協方差、雅可比、混合、Poisson 分裂。\n- **習題 5** → 夏季 SB：MLE 配方、無偏、置信區間。\n- **習題 6** → 夏季 SC：課程全部應用檢驗（達爾文 t、彩票卡方、ESP z）。\n- **習題 7** → F + 夏季收斂：mgf 冪級數、CLT 正態近似、Neyman–Pearson。\n\n**建議順序：** 期中前 1 → 2 → 3；夏季卷前 4 → 5 → 6 → 7。每張習題單末尾印有部分答案——先完整嘗試再看。"
     }
    }
   ],
@@ -3243,7 +4078,7 @@
    ],
    "subtopics": [],
    "source": {
-    "paper_id": "PS1",
+    "paper_id": "PSX1",
     "paper_name": {
      "en": "Problem Sheet 1 (Exercises 1)",
      "zh-Hans": "习题集 1（Exercises 1）",
@@ -3321,7 +4156,7 @@
    ],
    "subtopics": [],
    "source": {
-    "paper_id": "PS1",
+    "paper_id": "PSX1",
     "paper_name": {
      "en": "Problem Sheet 1 (Exercises 1)",
      "zh-Hans": "习题集 1（Exercises 1）",
@@ -3399,7 +4234,7 @@
    ],
    "subtopics": [],
    "source": {
-    "paper_id": "PS1",
+    "paper_id": "PSX1",
     "paper_name": {
      "en": "Problem Sheet 1 (Exercises 1)",
      "zh-Hans": "习题集 1（Exercises 1）",
@@ -3477,7 +4312,7 @@
    ],
    "subtopics": [],
    "source": {
-    "paper_id": "PS1",
+    "paper_id": "PSX1",
     "paper_name": {
      "en": "Problem Sheet 1 (Exercises 1)",
      "zh-Hans": "习题集 1（Exercises 1）",
@@ -3555,7 +4390,7 @@
    ],
    "subtopics": [],
    "source": {
-    "paper_id": "PS1",
+    "paper_id": "PSX1",
     "paper_name": {
      "en": "Problem Sheet 1 (Exercises 1)",
      "zh-Hans": "习题集 1（Exercises 1）",
@@ -3633,7 +4468,7 @@
    ],
    "subtopics": [],
    "source": {
-    "paper_id": "PS2",
+    "paper_id": "PSX2",
     "paper_name": {
      "en": "Problem Sheet 2 (Exercises 2)",
      "zh-Hans": "习题集 2（Exercises 2）",
@@ -3712,7 +4547,7 @@
    ],
    "subtopics": [],
    "source": {
-    "paper_id": "PS2",
+    "paper_id": "PSX2",
     "paper_name": {
      "en": "Problem Sheet 2 (Exercises 2)",
      "zh-Hans": "习题集 2（Exercises 2）",
@@ -3790,7 +4625,7 @@
    ],
    "subtopics": [],
    "source": {
-    "paper_id": "PS2",
+    "paper_id": "PSX2",
     "paper_name": {
      "en": "Problem Sheet 2 (Exercises 2)",
      "zh-Hans": "习题集 2（Exercises 2）",
@@ -3869,7 +4704,7 @@
    ],
    "subtopics": [],
    "source": {
-    "paper_id": "PS2",
+    "paper_id": "PSX2",
     "paper_name": {
      "en": "Problem Sheet 2 (Exercises 2)",
      "zh-Hans": "习题集 2（Exercises 2）",
@@ -3948,7 +4783,7 @@
    ],
    "subtopics": [],
    "source": {
-    "paper_id": "PS3",
+    "paper_id": "PSX3",
     "paper_name": {
      "en": "Problem Sheet 3 (Exercises 3)",
      "zh-Hans": "习题集 3（Exercises 3）",
@@ -4026,7 +4861,7 @@
    ],
    "subtopics": [],
    "source": {
-    "paper_id": "PS3",
+    "paper_id": "PSX3",
     "paper_name": {
      "en": "Problem Sheet 3 (Exercises 3)",
      "zh-Hans": "习题集 3（Exercises 3）",
@@ -4104,7 +4939,7 @@
    ],
    "subtopics": [],
    "source": {
-    "paper_id": "PS3",
+    "paper_id": "PSX3",
     "paper_name": {
      "en": "Problem Sheet 3 (Exercises 3)",
      "zh-Hans": "习题集 3（Exercises 3）",
@@ -4183,7 +5018,7 @@
    ],
    "subtopics": [],
    "source": {
-    "paper_id": "PS3",
+    "paper_id": "PSX3",
     "paper_name": {
      "en": "Problem Sheet 3 (Exercises 3)",
      "zh-Hans": "习题集 3（Exercises 3）",
@@ -4261,7 +5096,7 @@
    ],
    "subtopics": [],
    "source": {
-    "paper_id": "PS3",
+    "paper_id": "PSX3",
     "paper_name": {
      "en": "Problem Sheet 3 (Exercises 3)",
      "zh-Hans": "习题集 3（Exercises 3）",
@@ -4340,7 +5175,7 @@
    ],
    "subtopics": [],
    "source": {
-    "paper_id": "PS3",
+    "paper_id": "PSX3",
     "paper_name": {
      "en": "Problem Sheet 3 (Exercises 3)",
      "zh-Hans": "习题集 3（Exercises 3）",
@@ -4914,7 +5749,7 @@
     "zh-Hans": "**(a)(i)** $A\\cap(A\\cup B)=A$，不相交时 $P(A\\cup B)=P(A)+P(B)$：代入条件概率定义。（3 分，A）\n\n**(a)(ii)** $P(A\\overline B)=P(A)-P(AB)=P(A)-P(A)P(B)=P(A)P(\\overline B)$。（3 分，A/B）\n\n**(b)(i)** 两者都收敛。$\\mathrm{Var}(Z_n)\\propto1/n$ 使 $P(|Z_n|<\\epsilon)\\to1$；依概率 ⇒ 依分布。（2 分，B）\n\n**(b)(ii)** 仅依分布。$(2Y_n-1)=\\pm1$ 等概率：$P(X_n<a)=\\tfrac12P(|X|<a)+\\tfrac12P(|X|>-a)=F_X(a)$；但 $X_n$ 未必接近 $X$。（2 分，D）\n\n**(b)(iii)** 两者。$P(X_n<x)=1-e^{-nx}\\to1$（$x>0$）：退化解极限 ⇒ 也依概率。（2 分，C）\n\n**(c)** $P(\\overline M)=0.95$、$P(S|\\overline M)=0.75$、$P(M)=0.05$、$P(M|S)=0.0625$。贝叶斯 + 全概率：$P(M|S)=\\dfrac{P(S|M)\\cdot0.05}{P(S|M)\\cdot0.05+0.7125}=0.0625$ 解出 $P(S|M)=0.95$。（4 分，A/C）\n\n**(d)** (i) Geometric；(ii) Poisson；(iii) Exponential；(iv) Normal。（4×1 分，A）",
     "zh-Hant": "**(a)(i)** $A\\cap(A\\cup B)=A$，不相交時 $P(A\\cup B)=P(A)+P(B)$：代入條件概率定義。（3 分，A）\n\n**(a)(ii)** $P(A\\overline B)=P(A)-P(AB)=P(A)-P(A)P(B)=P(A)P(\\overline B)$。（3 分，A/B）\n\n**(b)(i)** 兩者都收斂。$\\mathrm{Var}(Z_n)\\propto1/n$ 使 $P(|Z_n|<\\epsilon)\\to1$；依概率 ⇒ 依分佈。（2 分，B）\n\n**(b)(ii)** 僅依分佈。$(2Y_n-1)=\\pm1$ 等概率：$P(X_n<a)=\\tfrac12P(|X|<a)+\\tfrac12P(|X|>-a)=F_X(a)$；但 $X_n$ 未必接近 $X$。（2 分，D）\n\n**(b)(iii)** 兩者。$P(X_n<x)=1-e^{-nx}\\to1$（$x>0$）：退化解極限 ⇒ 也依概率。（2 分，C）\n\n**(c)** $P(\\overline M)=0.95$、$P(S|\\overline M)=0.75$、$P(M)=0.05$、$P(M|S)=0.0625$。貝葉斯 + 全概率：$P(M|S)=\\dfrac{P(S|M)\\cdot0.05}{P(S|M)\\cdot0.05+0.7125}=0.0625$ 解出 $P(S|M)=0.95$。（4 分，A/C）\n\n**(d)** (i) Geometric；(ii) Poisson；(iii) Exponential；(iv) Normal。（4×1 分，A）"
    },
-   "secondary_format": null,
+   "secondary_format": "F",
    "source": {
     "paper_id": "SU2021",
     "paper_name": {
@@ -4944,7 +5779,7 @@
    "question_id": "MATH50013.SU2021.Q2",
    "module": "MATH50013",
    "qtype": "subjective",
-   "format": "A",
+   "format": "SA",
    "Question": {
     "en": "**(a)** Let $X$ be a continuous random variable with probability density function\n\n$$f(x)=\\begin{cases}ae^{2x} & x\\le0,\\\\ be^{-4x} & x>0,\\end{cases}$$\n\nwhere $a$ and $b$ are two constants that do not depend on $x$. The expected value of $X$ is zero. (You may use the fact that $\\int xe^{\\lambda x}dx=\\frac x\\lambda e^{\\lambda x}-\\frac1{\\lambda^2}e^{\\lambda x}+C$.)\n\n**(i)** Find the constants $a$ and $b$.\n**(ii)** Find the cumulative distribution function of $X$, $F(x)$, and use it to find the median of $X$.\n**(iii)** Find the moment generating function of $X$, $M(t)$, for $t$ within a suitably small neighborhood of the origin, and use it to compute the variance of $X$.\n\n**(b)** The library holds two copies of a textbook. Each student in a class of 20 has a 10% chance of requesting a copy, independently of the other students. What is the probability that the library cannot accommodate all their requests?\n\n**(c)** Consider a set $S$ of size $n$. From $S$, imagine selecting a random subset $A$ from the collection of all possible subsets, where every subset (including the empty set and $S$) is equally likely to be chosen. Starting again from $S$, independently select a second random subset $B$. What is the probability that $A$ is a proper subset of $B$ (i.e. $A$ is a subset of $B$, but $A$ is not equal to $B$)? Justify your answer. (Hint: a subset can be defined by specifying the status of every element.)",
     "zh-Hans": "**(a)** 设连续随机变量 $X$ 的密度为\n\n$$f(x)=\\begin{cases}ae^{2x} & x\\le0,\\\\ be^{-4x} & x>0,\\end{cases}$$\n\n$a,b$ 为与 $x$ 无关的常数，且 $E(X)=0$。（可用 $\\int xe^{\\lambda x}dx=\\frac x\\lambda e^{\\lambda x}-\\frac1{\\lambda^2}e^{\\lambda x}+C$。）\n\n**(i)** 求 $a,b$。\n**(ii)** 求分布函数 $F(x)$，并求中位数。\n**(iii)** 求原点邻域内的矩母函数 $M(t)$，并用它计算方差。\n\n**(b)** 图书馆有两本教材。20 人的班级中每人独立地以 10% 概率借阅。求图书馆无法满足全部请求的概率。\n\n**(c)** 设 $S$ 为 $n$ 元集。从 $S$ 的所有子集中等概率随机选一个子集 $A$；再独立地选第二个随机子集 $B$。求 $A$ 是 $B$ 的真子集的概率（$A\\subseteq B$ 且 $A\\neq B$）。给出论证。（提示：子集可由每个元素的归属状态定义。）",
@@ -4955,7 +5790,7 @@
     "zh-Hans": "**(a)(i)** 归一化：$1=\\tfrac a2+\\tfrac b4$；零均值：$0=-\\tfrac a4+\\tfrac b{16}$。解得 $a=\\tfrac43$、$b=\\tfrac83$。（4 分，A/B）\n\n**(a)(ii)** $F(x)$ 分段如解；$F(0)=\\tfrac13<\\tfrac12$ 故中位数为正：解 $\\tfrac13+\\tfrac23(1-e^{-4x_m})=\\tfrac12$ 得 $x_m=-\\tfrac14\\log(3/4)\\approx0.0719$。（4 分，A/B/C）\n\n**(a)(iii)** $M(t)=\\frac{2/3}{t+2}-\\frac{8/3}{t-4}$；$E(X^2)=M''(0)=\\tfrac16+\\tfrac1{12}=\\tfrac14=\\mathrm{Var}(X)$（均值为零）。（4 分，B）\n\n**(b)** $X\\sim\\text{Binomial}(20,0.1)$：$P(X>2)=1-\\sum_{k=0}^2\\binom{20}{k}0.1^k0.9^{20-k}\\approx0.323$。（2 分，A）\n\n**(c)** 子集 ↔ 二进制串：每元素独立以 $\\tfrac12$ 概率属于某子集。$A\\subseteq B$ 要求每元素状态为 (0,0)/(0,1)/(1,1)，概率 $\\tfrac34$：$P(A\\subseteq B)=(\\tfrac34)^n$；$P(A=B)=(\\tfrac12)^n$。故 $P(A\\subsetneq B)=(\\tfrac34)^n-(\\tfrac12)^n$。（6 分，D；其他有效计数论证同样给分）",
     "zh-Hant": "**(a)(i)** 歸一化：$1=\\tfrac a2+\\tfrac b4$；零均值：$0=-\\tfrac a4+\\tfrac b{16}$。解得 $a=\\tfrac43$、$b=\\tfrac83$。（4 分，A/B）\n\n**(a)(ii)** $F(x)$ 分段如解；$F(0)=\\tfrac13<\\tfrac12$ 故中位數爲正：解 $\\tfrac13+\\tfrac23(1-e^{-4x_m})=\\tfrac12$ 得 $x_m=-\\tfrac14\\log(3/4)\\approx0.0719$。（4 分，A/B/C）\n\n**(a)(iii)** $M(t)=\\frac{2/3}{t+2}-\\frac{8/3}{t-4}$；$E(X^2)=M''(0)=\\tfrac16+\\tfrac1{12}=\\tfrac14=\\mathrm{Var}(X)$（均值爲零）。（4 分，B）\n\n**(b)** $X\\sim\\text{Binomial}(20,0.1)$：$P(X>2)=1-\\sum_{k=0}^2\\binom{20}{k}0.1^k0.9^{20-k}\\approx0.323$。（2 分，A）\n\n**(c)** 子集 ↔ 二進制串：每元素獨立以 $\\tfrac12$ 概率屬於某子集。$A\\subseteq B$ 要求每元素狀態爲 (0,0)/(0,1)/(1,1)，概率 $\\tfrac34$：$P(A\\subseteq B)=(\\tfrac34)^n$；$P(A=B)=(\\tfrac12)^n$。故 $P(A\\subsetneq B)=(\\tfrac34)^n-(\\tfrac12)^n$。（6 分，D；其他有效計數論證同樣給分）"
    },
-   "secondary_format": null,
+   "secondary_format": "F",
    "source": {
     "paper_id": "SU2021",
     "paper_name": {
@@ -4985,7 +5820,7 @@
    "question_id": "MATH50013.SU2021.Q3",
    "module": "MATH50013",
    "qtype": "subjective",
-   "format": "G",
+   "format": "SB",
    "Question": {
     "en": "An AI algorithm in a self-driving car processes a data stream from a sensor and returns a vector $(x_1,x_2,\\ldots,x_n)$, which measures the strength of $n$ possible signals in the data stream ($x_i\\ge0$; larger $x_i$ = stronger signal). Noise in the environment means that even when there is no real signal the $x_i$'s will still be non-zero. In this case the outputs are $n$ independent, continuous random variables $X_i$, each distributed according to the pdf\n\n$$f(x|\\theta)=\\frac{x}{\\theta^2}\\exp\\left(-\\frac{x}{\\theta}\\right)\\quad\\text{for }x\\ge0\\text{ and }0\\text{ for }x<0,$$\n\nwhere $\\theta$ is an (unknown) parameter which quantifies the noise level. The mean and variance for the above pdf are $2\\theta$ and $2\\theta^2$, respectively.\n\n**(a)** Write down the log-likelihood function for the $n$ measured $x_i$'s and then show that the maximum likelihood estimate for the noise parameter $\\theta$ is $\\hat\\theta_{\\mathrm{MLE}}=\\bar x/2$, where $\\bar x$ is the sample mean.\n\n**(b)** Show that the maximum likelihood estimator is an unbiased estimator of $\\theta$.\n\n**(c)** Assuming that the number of signals $n$ is large, obtain the approximate sampling distribution for the maximum likelihood estimator $\\hat\\theta_{\\mathrm{MLE}}$. State clearly the mean and the variance.\n\n**(d)** Using your result from part (c) construct an exact 95%-confidence interval for $\\theta$ in terms of a set of measured $x_i$'s. You may want to start with the fact that $P(-1.96<Z<1.96)=0.95$ for a standard normal random variable $Z$. The confidence interval need not be symmetric. [Full credit requires the confidence interval be exact, i.e. use your sampling distribution from part (c) but make no further approximations.]\n\nOnce the noise level is estimated, each measurement $x_i$ is further processed to yield a new quantity $y_i$ ($i=1,\\ldots,n$). When there is no real signal in the data stream the $Y_i$'s are independent Exponential(1) random variables. On the road the AI must perform an action if it detects a signal. Therefore, we need to design a test of the null hypothesis $H_0$ that there are no real signals present. The AI will reject $H_0$ if at least one of the $y_i$ measurements is in some rejection region $R\\subset\\mathbb{R}$.\n\n**(e)** There are $n=10^3$ signals. Find an appropriate rejection region $R$ such that the type-I error rate is 10%.",
     "zh-Hans": "自动驾驶中的 AI 算法处理传感器数据流并返回向量 $(x_1,\\ldots,x_n)$，度量 $n$ 个可能信号的强度（$x_i\\ge0$，越大越强）。即使无真实信号，环境噪声也使 $x_i$ 非零：此时各 $X_i$ 独立、密度为\n\n$$f(x|\\theta)=\\frac{x}{\\theta^2}\\exp\\left(-\\frac{x}{\\theta}\\right)\\quad(x\\ge0),$$\n\n其中 $\\theta$ 为量化噪声水平的未知参数。该密度均值 $2\\theta$、方差 $2\\theta^2$。\n\n**(a)** 写出 $n$ 个测量值的对数似然，并证明 $\\hat\\theta_{\\mathrm{MLE}}=\\bar x/2$（$\\bar x$ 为样本均值）。\n**(b)** 证明 MLE 是 $\\theta$ 的无偏估计。\n**(c)** 设 $n$ 很大，求 $\\hat\\theta_{\\mathrm{MLE}}$ 的近似抽样分布（明确均值与方差）。\n**(d)** 利用 (c) 构造关于 $\\theta$ 的精确 95% 置信区间（可用 $P(-1.96<Z<1.96)=0.95$；区间不必对称；满分要求用 (c) 的抽样分布且不再做进一步近似）。\n\n噪声水平估计后，每个测量值 $x_i$ 进一步加工为 $y_i$。无真实信号时 $Y_i$ 独立 Exponential(1)。AI 检测到信号就要执行动作，因此需对\"无真实信号\"的原假设 $H_0$ 设计检验：当至少一个 $y_i$ 落入拒绝域 $R$ 时拒绝 $H_0$。\n\n**(e)** $n=10^3$ 时，求使第一类错误率为 10% 的合适拒绝域 $R$。",
@@ -4996,7 +5831,7 @@
     "zh-Hans": "**(a)** 每项 $\\log f(x_i|\\theta)=\\log x_i-2\\log\\theta-\\tfrac{x_i}{\\theta}$；$\\ell=-2n\\log\\theta-\\tfrac{n\\bar x}{\\theta}+\\text{const}$；求导置零得 $\\hat\\theta=\\tfrac{\\bar x}2$，二阶导为负确认最大。（6 分，A/B/C）\n\n**(b)** $E[\\bar X]=2\\theta$，故 $E[\\hat\\theta]=\\theta$：无偏。（2 分，A/B）\n\n**(c)** CLT：$\\bar X\\approx N(2\\theta,\\,2\\theta^2/n)$，故 $\\hat\\theta\\approx N(\\theta,\\,\\theta^2/2n)$。（4 分，C）\n\n**(d)** 标准化 $Z=\\dfrac{\\hat\\theta-\\theta}{\\theta/\\sqrt{2n}}$；把 $-1.96<Z<1.96$ 对 $\\theta$ 反解：$\\hat\\theta\\left(1+\\tfrac{1.96}{\\sqrt{2n}}\\right)^{-1}<\\theta<\\hat\\theta\\left(1-\\tfrac{1.96}{\\sqrt{2n}}\\right)^{-1}$（不对称，精确反转）。（4 分，D）\n\n**(e)** 真实信号使 $y_i$ 偏大，用单侧拒绝域 $R=\\{y>y_T\\}$。$(1-e^{-y_T})^n=0.9$ 解得 $y_T=-\\log(1-0.9^{1/n})$；$n=10^3$ 时 $y_T\\approx9.158$：$R=\\{y>9.158\\}$。（4 分，D）",
     "zh-Hant": "**(a)** 每項 $\\log f(x_i|\\theta)=\\log x_i-2\\log\\theta-\\tfrac{x_i}{\\theta}$；$\\ell=-2n\\log\\theta-\\tfrac{n\\bar x}{\\theta}+\\text{const}$；求導置零得 $\\hat\\theta=\\tfrac{\\bar x}2$，二階導爲負確認最大。（6 分，A/B/C）\n\n**(b)** $E[\\bar X]=2\\theta$，故 $E[\\hat\\theta]=\\theta$：無偏。（2 分，A/B）\n\n**(c)** CLT：$\\bar X\\approx N(2\\theta,\\,2\\theta^2/n)$，故 $\\hat\\theta\\approx N(\\theta,\\,\\theta^2/2n)$。（4 分，C）\n\n**(d)** 標準化 $Z=\\dfrac{\\hat\\theta-\\theta}{\\theta/\\sqrt{2n}}$；把 $-1.96<Z<1.96$ 對 $\\theta$ 反解：$\\hat\\theta\\left(1+\\tfrac{1.96}{\\sqrt{2n}}\\right)^{-1}<\\theta<\\hat\\theta\\left(1-\\tfrac{1.96}{\\sqrt{2n}}\\right)^{-1}$（不對稱，精確反轉）。（4 分，D）\n\n**(e)** 真實信號使 $y_i$ 偏大，用單側拒絕域 $R=\\{y>y_T\\}$。$(1-e^{-y_T})^n=0.9$ 解得 $y_T=-\\log(1-0.9^{1/n})$；$n=10^3$ 時 $y_T\\approx9.158$：$R=\\{y>9.158\\}$。（4 分，D）"
    },
-   "secondary_format": null,
+   "secondary_format": "SC",
    "source": {
     "paper_id": "SU2021",
     "paper_name": {
@@ -5027,7 +5862,7 @@
    "question_id": "MATH50013.SU2021.Q4",
    "module": "MATH50013",
    "qtype": "subjective",
-   "format": "A",
+   "format": "SA",
    "Question": {
     "en": "A prize is hidden somewhere within the upper right quadrant of the $xy$-plane ($x>0$, $y>0$). Your degree of belief about the prize's location is described by the joint continuous random variables $X$ and $Y$ and their probability density function (pdf)\n\n$$f_{XY}(x,y)=cxye^{-(x^2+y^2)}\\qquad x>0,\\ y>0,$$\n\nand $f_{XY}(x,y)=0$ outside this region.\n\n**(a)** Find the value of the constant $c$ and show that this is a valid pdf.\n\n**(b)** You want to restrict your search to a finite area, a square with side-length $a$. Find the value of $a$ such that there is a 90% probability that the prize is in the square $[0,a]\\times[0,a]$.\n\n**(c)** Define the two random variables $U=X$ and $V=X^2+Y^2$, so $V$ is the square of the distance of the prize from the origin.\n\n**(i)** Find the joint pdf $f_{UV}(u,v)$ for the variables $U$ and $V$. (Hint: make sure to think about the support of $U$ and $V$.)\n**(ii)** You now learn that the prize is located at a distance $r$ from the origin. Find the conditional pdf for $U$ given this new information.",
     "zh-Hans": "奖品藏在 $xy$ 平面右上象限（$x>0,y>0$）某处。你对其位置的主观信念由联合随机变量 $X,Y$ 及密度描述：\n\n$$f_{XY}(x,y)=cxye^{-(x^2+y^2)}\\qquad x>0,\\ y>0,$$\n\n区域外为 0。\n\n**(a)** 求常数 $c$ 并验证这是合法 pdf。\n**(b)** 你想把搜索限制在边长 $a$ 的正方形内。求使奖品以 90% 概率位于 $[0,a]\\times[0,a]$ 内的 $a$。\n**(c)** 定义 $U=X$、$V=X^2+Y^2$（$V$ 为奖品到原点距离的平方）。\n\n**(i)** 求 $f_{UV}(u,v)$。（提示：注意 $U,V$ 的支撑集。）\n**(ii)** 已知奖品距原点距离为 $r$，求此时 $U$ 的条件密度。",
@@ -5069,7 +5904,7 @@
    "question_id": "MATH50013.SU2022.Q1",
    "module": "MATH50013",
    "qtype": "subjective",
-   "format": "A",
+   "format": "SA",
    "Question": {
     "en": "**(a)** The random variable $X$ has probability density function (pdf)\n\n$$f(x)=\\begin{cases}c(2-|x|) & -a\\le x\\le a\\\\ c(2-|a|) & \\text{otherwise},\\end{cases}$$\n\nwhere $a$ and $c$ are constants.\n\n**(i)** Determine the values of the constants $a$ and $c$.\n**(ii)** Find the cumulative distribution function (cdf) of $X$.\n**(iii)** Find the interquartile range of $X$.\n**(iv)** The moment generating function (mgf) of $X$, $M(t)$, can be expanded in a Taylor series around $t=0$ to give\n\n$$M(t)=1+\\tfrac13t^2+\\tfrac2{45}t^4+O(t^6).$$\n\nUse the mgf to find the first four moments of $X$ (i.e. $E[X^k]$ for $k=1,2,3,4$).\n\n**(b)** Suppose we have a way to generate random samples from the pdf $g(x)$ and we wish to generate samples from another pdf $f(x)$. Consider the following algorithm. Start by finding a value $C$ such that $Cg(x)\\ge f(x)$ for all $x$. Then perform the following loop:\nStep 1. Generate a random sample $x_0$ from $g(x)$.\nStep 2. Generate a standard uniform random sample $u$.\nStep 3. If $u<f(x_0)/(Cg(x_0))$ then return $x_0$, else start over from step 1.\nProve that this algorithm works, in that the returned value is distributed according to $f(x)$. Also, find the expected number of times we need to sample from $g(x)$ in order to generate a single sample from $f(x)$.",
     "zh-Hans": "**(a)** 随机变量 $X$ 的密度为\n\n$$f(x)=\\begin{cases}c(2-|x|) & -a\\le x\\le a\\\\ c(2-|a|) & \\text{其他}.\\end{cases}$$\n\n**(i)** 确定 $a,c$。\n**(ii)** 求 $X$ 的分布函数。\n**(iii)** 求四分位距。\n**(iv)** 已知矩母函数在 $t=0$ 处的 Taylor 展开为\n\n$$M(t)=1+\\tfrac13t^2+\\tfrac2{45}t^4+O(t^6),$$\n\n用它求前四阶矩 $E[X^k]$（$k=1,2,3,4$）。\n\n**(b)** 设可以从密度 $g(x)$ 采样，希望从另一密度 $f(x)$ 采样。算法：找 $C$ 使 $Cg(x)\\ge f(x)$ 处处成立；循环：①从 $g$ 采样 $x_0$；②生成标准均匀随机数 $u$；③若 $u<f(x_0)/(Cg(x_0))$ 则返回 $x_0$，否则回到①。证明返回值服从 $f(x)$，并求为生成一个 $f$ 样本所需从 $g$ 采样的期望次数。",
@@ -5080,7 +5915,7 @@
     "zh-Hans": "**(a)(i)** 密度在大 $|x|$ 处须为零：$a=2$；三角形密度高 $2c$、面积 $4c=1$：$c=\\tfrac14$。（4 分，A/B）\n\n**(a)(ii)** 分段积分得 $F(x)=\\begin{cases}0&x<-2\\\\ \\tfrac18(2+x)^2&-2\\le x<0\\\\ \\tfrac12-\\tfrac18(2-x)^2&0\\le x<2\\\\ 1&x\\ge2\\end{cases}$。（4 分，A/B）\n\n**(a)(iii)** $F(0)=\\tfrac12$：解 $\\tfrac18(2+x_{1/4})^2=\\tfrac14$ 得 $x_{1/4}=-2+\\sqrt2$，对称 $x_{3/4}=2-\\sqrt2$：IQR $=4-2\\sqrt2$。（5 分，A/B）\n\n**(a)(iv)** 与 $M(t)=1+E(X)t+\\tfrac{E(X^2)}{2!}t^2+\\cdots$ 对照：$E(X)=0$、$E(X^2)=\\tfrac23$、$E(X^3)=0$、$E(X^4)=\\tfrac{16}{15}$。（3 分，A/B）\n\n**(b)** $P(\\text{返回 }x_0\\in[x,x+dx])=\\tfrac{f(x)}{Cg(x)}g(x)dx=\\tfrac{f(x)}{C}dx$。边缘化得单轮返回概率 $1/C$；迭代次数为 Geometric$(1/C)$：期望 $C$ 次。给定返回时密度归一回 $f(x)$：算法正确。（4 分，D）",
     "zh-Hant": "**(a)(i)** 密度在大 $|x|$ 處須爲零：$a=2$；三角形密度高 $2c$、面積 $4c=1$：$c=\\tfrac14$。（4 分，A/B）\n\n**(a)(ii)** 分段積分得 $F(x)=\\begin{cases}0&x<-2\\\\ \\tfrac18(2+x)^2&-2\\le x<0\\\\ \\tfrac12-\\tfrac18(2-x)^2&0\\le x<2\\\\ 1&x\\ge2\\end{cases}$。（4 分，A/B）\n\n**(a)(iii)** $F(0)=\\tfrac12$：解 $\\tfrac18(2+x_{1/4})^2=\\tfrac14$ 得 $x_{1/4}=-2+\\sqrt2$，對稱 $x_{3/4}=2-\\sqrt2$：IQR $=4-2\\sqrt2$。（5 分，A/B）\n\n**(a)(iv)** 與 $M(t)=1+E(X)t+\\tfrac{E(X^2)}{2!}t^2+\\cdots$ 對照：$E(X)=0$、$E(X^2)=\\tfrac23$、$E(X^3)=0$、$E(X^4)=\\tfrac{16}{15}$。（3 分，A/B）\n\n**(b)** $P(\\text{返回 }x_0\\in[x,x+dx])=\\tfrac{f(x)}{Cg(x)}g(x)dx=\\tfrac{f(x)}{C}dx$。邊緣化得單輪返回概率 $1/C$；迭代次數爲 Geometric$(1/C)$：期望 $C$ 次。給定返回時密度歸一回 $f(x)$：算法正確。（4 分，D）"
    },
-   "secondary_format": null,
+   "secondary_format": "F",
    "source": {
     "paper_id": "SU2022",
     "paper_name": {
@@ -5110,7 +5945,7 @@
    "question_id": "MATH50013.SU2022.Q2",
    "module": "MATH50013",
    "qtype": "subjective",
-   "format": "C",
+   "format": "B",
    "Question": {
     "en": "**(a)** (i) Given events $A$ and $B$, find the ratio $\\dfrac{P(A|B)}{P(\\overline A|B)}$ in terms of $\\dfrac{P(B|A)}{P(B|\\overline A)}$ and $P(A)$. (Here $\\overline A$ is the complement of $A$.)\n\n**(ii)** Scurvy is caused by severe vitamin C deficiency. About 7% of people in the UK are vitamin C deficient and a tiny fraction of them end up in hospital. But among patients in hospital for scurvy only around 1 in 10,000 have normal vitamin C levels. What do these data suggest is the protective power of vitamin C? That is, by what factor can someone reduce their risk of hospitalization for scurvy by getting enough vitamin C? [You may want to use the ratios from part (i).]\n\n**(b)** Let $X$ be a Poisson random variable with rate parameter $\\lambda$. Suppose you have a way to generate a 95% confidence interval for $\\lambda$, given a single observation of $X$: two functions $\\ell_{95}(x)$ and $u_{95}(x)$ such that $[\\ell_{95}(x),u_{95}(x)]$ is a 95% confidence interval for $\\lambda$. You now make $n$ independent observations of the Poisson($\\lambda$) RV $X$, obtaining $(x_1,\\ldots,x_n)$. Show how to use $\\ell_{95}$ and $u_{95}$ to create a 95% confidence interval for $\\lambda$ from your full data set.\n\n**(c)** There are 5 horses in a race, numbered 1 through 5. We are only interested in the top three finishers (gold, silver, bronze). There are no ties.\n\n**(i)** What is an appropriate sample space for this experiment and what is its size?\n**(ii)** Given that horses 1 and 2 get medals, what is the probability that horse 3 wins gold? Assume all elementary events are equally likely. What interpretation of probability did you use?\n**(iii)** In a single sentence, explain the following equation using the frequentist interpretation of probability: $P(\\text{horse 4 wins gold})=\\tfrac1{100}$.",
     "zh-Hans": "**(a)** (i) 对事件 $A,B$，用 $\\dfrac{P(B|A)}{P(B|\\overline A)}$ 与 $P(A)$ 表示 $\\dfrac{P(A|B)}{P(\\overline A|B)}$。\n\n**(ii)** 坏血病由严重维 C 缺乏引起。英国约 7% 的人缺维 C，其中极少数住院；但坏血病住院患者中只有约万分之一维 C 水平正常。这些数据提示维 C 的保护力有多大？即摄入足够维 C 能把坏血病住院风险降低多少倍？\n\n**(b)** 设 $X\\sim\\text{Poisson}(\\lambda)$。已知函数 $\\ell_{95}(x),u_{95}(x)$ 使 $[\\ell_{95}(x),u_{95}(x)]$ 是单次观测下 $\\lambda$ 的 95% 置信区间。现独立观测 $n$ 次得 $(x_1,\\ldots,x_n)$，说明如何用它们构造全数据下 $\\lambda$ 的 95% 置信区间。\n\n**(c)** 5 匹马赛跑（编号 1–5），只关心前三名（金/银/铜），无平局。\n\n**(i)** 合适的样本空间是什么？大小？\n**(ii)** 已知 1、2 号马都得奖牌，求 3 号马获金牌的概率（所有基本事件等可能）。你用了哪种概率解释？\n**(iii)** 用频率派解释在一句话内说明 $P(\\text{4号马获金})=\\tfrac1{100}$。",
@@ -5121,7 +5956,7 @@
     "zh-Hans": "**(a)(i)** 对 $A$ 与 $\\overline A$ 写贝叶斯再相除约去 $P(B)$：$\\dfrac{P(A|B)}{P(\\overline A|B)}=\\dfrac{P(B|A)}{P(B|\\overline A)}\\cdot\\dfrac{P(A)}{P(\\overline A)}$。（4 分，A）\n\n**(a)(ii)** $P(A)/P(\\overline A)\\approx0.075$；$P(A|B)/P(\\overline A|B)=9999$。故风险比 $\\approx\\dfrac{9999}{0.075}\\approx1.3\\times10^5$：足够维 C 把住院风险降低约 $10^5$ 倍。（4 分，A）\n\n**(b)** 独立 Poisson 可加：$Y=\\sum X_i\\sim\\text{Poisson}(n\\lambda)$。$[\\ell_{95}(\\sum x_i),u_{95}(\\sum x_i)]$ 是 $n\\lambda$ 的 95% CI，除以 $n$ 得 $\\lambda$ 的 CI。（4 分，D/C）\n\n**(c)(i)** $S$ =（金，银，铜）有序三元组：$|S|=60$（或全排列 120）。（3 分，A/B）\n**(c)(ii)** 古典解释：$|A|=2$，$|B|=18$：$P=1/9$。（4 分，A/B）\n**(c)(iii)** 无限重复比赛时 4 号马获金牌的频率趋于 $1/100$。（1 分，A）",
     "zh-Hant": "**(a)(i)** 對 $A$ 與 $\\overline A$ 寫貝葉斯再相除約去 $P(B)$：$\\dfrac{P(A|B)}{P(\\overline A|B)}=\\dfrac{P(B|A)}{P(B|\\overline A)}\\cdot\\dfrac{P(A)}{P(\\overline A)}$。（4 分，A）\n\n**(a)(ii)** $P(A)/P(\\overline A)\\approx0.075$；$P(A|B)/P(\\overline A|B)=9999$。故風險比 $\\approx\\dfrac{9999}{0.075}\\approx1.3\\times10^5$：足夠維 C 把住院風險降低約 $10^5$ 倍。（4 分，A）\n\n**(b)** 獨立 Poisson 可加：$Y=\\sum X_i\\sim\\text{Poisson}(n\\lambda)$。$[\\ell_{95}(\\sum x_i),u_{95}(\\sum x_i)]$ 是 $n\\lambda$ 的 95% CI，除以 $n$ 得 $\\lambda$ 的 CI。（4 分，D/C）\n\n**(c)(i)** $S$ =（金，銀，銅）有序三元組：$|S|=60$（或全排列 120）。（3 分，A/B）\n**(c)(ii)** 古典解釋：$|A|=2$，$|B|=18$：$P=1/9$。（4 分，A/B）\n**(c)(iii)** 無限重複比賽時 4 號馬獲金牌的頻率趨於 $1/100$。（1 分，A）"
    },
-   "secondary_format": null,
+   "secondary_format": "C",
    "source": {
     "paper_id": "SU2022",
     "paper_name": {
@@ -5151,7 +5986,7 @@
    "question_id": "MATH50013.SU2022.Q3",
    "module": "MATH50013",
    "qtype": "subjective",
-   "format": "G",
+   "format": "SB",
    "Question": {
     "en": "Consider $n$ independent observations $X_1,\\ldots,X_n$ from an Exponential($\\theta$) distribution, where $\\theta$ is an unknown positive parameter.\n\n**(a)** Construct the maximum likelihood estimator $\\hat\\theta(X_1,\\ldots,X_n)$ for $\\theta$.\n**(b)** Prove that $\\hat\\theta$ is a biased estimator and state which direction it is biased in. [Hint: one approach is to use Jensen's inequality involving concave/convex functions of a random variable.]\n\nA quality control experiment measures the time-to-failure $x_i$ ($i=1,\\ldots,100$) for 100 supposedly identical machine components. If the components really are identical then each $x_i$ should be an independent sample from an exponential distribution with the same rate parameter $\\theta$. The measured failure times are histogrammed with bins $[0,2),[2,4),[4,6),[6,8),[8,10)$ and observed counts $O=(35,18,14,8,25)$-split per the histogram (bar heights 35, 18, 14, 8 with the remainder beyond 8). Summary statistics: $\\bar x=3.86$, $\\overline{x^2}=22.61$, $\\overline{\\log x}=0.964$, $\\overline{(\\log x)^2}=2.01$, $\\overline{1/x}=92.1$, median $=3.42$.\n\n**(c)** Find the maximum likelihood estimate for the exponential parameter $\\theta$ for this data set.\n**(d)** Perform a chi-squared goodness of fit test for the model corresponding to the $\\theta$ you found in part (c). The test should have a significance level of 1%. Use the same binning as in the histogram. Make sure you clearly write out all the steps: the null hypothesis, the test statistic, and rejection region. Briefly interpret your result.",
     "zh-Hans": "设 $X_1,\\ldots,X_n$ 独立同分布于 Exponential($\\theta$)（$\\theta>0$ 未知）。\n\n**(a)** 构造 $\\theta$ 的极大似然估计。\n**(b)** 证明 $\\hat\\theta$ 有偏并说明偏的方向。（提示：可用 Jensen 不等式。）\n\n质检实验测量 100 个同批机器部件的失效时间 $x_i$。若部件确实同质，则各 $x_i$ 应为同参数 $\\theta$ 的指数分布独立样本。失效时间直方图分箱 $[0,2),[2,4),[4,6),[6,8),[8,10)$，各箱观测计数按直方图（柱高 35、18、14、8，其余在 8 以上）。汇总统计：$\\bar x=3.86$、$\\overline{x^2}=22.61$、$\\overline{\\log x}=0.964$、$\\overline{(\\log x)^2}=2.01$、$\\overline{1/x}=92.1$、中位数 $=3.42$。\n\n**(c)** 求该数据集的 $\\theta$ 的极大似然估计值。\n**(d)** 对 (c) 的模型做卡方拟合优度检验（显著性水平 1%，沿用直方图分箱）。写清全部步骤：原假设、检验统计量、拒绝域，并简要解释结果。",
@@ -5162,7 +5997,7 @@
     "zh-Hans": "**(a)** $L=\\prod\\theta e^{-\\theta x_i}$；$\\log L=n\\log\\theta-\\theta\\sum x_i$；求导置零得 $\\hat\\theta=1/\\bar X$；二阶导为负。（5 分，A/B/C）\n\n**(b)** Jensen：$g(x)=1/x$ 在 $x>0$ 上凸，故 $E[1/\\bar X]\\ge1/E[\\bar X]=\\theta$：系统性偏高。（5 分，D）\n\n**(c)** $\\hat\\theta=1/3.86\\approx0.26$。（2 分，B）\n\n**(d)** $H_0$：iid Exponential(0.26)。$\\chi^2=\\sum\\frac{(O_i-E_i)^2}{E_i}$，$E_i=100(e^{-0.26x_{lo}}-e^{-0.26x_{hi}})=(40.4,24.1,14.3,8.5,5.1)$。观测 $\\chi^2=15.3$；自由度 $5-1-1=3$；拒绝域 $\\chi^2>11.34$。$15.3>11.34$：在 1% 水平拒绝 $H_0$，iid 指数模型拟合不佳。（8 分，A/C/B/C）",
     "zh-Hant": "**(a)** $L=\\prod\\theta e^{-\\theta x_i}$；$\\log L=n\\log\\theta-\\theta\\sum x_i$；求導置零得 $\\hat\\theta=1/\\bar X$；二階導爲負。（5 分，A/B/C）\n\n**(b)** Jensen：$g(x)=1/x$ 在 $x>0$ 上凸，故 $E[1/\\bar X]\\ge1/E[\\bar X]=\\theta$：系統性偏高。（5 分，D）\n\n**(c)** $\\hat\\theta=1/3.86\\approx0.26$。（2 分，B）\n\n**(d)** $H_0$：iid Exponential(0.26)。$\\chi^2=\\sum\\frac{(O_i-E_i)^2}{E_i}$，$E_i=100(e^{-0.26x_{lo}}-e^{-0.26x_{hi}})=(40.4,24.1,14.3,8.5,5.1)$。觀測 $\\chi^2=15.3$；自由度 $5-1-1=3$；拒絕域 $\\chi^2>11.34$。$15.3>11.34$：在 1% 水平拒絕 $H_0$，iid 指數模型擬合不佳。（8 分，A/C/B/C）"
    },
-   "secondary_format": null,
+   "secondary_format": "SC",
    "source": {
     "paper_id": "SU2022",
     "paper_name": {
@@ -5193,7 +6028,7 @@
    "question_id": "MATH50013.SU2022.Q4",
    "module": "MATH50013",
    "qtype": "subjective",
-   "format": "A",
+   "format": "SA",
    "Question": {
     "en": "**(a)** Let $X$ and $Y$ be continuous random variables with the joint density function\n\n$$f_{XY}(x,y)=\\begin{cases}c\\,\\dfrac{x}{(x+y)^2}e^{-2(x+y)} & x>0,\\ y>0\\\\ 0 & \\text{otherwise,}\\end{cases}$$\n\nand $c$ a normalization constant. Consider the transformation to the new random variables $U=\\dfrac{X-Y}{X+Y}$ and $V=X+Y$.\n\n**(i)** What is the range of the joint random variables $U$ and $V$?\n**(ii)** Derive the joint pdf of $U$ and $V$ (you may leave the result in terms of the constant $c$).\n**(iii)** What is the probability that $X$ is greater than $Y$?\n\n**(b)** Outcomes are often a combination of \"luck\" and \"skill\" (think students taking tests or teams competing in a league). People often notice that the best performing teams in one season seem to lose their edge in the next, while the worst performers seem to improve. Model the situation as follows. Each member of the population has a \"skill variable\" $S$ drawn from some distribution. Their \"luck variables\" in two trials, $L_1$ and $L_2$, are identically distributed and independent from each other and from $S$. For simplicity, assume that all three RVs have mean 0 and variance 1. Neither skill nor luck can be directly observed; we only observe the trial outcomes $Y_1$ and $Y_2$, given by $Y_1=rS+L_1$ and $Y_2=rS+L_2$, where $r$ is a fixed \"skill-to-luck ratio\".\n\nProve that the phenomenon described in the first paragraph is real. Specifically, show that, on average, the second outcome will be closer to zero than the first, even though each individual's skill remains constant over the two trials. You may assume that the second outcome is linearly related to the first, i.e. $Y_2=bY_1+Z$, where $b$ is a number and $Z$ is a mean-0 random variable independent of $Y_1$. Explain the role of $r$. [Hint: one approach is to first show that the phenomenon is equivalent to some condition on $b$. Then take appropriate expectations in order to evaluate $b$.]",
     "zh-Hans": "**(a)** 设连续随机变量 $X,Y$ 的联合密度为\n\n$$f_{XY}(x,y)=\\begin{cases}c\\,\\dfrac{x}{(x+y)^2}e^{-2(x+y)} & x>0,\\ y>0\\\\ 0 & \\text{其他},\\end{cases}$$\n\n考虑变换 $U=\\dfrac{X-Y}{X+Y}$、$V=X+Y$。\n\n**(i)** $(U,V)$ 的取值范围是什么？\n**(ii)** 推导 $f_{UV}(u,v)$（可保留常数 $c$）。\n**(iii)** 求 $P(X>Y)$。\n\n**(b)** 结果常是\"运气\"与\"实力\"的组合。人们注意到上一季表现最好的队伍下一季似乎掉队、最差的似乎回升。建模：每人有\"实力变量\" $S$；两次试验的\"运气变量\" $L_1,L_2$ 同分布且与 $S$ 独立；三者均值 0、方差 1。只能观察结果 $Y_1=rS+L_1$、$Y_2=rS+L_2$（$r$ 为固定的\"实力-运气比\"）。\n\n证明上述现象真实存在：即使个人实力不变，第二次结果平均而言更接近零。可设 $Y_2=bY_1+Z$（$b$ 为常数、$Z$ 均值 0 且与 $Y_1$ 独立），解释 $r$ 的作用。（提示：先把现象等价为对 $b$ 的条件，再取期望求 $b$。）",
@@ -5277,7 +6112,7 @@
    "question_id": "MATH50013.SU2024.Q2",
    "module": "MATH50013",
    "qtype": "subjective",
-   "format": "G",
+   "format": "SB",
    "Question": {
     "en": "**(a)** For $i=1,\\ldots,n$, suppose we have independent observations $Y_i\\sim N(\\mu,x_i^2\\sigma^2)$, where $\\mu\\in\\mathbb R$ is an unknown parameter, and $\\sigma,x_1,\\ldots,x_n$ are known, non-zero constants.\n\n**(i)** Show that the maximum likelihood estimator of $\\mu$ is\n\n$$\\hat\\mu=\\left(\\sum_{i=1}^n\\frac1{x_i^2}\\right)^{-1}\\sum_{i=1}^n\\frac{Y_i}{x_i^2}.$$\n\n**(ii)** What is the distribution of $\\hat\\mu$?\n**(iii)** Give a condition on the $x_i$'s such that $\\hat\\mu$ is consistent for $\\mu$ as $n\\to\\infty$, justifying your choice.\n\n**(b)** Consider two independent random variables $X\\sim\\text{Beta}(1/2,1/2)$ and $Y\\sim\\text{Gamma}(2,2)$. Define $U=XY$ and $V=(1-X)Y$.\n\n**(i)** Compute the joint density of $(U,V)$. Are $U$ and $V$ independent?\n**(ii)** Compute the marginal density functions of $U$ and $V$.",
     "zh-Hans": "**(a)** 设 $Y_i\\sim N(\\mu,x_i^2\\sigma^2)$ 独立（$i=1,\\ldots,n$），$\\mu\\in\\mathbb R$ 未知，$\\sigma,x_1,\\ldots,x_n$ 为已知非零常数。\n\n**(i)** 证明 $\\mu$ 的极大似然估计为\n\n$$\\hat\\mu=\\left(\\sum_{i=1}^n\\frac1{x_i^2}\\right)^{-1}\\sum_{i=1}^n\\frac{Y_i}{x_i^2}.$$\n\n**(ii)** $\\hat\\mu$ 服从什么分布？\n**(iii)** 给出使 $\\hat\\mu$ 相合的 $x_i$ 条件并论证。\n\n**(b)** 设独立随机变量 $X\\sim\\text{Beta}(1/2,1/2)$、$Y\\sim\\text{Gamma}(2,2)$。定义 $U=XY$、$V=(1-X)Y$。\n\n**(i)** 求 $(U,V)$ 的联合密度。$U,V$ 独立吗？\n**(ii)** 求 $U,V$ 的边缘密度。",
@@ -5288,7 +6123,7 @@
     "zh-Hans": "**(a)(i)** 对数似然求导置零得 $\\hat\\mu$；二阶导为负确认最大。（4 分，A）\n\n**(a)(ii)** 高斯线性组合：$\\hat\\mu\\sim N\\big(\\mu,(\\sum\\tfrac1{x_i^2})^{-1}\\sigma^2\\big)$。（3 分，A）\n\n**(a)(iii)** 已无偏，需方差趋零：Markov 要求 $\\sum\\tfrac1{x_i^2}\\to\\infty$，例如 $x_i$ 有界即可。（4 分，D/A）\n\n**(b)(i)** 逆变换 $X=\\tfrac{U}{U+V}$、$Y=U+V$，雅可比 $\\tfrac1{u+v}$：$f_{UV}(u,v)=\\dfrac4\\pi\\dfrac{u+v}{u^{1/2}v^{1/2}}e^{-2(u+v)}$（$u,v>0$）：不可分解：不独立。（4 分，A/A）\n\n**(b)(ii)** 对称性下同分布：$f_U(u)=\\dfrac{2^{3/2}e^{-2u}}{\\pi^{1/2}u^{1/2}}\\big(u+\\tfrac14\\big)$（$V$ 同）。（5 分，B）",
     "zh-Hant": "**(a)(i)** 對數似然求導置零得 $\\hat\\mu$；二階導爲負確認最大。（4 分，A）\n\n**(a)(ii)** 高斯線性組合：$\\hat\\mu\\sim N\\big(\\mu,(\\sum\\tfrac1{x_i^2})^{-1}\\sigma^2\\big)$。（3 分，A）\n\n**(a)(iii)** 已無偏，需方差趨零：Markov 要求 $\\sum\\tfrac1{x_i^2}\\to\\infty$，例如 $x_i$ 有界即可。（4 分，D/A）\n\n**(b)(i)** 逆變換 $X=\\tfrac{U}{U+V}$、$Y=U+V$，雅可比 $\\tfrac1{u+v}$：$f_{UV}(u,v)=\\dfrac4\\pi\\dfrac{u+v}{u^{1/2}v^{1/2}}e^{-2(u+v)}$（$u,v>0$）：不可分解：不獨立。（4 分，A/A）\n\n**(b)(ii)** 對稱性下同分佈：$f_U(u)=\\dfrac{2^{3/2}e^{-2u}}{\\pi^{1/2}u^{1/2}}\\big(u+\\tfrac14\\big)$（$V$ 同）。（5 分，B）"
    },
-   "secondary_format": null,
+   "secondary_format": "SA",
    "source": {
     "paper_id": "SU2024",
     "paper_name": {
@@ -5320,7 +6155,7 @@
    "question_id": "MATH50013.SU2024.Q3",
    "module": "MATH50013",
    "qtype": "subjective",
-   "format": "G",
+   "format": "SC",
    "Question": {
     "en": "**(a)** Let $X_1,\\ldots,X_n$ be a random sample from a $N(\\mu,\\sigma^2)$ distribution, where $\\mu\\in\\mathbb R$ is known and $\\sigma^2>0$ is unknown. Define\n\n$$S^2=\\frac1n\\sum_{i=1}^n(X_i-\\mu)^2.$$\n\n**(i)** Show that $nS^2/\\sigma^2$ follows a $\\chi^2_n$ distribution.\n**(ii)** Find an exact $1-\\alpha$ confidence interval for $\\sigma$ based on $S^2$.\n**(iii)** In an application, we have $n=100$, $S^2=4$. Would you reject the null hypothesis $H_0:\\sigma=1$ at the 10% level?\n**(iv)** Find a Gaussian approximation to the distribution of $S^2$ for large values of $n$.\n\n**(b)** The administrators of an emergency service centre would like to know whether the number of calls they receive per day is uniformly distributed during the week. To this end, they gathered a random sample of 140 calls from the past and recorded on which day they happened, obtaining the following table:\n\n| Day | Mon | Tue | Wed | Thu | Fri | Sat | Sun |\n|---|---|---|---|---|---|---|---|\n| # calls | 20 | 15 | 15 | 17 | 21 | 30 | 22 |\n\nTest this hypothesis of uniformity at the 5% level, clearly justifying your approach.",
     "zh-Hans": "**(a)** 设 $X_1,\\ldots,X_n$ 为 $N(\\mu,\\sigma^2)$ 随机样本（$\\mu$ 已知、$\\sigma^2>0$ 未知）。定义\n\n$$S^2=\\frac1n\\sum_{i=1}^n(X_i-\\mu)^2.$$\n\n**(i)** 证明 $nS^2/\\sigma^2\\sim\\chi^2_n$。\n**(ii)** 基于 $S^2$ 求 $\\sigma$ 的精确 $1-\\alpha$ 置信区间。\n**(iii)** 应用中 $n=100$、$S^2=4$。会在 10% 水平拒绝 $H_0:\\sigma=1$ 吗？\n**(iv)** 对大 $n$ 求 $S^2$ 分布的高斯近似。\n\n**(b)** 急救中心想知道每日来电数是否在一周内均匀分布。抽取 140 通电话记录星期：\n\n| 星期 | 一 | 二 | 三 | 四 | 五 | 六 | 日 |\n|---|---|---|---|---|---|---|---|\n| 数量 | 20 | 15 | 15 | 17 | 21 | 30 | 22 |\n\n在 5% 水平检验均匀性假设，说明方法依据。",
@@ -5362,7 +6197,7 @@
    "question_id": "MATH50013.SU2024.Q4",
    "module": "MATH50013",
    "qtype": "subjective",
-   "format": "A",
+   "format": "SA",
    "Question": {
     "en": "**(a)** Let $(X,Y)$ be a random vector with density function $f(x,y)=c\\exp(-x^2-2y^2-xy)$ for $x,y\\in\\mathbb R$, where $c>0$ is a constant.\n\n**(i)** Identify the marginal distribution of $X$.\n**(ii)** Identify the conditional distribution of $Y\\,|\\,X=x$ for an arbitrary $x\\in\\mathbb R$.\n**(iii)** Compute the covariance between $X$ and $Y$.\n**(iv)** Compute $P\\big((\\sqrt7-1)X>4Y\\big)$.\n\n**(b)** Let $(X_1,Y_1),\\ldots,(X_n,Y_n)$ be independent and identically distributed samples from a bivariate distribution $P_{XY}$ with covariance $\\sigma_{XY}$. Define\n\n$$\\hat\\sigma_{XY}=\\frac1{n-1}\\sum_{i=1}^n(X_i-\\bar X)(Y_i-\\bar Y),$$\n\nwhere $\\bar X=(X_1+\\cdots+X_n)/n$ and $\\bar Y=(Y_1+\\cdots+Y_n)/n$. Compute the bias of $\\hat\\sigma_{XY}$ as an estimator of $\\sigma_{XY}$.",
     "zh-Hans": "**(a)** 设 $(X,Y)$ 的密度为 $f(x,y)=c\\exp(-x^2-2y^2-xy)$（$x,y\\in\\mathbb R$，$c>0$）。\n\n**(i)** 指出 $X$ 的边缘分布。\n**(ii)** 指出 $Y\\,|\\,X=x$ 的条件分布。\n**(iii)** 计算 $\\mathrm{Cov}(X,Y)$。\n**(iv)** 计算 $P\\big((\\sqrt7-1)X>4Y\\big)$。\n\n**(b)** 设 $(X_i,Y_i)$ 独立同分布于某二元分布 $P_{XY}$（协方差 $\\sigma_{XY}$）。定义\n\n$$\\hat\\sigma_{XY}=\\frac1{n-1}\\sum_{i=1}^n(X_i-\\bar X)(Y_i-\\bar Y).$$\n\n计算 $\\hat\\sigma_{XY}$ 作为 $\\sigma_{XY}$ 估计的偏差。",
@@ -5373,7 +6208,7 @@
     "zh-Hans": "**(a)(i)** 配方 $-2y^2-xy=-2(y+\\tfrac x4)^2+\\tfrac{x^2}8$：积出 $y$ 得 $f_X\\propto e^{-(7/8)x^2}$：$X\\sim N(0,4/7)$。（4 分，A）\n\n**(a)(ii)** $f_{Y|X}\\propto e^{-2(y+x/4)^2}$：$Y|X=x\\sim N(-x/4,1/4)$。（3 分，B）\n\n**(a)(iii)** 全期望：$E(XY)=-\\tfrac14\\mathrm{Var}(X)=-\\tfrac17$；均值皆零：$\\mathrm{Cov}=-\\tfrac17$。（4 分，C）\n\n**(a)(iv)** 条件化：$P(4Y<(\\sqrt7-1)x|X=x)=\\Phi(\\tfrac{\\sqrt7}2x)$；积分 $\\int\\Phi\\varphi\\,d(\\cdot)=\\tfrac12[\\Phi^2]$ 得 $\\tfrac12$。（5 分，D）\n\n**(b)** 展开得 $E[(n-1)\\hat\\sigma_{XY}]=(n-1)\\sigma_{XY}$：无偏（偏差 0）。（5 分，D）",
     "zh-Hant": "**(a)(i)** 配方 $-2y^2-xy=-2(y+\\tfrac x4)^2+\\tfrac{x^2}8$：積出 $y$ 得 $f_X\\propto e^{-(7/8)x^2}$：$X\\sim N(0,4/7)$。（4 分，A）\n\n**(a)(ii)** $f_{Y|X}\\propto e^{-2(y+x/4)^2}$：$Y|X=x\\sim N(-x/4,1/4)$。（3 分，B）\n\n**(a)(iii)** 全期望：$E(XY)=-\\tfrac14\\mathrm{Var}(X)=-\\tfrac17$；均值皆零：$\\mathrm{Cov}=-\\tfrac17$。（4 分，C）\n\n**(a)(iv)** 條件化：$P(4Y<(\\sqrt7-1)x|X=x)=\\Phi(\\tfrac{\\sqrt7}2x)$；積分 $\\int\\Phi\\varphi\\,d(\\cdot)=\\tfrac12[\\Phi^2]$ 得 $\\tfrac12$。（5 分，D）\n\n**(b)** 展開得 $E[(n-1)\\hat\\sigma_{XY}]=(n-1)\\sigma_{XY}$：無偏（偏差 0）。（5 分，D）"
    },
-   "secondary_format": null,
+   "secondary_format": "F",
    "source": {
     "paper_id": "SU2024",
     "paper_name": {
@@ -5446,7 +6281,7 @@
    "question_id": "MATH50013.SU2025.Q2",
    "module": "MATH50013",
    "qtype": "subjective",
-   "format": "G",
+   "format": "SB",
    "Question": {
     "en": "**(i)** Suppose that $X_1,\\ldots,X_n$ are independent and identically distributed random variables from the distribution with density function\n\n$$f(x)=\\begin{cases}\\frac{2x}{\\theta}\\exp\\left(-\\frac{x^2}{\\theta}\\right) & x\\ge0\\\\ 0 & x<0.\\end{cases}$$\n\nFind the maximum likelihood estimator for the parameter $\\theta$.\n\n**(ii)** Show that the estimator found in part (i) is unbiased.\n**(iii)** Find the variance of the estimator found in part (i) and use the central limit theorem to derive an approximate confidence interval for $\\theta$. A sample of size $n=5$ was collected:\n\n$$3\\quad 11\\quad 6\\quad 3\\quad 5$$\n\nBased on this data find a point estimate of $\\theta$ and an approximate 95%-confidence interval for $\\theta$.\n\n**(iv)** Another parametrisation of this distribution is possible using a parameter $\\sigma$:\n\n$$f(x)=\\begin{cases}\\frac{x^2}{\\sigma}\\exp\\left(-\\frac{x^2}{2\\sigma}\\right) & x\\ge0\\\\ 0 & x<0.\\end{cases}$$\n\nBased on the MLE $\\hat\\theta$ for $\\theta$ propose a formula for an estimator of $\\sigma$. Justify that both $\\hat\\theta$ and $\\hat\\sigma$ are consistent.\n\n**(v)** We say that an estimator $\\hat\\theta$ has minimal variance if\n\n$$\\frac1{\\mathrm{Var}(\\hat\\theta)}=-nE\\left[\\frac{\\partial^2\\log f(X)}{\\partial\\theta^2}\\right],$$\n\nwhere $X$ is a random variable with density $f$. Show that the estimator found in part (i) has minimal variance.",
     "zh-Hans": "**(i)** 设 $X_1,\\ldots,X_n$ 独立同分布于密度\n\n$$f(x)=\\begin{cases}\\frac{2x}{\\theta}\\exp\\left(-\\frac{x^2}{\\theta}\\right) & x\\ge0\\\\ 0 & x<0.\\end{cases}$$\n\n求 $\\theta$ 的极大似然估计。\n\n**(ii)** 证明 (i) 的估计无偏。\n**(iii)** 求 (i) 估计的方差并用中心极限定理导出 $\\theta$ 的近似置信区间。样本 $n=5$：$3,11,6,3,5$。给出点估计与近似 95% 置信区间。\n**(iv)** 该分布也可用参数 $\\sigma$ 表示（$f(x)=\\frac{x^2}{\\sigma}e^{-x^2/2\\sigma}$）。基于 $\\hat\\theta$ 给出 $\\sigma$ 的估计公式，并论证 $\\hat\\theta,\\hat\\sigma$ 都相合。\n**(v)** 若 $\\tfrac1{\\mathrm{Var}(\\hat\\theta)}=-nE\\big[\\tfrac{\\partial^2\\log f(X)}{\\partial\\theta^2}\\big]$ 则称 $\\hat\\theta$ 达到最小方差。证明 (i) 的估计达到最小方差。",
@@ -5488,7 +6323,7 @@
    "question_id": "MATH50013.SU2025.Q3",
    "module": "MATH50013",
    "qtype": "subjective",
-   "format": "G",
+   "format": "SC",
    "Question": {
     "en": "**(a)** Researchers want to test an innovation in the wind turbines design. They observe 10 wind turbines of the standard design $x_1,\\ldots,x_{10}$ and 10 turbines of the new design $y_1,\\ldots,y_{10}$, all in the same location (and thus similar weather conditions). They found the sample means and standard deviations for each sample (in MW): $\\bar x=1.5$, $S_x=0.1$, $\\bar y=1.7$, $S_y=0.2$. Propose a statistical test to check whether there is evidence that the new design results in higher electricity output. State the test statistic, its distribution and the rejection region at 5% significance level.\n\n**(b)** A new drug designed to lower the blood pressure was administered to 5 patients. Their blood pressure before and after was measured:\n\n| Patient | 1 | 2 | 3 | 4 | 5 |\n|---|---|---|---|---|---|\n| Before | 120 | 152 | 134 | 110 | 118 |\n| After | 122 | 151 | 119 | 95 | 107 |\n\nPerform a test to examine whether there is evidence for the hypothesis that this drug lowers the blood pressure. State the test statistic, its distribution, the rejection region at 5% significance level, and your conclusion. (Hint: $\\sqrt5\\approx2.24$.)\n\n**(c)** A hundred students take a test on which there are 4 questions, each to be answered simply yes or no. The number of students getting exactly 0, 1, 2, 3, or 4 questions right is (9, 8, 25, 50, 8). (The paper provides the pmf table of Binomial(4, p) for $p=0.4,0.5,0.6$.)\n\n**(i)** At 5% significance level, test the hypothesis that the number of correct answers has a binomial distribution.\n**(ii)** Now suppose that someone says the students are merely choosing the answers at random. Are the data consistent with this claim?\n\nIn each of the following questions, state clearly the test statistic, its (approximate) distribution, the rejection region and your conclusion.",
     "zh-Hans": "**(a)** 研究者测试风机新设计：同地点观测标准设计 10 台（$\\bar x=1.5$，$S_x=0.1$）与新设计 10 台（$\\bar y=1.7$，$S_y=0.2$）（单位 MW）。提出检验新设计输出更高的统计检验：写明统计量、分布、5% 水平拒绝域。\n\n**(b)** 降压药给 5 名患者服用，前后血压：\n\n| 患者 | 1 | 2 | 3 | 4 | 5 |\n|---|---|---|---|---|---|\n| 前 | 120 | 152 | 134 | 110 | 118 |\n| 后 | 122 | 151 | 119 | 95 | 107 |\n\n检验药物是否降压：写明统计量、分布、5% 拒绝域与结论。（提示 $\\sqrt5\\approx2.24$。）\n\n**(c)** 100 名学生做 4 道是非题，答对 0–4 题的人数为 (9, 8, 25, 50, 8)（卷面附 Binomial(4, p) 在 p=0.4/0.5/0.6 的 pmf 表）。\n\n**(i)** 5% 水平检验答对题数服从二项分布。\n**(ii)** 若称学生纯随机作答，数据是否与此相符？\n\n每问写明统计量、（近似）分布、拒绝域与结论。",
@@ -5541,7 +6376,7 @@
     "zh-Hans": "**(a)(i)** 代换后积分为 $\\pi$：$c=\\tfrac1\\pi$。（2 分，A）\n\n**(a)(ii)** $\\int\\frac{y\\,dy}{1+y^2}=\\tfrac12\\log(1+y^2)$ 两端发散：$E(X)$ 不存在；尾部 $\\sim\\tfrac1\\pi$ 非可积：$E(X^2)$ 不存在（或由不等式论证）。（4 分，A/D）\n\n**(b)** 单调性给 $\\{X\\ge a\\}\\subseteq\\{g(X)\\ge g(a)\\}$，再用 Markov（或直接分部积分）。（4 分，C）\n\n**(c)(i)** $P(\\text{异色})=\\tfrac{15}{28}$：次数为 Geometric：$E=\\tfrac{28}{15}$。（3 分，A）\n**(c)(ii)** 条件概率 $=\\tfrac{15}{28}$（几何分布无记忆性）。（3 分，A）\n\n**(d)** 恰五场即 4–1 且末场为胜者：$4\\big(p^4(1-p)+p(1-p)^4\\big)$。（4 分，A）",
     "zh-Hant": "**(a)(i)** 代換後積分爲 $\\pi$：$c=\\tfrac1\\pi$。（2 分，A）\n\n**(a)(ii)** $\\int\\frac{y\\,dy}{1+y^2}=\\tfrac12\\log(1+y^2)$ 兩端發散：$E(X)$ 不存在；尾部 $\\sim\\tfrac1\\pi$ 非可積：$E(X^2)$ 不存在（或由不等式論證）。（4 分，A/D）\n\n**(b)** 單調性給 $\\{X\\ge a\\}\\subseteq\\{g(X)\\ge g(a)\\}$，再用 Markov（或直接分部積分）。（4 分，C）\n\n**(c)(i)** $P(\\text{異色})=\\tfrac{15}{28}$：次數爲 Geometric：$E=\\tfrac{28}{15}$。（3 分，A）\n**(c)(ii)** 條件概率 $=\\tfrac{15}{28}$（幾何分佈無記憶性）。（3 分，A）\n\n**(d)** 恰五場即 4–1 且末場爲勝者：$4\\big(p^4(1-p)+p(1-p)^4\\big)$。（4 分，A）"
    },
-   "secondary_format": null,
+   "secondary_format": "SC",
    "source": {
     "paper_id": "SU2025",
     "paper_name": {
@@ -5585,7 +6420,7 @@
     "zh-Hans": "**(a)** $\\dfrac{P(A\\cap B)}{P(B)}>\\dfrac{P(B^c)P(A\\cap B)}{P(B)}\\ge\\dfrac{P(A\\cap B^c)}{P(B^c)}$（用 $P(B)\\le\\tfrac12$）。（3 分，A）\n\n**(b)** 取出第 $i$ 个球的次数为 Geometric$(\\tfrac1{6-i})$：期望和 $=1+2+3+4+5=15$。（5 分，C）\n\n**(c)(i)** $\\tfrac1k=2$：$k=\\tfrac12$。（2 分，A）\n**(c)(ii)** 以 $x=1$ 分段积分：$M_X(t)=\\dfrac{e^t}{1-t^2}$（$|t|<1$）。（6 分，A）\n**(c)(iii)** $M_Y=(e^t/(1-t^2))^n$；对数展开得累积量 $m'(0)=n$、$m''(0)=2n$、$m'''(0)=0$：$E(Y^3)=n^3+6n^2$。（4 分，A/D）",
     "zh-Hant": "**(a)** $\\dfrac{P(A\\cap B)}{P(B)}>\\dfrac{P(B^c)P(A\\cap B)}{P(B)}\\ge\\dfrac{P(A\\cap B^c)}{P(B^c)}$（用 $P(B)\\le\\tfrac12$）。（3 分，A）\n\n**(b)** 取出第 $i$ 個球的次數爲 Geometric$(\\tfrac1{6-i})$：期望和 $=1+2+3+4+5=15$。（5 分，C）\n\n**(c)(i)** $\\tfrac1k=2$：$k=\\tfrac12$。（2 分，A）\n**(c)(ii)** 以 $x=1$ 分段積分：$M_X(t)=\\dfrac{e^t}{1-t^2}$（$|t|<1$）。（6 分，A）\n**(c)(iii)** $M_Y=(e^t/(1-t^2))^n$；對數展開得累積量 $m'(0)=n$、$m''(0)=2n$、$m'''(0)=0$：$E(Y^3)=n^3+6n^2$。（4 分，A/D）"
    },
-   "secondary_format": null,
+   "secondary_format": "F",
    "source": {
     "paper_id": "SUXXXX",
     "paper_name": {
@@ -5617,7 +6452,7 @@
    "question_id": "MATH50013.SUXXXX.Q2",
    "module": "MATH50013",
    "qtype": "subjective",
-   "format": "G",
+   "format": "SB",
    "Question": {
     "en": "**(a)** Let $X=(X_1,\\ldots,X_n)$ be a random sample from a continuous distribution with PDF $f_{X|\\theta}(x)=\\theta x^{\\theta-1}$ for $0<x<1$ (zero otherwise), where $\\theta>0$ is an unknown parameter.\n\n**(i)** Show that the maximum likelihood estimator of $\\theta$ is $\\hat\\theta=-\\Big(\\tfrac1n\\sum_{i=1}^n\\log(X_i)\\Big)^{-1}$.\n**(ii)** Using the Central Limit Theorem, find an approximation to the distribution of $1/\\hat\\theta$. You may use the following result: for all $a>-1$, $\\int_0^1\\log(x)x^a dx=-\\tfrac1{(a+1)^2}$ and $\\int_0^1\\log(x)^2x^a dx=\\tfrac2{(a+1)^3}$.\n**(iii)** A realisation of a sample of size 100 yields $\\prod_{i=1}^{100}x_i=e^{-500}$. Construct an approximate 90% confidence interval for $\\theta$ using the approximation in part (ii).\n\n**(b)** Let $(N,Y)$ be a pair of discrete random variables such that $N\\sim\\text{Poisson}(10)$ and $Y|N=n\\sim\\text{Binomial}(n,0.8)$.\n\n**(i)** Find the expectation of $Y$.\n**(ii)** Find the conditional expectation of $N\\,|\\,Y=5$.",
     "zh-Hans": "**(a)** 设 $X_1,\\ldots,X_n$ 来自密度 $f(x)=\\theta x^{\\theta-1}$（$0<x<1$，$\\theta>0$ 未知）。\n\n**(i)** 证明 $\\theta$ 的极大似然估计为 $\\hat\\theta=-\\big(\\tfrac1n\\sum\\log X_i\\big)^{-1}$。\n**(ii)** 用中心极限定理求 $1/\\hat\\theta$ 的近似分布。（可用 $\\int_0^1\\log(x)x^a dx=-\\tfrac1{(a+1)^2}$、$\\int_0^1\\log(x)^2x^a dx=\\tfrac2{(a+1)^3}$。）\n**(iii)** 一组 $n=100$ 的样本实现给出 $\\prod x_i=e^{-500}$。用 (ii) 的近似构造 $\\theta$ 的近似 90% 置信区间。\n\n**(b)** 设 $N\\sim\\text{Poisson}(10)$，$Y|N=n\\sim\\text{Binomial}(n,0.8)$。\n\n**(i)** 求 $E(Y)$。\n**(ii)** 求 $E(N\\,|\\,Y=5)$。",
@@ -5628,7 +6463,7 @@
     "zh-Hans": "**(a)(i)** 对数似然求导置零 + 二阶导为负。（6 分，A）\n\n**(a)(ii)** $E[\\log X]$、$E[(\\log X)^2]$ 用提示积分；方差 $\\tfrac1{\\theta^2}$；CLT 给 $N(\\tfrac1\\theta,\\tfrac1{n\\theta^2})$。（4 分，A/B）\n\n**(a)(iii)** $\\hat\\theta=0.2$；$1/\\theta$ 的 CI $[4.18,5.82]$，取倒数得 $\\theta$ 的 CI $[0.17,0.24]$。（4 分，D）\n\n**(b)(i)** 全期望：$E(Y)=8$。（2 分，B）\n**(b)(ii)** 贝叶斯得移位 Poisson(2)：$E[N|Y=5]=7$。（4 分，B/D）",
     "zh-Hant": "**(a)(i)** 對數似然求導置零 + 二階導爲負。（6 分，A）\n\n**(a)(ii)** $E[\\log X]$、$E[(\\log X)^2]$ 用提示積分；方差 $\\tfrac1{\\theta^2}$；CLT 給 $N(\\tfrac1\\theta,\\tfrac1{n\\theta^2})$。（4 分，A/B）\n\n**(a)(iii)** $\\hat\\theta=0.2$；$1/\\theta$ 的 CI $[4.18,5.82]$，取倒數得 $\\theta$ 的 CI $[0.17,0.24]$。（4 分，D）\n\n**(b)(i)** 全期望：$E(Y)=8$。（2 分，B）\n**(b)(ii)** 貝葉斯得移位 Poisson(2)：$E[N|Y=5]=7$。（4 分，B/D）"
    },
-   "secondary_format": null,
+   "secondary_format": "C",
    "source": {
     "paper_id": "SUXXXX",
     "paper_name": {
@@ -5660,7 +6495,7 @@
    "question_id": "MATH50013.SUXXXX.Q3",
    "module": "MATH50013",
    "qtype": "subjective",
-   "format": "A",
+   "format": "SA",
    "Question": {
     "en": "**(a)** Let $(X,Y)$ be a pair of random variables with joint PDF $f(x,y)=k\\exp\\{-x^2-(x-y)^2\\}$ for $(x,y)\\in\\mathbb R^2$, and zero otherwise.\n\n**(i)** Find the value of $k$.\n**(ii)** Identify the conditional distribution of $X\\,|\\,Y=y$ for an arbitrary value of $y$.\n\n**(b)** Let $X$ and $Y$ be independent random variables with marginal distributions $X\\sim\\text{Exponential}(1)$ and $Y\\sim\\text{Exponential}(1)$. Define $U=(\\sqrt X+\\sqrt Y)/2$ and $V=(\\sqrt X-\\sqrt Y)/2$.\n\n**(i)** Find the joint PDF of $(U,V)$.\n**(ii)** Find the conditional PDF of $U$ given $V=0$.",
     "zh-Hans": "**(a)** 设 $(X,Y)$ 的联合密度为 $f(x,y)=k\\exp\\{-x^2-(x-y)^2\\}$（$(x,y)\\in\\mathbb R^2$，其余为零）。\n\n**(i)** 求 $k$。\n**(ii)** 指出 $X\\,|\\,Y=y$ 的条件分布。\n\n**(b)** 设 $X,Y$ 独立同 Exponential(1)。定义 $U=(\\sqrt X+\\sqrt Y)/2$、$V=(\\sqrt X-\\sqrt Y)/2$。\n\n**(i)** 求 $(U,V)$ 的联合密度。\n**(ii)** 求 $V=0$ 时 $U$ 的条件密度。",
@@ -5702,7 +6537,7 @@
    "question_id": "MATH50013.SUXXXX.Q4",
    "module": "MATH50013",
    "qtype": "subjective",
-   "format": "G",
+   "format": "SC",
    "Question": {
     "en": "**(a)** A dart player participates in games where he is allowed to throw a total of 5 times. However, if he misses one of the throws (that is, if the dart does not stick to the dartboard), he has to stop throwing. During 50 games, the number of throws he was able to make in each game was recorded:\n\n| Number of throws | 1 | 2 | 3 | 4 | 5 |\n|---|---|---|---|---|---|\n| Frequency | 11 | 7 | 5 | 10 | 17 |\n\nLet $X_i$ indicate whether the $i$-th throw missed ($X_i=1$ unsuccessful, $0$ otherwise). Suppose we want to test the null hypothesis ($H_0$) that the $X_i$'s are independent and identically distributed Bernoulli($p$) random variables for some $p\\in(0,1)$.\n\n**(i)** Estimate the value of $p$ under $H_0$.\n**(ii)** What is the distribution of the number of throws in a game under $H_0$?\n**(iii)** Test $H_0$ with a significance level of 5%. Clearly write out all the steps needed to perform the test.\n\n**(b)** (i) For every $n=1,2,\\ldots$, let $X_n$ be a random variable with cumulative distribution function\n\n$$F_n(x)=\\begin{cases}0 & x<0\\\\ x/n & 0\\le x\\le1\\\\ 2/n-1+(1-1/n)x & 1<x\\le2\\\\ 1 & x>2.\\end{cases}$$\n\nShow that the sequence $X_1,X_2,\\ldots$ converges in distribution to a random variable $X$ and identify the distribution of $X$.\n\n**(ii)** For every $n=1,2,\\ldots$, let $X_n\\sim\\text{Binomial}(n,\\lambda/n)$, where $\\lambda>0$ is fixed. Show that the sequence $X_1,X_2,\\ldots$ converges in distribution to a Poisson($\\lambda$) random variable. You may use any result from the notes, as long as it is stated clearly.",
     "zh-Hans": "**(a)** 飞镖玩家每局最多投 5 次，一旦脱靶即停止。50 局中每局投掷次数记录为 (11, 7, 5, 10, 17)。设 $X_i$ 表示第 $i$ 投是否脱靶。检验原假设 $H_0$：各 $X_i$ 独立同 Bernoulli($p$)。\n\n**(i)** 在 $H_0$ 下估计 $p$。\n**(ii)** $H_0$ 下每局投掷次数服从什么分布？\n**(iii)** 以 5% 显著性水平检验 $H_0$，写清全部步骤。\n\n**(b)** (i) 设 $X_n$ 的分布函数如题（分段）。证明 $X_n$ 依分布收敛到某 $X$ 并指出其分布。\n**(ii)** 设 $X_n\\sim\\text{Binomial}(n,\\lambda/n)$（$\\lambda>0$ 固定）。证明 $X_n$ 依分布收敛到 Poisson($\\lambda$)。",
@@ -5713,7 +6548,7 @@
     "zh-Hans": "**(a)(i)** 前 4 列总投掷 $N=80$、失败 $m=33$：$\\hat p=33/80=0.4125$。（3 分，A）\n\n**(a)(ii)** 几何分布截断：$P(X=i)=(1-p)^{i-1}p$（$i\\le4$），$P(X=5)=(1-p)^4$。（3 分，B）\n\n**(a)(iii)** 卡方拟合优度：期望 (20.6,12.1,7.1,4.2,6)；自由度 $5-1-1=3$；拒绝域 $[7.81,\\infty)$；统计量远超（仅第 5 格贡献约 20）：拒绝 $H_0$。（7 分，A/B/C）\n\n**(b)(i)** 逐点极限为 Uniform(1,2) 的 CDF。（4 分，B/C）\n\n**(b)(ii)** MGF $M_n(t)=(1-\\tfrac{\\lambda(1-e^t)}n)^n\\to e^{\\lambda(e^t-1)}$：由连续性定理依分布收敛到 Poisson($\\lambda$)。（4 分，D）",
     "zh-Hant": "**(a)(i)** 前 4 列總投擲 $N=80$、失敗 $m=33$：$\\hat p=33/80=0.4125$。（3 分，A）\n\n**(a)(ii)** 幾何分佈截斷：$P(X=i)=(1-p)^{i-1}p$（$i\\le4$），$P(X=5)=(1-p)^4$。（3 分，B）\n\n**(a)(iii)** 卡方擬合優度：期望 (20.6,12.1,7.1,4.2,6)；自由度 $5-1-1=3$；拒絕域 $[7.81,\\infty)$；統計量遠超（僅第 5 格貢獻約 20）：拒絕 $H_0$。（7 分，A/B/C）\n\n**(b)(i)** 逐點極限爲 Uniform(1,2) 的 CDF。（4 分，B/C）\n\n**(b)(ii)** MGF $M_n(t)=(1-\\tfrac{\\lambda(1-e^t)}n)^n\\to e^{\\lambda(e^t-1)}$：由連續性定理依分佈收斂到 Poisson($\\lambda$)。（4 分，D）"
    },
-   "secondary_format": null,
+   "secondary_format": "B",
    "source": {
     "paper_id": "SUXXXX",
     "paper_name": {
